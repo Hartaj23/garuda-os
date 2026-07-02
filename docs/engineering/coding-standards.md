@@ -12,5 +12,5 @@ Garuda code must be readable, predictable, consistent, well-named, documented an
 - Write tests with implementation.
 - Update documentation with implementation.
 
-Tool-specific formatting configuration will be added with the backend, frontend and code-quality tasks in GAR-SPRINT-0001.
+Tool-specific formatting is configured through Black, Ruff, Prettier and ESLint as part of Mission Bravo. Run `python3 scripts/run_checks.py` for current foundation validation.
 

@@ -37,6 +37,12 @@ Run the repository foundation validation:
 python3 -m unittest discover tests
 ```
 
+Run all current foundation checks:
+
+```bash
+python3 scripts/run_checks.py
+```
+
 Full application startup commands will be added only when the backend, frontend and Docker deliverables are implemented in later GAR-SPRINT-0001 tasks.
 
 ## Architecture Discipline

@@ -9,6 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED_FILES = [
     "README.md",
+    "ARCHITECTURE.md",
+    "VERSION",
     "LICENSE",
     ".gitignore",
     ".editorconfig",

@@ -21,3 +21,13 @@ python3 -m unittest discover tests
 
 Do not add secrets to the repository. Use environment examples only when environment configuration is implemented.
 
+
+## Toolchain
+
+Mission Bravo configures Python metadata in `pyproject.toml` and Node workspace metadata with pnpm. See `docs/engineering/toolchain.md` for decisions and commands.
+
+Run all current foundation checks:
+
+```bash
+python3 scripts/run_checks.py
+```
