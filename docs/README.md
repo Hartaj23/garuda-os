@@ -17,7 +17,10 @@ Approved GAR architecture documents.
 - GAR-0001 through GAR-0015
 - GAR-SPRINT-0001
 
+## SDK Documentation
+
+- [Platform Core SDK](sdk/platform-core/README.md)
+
 ## AI Implementation Notes
 
 Documentation is part of the product. Update documentation alongside implementation.
-

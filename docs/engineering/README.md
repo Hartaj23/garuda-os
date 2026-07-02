@@ -27,6 +27,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Universal Relationship Framework](universal-relationship-framework.md)
 - [Lifecycle Event Framework](lifecycle-event-framework.md)
 - [Universal Object Validation](universal-object-validation.md)
+- [Platform Core SDK Developer Guide](../sdk/platform-core/developer-guide.md)
 
 ## AI Implementation Notes
 

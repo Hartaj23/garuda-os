@@ -2,6 +2,9 @@
 
 This package contains the platform-level object primitives and registry used by GAR-SPRINT-0002.
 
+SDK documentation is available in
+[docs/sdk/platform-core](../../docs/sdk/platform-core/README.md).
+
 ## Current scope
 
 - Core object model from Mission Alpha
