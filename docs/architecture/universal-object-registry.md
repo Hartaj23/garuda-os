@@ -13,6 +13,10 @@ This document describes the Mission Bravo Universal Object Registry implementati
 - Validation of registry contents
 - Inert factory placeholder interface
 
+## Related capability
+
+Mission Charlie adds JSON serialization and deserialization support for the object model without introducing persistence or storage behavior.
+
 ## Explicitly out of scope
 
 - Object instance management

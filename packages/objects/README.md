@@ -7,6 +7,7 @@ This package contains the platform-level object primitives and registry used by 
 - Core object model from Mission Alpha
 - Universal object registry for canonical object types only
 - Inert factory placeholder interface
+- JSON serialization and deserialization for object state
 
 ## Out of scope
 
