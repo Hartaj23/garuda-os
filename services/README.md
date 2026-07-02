@@ -21,5 +21,5 @@ Approved contracts, observability and configuration.
 
 ## AI Implementation Notes
 
-Services must not contain business decisions. No service implementation is added in Task 1.
+Services must not contain business decisions. The initial backend shell for GAR-SPRINT-0001 is implemented under services/backend and remains limited to infrastructure concerns, health/version surfaces and observability.
 
