@@ -9,6 +9,7 @@ This package contains the platform-level object primitives and registry used by 
 - Inert factory placeholder interface
 - JSON serialization and deserialization for object state
 - Relationship objects that reference immutable object IDs only
+- Lifecycle event definitions for Universal Objects
 
 ## Out of scope
 
@@ -16,4 +17,5 @@ This package contains the platform-level object primitives and registry used by 
 - Persistence
 - Object instances
 - Relationships
-- Lifecycle event processing
+- Event bus or publishing infrastructure
+- Lifecycle event processing runtime
