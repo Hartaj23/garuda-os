@@ -37,7 +37,7 @@ SDK documentation.
 | Mission Foxtrot — Validation Framework | GAR-REVIEW-0015 | `0601965` | Approved |
 | Mission Golf — Platform Integration & Quality Certification | GAR-REVIEW-0016 | `a8b2963` | Approved |
 | Mission Hotel — Platform Core SDK Documentation | GAR-REVIEW-0017 | `c09f5d5` | Approved |
-| Mission India — Sprint Closure & Release Preparation | GAR-REVIEW-0018 | `393f8f2` | Approved |
+| Mission India — Sprint Closure & Release Preparation | GAR-REVIEW-0018 | `ef42219` | Approved |
 
 ## Deliverables
 
