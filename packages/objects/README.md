@@ -8,6 +8,7 @@ This package contains the platform-level object primitives and registry used by 
 - Universal object registry for canonical object types only
 - Inert factory placeholder interface
 - JSON serialization and deserialization for object state
+- Relationship objects that reference immutable object IDs only
 
 ## Out of scope
 

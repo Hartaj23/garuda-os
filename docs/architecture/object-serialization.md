@@ -16,3 +16,7 @@ This document describes the Mission Charlie JSON serialization and deserializati
 - File storage
 - Relationship semantics
 - Lifecycle event processing
+
+## Relationship note
+
+Relationship objects use the existing serializer contract and serialize through a minimal, deterministic payload that preserves immutable object IDs and relationship metadata.
