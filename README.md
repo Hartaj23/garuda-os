@@ -17,7 +17,7 @@ Implementation must remain traceable to those documents. Architectural ambiguity
 - Sprint: GAR-SPRINT-0001
 - Version: 2.0
 - Status: Foundation implementation in progress
-- Current task: Task 1 - Repository Foundation
+- Current task: Mission Charlie - Backend Skeleton
 
 ## Repository Foundation
 
@@ -31,19 +31,39 @@ This foundation provides:
 
 ## Quick Start
 
-Run the repository foundation validation:
+### One-command setup
 
 ```bash
-python3 -m unittest discover tests
+make bootstrap
 ```
 
-Run all current foundation checks:
+### Start the app locally
 
 ```bash
-python3 scripts/run_checks.py
+make backend
 ```
 
-Full application startup commands will be added only when the backend, frontend and Docker deliverables are implemented in later GAR-SPRINT-0001 tasks.
+```bash
+make frontend
+```
+
+### Run the full validation suite
+
+```bash
+make test
+```
+
+```bash
+make lint
+```
+
+```bash
+make format
+```
+
+A minimal FastAPI backend shell is now available under services/backend with health and version endpoints, structured logging, request ID/error middleware, startup/shutdown lifecycle hooks, CORS support and OpenAPI generation. A minimal Next.js frontend shell is also available under apps/web with a landing dashboard, environment-based configuration, typed API client helpers, integration and smoke tests, and a live backend connection. Local Docker packaging for the backend and frontend is now included for development use, while CI/CD remains out of scope for this sprint.
+
+For the full onboarding walkthrough, see [docs/developer-onboarding.md](docs/developer-onboarding.md).
 
 ## Architecture Discipline
 

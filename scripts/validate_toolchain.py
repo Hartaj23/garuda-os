@@ -5,7 +5,6 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED_FILES = [
@@ -23,11 +22,7 @@ REQUIRED_FILES = [
 ]
 
 FORBIDDEN_FOUNDATION_PATHS = [
-    "apps/web/package.json",
-    "apps/web/app",
-    "apps/web/pages",
     "services/api",
-    "docker-compose.yml",
 ]
 
 

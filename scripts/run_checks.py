@@ -6,7 +6,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -14,6 +13,7 @@ COMMANDS = [
     [sys.executable, "-m", "unittest", "discover", "tests"],
     [sys.executable, "scripts/validate_repository_foundation.py"],
     [sys.executable, "scripts/validate_toolchain.py"],
+    [sys.executable, "scripts/validate_docker.py"],
 ]
 
 
