@@ -9,6 +9,20 @@ from .relationship import (
     RelationshipType,
 )
 from .serialization import ObjectSerializer
+from .validation import (
+    ValidationCategory,
+    ValidationError,
+    ValidationResult,
+    ValidationSeverity,
+    validate_object,
+    validate_object_behavior,
+    validate_object_identity,
+    validate_object_lifecycle,
+    validate_object_metadata,
+    validate_object_relationships,
+    validate_object_schema,
+    validate_object_version,
+)
 
 __all__ = [
     "CanonicalObject",
@@ -24,5 +38,17 @@ __all__ = [
     "RelationshipDirection",
     "RelationshipStatus",
     "RelationshipType",
+    "ValidationCategory",
+    "ValidationError",
     "ValidationHook",
+    "ValidationResult",
+    "ValidationSeverity",
+    "validate_object",
+    "validate_object_behavior",
+    "validate_object_identity",
+    "validate_object_lifecycle",
+    "validate_object_metadata",
+    "validate_object_relationships",
+    "validate_object_schema",
+    "validate_object_version",
 ]

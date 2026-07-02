@@ -3,8 +3,10 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from enum import Enum
-from typing import Any, Callable, Protocol
+from typing import Any, Protocol
 from uuid import UUID, uuid4
+
+from .validation import ValidationError, ValidationResult, validate_object
 
 
 class LifecycleState(str, Enum):
@@ -14,7 +16,7 @@ class LifecycleState(str, Enum):
 
 
 class ValidationHook(Protocol):
-    def __call__(self, obj: "GarudaObject") -> None: ...
+    def __call__(self, obj: GarudaObject) -> ValidationResult | ValidationError | None: ...
 
 
 @dataclass(slots=True)
@@ -99,9 +101,11 @@ class GarudaObject:
     def register_behavior(self, name: str, value: Any) -> None:
         self._behaviors[name] = value
 
-    def validate(self) -> None:
+    def validate(self) -> ValidationResult:
+        result = validate_object(self)
         for hook in self._validation_hooks:
-            hook(self)
+            result.merge(hook(self))
+        return result
 
     def transition_to(self, new_state: LifecycleState) -> None:
         allowed = {
@@ -110,7 +114,9 @@ class GarudaObject:
             LifecycleState.ARCHIVED: set(),
         }
         if new_state not in allowed.get(self._lifecycle_state, set()):
-            raise ValueError(f"Invalid lifecycle transition: {self._lifecycle_state} -> {new_state}")
+            raise ValueError(
+                f"Invalid lifecycle transition: {self._lifecycle_state} -> {new_state}"
+            )
         self._lifecycle_state = new_state
         self._updated_at = datetime.now(tz=UTC)
 

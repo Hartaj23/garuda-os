@@ -10,12 +10,12 @@ This package contains the platform-level object primitives and registry used by 
 - JSON serialization and deserialization for object state
 - Relationship objects that reference immutable object IDs only
 - Lifecycle event definitions for Universal Objects
+- Universal Object validation result, error, severity, category, and helper utilities
 
 ## Out of scope
 
-- Serialization
 - Persistence
-- Object instances
-- Relationships
 - Event bus or publishing infrastructure
 - Lifecycle event processing runtime
+- Business-rule, trading, portfolio, AI, database, REST, frontend, workflow, knowledge graph, or
+  memory validation
