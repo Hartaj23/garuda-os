@@ -29,6 +29,10 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Universal Object Validation](universal-object-validation.md)
 - [Platform Core SDK Developer Guide](../sdk/platform-core/developer-guide.md)
 
+## Universal Memory Framework
+
+- [Universal Memory Framework](universal-memory-framework.md)
+
 ## AI Implementation Notes
 
 Engineering documentation must stay synchronized with implemented behavior.

@@ -31,6 +31,10 @@ GAR-0001 through GAR-0015.
 - [Universal Object Validation](universal-object-validation.md)
 - [Platform Core SDK Architecture Guide](../sdk/platform-core/architecture-guide.md)
 
+## Universal Memory Framework
+
+- [Universal Memory Framework](universal-memory-framework.md)
+
 ## AI Implementation Notes
 
 Do not change architecture from implementation work. Raise ambiguity before coding.
