@@ -34,6 +34,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Universal Memory Framework](universal-memory-framework.md)
 - [Memory Source & Provenance Framework](memory-provenance-framework.md)
 - [Memory Serialization & Validation Integration](memory-serialization-validation.md)
+- [Memory Index Contract](memory-index-contract.md)
 
 ## AI Implementation Notes
 
