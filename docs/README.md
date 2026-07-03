@@ -25,6 +25,7 @@ Approved GAR architecture documents.
 ## SDK Documentation
 
 - [Platform Core SDK](sdk/platform-core/README.md)
+- [Memory Foundation SDK](sdk/memory-foundation/README.md)
 
 ## AI Implementation Notes
 

@@ -39,6 +39,7 @@ GAR-0001 through GAR-0015.
 - [Memory Index Contract](memory-index-contract.md)
 - [Memory Retrieval Contract](memory-retrieval-contract.md)
 - [In-Memory Reference Store](memory-reference-store.md)
+- [Memory Foundation SDK Architecture Guide](../sdk/memory-foundation/architecture-guide.md)
 
 ## AI Implementation Notes
 
