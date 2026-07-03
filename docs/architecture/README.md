@@ -34,6 +34,7 @@ GAR-0001 through GAR-0015.
 ## Universal Memory Framework
 
 - [Universal Memory Framework](universal-memory-framework.md)
+- [Memory Source & Provenance Framework](memory-provenance-framework.md)
 
 ## AI Implementation Notes
 

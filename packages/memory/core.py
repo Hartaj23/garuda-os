@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from datetime import UTC, datetime
 from enum import StrEnum
 from typing import Any
 
@@ -9,6 +8,14 @@ from packages.objects import (
     CanonicalObject,
     ValidationCategory,
     ValidationResult,
+)
+
+from .provenance import MemoryProvenance, ProvenanceMetadata, ProvenanceReference
+from .source import (
+    AcquisitionChannel,
+    AcquisitionMethod,
+    MemoryOrigin,
+    MemorySource,
 )
 
 
@@ -24,46 +31,6 @@ class MemoryConfidence(StrEnum):
     LOW = "low"
     MEDIUM = "medium"
     HIGH = "high"
-
-
-@dataclass(slots=True)
-class MemorySource:
-    source_type: str
-    source_identifier: str | None = None
-    source_label: str | None = None
-    source_metadata: dict[str, Any] = field(default_factory=dict)
-
-    def __post_init__(self) -> None:
-        if not isinstance(self.source_metadata, dict):
-            raise ValueError("source_metadata must be a dictionary")
-
-    def to_dict(self) -> dict[str, Any]:
-        return {
-            "source_type": self.source_type,
-            "source_identifier": self.source_identifier,
-            "source_label": self.source_label,
-            "source_metadata": dict(sorted(self.source_metadata.items())),
-        }
-
-
-@dataclass(slots=True)
-class MemoryProvenance:
-    source: MemorySource
-    recorded_at: datetime = field(default_factory=lambda: datetime.now(tz=UTC))
-    recorded_by: str | None = None
-    trace_metadata: dict[str, Any] = field(default_factory=dict)
-
-    def __post_init__(self) -> None:
-        if not isinstance(self.trace_metadata, dict):
-            raise ValueError("trace_metadata must be a dictionary")
-
-    def to_dict(self) -> dict[str, Any]:
-        return {
-            "source": self.source.to_dict(),
-            "recorded_at": self.recorded_at.isoformat(),
-            "recorded_by": self.recorded_by,
-            "trace_metadata": dict(sorted(self.trace_metadata.items())),
-        }
 
 
 @dataclass(slots=True)
@@ -197,6 +164,17 @@ def validate_memory(obj: UniversalMemory) -> ValidationResult:
             field="provenance.source",
             code="invalid_memory_provenance_source",
         )
+    else:
+        provenance_metadata = getattr(provenance, "provenance_metadata", None)
+        if not isinstance(provenance_metadata, ProvenanceMetadata):
+            result.add_error(
+                "Memory provenance metadata must be a ProvenanceMetadata value.",
+                ValidationCategory.METADATA,
+                field="provenance.provenance_metadata",
+                code="invalid_memory_provenance_metadata",
+            )
+        else:
+            result.merge(validate_provenance_metadata(provenance_metadata))
 
     if not isinstance(getattr(obj, "confidence", None), MemoryConfidence):
         result.add_error(
@@ -213,5 +191,81 @@ def validate_memory(obj: UniversalMemory) -> ValidationResult:
             field="memory_metadata",
             code="invalid_memory_metadata",
         )
+
+    return result
+
+
+def validate_provenance_metadata(metadata: ProvenanceMetadata) -> ValidationResult:
+    result = ValidationResult()
+
+    if not hasattr(metadata.acquisition_timestamp, "isoformat"):
+        result.add_error(
+            "Provenance acquisition timestamp must be datetime-like.",
+            ValidationCategory.METADATA,
+            field="provenance.provenance_metadata.acquisition_timestamp",
+            code="invalid_acquisition_timestamp",
+        )
+
+    if not isinstance(metadata.origin, MemoryOrigin):
+        result.add_error(
+            "Memory origin must be a MemoryOrigin value.",
+            ValidationCategory.METADATA,
+            field="provenance.provenance_metadata.origin",
+            code="invalid_memory_origin",
+        )
+
+    if not isinstance(metadata.acquisition_method, AcquisitionMethod):
+        result.add_error(
+            "Acquisition method must be an AcquisitionMethod value.",
+            ValidationCategory.METADATA,
+            field="provenance.provenance_metadata.acquisition_method",
+            code="invalid_acquisition_method",
+        )
+
+    if not isinstance(metadata.acquisition_channel, AcquisitionChannel):
+        result.add_error(
+            "Acquisition channel must be an AcquisitionChannel value.",
+            ValidationCategory.METADATA,
+            field="provenance.provenance_metadata.acquisition_channel",
+            code="invalid_acquisition_channel",
+        )
+
+    if not isinstance(metadata.references, tuple):
+        result.add_error(
+            "Provenance references must be stored as an immutable tuple.",
+            ValidationCategory.METADATA,
+            field="provenance.provenance_metadata.references",
+            code="invalid_provenance_references",
+        )
+    else:
+        for index, reference in enumerate(metadata.references):
+            if not isinstance(reference, ProvenanceReference):
+                result.add_error(
+                    "Provenance references must be ProvenanceReference values.",
+                    ValidationCategory.METADATA,
+                    field=f"provenance.provenance_metadata.references[{index}]",
+                    code="invalid_provenance_reference",
+                )
+                continue
+            if not isinstance(reference.reference_type, str) or not reference.reference_type:
+                result.add_error(
+                    "Provenance reference type must be a non-empty string.",
+                    ValidationCategory.METADATA,
+                    field=f"provenance.provenance_metadata.references[{index}].reference_type",
+                    code="invalid_provenance_reference_type",
+                )
+            if (
+                not isinstance(reference.reference_identifier, str)
+                or not reference.reference_identifier
+            ):
+                result.add_error(
+                    "Provenance reference identifier must be a non-empty string.",
+                    ValidationCategory.METADATA,
+                    field=(
+                        "provenance.provenance_metadata."
+                        f"references[{index}].reference_identifier"
+                    ),
+                    code="invalid_provenance_reference_identifier",
+                )
 
     return result
