@@ -38,6 +38,7 @@ GAR-0001 through GAR-0015.
 - [Memory Serialization & Validation Integration](memory-serialization-validation.md)
 - [Memory Index Contract](memory-index-contract.md)
 - [Memory Retrieval Contract](memory-retrieval-contract.md)
+- [In-Memory Reference Store](memory-reference-store.md)
 
 ## AI Implementation Notes
 

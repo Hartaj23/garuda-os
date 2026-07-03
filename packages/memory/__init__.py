@@ -39,6 +39,12 @@ from .source import (
     MemoryOrigin,
     MemorySource,
 )
+from .store import (
+    MemoryReferenceStore,
+    StoreStatistics,
+    validate_memory_reference,
+    validate_reference_store,
+)
 
 __all__ = [
     "AcquisitionChannel",
@@ -53,6 +59,7 @@ __all__ = [
     "MemoryMetadata",
     "MemoryOrigin",
     "MemoryProvenance",
+    "MemoryReferenceStore",
     "MemoryRetrievalCriteria",
     "MemoryRetrievalRequest",
     "MemoryRetrievalResponse",
@@ -62,12 +69,15 @@ __all__ = [
     "ProvenanceReference",
     "RetrievalMetadata",
     "RetrievalStatus",
+    "StoreStatistics",
     "UniversalMemory",
     "validate_index_contract",
     "validate_index_field",
     "validate_index_metadata",
+    "validate_memory_reference",
     "validate_memory",
     "validate_provenance_metadata",
+    "validate_reference_store",
     "validate_retrieval_criteria",
     "validate_retrieval_metadata",
     "validate_retrieval_request",
