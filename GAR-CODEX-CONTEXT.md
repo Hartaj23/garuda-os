@@ -14,10 +14,12 @@ Future constitutional changes require Architecture Change Proposals under GAR-00
 
 v0.1.0-alpha is released.
 v0.2.0-alpha is prepared pending release tag approval.
+v0.3.0-alpha is prepared pending release tag approval.
 
-## Current sprint
+## Current status
 
-GAR-SPRINT-0002 — Universal Object System — complete pending release tag approval.
+GAR-SPRINT-0003 Complete.
+Awaiting approval to tag v0.3.0-alpha.
 
 ## Completed Sprint 2 missions
 
@@ -31,9 +33,21 @@ GAR-SPRINT-0002 — Universal Object System — complete pending release tag app
 - Mission Hotel — Platform Core SDK Documentation — approved in GAR-REVIEW-0017.
 - Mission India — Sprint Closure & Release Preparation — approved in GAR-REVIEW-0018.
 
+## Completed Sprint 3 missions
+
+- Mission Alpha — Universal Memory Framework.
+- Mission Bravo — Memory Source & Provenance Framework.
+- Mission Charlie — Memory Serialization & Validation Integration.
+- Mission Delta — Memory Index Contract.
+- Mission Echo — Memory Retrieval Contract.
+- Mission Foxtrot — In-Memory Reference Store.
+- Mission Golf — Platform Integration & Quality Certification.
+- Mission Hotel — Memory Foundation SDK Documentation.
+- Mission India — Sprint Closure & Release Preparation.
+
 ## Current next mission
 
-Awaiting explicit approval for release tag `v0.2.0-alpha` or the next approved sprint.
+Awaiting explicit approval for release tag `v0.3.0-alpha`.
 
 ## Engineering workflow
 
@@ -60,8 +74,8 @@ For every mission:
 
 ## Current out-of-scope areas
 
-Trading, portfolio, broker integrations, AI reasoning, memory, knowledge graph, workflow engine,
-database persistence, REST endpoints, frontend features, event bus, and deployment.
+Trading, portfolio, broker integrations, AI reasoning, knowledge graph, workflow engine, database
+persistence, REST endpoints, frontend features, event bus, and deployment.
 
 ## Role model
 

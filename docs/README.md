@@ -17,10 +17,12 @@ Approved GAR architecture documents.
 - GAR-0001 through GAR-0015
 - GAR-SPRINT-0001
 - GAR-SPRINT-0002
+- GAR-SPRINT-0003
 
 ## Release Documentation
 
 - [Releases](releases/README.md)
+- [v0.3.0-alpha Release Notes](releases/v0.3.0-alpha.md)
 
 ## SDK Documentation
 
