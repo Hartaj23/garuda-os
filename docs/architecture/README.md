@@ -37,6 +37,7 @@ GAR-0001 through GAR-0015.
 - [Memory Source & Provenance Framework](memory-provenance-framework.md)
 - [Memory Serialization & Validation Integration](memory-serialization-validation.md)
 - [Memory Index Contract](memory-index-contract.md)
+- [Memory Retrieval Contract](memory-retrieval-contract.md)
 
 ## AI Implementation Notes
 
