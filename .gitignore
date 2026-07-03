@@ -39,3 +39,4 @@ logs/
 .idea/
 .vscode/
 
+*.docx
