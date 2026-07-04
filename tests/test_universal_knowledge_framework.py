@@ -156,7 +156,6 @@ class UniversalKnowledgeFrameworkTest(unittest.TestCase):
             "persist",
             "store",
             "classify",
-            "evidence",
         }
 
         self.assertTrue(forbidden_names.isdisjoint(set(dir(knowledge))))

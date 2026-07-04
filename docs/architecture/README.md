@@ -44,6 +44,7 @@ GAR-0001 through GAR-0015.
 ## Universal Knowledge Framework
 
 - [Universal Knowledge Framework](universal-knowledge-framework.md)
+- [Knowledge Origin, Evidence and Provenance Framework](knowledge-provenance-framework.md)
 
 ## AI Implementation Notes
 
