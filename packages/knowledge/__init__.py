@@ -1,3 +1,14 @@
+from .classification import (
+    ClassificationDescriptor,
+    ClassificationDimension,
+    ClassificationMetadata,
+    KnowledgeCategory,
+    KnowledgeClassificationContract,
+    validate_classification_descriptor,
+    validate_classification_dimension,
+    validate_classification_metadata,
+    validate_knowledge_classification_contract,
+)
 from .core import (
     KnowledgeConfidence,
     KnowledgeMetadata,
@@ -13,8 +24,13 @@ from .evidence import EvidenceReference, EvidenceType, KnowledgeEvidence
 from .provenance import KnowledgeOrigin, KnowledgeProvenance
 
 __all__ = [
+    "ClassificationDescriptor",
+    "ClassificationDimension",
+    "ClassificationMetadata",
     "EvidenceReference",
     "EvidenceType",
+    "KnowledgeCategory",
+    "KnowledgeClassificationContract",
     "KnowledgeConfidence",
     "KnowledgeEvidence",
     "KnowledgeMetadata",
@@ -23,6 +39,10 @@ __all__ = [
     "KnowledgeState",
     "KnowledgeType",
     "UniversalKnowledge",
+    "validate_classification_descriptor",
+    "validate_classification_dimension",
+    "validate_classification_metadata",
+    "validate_knowledge_classification_contract",
     "validate_evidence_reference",
     "validate_knowledge",
     "validate_knowledge_evidence",
