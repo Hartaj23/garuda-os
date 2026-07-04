@@ -18,6 +18,17 @@ from .core import (
     validate_context_source,
 )
 from .scope import ContextScope, ContextScopeType
+from .selection import (
+    ContextSelectionContract,
+    ContextSelectionRequest,
+    SelectionCriterion,
+    SelectionMetadata,
+    SelectionType,
+    validate_context_selection_contract,
+    validate_context_selection_request,
+    validate_selection_criterion,
+    validate_selection_metadata,
+)
 from .source import ContextSource, ContextSourceType
 
 __all__ = [
@@ -29,15 +40,24 @@ __all__ = [
     "ContextMetadata",
     "ContextScope",
     "ContextScopeType",
+    "ContextSelectionContract",
+    "ContextSelectionRequest",
     "ContextSource",
     "ContextSourceType",
     "ContextState",
     "ContextType",
+    "SelectionCriterion",
+    "SelectionMetadata",
+    "SelectionType",
     "UniversalContext",
     "validate_composition_metadata",
     "validate_context",
     "validate_context_composition",
     "validate_context_composition_contract",
+    "validate_context_selection_contract",
+    "validate_context_selection_request",
     "validate_context_scope",
     "validate_context_source",
+    "validate_selection_criterion",
+    "validate_selection_metadata",
 ]
