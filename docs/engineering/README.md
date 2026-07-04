@@ -54,6 +54,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Universal Context Framework](universal-context-framework.md)
 - [Context Source and Scope Framework](context-source-scope-framework.md)
 - [Context Serialization and Validation Integration](context-serialization-validation.md)
+- [Context Composition Contract](context-composition-contract.md)
 
 ## AI Implementation Notes
 
