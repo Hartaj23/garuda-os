@@ -22,6 +22,17 @@ from .core import (
 )
 from .evidence import EvidenceReference, EvidenceType, KnowledgeEvidence
 from .provenance import KnowledgeOrigin, KnowledgeProvenance
+from .query import (
+    KnowledgeQuery,
+    KnowledgeQueryContract,
+    QueryConstraint,
+    QueryMetadata,
+    QueryType,
+    validate_knowledge_query,
+    validate_knowledge_query_contract,
+    validate_query_constraint,
+    validate_query_metadata,
+)
 
 __all__ = [
     "ClassificationDescriptor",
@@ -36,8 +47,13 @@ __all__ = [
     "KnowledgeMetadata",
     "KnowledgeOrigin",
     "KnowledgeProvenance",
+    "KnowledgeQuery",
+    "KnowledgeQueryContract",
     "KnowledgeState",
     "KnowledgeType",
+    "QueryConstraint",
+    "QueryMetadata",
+    "QueryType",
     "UniversalKnowledge",
     "validate_classification_descriptor",
     "validate_classification_dimension",
@@ -47,4 +63,8 @@ __all__ = [
     "validate_knowledge",
     "validate_knowledge_evidence",
     "validate_knowledge_provenance",
+    "validate_knowledge_query",
+    "validate_knowledge_query_contract",
+    "validate_query_constraint",
+    "validate_query_metadata",
 ]

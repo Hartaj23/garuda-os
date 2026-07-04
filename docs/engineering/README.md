@@ -45,6 +45,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Knowledge Origin, Evidence and Provenance Framework](knowledge-provenance-framework.md)
 - [Knowledge Serialization and Validation Integration](knowledge-serialization-validation.md)
 - [Knowledge Classification Contract](knowledge-classification-contract.md)
+- [Knowledge Query Contract](knowledge-query-contract.md)
 
 ## AI Implementation Notes
 
