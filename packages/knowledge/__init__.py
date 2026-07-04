@@ -33,6 +33,13 @@ from .query import (
     validate_query_constraint,
     validate_query_metadata,
 )
+from .store import (
+    KnowledgeReferenceStore,
+    StoreStatistics,
+    validate_knowledge_reference,
+    validate_reference_store,
+    validate_store_statistics,
+)
 
 __all__ = [
     "ClassificationDescriptor",
@@ -49,11 +56,13 @@ __all__ = [
     "KnowledgeProvenance",
     "KnowledgeQuery",
     "KnowledgeQueryContract",
+    "KnowledgeReferenceStore",
     "KnowledgeState",
     "KnowledgeType",
     "QueryConstraint",
     "QueryMetadata",
     "QueryType",
+    "StoreStatistics",
     "UniversalKnowledge",
     "validate_classification_descriptor",
     "validate_classification_dimension",
@@ -65,6 +74,9 @@ __all__ = [
     "validate_knowledge_provenance",
     "validate_knowledge_query",
     "validate_knowledge_query_contract",
+    "validate_knowledge_reference",
     "validate_query_constraint",
     "validate_query_metadata",
+    "validate_reference_store",
+    "validate_store_statistics",
 ]

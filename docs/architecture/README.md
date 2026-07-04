@@ -48,6 +48,7 @@ GAR-0001 through GAR-0015.
 - [Knowledge Serialization and Validation Integration](knowledge-serialization-validation.md)
 - [Knowledge Classification Contract](knowledge-classification-contract.md)
 - [Knowledge Query Contract](knowledge-query-contract.md)
+- [Knowledge Reference Store](knowledge-reference-store.md)
 
 ## AI Implementation Notes
 
