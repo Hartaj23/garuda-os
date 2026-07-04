@@ -3,11 +3,11 @@
 Garuda is the Operating System for Human Intelligence.
 
 This repository is the monorepo foundation for Project Garuda. It now includes the
-GAR-SPRINT-0004 Knowledge Foundation prepared for release as `v0.4.0-alpha`.
+GAR-SPRINT-0005 Context Foundation prepared for release as `v0.5.0-alpha`.
 
 No intelligence, trading, broker integration, portfolio management, authentication, Knowledge
-Graph, Workflow Engine, query engine, retrieval engine, search engine, persistence or database
-design is implemented in this release.
+Graph, Context Engine, Workflow Engine, query engine, retrieval engine, search engine, persistence
+or database design is implemented in this release.
 
 ## Source Of Truth
 
@@ -19,10 +19,10 @@ before code is added.
 
 ## Current Release
 
-- Release: `v0.4.0-alpha`
-- Sprint: GAR-SPRINT-0004
-- Status: Knowledge Foundation release prepared pending tag approval
-- Recommended tag: `v0.4.0-alpha`
+- Release: `v0.5.0-alpha`
+- Sprint: GAR-SPRINT-0005
+- Status: Context Foundation release prepared pending tag approval
+- Recommended tag: `v0.5.0-alpha`
 
 ## Platform Core
 
@@ -62,17 +62,33 @@ GAR-SPRINT-0004 delivers the service-independent Knowledge Foundation under `pac
 - Knowledge Reference Store
 - Knowledge Foundation SDK Documentation
 
+## Context Foundation
+
+GAR-SPRINT-0005 delivers the service-independent Context Foundation under `packages/context`:
+
+- Universal Context Framework
+- Context Source & Scope Framework
+- Context Serialization & Validation Integration
+- Context Composition Contract
+- Context Selection Contract
+- Context Workspace
+- Platform Integration & Quality Certification
+- Context Foundation SDK Documentation
+
 ## Documentation
 
 - [Platform Core SDK](docs/sdk/platform-core/README.md)
 - [Memory Foundation SDK](docs/sdk/memory-foundation/README.md)
 - [Knowledge Foundation SDK](docs/sdk/knowledge-foundation/README.md)
+- [Context Foundation SDK](docs/sdk/context-foundation/README.md)
 - [Sprint 2 Closure Report](docs/sprints/GAR-SPRINT-0002-closure-report.md)
 - [Sprint 3 Closure Report](docs/sprints/GAR-SPRINT-0003-closure-report.md)
 - [Sprint 4 Closure Report](docs/sprints/GAR-SPRINT-0004-closure-report.md)
+- [Sprint 5 Closure Report](docs/sprints/GAR-SPRINT-0005-closure-report.md)
 - [v0.2.0-alpha Release Notes](docs/releases/v0.2.0-alpha.md)
 - [v0.3.0-alpha Release Notes](docs/releases/v0.3.0-alpha.md)
 - [v0.4.0-alpha Release Notes](docs/releases/v0.4.0-alpha.md)
+- [v0.5.0-alpha Release Notes](docs/releases/v0.5.0-alpha.md)
 - [Developer Onboarding](docs/developer-onboarding.md)
 
 ## Quick Start
@@ -112,8 +128,8 @@ make format
 Garuda is modular, observable, explainable, secure, documented and testable. Every component must
 have one clear responsibility and must avoid hidden business logic.
 
-Platform Core, Memory Foundation and Knowledge Foundation remain service-independent and
-domain-neutral. Persistence, REST endpoints, database storage, event bus publishing, workflow
-execution, AI reasoning, Knowledge Graph behavior, query engines, retrieval engines, search
-engines, trading systems and portfolio systems remain out of scope until explicitly approved in
-future architecture and sprint work.
+Platform Core, Memory Foundation, Knowledge Foundation and Context Foundation remain
+service-independent and domain-neutral. Persistence, REST endpoints, database storage, event bus
+publishing, workflow execution, AI reasoning, Knowledge Graph behavior, Context Engine behavior,
+query engines, retrieval engines, search engines, trading systems and portfolio systems remain out
+of scope until explicitly approved in future architecture and sprint work.

@@ -13,14 +13,13 @@ Future constitutional changes require Architecture Change Proposals under GAR-00
 ## Current release status
 
 v0.1.0-alpha is released.
-v0.2.0-alpha is prepared pending release tag approval.
-v0.3.0-alpha is prepared pending release tag approval.
-v0.4.0-alpha is prepared pending release tag approval.
+Historical release preparation records exist for v0.2.0-alpha, v0.3.0-alpha and v0.4.0-alpha.
+v0.5.0-alpha is the current release prepared pending tag approval.
 
 ## Current status
 
-GAR-SPRINT-0004 Complete.
-Awaiting approval to tag v0.4.0-alpha.
+GAR-SPRINT-0005 Complete.
+Awaiting approval to tag v0.5.0-alpha.
 
 ## Completed Sprint 2 missions
 
@@ -57,9 +56,21 @@ Awaiting approval to tag v0.4.0-alpha.
 - Mission Hotel — Knowledge Foundation SDK Documentation.
 - Mission India — Sprint Closure & Release Preparation.
 
+## Completed Sprint 5 missions
+
+- Mission Alpha — Universal Context Framework.
+- Mission Bravo — Context Source & Scope Framework.
+- Mission Charlie — Context Serialization & Validation Integration.
+- Mission Delta — Context Composition Contract.
+- Mission Echo — Context Selection Contract.
+- Mission Foxtrot — Context Workspace.
+- Mission Golf — Context Platform Integration & Quality Certification.
+- Mission Hotel — Context Foundation SDK Documentation.
+- Mission India — Sprint Closure & Release Preparation.
+
 ## Current next mission
 
-Awaiting explicit approval for release tag `v0.4.0-alpha`.
+Awaiting explicit approval for release tag `v0.5.0-alpha`.
 
 ## Engineering workflow
 

@@ -4,6 +4,28 @@ All notable changes to Project Garuda will be documented in this file.
 
 The project follows semantic versioning as required by the repository architecture.
 
+## v0.5.0-alpha - 2026-07-04
+
+### Added
+
+- Universal Context Framework for platform Context objects, context type, lifecycle state,
+  confidence, metadata and Platform Core inheritance.
+- Context Source & Scope Framework for descriptive source records, scope boundaries, deterministic
+  metadata and validation compatibility.
+- Context serialization and validation integration with deterministic Context payloads and
+  Platform Core validation compatibility certification.
+- Context Composition Contract for descriptive composition type, metadata, Context composition and
+  contract models using opaque context identifiers.
+- Context Selection Contract for descriptive selection type, criterion, metadata, request and
+  contract models.
+- Context Workspace for process-local `UniversalContext` references with exact identifier add,
+  get, remove, enumerate, clear, statistics and validation behavior.
+- Context Foundation platform integration certification suite and permanent sprint certification
+  record.
+- Context Foundation SDK documentation covering developer usage, architecture, API reference, best
+  practices, extensions and examples.
+- Sprint closure report and release notes for `v0.5.0-alpha`.
+
 ## v0.4.0-alpha - 2026-07-04
 
 ### Added
