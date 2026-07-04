@@ -59,6 +59,7 @@ GAR-0001 through GAR-0015.
 - [Context Composition Contract](context-composition-contract.md)
 - [Context Selection Contract](context-selection-contract.md)
 - [Context Workspace](context-workspace.md)
+- [Context Foundation SDK Architecture Guide](../sdk/context-foundation/architecture-guide.md)
 
 ## AI Implementation Notes
 

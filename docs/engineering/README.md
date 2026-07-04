@@ -57,6 +57,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Context Composition Contract](context-composition-contract.md)
 - [Context Selection Contract](context-selection-contract.md)
 - [Context Workspace](context-workspace.md)
+- [Context Foundation SDK Developer Guide](../sdk/context-foundation/developer-guide.md)
 
 ## AI Implementation Notes
 
