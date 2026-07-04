@@ -49,6 +49,7 @@ GAR-0001 through GAR-0015.
 - [Knowledge Classification Contract](knowledge-classification-contract.md)
 - [Knowledge Query Contract](knowledge-query-contract.md)
 - [Knowledge Reference Store](knowledge-reference-store.md)
+- [Knowledge Foundation SDK Architecture Guide](../sdk/knowledge-foundation/architecture-guide.md)
 
 ## AI Implementation Notes
 
