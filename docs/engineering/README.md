@@ -39,6 +39,10 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [In-Memory Reference Store](memory-reference-store.md)
 - [Memory Foundation SDK Developer Guide](../sdk/memory-foundation/developer-guide.md)
 
+## Universal Knowledge Framework
+
+- [Universal Knowledge Framework](universal-knowledge-framework.md)
+
 ## AI Implementation Notes
 
 Engineering documentation must stay synchronized with implemented behavior.

@@ -41,6 +41,10 @@ GAR-0001 through GAR-0015.
 - [In-Memory Reference Store](memory-reference-store.md)
 - [Memory Foundation SDK Architecture Guide](../sdk/memory-foundation/architecture-guide.md)
 
+## Universal Knowledge Framework
+
+- [Universal Knowledge Framework](universal-knowledge-framework.md)
+
 ## AI Implementation Notes
 
 Do not change architecture from implementation work. Raise ambiguity before coding.
