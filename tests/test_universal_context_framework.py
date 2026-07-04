@@ -129,32 +129,33 @@ class UniversalContextFrameworkTest(unittest.TestCase):
         payload = context.to_dict()
 
         self.assertEqual(payload, context.to_dict())
-        self.assertEqual(
-            list(payload.keys()),
-            [
-                "schema_version",
-                "object_version",
-                "object_type",
-                "object_id",
-                "metadata",
-                "tags",
-                "lifecycle_state",
-                "created_by",
-                "updated_by",
-                "created_at",
-                "updated_at",
-                "context_type",
-                "context_state",
-                "context_confidence",
-                "context_metadata",
-            ],
-        )
+        mission_alpha_keys = [
+            "schema_version",
+            "object_version",
+            "object_type",
+            "object_id",
+            "metadata",
+            "tags",
+            "lifecycle_state",
+            "created_by",
+            "updated_by",
+            "created_at",
+            "updated_at",
+            "context_type",
+            "context_state",
+            "context_confidence",
+            "context_metadata",
+        ]
+        self.assertEqual(list(payload.keys())[: len(mission_alpha_keys)], mission_alpha_keys)
+        self.assertEqual(list(payload.keys())[-2:], ["context_source", "context_scope"])
         self.assertEqual(payload["object_type"], "UniversalContext")
         self.assertEqual(payload["metadata"], {"owner": "platform"})
         self.assertEqual(payload["context_type"], "temporal")
         self.assertEqual(payload["context_state"], "active")
         self.assertEqual(payload["context_confidence"], {"level": "high", "rationale": "bounded"})
         self.assertEqual(payload["context_metadata"], {"a": "first", "z": "last"})
+        self.assertIsNone(payload["context_source"])
+        self.assertIsNone(payload["context_scope"])
 
     def test_lifecycle_and_relationship_surfaces_remain_platform_core_behavior(self) -> None:
         context = UniversalContext(context_type=ContextType.ENVIRONMENTAL)
