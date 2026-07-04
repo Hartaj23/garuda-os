@@ -49,6 +49,10 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Knowledge Reference Store](knowledge-reference-store.md)
 - [Knowledge Foundation SDK Developer Guide](../sdk/knowledge-foundation/developer-guide.md)
 
+## Universal Context Framework
+
+- [Universal Context Framework](universal-context-framework.md)
+
 ## AI Implementation Notes
 
 Engineering documentation must stay synchronized with implemented behavior.

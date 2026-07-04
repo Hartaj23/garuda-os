@@ -51,6 +51,10 @@ GAR-0001 through GAR-0015.
 - [Knowledge Reference Store](knowledge-reference-store.md)
 - [Knowledge Foundation SDK Architecture Guide](../sdk/knowledge-foundation/architecture-guide.md)
 
+## Universal Context Framework
+
+- [Universal Context Framework](universal-context-framework.md)
+
 ## AI Implementation Notes
 
 Do not change architecture from implementation work. Raise ambiguity before coding.
