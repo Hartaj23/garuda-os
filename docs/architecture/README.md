@@ -58,6 +58,7 @@ GAR-0001 through GAR-0015.
 - [Context Serialization and Validation Integration](context-serialization-validation.md)
 - [Context Composition Contract](context-composition-contract.md)
 - [Context Selection Contract](context-selection-contract.md)
+- [Context Workspace](context-workspace.md)
 
 ## AI Implementation Notes
 

@@ -30,6 +30,13 @@ from .selection import (
     validate_selection_metadata,
 )
 from .source import ContextSource, ContextSourceType
+from .workspace import (
+    ContextWorkspace,
+    WorkspaceStatistics,
+    validate_context_reference,
+    validate_context_workspace,
+    validate_workspace_statistics,
+)
 
 __all__ = [
     "CompositionMetadata",
@@ -46,18 +53,23 @@ __all__ = [
     "ContextSourceType",
     "ContextState",
     "ContextType",
+    "ContextWorkspace",
     "SelectionCriterion",
     "SelectionMetadata",
     "SelectionType",
     "UniversalContext",
+    "WorkspaceStatistics",
     "validate_composition_metadata",
     "validate_context",
     "validate_context_composition",
     "validate_context_composition_contract",
+    "validate_context_reference",
     "validate_context_selection_contract",
     "validate_context_selection_request",
     "validate_context_scope",
     "validate_context_source",
+    "validate_context_workspace",
     "validate_selection_criterion",
     "validate_selection_metadata",
+    "validate_workspace_statistics",
 ]
