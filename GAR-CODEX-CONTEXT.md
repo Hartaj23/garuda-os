@@ -15,11 +15,12 @@ Future constitutional changes require Architecture Change Proposals under GAR-00
 v0.1.0-alpha is released.
 v0.2.0-alpha is prepared pending release tag approval.
 v0.3.0-alpha is prepared pending release tag approval.
+v0.4.0-alpha is prepared pending release tag approval.
 
 ## Current status
 
-GAR-SPRINT-0003 Complete.
-Awaiting approval to tag v0.3.0-alpha.
+GAR-SPRINT-0004 Complete.
+Awaiting approval to tag v0.4.0-alpha.
 
 ## Completed Sprint 2 missions
 
@@ -45,9 +46,20 @@ Awaiting approval to tag v0.3.0-alpha.
 - Mission Hotel — Memory Foundation SDK Documentation.
 - Mission India — Sprint Closure & Release Preparation.
 
+## Completed Sprint 4 missions
+
+- Mission Alpha — Universal Knowledge Framework.
+- Mission Bravo — Knowledge Origin, Evidence and Provenance Framework.
+- Mission Charlie — Knowledge Serialization & Validation Integration.
+- Mission Delta — Knowledge Classification Contract.
+- Mission Echo — Knowledge Query Contract.
+- Mission Foxtrot — Knowledge Reference Store.
+- Mission Hotel — Knowledge Foundation SDK Documentation.
+- Mission India — Sprint Closure & Release Preparation.
+
 ## Current next mission
 
-Awaiting explicit approval for release tag `v0.3.0-alpha`.
+Awaiting explicit approval for release tag `v0.4.0-alpha`.
 
 ## Engineering workflow
 
@@ -75,7 +87,8 @@ For every mission:
 ## Current out-of-scope areas
 
 Trading, portfolio, broker integrations, AI reasoning, knowledge graph, workflow engine, database
-persistence, REST endpoints, frontend features, event bus, and deployment.
+persistence, search engines, query engines, retrieval engines, REST endpoints, frontend features,
+event bus, and deployment.
 
 ## Role model
 

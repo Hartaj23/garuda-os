@@ -4,6 +4,25 @@ All notable changes to Project Garuda will be documented in this file.
 
 The project follows semantic versioning as required by the repository architecture.
 
+## v0.4.0-alpha - 2026-07-04
+
+### Added
+
+- Universal Knowledge Framework for platform Knowledge objects, knowledge type, governance state,
+  confidence, metadata and Platform Core inheritance.
+- Knowledge Origin, Evidence and Provenance Framework for opaque evidence references, evidence
+  groups, knowledge origins and descriptive provenance records.
+- Knowledge serialization and validation integration with deterministic Knowledge payloads and
+  Platform Core validation compatibility certification.
+- Knowledge Classification Contract for descriptive category, dimension, descriptor and contract
+  models.
+- Knowledge Query Contract for descriptive query intent, constraint, metadata and contract models.
+- Knowledge Reference Store for process-local `UniversalKnowledge` references with exact
+  identifier add, get, remove, enumerate, clear, statistics and validation behavior.
+- Knowledge Foundation SDK documentation covering developer usage, architecture, API reference,
+  best practices, extensions and examples.
+- Sprint closure report and release notes for `v0.4.0-alpha`.
+
 ## v0.3.0-alpha - 2026-07-03
 
 ### Added

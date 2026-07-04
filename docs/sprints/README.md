@@ -19,6 +19,7 @@ Approved sprint documents.
 - [GAR-SPRINT-0002 Closure Report](GAR-SPRINT-0002-closure-report.md)
 - [GAR-SPRINT-0003 Memory Foundation Certification](GAR-SPRINT-0003-memory-certification.md)
 - [GAR-SPRINT-0003 Closure Report](GAR-SPRINT-0003-closure-report.md)
+- [GAR-SPRINT-0004 Closure Report](GAR-SPRINT-0004-closure-report.md)
 
 ## AI Implementation Notes
 
