@@ -45,6 +45,7 @@ GAR-0001 through GAR-0015.
 
 - [Universal Knowledge Framework](universal-knowledge-framework.md)
 - [Knowledge Origin, Evidence and Provenance Framework](knowledge-provenance-framework.md)
+- [Knowledge Serialization and Validation Integration](knowledge-serialization-validation.md)
 
 ## AI Implementation Notes
 
