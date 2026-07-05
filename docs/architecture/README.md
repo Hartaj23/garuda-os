@@ -71,6 +71,10 @@ GAR-0001 through GAR-0015.
 - [Reasoning Workspace](reasoning-workspace.md)
 - [Reasoning Foundation SDK Architecture Guide](../sdk/reasoning-foundation/architecture-guide.md)
 
+## Universal Decision Framework
+
+- [Universal Decision Framework](universal-decision-framework.md)
+
 ## AI Implementation Notes
 
 Do not change architecture from implementation work. Raise ambiguity before coding.

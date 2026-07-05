@@ -69,6 +69,10 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Reasoning Workspace](reasoning-workspace.md)
 - [Reasoning Foundation SDK Developer Guide](../sdk/reasoning-foundation/developer-guide.md)
 
+## Universal Decision Framework
+
+- [Universal Decision Framework](universal-decision-framework.md)
+
 ## AI Implementation Notes
 
 Engineering documentation must stay synchronized with implemented behavior.
