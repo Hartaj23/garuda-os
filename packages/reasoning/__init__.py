@@ -1,3 +1,14 @@
+from .chain import (
+    ChainMetadata,
+    ChainType,
+    ReasoningChain,
+    ReasoningChainContract,
+    ReasoningStepReference,
+    validate_chain_metadata,
+    validate_reasoning_chain,
+    validate_reasoning_chain_contract,
+    validate_reasoning_step_reference,
+)
 from .core import (
     ReasoningConfidence,
     ReasoningMetadata,
@@ -29,6 +40,10 @@ from .strategy import (
 )
 
 __all__ = [
+    "ChainMetadata",
+    "ChainType",
+    "ReasoningChain",
+    "ReasoningChainContract",
     "ReasoningConfidence",
     "ReasoningInputCollection",
     "ReasoningInputReference",
@@ -39,15 +54,20 @@ __all__ = [
     "ReasoningState",
     "ReasoningStrategy",
     "ReasoningStrategyContract",
+    "ReasoningStepReference",
     "ReasoningType",
     "StrategyMetadata",
     "StrategyType",
     "UniversalReasoning",
+    "validate_chain_metadata",
+    "validate_reasoning_chain",
+    "validate_reasoning_chain_contract",
     "validate_reasoning_input_collection",
     "validate_reasoning_input_reference",
     "validate_reasoning_provenance",
     "validate_reasoning_strategy",
     "validate_reasoning_strategy_contract",
+    "validate_reasoning_step_reference",
     "validate_reasoning",
     "validate_strategy_metadata",
 ]

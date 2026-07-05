@@ -65,6 +65,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Reasoning Input and Provenance Framework](reasoning-input-provenance-framework.md)
 - [Reasoning Serialization and Validation Certification](reasoning-serialization-validation.md)
 - [Reasoning Strategy Contract](reasoning-strategy-contract.md)
+- [Reasoning Chain Contract](reasoning-chain-contract.md)
 
 ## AI Implementation Notes
 
