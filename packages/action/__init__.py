@@ -39,6 +39,13 @@ from .strategy import (
     validate_action_strategy_contract,
     validate_action_strategy_metadata,
 )
+from .workspace import (
+    ActionWorkspace,
+    WorkspaceStatistics,
+    validate_action_reference,
+    validate_action_workspace,
+    validate_workspace_statistics,
+)
 
 __all__ = [
     "ActionChain",
@@ -60,7 +67,9 @@ __all__ = [
     "ActionStrategyMetadata",
     "ActionStrategyType",
     "ActionType",
+    "ActionWorkspace",
     "UniversalAction",
+    "WorkspaceStatistics",
     "validate_action",
     "validate_action_chain",
     "validate_action_chain_contract",
@@ -68,8 +77,11 @@ __all__ = [
     "validate_action_input_collection",
     "validate_action_input_reference",
     "validate_action_provenance",
+    "validate_action_reference",
     "validate_action_step_reference",
     "validate_action_strategy",
     "validate_action_strategy_contract",
     "validate_action_strategy_metadata",
+    "validate_action_workspace",
+    "validate_workspace_statistics",
 ]

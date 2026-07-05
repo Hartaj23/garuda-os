@@ -86,6 +86,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Action Serialization and Validation Certification](action-serialization-validation.md)
 - [Action Strategy Contract](action-strategy-contract.md)
 - [Action Chain Contract](action-chain-contract.md)
+- [Action Workspace](action-workspace.md)
 
 ## AI Implementation Notes
 

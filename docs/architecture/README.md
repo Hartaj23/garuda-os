@@ -88,6 +88,7 @@ GAR-0001 through GAR-0015.
 - [Action Serialization and Validation Certification](action-serialization-validation.md)
 - [Action Strategy Contract](action-strategy-contract.md)
 - [Action Chain Contract](action-chain-contract.md)
+- [Action Workspace](action-workspace.md)
 
 ## AI Implementation Notes
 
