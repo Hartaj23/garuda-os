@@ -4,6 +4,27 @@ All notable changes to Project Garuda will be documented in this file.
 
 The project follows semantic versioning as required by the repository architecture.
 
+## v0.8.0-alpha - 2026-07-05
+
+### Added
+
+- Universal Action Framework for platform Action objects, action types, action states, outcomes,
+  confidence, metadata and Platform Core inheritance.
+- Action Input & Provenance Framework for opaque action input references, input collections,
+  action origins and descriptive provenance records.
+- Action serialization and validation certification with deterministic Action payloads and
+  Platform Core validation compatibility.
+- Action Strategy Contract for descriptive strategy type, metadata, strategy and contract models.
+- Action Chain Contract for descriptive chain type, metadata, step reference, chain and contract
+  models using opaque action identifiers.
+- Action Workspace for process-local `UniversalAction` references with exact identifier add, get,
+  remove, enumerate, clear, statistics and validation behavior.
+- Action Foundation platform integration certification suite and permanent sprint certification
+  record.
+- Universal Action Foundation SDK documentation covering developer usage, architecture, API
+  reference, best practices, extensions and examples.
+- Sprint closure report and release notes for `v0.8.0-alpha`.
+
 ## v0.7.0-alpha - 2026-07-05
 
 ### Added

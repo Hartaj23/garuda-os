@@ -16,12 +16,13 @@ v0.1.0-alpha is released.
 Historical release preparation records exist for v0.2.0-alpha, v0.3.0-alpha and v0.4.0-alpha.
 Historical release preparation records exist for v0.5.0-alpha.
 Historical release preparation records exist for v0.6.0-alpha.
-v0.7.0-alpha is the current release prepared pending tag approval.
+Historical release preparation records exist for v0.7.0-alpha.
+v0.8.0-alpha is the current release prepared pending tag approval.
 
 ## Current status
 
-GAR-SPRINT-0007 Complete.
-Awaiting approval to tag v0.7.0-alpha.
+GAR-SPRINT-0008 Complete.
+Awaiting approval to tag v0.8.0-alpha.
 
 ## Completed Sprint 2 missions
 
@@ -94,9 +95,21 @@ Awaiting approval to tag v0.7.0-alpha.
 - Mission Hotel — Universal Decision Foundation SDK Documentation.
 - Mission India — Sprint Closure & Release Preparation.
 
+## Completed Sprint 8 missions
+
+- Mission Alpha — Universal Action Framework.
+- Mission Bravo — Action Input & Provenance Framework.
+- Mission Charlie — Action Serialization & Validation Certification.
+- Mission Delta — Action Strategy Contract.
+- Mission Echo — Action Chain Contract.
+- Mission Foxtrot — Action Workspace.
+- Mission Golf — Action Platform Integration & Quality Certification.
+- Mission Hotel — Universal Action Foundation SDK Documentation.
+- Mission India — Sprint Closure & Release Preparation.
+
 ## Current next mission
 
-Awaiting explicit approval for release tag `v0.7.0-alpha`.
+Awaiting explicit approval for release tag `v0.8.0-alpha`.
 
 ## Engineering workflow
 
