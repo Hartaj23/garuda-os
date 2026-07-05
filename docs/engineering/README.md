@@ -62,6 +62,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 ## Universal Reasoning Framework
 
 - [Universal Reasoning Framework](universal-reasoning-framework.md)
+- [Reasoning Input and Provenance Framework](reasoning-input-provenance-framework.md)
 
 ## AI Implementation Notes
 

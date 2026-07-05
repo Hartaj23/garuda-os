@@ -6,6 +6,9 @@ from typing import Any
 
 from packages.objects import CanonicalObject, ValidationCategory, ValidationResult
 
+from .input import ReasoningInputCollection, validate_reasoning_input_collection
+from .provenance import ReasoningProvenance, validate_reasoning_provenance
+
 
 class ReasoningType(StrEnum):
     DEDUCTIVE = "deductive"
@@ -68,6 +71,8 @@ class UniversalReasoning(CanonicalObject):
         reasoning_state: ReasoningState = ReasoningState.DRAFT,
         reasoning_confidence: ReasoningConfidence | None = None,
         reasoning_metadata: ReasoningMetadata | None = None,
+        reasoning_inputs: ReasoningInputCollection | None = None,
+        reasoning_provenance: ReasoningProvenance | None = None,
         *args: Any,
         **kwargs: Any,
     ) -> None:
@@ -76,6 +81,8 @@ class UniversalReasoning(CanonicalObject):
         self._reasoning_state = reasoning_state
         self._reasoning_confidence = reasoning_confidence or ReasoningConfidence()
         self._reasoning_metadata = reasoning_metadata or ReasoningMetadata()
+        self._reasoning_inputs = reasoning_inputs
+        self._reasoning_provenance = reasoning_provenance
         self.register_validation_hook(validate_reasoning)
 
     @property
@@ -94,8 +101,16 @@ class UniversalReasoning(CanonicalObject):
     def reasoning_metadata(self) -> ReasoningMetadata:
         return self._reasoning_metadata
 
+    @property
+    def reasoning_inputs(self) -> ReasoningInputCollection | None:
+        return self._reasoning_inputs
+
+    @property
+    def reasoning_provenance(self) -> ReasoningProvenance | None:
+        return self._reasoning_provenance
+
     def to_dict(self) -> dict[str, Any]:
-        return {
+        payload: dict[str, Any] = {
             "schema_version": self.schema_version,
             "object_version": self.object_version,
             "object_type": self.object_type,
@@ -112,6 +127,11 @@ class UniversalReasoning(CanonicalObject):
             "reasoning_confidence": self.reasoning_confidence.to_dict(),
             "reasoning_metadata": self.reasoning_metadata.to_dict(),
         }
+        if self.reasoning_inputs is not None:
+            payload["reasoning_inputs"] = self.reasoning_inputs.to_dict()
+        if self.reasoning_provenance is not None:
+            payload["reasoning_provenance"] = self.reasoning_provenance.to_dict()
+        return payload
 
 
 def validate_reasoning(obj: UniversalReasoning) -> ValidationResult:
@@ -148,5 +168,13 @@ def validate_reasoning(obj: UniversalReasoning) -> ValidationResult:
             field="reasoning_metadata",
             code="invalid_reasoning_metadata",
         )
+
+    reasoning_inputs = getattr(obj, "reasoning_inputs", None)
+    if reasoning_inputs is not None:
+        result.merge(validate_reasoning_input_collection(reasoning_inputs))
+
+    reasoning_provenance = getattr(obj, "reasoning_provenance", None)
+    if reasoning_provenance is not None:
+        result.merge(validate_reasoning_provenance(reasoning_provenance))
 
     return result
