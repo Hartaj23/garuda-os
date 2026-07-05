@@ -66,6 +66,7 @@ GAR-0001 through GAR-0015.
 - [Universal Reasoning Framework](universal-reasoning-framework.md)
 - [Reasoning Input and Provenance Framework](reasoning-input-provenance-framework.md)
 - [Reasoning Serialization and Validation Certification](reasoning-serialization-validation.md)
+- [Reasoning Strategy Contract](reasoning-strategy-contract.md)
 
 ## AI Implementation Notes
 
