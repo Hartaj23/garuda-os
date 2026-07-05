@@ -89,6 +89,7 @@ GAR-0001 through GAR-0015.
 - [Action Strategy Contract](action-strategy-contract.md)
 - [Action Chain Contract](action-chain-contract.md)
 - [Action Workspace](action-workspace.md)
+- [Action Foundation SDK Architecture Guide](../sdk/action-foundation/architecture-guide.md)
 
 ## AI Implementation Notes
 
