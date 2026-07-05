@@ -78,6 +78,7 @@ GAR-0001 through GAR-0015.
 - [Decision Serialization and Validation Certification](decision-serialization-validation.md)
 - [Decision Strategy Contract](decision-strategy-contract.md)
 - [Decision Chain Contract](decision-chain-contract.md)
+- [Decision Workspace](decision-workspace.md)
 
 ## AI Implementation Notes
 

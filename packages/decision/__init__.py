@@ -39,6 +39,13 @@ from .strategy import (
     validate_decision_strategy_contract,
     validate_decision_strategy_metadata,
 )
+from .workspace import (
+    DecisionWorkspace,
+    WorkspaceStatistics,
+    validate_decision_reference,
+    validate_decision_workspace,
+    validate_workspace_statistics,
+)
 
 __all__ = [
     "DecisionChain",
@@ -60,7 +67,9 @@ __all__ = [
     "DecisionStrategyMetadata",
     "DecisionStrategyType",
     "DecisionType",
+    "DecisionWorkspace",
     "UniversalDecision",
+    "WorkspaceStatistics",
     "validate_decision",
     "validate_decision_chain",
     "validate_decision_chain_contract",
@@ -68,8 +77,11 @@ __all__ = [
     "validate_decision_input_collection",
     "validate_decision_input_reference",
     "validate_decision_provenance",
+    "validate_decision_reference",
     "validate_decision_step_reference",
     "validate_decision_strategy",
     "validate_decision_strategy_contract",
     "validate_decision_strategy_metadata",
+    "validate_decision_workspace",
+    "validate_workspace_statistics",
 ]
