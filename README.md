@@ -3,7 +3,7 @@
 Garuda is the Operating System for Human Intelligence.
 
 This repository is the monorepo foundation for Project Garuda. It now includes the
-GAR-SPRINT-0006 Universal Reasoning Foundation prepared for release as `v0.6.0-alpha`.
+GAR-SPRINT-0007 Universal Decision Foundation prepared for release as `v0.7.0-alpha`.
 
 No intelligence, trading, broker integration, portfolio management, authentication, Knowledge
 Graph, Context Engine, reasoning engine, Workflow Engine, query engine, retrieval engine, search
@@ -19,10 +19,10 @@ before code is added.
 
 ## Current Release
 
-- Release: `v0.6.0-alpha`
-- Sprint: GAR-SPRINT-0006
-- Status: Universal Reasoning Foundation release prepared pending tag approval
-- Recommended tag: `v0.6.0-alpha`
+- Release: `v0.7.0-alpha`
+- Sprint: GAR-SPRINT-0007
+- Status: Universal Decision Foundation release prepared pending tag approval
+- Recommended tag: `v0.7.0-alpha`
 
 ## Platform Core
 
@@ -89,6 +89,20 @@ GAR-SPRINT-0006 delivers the service-independent Universal Reasoning Foundation 
 - Platform Integration & Quality Certification
 - Reasoning Foundation SDK Documentation
 
+## Universal Decision Foundation
+
+GAR-SPRINT-0007 delivers the service-independent Universal Decision Foundation under
+`packages/decision`:
+
+- Universal Decision Framework
+- Decision Input & Provenance Framework
+- Decision Serialization & Validation Certification
+- Decision Strategy Contract
+- Decision Chain Contract
+- Decision Workspace
+- Platform Integration & Quality Certification
+- Universal Decision Foundation SDK Documentation
+
 ## Documentation
 
 - [Platform Core SDK](docs/sdk/platform-core/README.md)
@@ -96,16 +110,19 @@ GAR-SPRINT-0006 delivers the service-independent Universal Reasoning Foundation 
 - [Knowledge Foundation SDK](docs/sdk/knowledge-foundation/README.md)
 - [Context Foundation SDK](docs/sdk/context-foundation/README.md)
 - [Reasoning Foundation SDK](docs/sdk/reasoning-foundation/README.md)
+- [Decision Foundation SDK](docs/sdk/decision-foundation/README.md)
 - [Sprint 2 Closure Report](docs/sprints/GAR-SPRINT-0002-closure-report.md)
 - [Sprint 3 Closure Report](docs/sprints/GAR-SPRINT-0003-closure-report.md)
 - [Sprint 4 Closure Report](docs/sprints/GAR-SPRINT-0004-closure-report.md)
 - [Sprint 5 Closure Report](docs/sprints/GAR-SPRINT-0005-closure-report.md)
 - [Sprint 6 Closure Report](docs/sprints/GAR-SPRINT-0006-closure-report.md)
+- [Sprint 7 Closure Report](docs/sprints/GAR-SPRINT-0007-closure-report.md)
 - [v0.2.0-alpha Release Notes](docs/releases/v0.2.0-alpha.md)
 - [v0.3.0-alpha Release Notes](docs/releases/v0.3.0-alpha.md)
 - [v0.4.0-alpha Release Notes](docs/releases/v0.4.0-alpha.md)
 - [v0.5.0-alpha Release Notes](docs/releases/v0.5.0-alpha.md)
 - [v0.6.0-alpha Release Notes](docs/releases/v0.6.0-alpha.md)
+- [v0.7.0-alpha Release Notes](docs/releases/v0.7.0-alpha.md)
 - [Developer Onboarding](docs/developer-onboarding.md)
 
 ## Quick Start
@@ -145,9 +162,10 @@ make format
 Garuda is modular, observable, explainable, secure, documented and testable. Every component must
 have one clear responsibility and must avoid hidden business logic.
 
-Platform Core, Memory Foundation, Knowledge Foundation, Context Foundation and Universal Reasoning
-Foundation remain service-independent and domain-neutral. Persistence, REST endpoints, database
-storage, event bus publishing, workflow execution, reasoning execution, inference, AI integration,
+Platform Core, Memory Foundation, Knowledge Foundation, Context Foundation, Universal Reasoning
+Foundation and Universal Decision Foundation remain service-independent and domain-neutral.
+Persistence, REST endpoints, database storage, event bus publishing, workflow execution, reasoning
+execution, inference, decision execution, outcome computation, orchestration, AI integration,
 Knowledge Graph behavior, Context Engine behavior, query engines, retrieval engines, search
 engines, trading systems and portfolio systems remain out of scope until explicitly approved in
 future architecture and sprint work.

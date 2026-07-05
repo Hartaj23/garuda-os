@@ -4,6 +4,28 @@ All notable changes to Project Garuda will be documented in this file.
 
 The project follows semantic versioning as required by the repository architecture.
 
+## v0.7.0-alpha - 2026-07-05
+
+### Added
+
+- Universal Decision Framework for platform Decision objects, decision types, decision states,
+  outcomes, confidence, metadata and Platform Core inheritance.
+- Decision Input & Provenance Framework for opaque decision input references, input collections,
+  decision origins and descriptive provenance records.
+- Decision serialization and validation certification with deterministic Decision payloads and
+  Platform Core validation compatibility.
+- Decision Strategy Contract for descriptive strategy type, metadata, strategy and contract
+  models.
+- Decision Chain Contract for descriptive chain type, metadata, step reference, chain and contract
+  models using opaque decision identifiers.
+- Decision Workspace for process-local `UniversalDecision` references with exact identifier add,
+  get, remove, enumerate, clear, statistics and validation behavior.
+- Decision Foundation platform integration certification suite and permanent sprint certification
+  record.
+- Universal Decision Foundation SDK documentation covering developer usage, architecture, API
+  reference, best practices, extensions and examples.
+- Sprint closure report and release notes for `v0.7.0-alpha`.
+
 ## v0.6.0-alpha - 2026-07-05
 
 ### Added
