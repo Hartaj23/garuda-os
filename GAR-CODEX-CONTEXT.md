@@ -14,12 +14,13 @@ Future constitutional changes require Architecture Change Proposals under GAR-00
 
 v0.1.0-alpha is released.
 Historical release preparation records exist for v0.2.0-alpha, v0.3.0-alpha and v0.4.0-alpha.
-v0.5.0-alpha is the current release prepared pending tag approval.
+Historical release preparation records exist for v0.5.0-alpha.
+v0.6.0-alpha is the current release prepared pending tag approval.
 
 ## Current status
 
-GAR-SPRINT-0005 Complete.
-Awaiting approval to tag v0.5.0-alpha.
+GAR-SPRINT-0006 Complete.
+Awaiting approval to tag v0.6.0-alpha.
 
 ## Completed Sprint 2 missions
 
@@ -68,9 +69,21 @@ Awaiting approval to tag v0.5.0-alpha.
 - Mission Hotel — Context Foundation SDK Documentation.
 - Mission India — Sprint Closure & Release Preparation.
 
+## Completed Sprint 6 missions
+
+- Mission Alpha — Universal Reasoning Framework.
+- Mission Bravo — Reasoning Input & Provenance Framework.
+- Mission Charlie — Reasoning Serialization & Validation Certification.
+- Mission Delta — Reasoning Strategy Contract.
+- Mission Echo — Reasoning Chain Contract.
+- Mission Foxtrot — Reasoning Workspace.
+- Mission Golf — Reasoning Platform Integration & Quality Certification.
+- Mission Hotel — Reasoning Foundation SDK Documentation.
+- Mission India — Sprint Closure & Release Preparation.
+
 ## Current next mission
 
-Awaiting explicit approval for release tag `v0.5.0-alpha`.
+Awaiting explicit approval for release tag `v0.6.0-alpha`.
 
 ## Engineering workflow
 

@@ -6,6 +6,7 @@ Contains release notes and release preparation records for Project Garuda.
 
 ## Releases
 
+- [v0.6.0-alpha](v0.6.0-alpha.md)
 - [v0.5.0-alpha](v0.5.0-alpha.md)
 - [v0.4.0-alpha](v0.4.0-alpha.md)
 - [v0.3.0-alpha](v0.3.0-alpha.md)

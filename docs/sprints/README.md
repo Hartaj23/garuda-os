@@ -23,6 +23,7 @@ Approved sprint documents.
 - [GAR-SPRINT-0005 Context Foundation Certification](GAR-SPRINT-0005-context-certification.md)
 - [GAR-SPRINT-0005 Closure Report](GAR-SPRINT-0005-closure-report.md)
 - [GAR-SPRINT-0006 Reasoning Foundation Certification](GAR-SPRINT-0006-reasoning-certification.md)
+- [GAR-SPRINT-0006 Closure Report](GAR-SPRINT-0006-closure-report.md)
 
 ## AI Implementation Notes
 
