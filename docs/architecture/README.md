@@ -75,6 +75,7 @@ GAR-0001 through GAR-0015.
 
 - [Universal Decision Framework](universal-decision-framework.md)
 - [Decision Input and Provenance Framework](decision-input-provenance-framework.md)
+- [Decision Serialization and Validation Certification](decision-serialization-validation.md)
 
 ## AI Implementation Notes
 

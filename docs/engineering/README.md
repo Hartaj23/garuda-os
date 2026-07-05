@@ -73,6 +73,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 
 - [Universal Decision Framework](universal-decision-framework.md)
 - [Decision Input and Provenance Framework](decision-input-provenance-framework.md)
+- [Decision Serialization and Validation Certification](decision-serialization-validation.md)
 
 ## AI Implementation Notes
 
