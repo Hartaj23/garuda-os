@@ -81,6 +81,10 @@ GAR-0001 through GAR-0015.
 - [Decision Workspace](decision-workspace.md)
 - [Decision Foundation SDK Architecture Guide](../sdk/decision-foundation/architecture-guide.md)
 
+## Universal Action Framework
+
+- [Universal Action Framework](universal-action-framework.md)
+
 ## AI Implementation Notes
 
 Do not change architecture from implementation work. Raise ambiguity before coding.

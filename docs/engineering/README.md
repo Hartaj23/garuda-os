@@ -79,6 +79,10 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Decision Workspace](decision-workspace.md)
 - [Decision Foundation SDK Developer Guide](../sdk/decision-foundation/developer-guide.md)
 
+## Universal Action Framework
+
+- [Universal Action Framework](universal-action-framework.md)
+
 ## AI Implementation Notes
 
 Engineering documentation must stay synchronized with implemented behavior.
