@@ -84,6 +84,7 @@ GAR-0001 through GAR-0015.
 ## Universal Action Framework
 
 - [Universal Action Framework](universal-action-framework.md)
+- [Action Input and Provenance Framework](action-input-provenance-framework.md)
 
 ## AI Implementation Notes
 

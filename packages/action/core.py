@@ -6,6 +6,9 @@ from typing import Any
 
 from packages.objects import CanonicalObject, ValidationCategory, ValidationResult
 
+from .input import ActionInputCollection, validate_action_input_collection
+from .provenance import ActionProvenance, validate_action_provenance
+
 
 class ActionType(StrEnum):
     TASK = "task"
@@ -74,6 +77,8 @@ class UniversalAction(CanonicalObject):
         action_outcome: ActionOutcome = ActionOutcome.UNKNOWN,
         action_confidence: ActionConfidence | None = None,
         action_metadata: ActionMetadata | None = None,
+        action_inputs: ActionInputCollection | None = None,
+        action_provenance: ActionProvenance | None = None,
         *args: Any,
         **kwargs: Any,
     ) -> None:
@@ -83,6 +88,8 @@ class UniversalAction(CanonicalObject):
         self._action_outcome = action_outcome
         self._action_confidence = action_confidence or ActionConfidence()
         self._action_metadata = action_metadata or ActionMetadata()
+        self._action_inputs = action_inputs
+        self._action_provenance = action_provenance
         self.register_validation_hook(validate_action)
 
     @property
@@ -105,8 +112,16 @@ class UniversalAction(CanonicalObject):
     def action_metadata(self) -> ActionMetadata:
         return self._action_metadata
 
+    @property
+    def action_inputs(self) -> ActionInputCollection | None:
+        return self._action_inputs
+
+    @property
+    def action_provenance(self) -> ActionProvenance | None:
+        return self._action_provenance
+
     def to_dict(self) -> dict[str, Any]:
-        return {
+        payload: dict[str, Any] = {
             "schema_version": self.schema_version,
             "object_version": self.object_version,
             "object_type": self.object_type,
@@ -124,6 +139,11 @@ class UniversalAction(CanonicalObject):
             "action_confidence": self.action_confidence.to_dict(),
             "action_metadata": self.action_metadata.to_dict(),
         }
+        if self.action_inputs is not None:
+            payload["action_inputs"] = self.action_inputs.to_dict()
+        if self.action_provenance is not None:
+            payload["action_provenance"] = self.action_provenance.to_dict()
+        return payload
 
 
 def validate_action(obj: UniversalAction) -> ValidationResult:
@@ -168,5 +188,13 @@ def validate_action(obj: UniversalAction) -> ValidationResult:
             field="action_metadata",
             code="invalid_action_metadata",
         )
+
+    action_inputs = getattr(obj, "action_inputs", None)
+    if action_inputs is not None:
+        result.merge(validate_action_input_collection(action_inputs))
+
+    action_provenance = getattr(obj, "action_provenance", None)
+    if action_provenance is not None:
+        result.merge(validate_action_provenance(action_provenance))
 
     return result
