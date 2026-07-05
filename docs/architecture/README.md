@@ -87,6 +87,7 @@ GAR-0001 through GAR-0015.
 - [Action Input and Provenance Framework](action-input-provenance-framework.md)
 - [Action Serialization and Validation Certification](action-serialization-validation.md)
 - [Action Strategy Contract](action-strategy-contract.md)
+- [Action Chain Contract](action-chain-contract.md)
 
 ## AI Implementation Notes
 

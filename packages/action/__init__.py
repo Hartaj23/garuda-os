@@ -1,3 +1,14 @@
+from .chain import (
+    ActionChain,
+    ActionChainContract,
+    ActionChainMetadata,
+    ActionChainType,
+    ActionStepReference,
+    validate_action_chain,
+    validate_action_chain_contract,
+    validate_action_chain_metadata,
+    validate_action_step_reference,
+)
 from .core import (
     ActionConfidence,
     ActionMetadata,
@@ -30,6 +41,10 @@ from .strategy import (
 )
 
 __all__ = [
+    "ActionChain",
+    "ActionChainContract",
+    "ActionChainMetadata",
+    "ActionChainType",
     "ActionConfidence",
     "ActionInputCollection",
     "ActionInputReference",
@@ -39,6 +54,7 @@ __all__ = [
     "ActionOutcome",
     "ActionProvenance",
     "ActionState",
+    "ActionStepReference",
     "ActionStrategy",
     "ActionStrategyContract",
     "ActionStrategyMetadata",
@@ -46,9 +62,13 @@ __all__ = [
     "ActionType",
     "UniversalAction",
     "validate_action",
+    "validate_action_chain",
+    "validate_action_chain_contract",
+    "validate_action_chain_metadata",
     "validate_action_input_collection",
     "validate_action_input_reference",
     "validate_action_provenance",
+    "validate_action_step_reference",
     "validate_action_strategy",
     "validate_action_strategy_contract",
     "validate_action_strategy_metadata",
