@@ -19,6 +19,15 @@ from .provenance import (
     ActionProvenance,
     validate_action_provenance,
 )
+from .strategy import (
+    ActionStrategy,
+    ActionStrategyContract,
+    ActionStrategyMetadata,
+    ActionStrategyType,
+    validate_action_strategy,
+    validate_action_strategy_contract,
+    validate_action_strategy_metadata,
+)
 
 __all__ = [
     "ActionConfidence",
@@ -30,10 +39,17 @@ __all__ = [
     "ActionOutcome",
     "ActionProvenance",
     "ActionState",
+    "ActionStrategy",
+    "ActionStrategyContract",
+    "ActionStrategyMetadata",
+    "ActionStrategyType",
     "ActionType",
     "UniversalAction",
     "validate_action",
     "validate_action_input_collection",
     "validate_action_input_reference",
     "validate_action_provenance",
+    "validate_action_strategy",
+    "validate_action_strategy_contract",
+    "validate_action_strategy_metadata",
 ]
