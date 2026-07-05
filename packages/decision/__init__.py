@@ -1,3 +1,14 @@
+from .chain import (
+    DecisionChain,
+    DecisionChainContract,
+    DecisionChainMetadata,
+    DecisionChainType,
+    DecisionStepReference,
+    validate_decision_chain,
+    validate_decision_chain_contract,
+    validate_decision_chain_metadata,
+    validate_decision_step_reference,
+)
 from .core import (
     DecisionConfidence,
     DecisionMetadata,
@@ -30,6 +41,10 @@ from .strategy import (
 )
 
 __all__ = [
+    "DecisionChain",
+    "DecisionChainContract",
+    "DecisionChainMetadata",
+    "DecisionChainType",
     "DecisionConfidence",
     "DecisionInputCollection",
     "DecisionInputReference",
@@ -39,6 +54,7 @@ __all__ = [
     "DecisionOutcome",
     "DecisionProvenance",
     "DecisionState",
+    "DecisionStepReference",
     "DecisionStrategy",
     "DecisionStrategyContract",
     "DecisionStrategyMetadata",
@@ -46,9 +62,13 @@ __all__ = [
     "DecisionType",
     "UniversalDecision",
     "validate_decision",
+    "validate_decision_chain",
+    "validate_decision_chain_contract",
+    "validate_decision_chain_metadata",
     "validate_decision_input_collection",
     "validate_decision_input_reference",
     "validate_decision_provenance",
+    "validate_decision_step_reference",
     "validate_decision_strategy",
     "validate_decision_strategy_contract",
     "validate_decision_strategy_metadata",

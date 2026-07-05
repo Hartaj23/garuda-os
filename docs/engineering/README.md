@@ -75,6 +75,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Decision Input and Provenance Framework](decision-input-provenance-framework.md)
 - [Decision Serialization and Validation Certification](decision-serialization-validation.md)
 - [Decision Strategy Contract](decision-strategy-contract.md)
+- [Decision Chain Contract](decision-chain-contract.md)
 
 ## AI Implementation Notes
 
