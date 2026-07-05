@@ -77,6 +77,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Decision Strategy Contract](decision-strategy-contract.md)
 - [Decision Chain Contract](decision-chain-contract.md)
 - [Decision Workspace](decision-workspace.md)
+- [Decision Foundation SDK Developer Guide](../sdk/decision-foundation/developer-guide.md)
 
 ## AI Implementation Notes
 
