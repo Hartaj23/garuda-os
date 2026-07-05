@@ -67,6 +67,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Reasoning Strategy Contract](reasoning-strategy-contract.md)
 - [Reasoning Chain Contract](reasoning-chain-contract.md)
 - [Reasoning Workspace](reasoning-workspace.md)
+- [Reasoning Foundation SDK Developer Guide](../sdk/reasoning-foundation/developer-guide.md)
 
 ## AI Implementation Notes
 

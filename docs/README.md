@@ -34,6 +34,7 @@ Approved GAR architecture documents.
 - [Memory Foundation SDK](sdk/memory-foundation/README.md)
 - [Knowledge Foundation SDK](sdk/knowledge-foundation/README.md)
 - [Context Foundation SDK](sdk/context-foundation/README.md)
+- [Reasoning Foundation SDK](sdk/reasoning-foundation/README.md)
 
 ## AI Implementation Notes
 
