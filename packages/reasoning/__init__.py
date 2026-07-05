@@ -38,10 +38,18 @@ from .strategy import (
     validate_reasoning_strategy_contract,
     validate_strategy_metadata,
 )
+from .workspace import (
+    ReasoningWorkspace,
+    WorkspaceStatistics,
+    validate_reasoning_reference,
+    validate_reasoning_workspace,
+    validate_workspace_statistics,
+)
 
 __all__ = [
     "ChainMetadata",
     "ChainType",
+    "ReasoningWorkspace",
     "ReasoningChain",
     "ReasoningChainContract",
     "ReasoningConfidence",
@@ -59,15 +67,19 @@ __all__ = [
     "StrategyMetadata",
     "StrategyType",
     "UniversalReasoning",
+    "WorkspaceStatistics",
     "validate_chain_metadata",
     "validate_reasoning_chain",
     "validate_reasoning_chain_contract",
     "validate_reasoning_input_collection",
     "validate_reasoning_input_reference",
     "validate_reasoning_provenance",
+    "validate_reasoning_reference",
     "validate_reasoning_strategy",
     "validate_reasoning_strategy_contract",
     "validate_reasoning_step_reference",
+    "validate_reasoning_workspace",
     "validate_reasoning",
     "validate_strategy_metadata",
+    "validate_workspace_statistics",
 ]
