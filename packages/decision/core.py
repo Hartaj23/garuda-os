@@ -6,6 +6,9 @@ from typing import Any
 
 from packages.objects import CanonicalObject, ValidationCategory, ValidationResult
 
+from .input import DecisionInputCollection, validate_decision_input_collection
+from .provenance import DecisionProvenance, validate_decision_provenance
+
 
 class DecisionType(StrEnum):
     RECOMMENDATION = "recommendation"
@@ -72,6 +75,8 @@ class UniversalDecision(CanonicalObject):
         decision_outcome: DecisionOutcome = DecisionOutcome.UNKNOWN,
         decision_confidence: DecisionConfidence | None = None,
         decision_metadata: DecisionMetadata | None = None,
+        decision_inputs: DecisionInputCollection | None = None,
+        decision_provenance: DecisionProvenance | None = None,
         *args: Any,
         **kwargs: Any,
     ) -> None:
@@ -81,6 +86,8 @@ class UniversalDecision(CanonicalObject):
         self._decision_outcome = decision_outcome
         self._decision_confidence = decision_confidence or DecisionConfidence()
         self._decision_metadata = decision_metadata or DecisionMetadata()
+        self._decision_inputs = decision_inputs
+        self._decision_provenance = decision_provenance
         self.register_validation_hook(validate_decision)
 
     @property
@@ -103,8 +110,16 @@ class UniversalDecision(CanonicalObject):
     def decision_metadata(self) -> DecisionMetadata:
         return self._decision_metadata
 
+    @property
+    def decision_inputs(self) -> DecisionInputCollection | None:
+        return self._decision_inputs
+
+    @property
+    def decision_provenance(self) -> DecisionProvenance | None:
+        return self._decision_provenance
+
     def to_dict(self) -> dict[str, Any]:
-        return {
+        payload: dict[str, Any] = {
             "schema_version": self.schema_version,
             "object_version": self.object_version,
             "object_type": self.object_type,
@@ -122,6 +137,11 @@ class UniversalDecision(CanonicalObject):
             "decision_confidence": self.decision_confidence.to_dict(),
             "decision_metadata": self.decision_metadata.to_dict(),
         }
+        if self.decision_inputs is not None:
+            payload["decision_inputs"] = self.decision_inputs.to_dict()
+        if self.decision_provenance is not None:
+            payload["decision_provenance"] = self.decision_provenance.to_dict()
+        return payload
 
 
 def validate_decision(obj: UniversalDecision) -> ValidationResult:
@@ -166,5 +186,13 @@ def validate_decision(obj: UniversalDecision) -> ValidationResult:
             field="decision_metadata",
             code="invalid_decision_metadata",
         )
+
+    decision_inputs = getattr(obj, "decision_inputs", None)
+    if decision_inputs is not None:
+        result.merge(validate_decision_input_collection(decision_inputs))
+
+    decision_provenance = getattr(obj, "decision_provenance", None)
+    if decision_provenance is not None:
+        result.merge(validate_decision_provenance(decision_provenance))
 
     return result
