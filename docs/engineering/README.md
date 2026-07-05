@@ -83,6 +83,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 
 - [Universal Action Framework](universal-action-framework.md)
 - [Action Input and Provenance Framework](action-input-provenance-framework.md)
+- [Action Serialization and Validation Certification](action-serialization-validation.md)
 
 ## AI Implementation Notes
 
