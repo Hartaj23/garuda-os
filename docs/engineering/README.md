@@ -59,6 +59,10 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Context Workspace](context-workspace.md)
 - [Context Foundation SDK Developer Guide](../sdk/context-foundation/developer-guide.md)
 
+## Universal Reasoning Framework
+
+- [Universal Reasoning Framework](universal-reasoning-framework.md)
+
 ## AI Implementation Notes
 
 Engineering documentation must stay synchronized with implemented behavior.

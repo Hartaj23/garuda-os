@@ -61,6 +61,10 @@ GAR-0001 through GAR-0015.
 - [Context Workspace](context-workspace.md)
 - [Context Foundation SDK Architecture Guide](../sdk/context-foundation/architecture-guide.md)
 
+## Universal Reasoning Framework
+
+- [Universal Reasoning Framework](universal-reasoning-framework.md)
+
 ## AI Implementation Notes
 
 Do not change architecture from implementation work. Raise ambiguity before coding.
