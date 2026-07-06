@@ -96,6 +96,7 @@ GAR-0001 through GAR-0015.
 - [Universal Execution Framework](universal-execution-framework.md)
 - [Execution Input and Provenance Framework](execution-input-provenance-framework.md)
 - [Execution Serialization and Validation Certification](execution-serialization-validation.md)
+- [Execution Strategy Contract](execution-strategy-contract.md)
 
 ## AI Implementation Notes
 

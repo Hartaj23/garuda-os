@@ -19,6 +19,15 @@ from .provenance import (
     ExecutionProvenance,
     validate_execution_provenance,
 )
+from .strategy import (
+    ExecutionStrategy,
+    ExecutionStrategyContract,
+    ExecutionStrategyMetadata,
+    ExecutionStrategyType,
+    validate_execution_strategy,
+    validate_execution_strategy_contract,
+    validate_execution_strategy_metadata,
+)
 
 __all__ = [
     "ExecutionConfidence",
@@ -30,10 +39,17 @@ __all__ = [
     "ExecutionOutcome",
     "ExecutionProvenance",
     "ExecutionState",
+    "ExecutionStrategy",
+    "ExecutionStrategyContract",
+    "ExecutionStrategyMetadata",
+    "ExecutionStrategyType",
     "ExecutionType",
     "UniversalExecution",
     "validate_execution",
     "validate_execution_input_collection",
     "validate_execution_input_reference",
     "validate_execution_provenance",
+    "validate_execution_strategy",
+    "validate_execution_strategy_contract",
+    "validate_execution_strategy_metadata",
 ]
