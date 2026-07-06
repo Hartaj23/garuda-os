@@ -83,18 +83,32 @@ Read before planning or implementation.
 
 # Repository Structure
 
+```
+Garuda/
+├── engineering/
+│   ├── AGENTS.md
+│   ├── GARUDA_CONTEXT.md
+│   ├── GARUDA_WORKFLOW.md
+│   ├── GARUDA_GLOSSARY.md
+│   └── GARUDA_NAVIGATION.md
+├── README.md
+├── VERSION
+├── CHANGELOG.md
+├── packages/
+├── docs/
+└── tests/
+```
+
 **Repository Root**
 
 | Path | Purpose |
 |---|---|
 | `README.md` | Project introduction |
-| `ENGINEERING.md` | Engineering governance index |
 | `VERSION` | Current repository version |
 | `CHANGELOG.md` | Release history |
-| `GAR-CODEX-CONTEXT.md` | Sprint and mission status record |
 | `engineering/` | AI engineering governance documents |
-| `docs/` | Architecture and engineering documentation |
 | `packages/` | Production source code |
+| `docs/` | Architecture and engineering documentation |
 | `tests/` | Repository test suite |
 
 **engineering/**
