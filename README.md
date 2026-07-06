@@ -19,13 +19,20 @@ before code is added.
 
 ## Engineering Governance
 
-Before contributing to Project Garuda, review:
+Project Garuda uses Constitutional Engineering.
 
-- `AGENTS.md`
-- `GARUDA_CONTEXT.md`
-- `GARUDA_WORKFLOW.md`
-- `GARUDA_GLOSSARY.md`
-- `GARUDA_NAVIGATION.md`
+Before contributing to Project Garuda, complete the repository bootstrap sequence:
+
+1. `AGENTS.md`
+2. `GARUDA_CONTEXT.md`
+3. `GARUDA_WORKFLOW.md`
+4. `GARUDA_GLOSSARY.md`
+5. `GARUDA_NAVIGATION.md`
+6. Mission Specification
+
+`GARUDA_NAVIGATION.md` is the engineering governance entry point. It links the constitutional layer, engineering layer, `PROMPTS.md`, and `templates/`.
+
+See also [`docs/README.md`](docs/README.md) for the full governance layer index.
 
 ## Current Release
 

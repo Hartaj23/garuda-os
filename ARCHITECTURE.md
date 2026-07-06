@@ -16,11 +16,26 @@ Code, configuration, tests and documentation must remain consistent with the arc
 
 Before implementing a change:
 
-1. Confirm the work is authorized by the current approved sprint.
-2. Read the relevant GAR documents.
-3. Identify affected contracts, objects, events and architectural boundaries.
-4. Plan tests and documentation before implementation.
-5. Keep changes small, reviewable and traceable.
-6. Avoid future-sprint functionality.
+1. Complete the repository bootstrap sequence in `GARUDA_NAVIGATION.md`.
+2. Confirm the work is authorized by the current approved sprint mission specification.
+3. Read the relevant GAR documents.
+4. Identify affected contracts, objects, events and architectural boundaries.
+5. Plan tests and documentation before implementation.
+6. Keep changes small, reviewable and traceable.
+7. Avoid future-sprint functionality.
+
+## Engineering Governance Layer
+
+Repository engineering governance is defined at the repository root:
+
+- `AGENTS.md`
+- `GARUDA_CONTEXT.md`
+- `GARUDA_WORKFLOW.md`
+- `GARUDA_GLOSSARY.md`
+- `GARUDA_NAVIGATION.md`
+- `PROMPTS.md` *(optional)*
+- `templates/`
+
+See [`docs/README.md`](docs/README.md) for governance layer links.
 
 Implementation must not rename canonical objects, invent architecture, introduce undocumented frameworks or bypass the approved governance process.

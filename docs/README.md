@@ -14,13 +14,15 @@ Contains Garuda documentation, architecture references, engineering guidance and
 
 ### Engineering Layer
 
-Before contributing to Project Garuda, review:
+Before contributing to Project Garuda, complete the repository bootstrap sequence:
 
-- [AGENTS.md](../AGENTS.md)
-- [GARUDA_CONTEXT.md](../GARUDA_CONTEXT.md)
-- [GARUDA_WORKFLOW.md](../GARUDA_WORKFLOW.md)
-- [GARUDA_GLOSSARY.md](../GARUDA_GLOSSARY.md)
-- [GARUDA_NAVIGATION.md](../GARUDA_NAVIGATION.md)
+1. [AGENTS.md](../AGENTS.md)
+2. [GARUDA_CONTEXT.md](../GARUDA_CONTEXT.md)
+3. [GARUDA_WORKFLOW.md](../GARUDA_WORKFLOW.md)
+4. [GARUDA_GLOSSARY.md](../GARUDA_GLOSSARY.md)
+5. [GARUDA_NAVIGATION.md](../GARUDA_NAVIGATION.md)
+6. Mission Specification
+
 - [PROMPTS.md](../PROMPTS.md) *(optional)*
 
 ### Engineering Document Templates
