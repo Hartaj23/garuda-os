@@ -20,6 +20,23 @@ It is updated as the project evolves and serves as the primary context source fo
 
 ---
 
+# Context Authority
+
+The current engineering state shall be determined in the following order of precedence:
+
+1. Committed repository state
+2. `VERSION`
+3. Approved sprint completion reports
+4. Release documentation
+5. Repository validation results
+6. This document
+
+If any discrepancy exists, the committed repository state takes precedence.
+
+This document shall be updated to reflect the repository rather than the repository being changed to match this document.
+
+---
+
 # Project Overview
 
 Project Garuda is a constitutional operating system for intelligent autonomous systems.
@@ -238,6 +255,21 @@ Update when:
 Do not use this document to introduce architectural decisions.
 
 Architectural decisions belong in GAR constitutions.
+
+---
+
+# Maintenance Responsibility
+
+This document shall be updated:
+
+- At sprint completion
+- At release preparation
+- After major repository validation changes
+- When foundation status changes
+
+The document shall never be used to infer future work.
+
+Only completed repository state shall be recorded.
 
 ---
 
