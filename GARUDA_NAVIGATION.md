@@ -52,6 +52,19 @@ Implementation
 
 The engineering governance documents shall be read in the following order.
 
+## Governance Documents
+
+| Document | Purpose | Change Frequency |
+| --- | --- | --- |
+| `AGENTS.md` | AI engineering operating manual | Rare |
+| `GARUDA_CONTEXT.md` | Current repository state | Every sprint |
+| `GARUDA_WORKFLOW.md` | Engineering lifecycle | Rare |
+| `GARUDA_GLOSSARY.md` | Canonical terminology | Occasional |
+| `GARUDA_NAVIGATION.md` | Repository navigation | Rare |
+| `PROMPTS.md` *(optional)* | Reusable AI prompt templates | Occasional |
+
+---
+
 ## Level 1 — Constitutional Authority
 
 - GAR-INDEX
