@@ -175,7 +175,7 @@ Institutional release (Mission India)
         ↓
 Published release (tag)
         ↓
-Sprint closure
+Governance baseline
 ```
 
 **Sprint specification contents:**
@@ -301,6 +301,8 @@ are descriptive records — they do not authorize work.
 | 025 | Phase II Reference Foundation Established | Interface Foundation is first completed Phase II foundation; GAR-0017 and ADR-0011 validated in practice |
 | 026 | Phase II Release Published | `v0.10.0-alpha` published; repository internally consistent |
 | 027 | Phase II Governance Baseline Frozen | Sprint 0010 elevated to Canonical Foundation Reference; Garuda Engineering Standard established |
+| 028 | Constitutional Engineering Reference Manual Established | GAR-REFERENCE-0001 published; Reference Principle institutionalized |
+| 029 | Governance Baseline Published | Post-release institutional stabilization complete; frozen baseline at `a3f2ba3` |
 
 Checkpoints complement but do not replace sprint closure reports, certification records, or release
 notes.
@@ -410,6 +412,18 @@ Published releases mark the transition from institutional closure to an immutabl
 5. Post-closure documentation alignment if required (separate commit)
 6. Annotated Git tag created on finalized institutional record
 7. Push commits and tag to origin
+8. Governance baseline established (see below)
+
+**Governance Baseline (terminal lifecycle stage):**
+
+Published Release freezes the software artifact. Governance Baseline freezes the institutional
+record around it:
+
+1. Constitutional Engineering Reference Manual published (GAR-REFERENCE-0001)
+2. Institutional context synchronized with published state
+3. Sprint elevated to canonical exemplar
+4. Repository history clean, auditable, and remote-published
+5. Next sprint explicitly not authorized
 
 **Canonical Phase II baseline (Sprint 0010):**
 
@@ -422,6 +436,8 @@ Published releases mark the transition from institutional closure to an immutabl
 | Mission India commit | `fe34f8c` |
 | Alignment commit | `369a93b` |
 | Tag | `v0.10.0-alpha` on `369a93b` |
+| Reference manual | GAR-REFERENCE-0001 on `5b09b5e` |
+| Governance baseline | `a3f2ba3` (Checkpoint 029) |
 | Tests at release | 806 passed |
 
 Tags are created only after explicit approval. One mission, one commit discipline applies to release
@@ -656,6 +672,8 @@ Developer Enablement
 Institutional Release
         ↓
 Published Release
+        ↓
+Governance Baseline
 ```
 
 ---
