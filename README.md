@@ -21,7 +21,7 @@ before code is added.
 
 Project Garuda uses Constitutional Engineering.
 
-Before contributing to Project Garuda, complete the repository bootstrap sequence:
+Before contributing to Project Garuda, begin with [`BOOTSTRAP.md`](BOOTSTRAP.md), then complete the repository bootstrap sequence:
 
 1. `AGENTS.md`
 2. `GARUDA_CONTEXT.md`

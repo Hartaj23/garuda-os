@@ -27,6 +27,8 @@ Every engineer, AI coding agent, reviewer, or contributor should begin here befo
 ```
 GAR Constitutions
         ↓
+PROJECT_GARUDA_MASTER.md
+        ↓
 Engineering Handbook
         ↓
 Repository
@@ -45,7 +47,8 @@ Defines what Project Garuda is.
 
 Defines how Project Garuda is built.
 
-- `ENGINEERING_GOVERNANCE_v1.0.md` *(frozen baseline)*
+- [`PROJECT_GARUDA_MASTER.md`](../PROJECT_GARUDA_MASTER.md) *(architectural synthesis)*
+- [`ENGINEERING_GOVERNANCE_v1.0.md`](../ENGINEERING_GOVERNANCE_v1.0.md) *(frozen baseline)*
 - `AGENTS.md`
 - `GARUDA_CONTEXT.md`
 - `GARUDA_WORKFLOW.md`
@@ -324,7 +327,7 @@ When conflicts exist:
 
 # Repository Bootstrap Sequence
 
-Every AI engineer shall initialize work using the following order:
+Every AI engineer shall begin with [`BOOTSTRAP.md`](BOOTSTRAP.md), then initialize work using the following order:
 
 1. `AGENTS.md`
 2. `GARUDA_CONTEXT.md`
