@@ -22,6 +22,30 @@ Every engineer, AI coding agent, reviewer, or contributor should begin here befo
 
 ---
 
+# Repository Entry Point
+
+```
+Repository Entry Point
+↓
+README.md
+↓
+engineering/AGENTS.md
+↓
+engineering/GARUDA_CONTEXT.md
+↓
+engineering/GARUDA_WORKFLOW.md
+↓
+engineering/GARUDA_GLOSSARY.md
+↓
+engineering/GARUDA_NAVIGATION.md
+↓
+Mission Specification
+↓
+Implementation
+```
+
+---
+
 # Engineering Document Hierarchy
 
 The engineering governance documents shall be read in the following order.
