@@ -6,6 +6,9 @@ from typing import Any
 
 from packages.objects import CanonicalObject, ValidationCategory, ValidationResult
 
+from .input import ExecutionInputCollection, validate_execution_input_collection
+from .provenance import ExecutionProvenance, validate_execution_provenance
+
 
 class ExecutionType(StrEnum):
     ACTION = "action"
@@ -73,6 +76,8 @@ class UniversalExecution(CanonicalObject):
         execution_outcome: ExecutionOutcome = ExecutionOutcome.UNKNOWN,
         execution_confidence: ExecutionConfidence | None = None,
         execution_metadata: ExecutionMetadata | None = None,
+        execution_inputs: ExecutionInputCollection | None = None,
+        execution_provenance: ExecutionProvenance | None = None,
         *args: Any,
         **kwargs: Any,
     ) -> None:
@@ -82,6 +87,8 @@ class UniversalExecution(CanonicalObject):
         self._execution_outcome = execution_outcome
         self._execution_confidence = execution_confidence or ExecutionConfidence()
         self._execution_metadata = execution_metadata or ExecutionMetadata()
+        self._execution_inputs = execution_inputs
+        self._execution_provenance = execution_provenance
         self.register_validation_hook(validate_execution)
 
     @property
@@ -104,8 +111,16 @@ class UniversalExecution(CanonicalObject):
     def execution_metadata(self) -> ExecutionMetadata:
         return self._execution_metadata
 
+    @property
+    def execution_inputs(self) -> ExecutionInputCollection | None:
+        return self._execution_inputs
+
+    @property
+    def execution_provenance(self) -> ExecutionProvenance | None:
+        return self._execution_provenance
+
     def to_dict(self) -> dict[str, Any]:
-        return {
+        payload: dict[str, Any] = {
             "schema_version": self.schema_version,
             "object_version": self.object_version,
             "object_type": self.object_type,
@@ -123,6 +138,11 @@ class UniversalExecution(CanonicalObject):
             "execution_confidence": self.execution_confidence.to_dict(),
             "execution_metadata": self.execution_metadata.to_dict(),
         }
+        if self.execution_inputs is not None:
+            payload["execution_inputs"] = self.execution_inputs.to_dict()
+        if self.execution_provenance is not None:
+            payload["execution_provenance"] = self.execution_provenance.to_dict()
+        return payload
 
 
 def validate_execution(obj: UniversalExecution) -> ValidationResult:
@@ -167,5 +187,13 @@ def validate_execution(obj: UniversalExecution) -> ValidationResult:
             field="execution_metadata",
             code="invalid_execution_metadata",
         )
+
+    execution_inputs = getattr(obj, "execution_inputs", None)
+    if execution_inputs is not None:
+        result.merge(validate_execution_input_collection(execution_inputs))
+
+    execution_provenance = getattr(obj, "execution_provenance", None)
+    if execution_provenance is not None:
+        result.merge(validate_execution_provenance(execution_provenance))
 
     return result
