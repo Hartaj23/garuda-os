@@ -320,7 +320,8 @@ When conflicts exist:
 4. `VERSION`
 5. Release Documentation
 6. `GARUDA_CONTEXT.md`
-7. Other Engineering Documentation
+7. `ENGINEERING_GOVERNANCE_v1.0.md` *(frozen baseline)*
+8. Other Engineering Documentation
 
 ---
 

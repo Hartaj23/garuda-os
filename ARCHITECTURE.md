@@ -28,6 +28,7 @@ Before implementing a change:
 
 Repository engineering governance is defined at the repository root:
 
+- `ENGINEERING_GOVERNANCE_v1.0.md` *(frozen baseline)*
 - `AGENTS.md`
 - `GARUDA_CONTEXT.md`
 - `GARUDA_WORKFLOW.md`

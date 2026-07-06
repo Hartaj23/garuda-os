@@ -22,6 +22,8 @@ The objective is not to generate code.
 
 The objective is to build Project Garuda correctly.
 
+Engineering Governance v1.0 is established in `ENGINEERING_GOVERNANCE_v1.0.md`. That document is frozen and records the baseline operating model.
+
 ---
 
 # Project Vision

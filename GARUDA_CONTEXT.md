@@ -43,6 +43,8 @@ Project Garuda is a constitutional operating system for intelligent autonomous s
 
 Development follows constitutional engineering.
 
+Engineering Governance v1.0 is complete. The frozen baseline is recorded in `ENGINEERING_GOVERNANCE_v1.0.md`.
+
 Architecture is governed by approved GAR constitutions.
 
 Implementation follows approved sprint missions.

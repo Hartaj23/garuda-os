@@ -48,6 +48,7 @@ Release Notes / Sprint Closure
 
 ## Related Documents
 
+- `ENGINEERING_GOVERNANCE_v1.0.md`
 - `AGENTS.md`
 - `GARUDA_WORKFLOW.md`
 - `PROMPTS.md`

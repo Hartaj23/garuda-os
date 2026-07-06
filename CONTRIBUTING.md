@@ -16,6 +16,8 @@ Garuda implementation follows constitutional architecture, approved sprint missi
 
 ## Engineering Governance v1.0
 
+The frozen baseline is recorded in [`ENGINEERING_GOVERNANCE_v1.0.md`](ENGINEERING_GOVERNANCE_v1.0.md).
+
 Before contributing, complete the repository bootstrap sequence in `GARUDA_NAVIGATION.md`:
 
 1. `AGENTS.md`
