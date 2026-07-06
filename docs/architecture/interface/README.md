@@ -9,6 +9,7 @@ Architecture documentation for the Interface Foundation implementing ADR-0011 un
 - [Overview](overview.md) — Mission Alpha foundation architecture
 - [Canonical Interface Contracts](canonical-interface-contracts.md) — Mission Bravo contract architecture
 - [Interface Lifecycle and Boundary Model](interface-lifecycle-boundary-model.md) — Mission Charlie lifecycle architecture
+- [Translation Framework](translation-framework.md) — Mission Delta translation architecture
 
 ## Related Authority
 
@@ -23,6 +24,7 @@ Architecture documentation for the Interface Foundation implementing ADR-0011 un
 | Alpha | Overview |
 | Bravo | Canonical Interface Contracts |
 | Charlie | Interface Lifecycle and Boundary Model |
-| Delta–Foxtrot | Deferred |
+| Delta | Translation Framework |
+| Echo–Foxtrot | Deferred |
 | Golf | Certification record (sprint documentation) |
 | Hotel | SDK architecture guide (deferred) |
