@@ -10,6 +10,7 @@ Architecture documentation for the Interface Foundation implementing ADR-0011 un
 - [Canonical Interface Contracts](canonical-interface-contracts.md) — Mission Bravo contract architecture
 - [Interface Lifecycle and Boundary Model](interface-lifecycle-boundary-model.md) — Mission Charlie lifecycle architecture
 - [Translation Framework](translation-framework.md) — Mission Delta translation architecture
+- [Validation Framework](validation-framework.md) — Mission Echo validation architecture
 
 ## Related Authority
 
@@ -25,6 +26,7 @@ Architecture documentation for the Interface Foundation implementing ADR-0011 un
 | Bravo | Canonical Interface Contracts |
 | Charlie | Interface Lifecycle and Boundary Model |
 | Delta | Translation Framework |
-| Echo–Foxtrot | Deferred |
+| Echo | Validation Framework |
+| Foxtrot | Deferred |
 | Golf | Certification record (sprint documentation) |
 | Hotel | SDK architecture guide (deferred) |

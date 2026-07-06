@@ -63,6 +63,21 @@ from .translation import (
     validate_translation_reversibility_descriptor,
 )
 
+from .validation import (
+    InterfaceValidationDescriptor,
+    InterfaceValidationMetadata,
+    InterfaceValidationOutcome,
+    InterfaceValidationPolicy,
+    InterfaceValidationRecord,
+    InterfaceValidationTarget,
+    InterfaceVersionCompatibilityRule,
+    compose_interface_validation_results,
+    evaluate_interface_artifact,
+    validate_interface_validation_policy,
+    validate_interface_validation_record,
+    validation_result_to_outcome,
+)
+
 __all__ = [
     "CanonicalInterfacePayload",
     "CanonicalInterfaceRequest",
@@ -85,6 +100,13 @@ __all__ = [
     "InterfaceLifecycleMetadata",
     "InterfaceLifecycleState",
     "InterfaceOrigin",
+    "InterfaceValidationDescriptor",
+    "InterfaceValidationMetadata",
+    "InterfaceValidationOutcome",
+    "InterfaceValidationPolicy",
+    "InterfaceValidationRecord",
+    "InterfaceValidationTarget",
+    "InterfaceVersionCompatibilityRule",
     "InterfaceResponseError",
     "InterfaceResponseErrorCollection",
     "InterfaceResponseResult",
@@ -94,6 +116,8 @@ __all__ = [
     "TranslationDirection",
     "TranslationMetadata",
     "TranslationReversibilityDescriptor",
+    "compose_interface_validation_results",
+    "evaluate_interface_artifact",
     "normalize_to_canonical_payload",
     "validate_canonical_interface_payload",
     "validate_canonical_interface_request",
@@ -116,7 +140,10 @@ __all__ = [
     "validate_interface_response_error_collection",
     "validate_interface_response_result",
     "validate_interface_response_warning",
+    "validate_interface_validation_policy",
+    "validate_interface_validation_record",
     "validate_translation_descriptor",
     "validate_translation_metadata",
     "validate_translation_reversibility_descriptor",
+    "validation_result_to_outcome",
 ]
