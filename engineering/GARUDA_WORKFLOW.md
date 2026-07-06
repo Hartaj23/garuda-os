@@ -98,11 +98,16 @@ Every mission finishes with a clean repository.
 
 Before implementation:
 
-- Read `engineering/AGENTS.md`
-- Read `engineering/GARUDA_CONTEXT.md`
-- Read applicable constitutions
-- Read approved sprint documents
-- Review current repository state
+1. Read `engineering/AGENTS.md`
+2. Read `engineering/GARUDA_CONTEXT.md`
+3. Read `engineering/GARUDA_WORKFLOW.md`
+4. Read `engineering/GARUDA_GLOSSARY.md`
+5. Read `engineering/GARUDA_NAVIGATION.md`
+6. Read applicable GAR Constitutions
+7. Read the approved sprint mission
+8. Review current repository state
+
+Implementation shall not begin until steps 1 through 7 are completed.
 
 Never begin implementation without understanding architectural boundaries.
 
@@ -277,8 +282,11 @@ Read:
 
 1. `engineering/AGENTS.md`
 2. `engineering/GARUDA_CONTEXT.md`
-3. Applicable constitutions
-4. Approved sprint documents
+3. `engineering/GARUDA_WORKFLOW.md`
+4. `engineering/GARUDA_GLOSSARY.md`
+5. `engineering/GARUDA_NAVIGATION.md`
+6. Applicable GAR Constitutions
+7. Approved Sprint Mission
 
 Never guess architecture.
 

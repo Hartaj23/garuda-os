@@ -143,6 +143,22 @@ Never begin the next mission automatically.
 
 ---
 
+# Required Reading Order
+
+Every AI engineer shall initialize its session in the following order:
+
+1. `AGENTS.md`
+2. `GARUDA_CONTEXT.md`
+3. `GARUDA_WORKFLOW.md`
+4. `GARUDA_GLOSSARY.md`
+5. `GARUDA_NAVIGATION.md`
+6. Applicable GAR Constitutions
+7. Approved Sprint Mission
+
+Implementation shall not begin until this sequence has been completed.
+
+---
+
 # Approval Gates
 
 - No implementation begins without explicit approval.

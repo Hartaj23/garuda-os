@@ -213,16 +213,32 @@ When conflicts exist:
 
 ---
 
+# Required Reading Order
+
+Every AI engineer shall initialize its session in the following order:
+
+1. `engineering/AGENTS.md`
+2. `engineering/GARUDA_CONTEXT.md`
+3. `engineering/GARUDA_WORKFLOW.md`
+4. `engineering/GARUDA_GLOSSARY.md`
+5. `engineering/GARUDA_NAVIGATION.md`
+6. Applicable GAR Constitutions
+7. Approved Sprint Mission
+
+Implementation shall not begin until this sequence has been completed.
+
+---
+
 # Quick Start for AI Engineers
 
-1. Read `engineering/GARUDA_NAVIGATION.md`
-2. Read `engineering/AGENTS.md`
-3. Read `engineering/GARUDA_CONTEXT.md`
-4. Read `engineering/GARUDA_WORKFLOW.md`
-5. Read `engineering/GARUDA_GLOSSARY.md`
-6. Read approved sprint mission
-7. Produce implementation plan
-8. Wait for architecture approval
+After completing the required reading order:
+
+1. Produce an implementation plan
+2. Wait for architecture approval
+3. Implement only approved scope
+4. Run verification
+5. Produce completion report
+6. Stop
 
 Never begin implementation before approval.
 
