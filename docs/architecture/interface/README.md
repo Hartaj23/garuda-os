@@ -31,4 +31,4 @@ Architecture documentation for the Interface Foundation implementing ADR-0011 un
 | Foxtrot | Interface Registry |
 | Golf | Deferred |
 | Golf | Certification record (sprint documentation) |
-| Hotel | SDK architecture guide (deferred) |
+| Hotel | SDK documentation (`docs/sdk/interface/`) |
