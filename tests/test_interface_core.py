@@ -25,6 +25,8 @@ class InterfaceCoreTest(unittest.TestCase):
             "validate_interface_foundation",
             "CanonicalInterfaceRequest",
             "CanonicalInterfaceResponse",
+            "InterfaceBoundaryModel",
+            "InterfaceArtifactLifecycle",
         ):
             self.assertIn(symbol, interface_pkg.__all__)
             self.assertTrue(hasattr(interface_pkg, symbol))

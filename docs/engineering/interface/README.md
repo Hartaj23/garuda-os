@@ -8,6 +8,7 @@ Engineering documentation for the Interface Foundation implementing ADR-0011 und
 
 - [Implementation](implementation.md) — Mission Alpha engineering summary
 - [Canonical Interface Contracts](canonical-interface-contracts.md) — Mission Bravo engineering summary
+- [Interface Lifecycle and Boundary Model](interface-lifecycle-boundary-model.md) — Mission Charlie engineering summary
 
 ## Related Authority
 
@@ -21,5 +22,6 @@ Engineering documentation for the Interface Foundation implementing ADR-0011 und
 | --- | --- |
 | Alpha | Implementation |
 | Bravo | Canonical Interface Contracts |
-| Charlie–Foxtrot | Deferred |
+| Charlie | Interface Lifecycle and Boundary Model |
+| Delta–Foxtrot | Deferred |
 | Hotel | SDK developer guide (deferred) |
