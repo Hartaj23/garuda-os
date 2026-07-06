@@ -93,6 +93,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 
 - [Universal Execution Framework](universal-execution-framework.md)
 - [Execution Input and Provenance Framework](execution-input-provenance-framework.md)
+- [Execution Serialization and Validation Certification](execution-serialization-validation.md)
 
 ## AI Implementation Notes
 
