@@ -21,7 +21,8 @@ Before contributing to Project Garuda, complete the repository bootstrap sequenc
 3. [GARUDA_WORKFLOW.md](../GARUDA_WORKFLOW.md)
 4. [GARUDA_GLOSSARY.md](../GARUDA_GLOSSARY.md)
 5. [GARUDA_NAVIGATION.md](../GARUDA_NAVIGATION.md)
-6. Mission Specification
+6. Applicable GAR Constitutions
+7. Approved Sprint Mission
 
 - [PROMPTS.md](../PROMPTS.md) *(optional)*
 

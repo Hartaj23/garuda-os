@@ -103,10 +103,11 @@ Before implementation:
 3. Read `GARUDA_WORKFLOW.md`
 4. Read `GARUDA_GLOSSARY.md`
 5. Read `GARUDA_NAVIGATION.md`
-6. Read the mission specification
-7. Review current repository state
+6. Read applicable GAR Constitutions
+7. Read the approved sprint mission
+8. Review current repository state
 
-Implementation shall not begin until steps 1 through 6 are completed.
+Implementation shall not begin until steps 1 through 7 are completed.
 
 Never begin implementation without understanding architectural boundaries.
 
@@ -284,7 +285,8 @@ Read:
 3. `GARUDA_WORKFLOW.md`
 4. `GARUDA_GLOSSARY.md`
 5. `GARUDA_NAVIGATION.md`
-6. Mission Specification
+6. Applicable GAR Constitutions
+7. Approved Sprint Mission
 
 Never guess architecture.
 

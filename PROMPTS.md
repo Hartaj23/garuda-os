@@ -17,7 +17,8 @@ Read:
 3. `GARUDA_WORKFLOW.md`
 4. `GARUDA_GLOSSARY.md`
 5. `GARUDA_NAVIGATION.md`
-6. Mission Specification
+6. Applicable GAR Constitutions
+7. Approved Sprint Mission
 
 Summarize the current repository state.
 
