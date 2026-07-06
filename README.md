@@ -28,6 +28,7 @@ Engineering governance documents are located under `engineering/`:
 - `engineering/GARUDA_WORKFLOW.md`
 - `engineering/GARUDA_GLOSSARY.md`
 - `engineering/GARUDA_NAVIGATION.md`
+- `engineering/PROMPTS.md`
 
 Every AI and human engineer should review these before contributing.
 

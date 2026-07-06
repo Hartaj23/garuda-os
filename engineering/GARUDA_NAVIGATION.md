@@ -114,7 +114,8 @@ Garuda/
 │   ├── GARUDA_CONTEXT.md
 │   ├── GARUDA_WORKFLOW.md
 │   ├── GARUDA_GLOSSARY.md
-│   └── GARUDA_NAVIGATION.md
+│   ├── GARUDA_NAVIGATION.md
+│   └── PROMPTS.md
 ├── README.md
 ├── VERSION
 ├── CHANGELOG.md
@@ -144,6 +145,7 @@ Garuda/
 | `engineering/GARUDA_WORKFLOW.md` | Engineering lifecycle |
 | `engineering/GARUDA_GLOSSARY.md` | Canonical terminology |
 | `engineering/GARUDA_NAVIGATION.md` | Repository navigation |
+| `engineering/PROMPTS.md` | AI prompt library |
 
 ---
 

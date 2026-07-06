@@ -15,6 +15,7 @@ Engineering governance documents live under [`engineering/`](../engineering/):
 - [GARUDA_WORKFLOW.md](../engineering/GARUDA_WORKFLOW.md)
 - [GARUDA_GLOSSARY.md](../engineering/GARUDA_GLOSSARY.md)
 - [GARUDA_NAVIGATION.md](../engineering/GARUDA_NAVIGATION.md)
+- [PROMPTS.md](../engineering/PROMPTS.md)
 
 Every AI and human engineer should review these before contributing.
 
