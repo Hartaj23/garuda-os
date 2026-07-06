@@ -203,16 +203,15 @@ Every AI engineer shall:
 3. Read `GARUDA_WORKFLOW.md`
 4. Read `GARUDA_GLOSSARY.md`
 5. Read `GARUDA_NAVIGATION.md`
-6. Read applicable GAR Constitutions
-7. Read the approved sprint mission
-8. Produce an implementation plan
-9. Wait for architecture approval
-10. Implement only approved scope
-11. Run verification
-12. Produce completion report
-13. Stop
+6. Read the mission specification
+7. Produce an implementation plan
+8. Wait for architecture approval
+9. Implement only approved scope
+10. Run verification
+11. Produce completion report
+12. Stop
 
-Implementation shall not begin until steps 1 through 7 are completed.
+Implementation shall not begin until steps 1 through 6 are completed.
 
 ---
 
