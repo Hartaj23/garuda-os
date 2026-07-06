@@ -88,6 +88,7 @@ Read before planning or implementation.
 | Path | Purpose |
 |---|---|
 | `README.md` | Project introduction |
+| `ENGINEERING.md` | Engineering governance index |
 | `VERSION` | Current repository version |
 | `CHANGELOG.md` | Release history |
 | `GAR-CODEX-CONTEXT.md` | Sprint and mission status record |
