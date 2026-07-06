@@ -60,12 +60,13 @@ Defines how Project Garuda is built.
 
 Defines implementation.
 
+- `README.md`
+- `VERSION`
+- `CHANGELOG.md`
 - `packages/`
 - `tests/`
 - `docs/`
-- `VERSION`
-- `CHANGELOG.md`
-- `README.md`
+- `scripts/`
 
 **Authority:** Implementation
 
@@ -197,40 +198,36 @@ Read before planning or implementation.
 
 ```
 Garuda/
-├── ENGINEERING_GOVERNANCE_v1.0.md
+├── README.md
+├── VERSION
+├── CHANGELOG.md
 ├── AGENTS.md
 ├── GARUDA_CONTEXT.md
 ├── GARUDA_WORKFLOW.md
 ├── GARUDA_GLOSSARY.md
 ├── GARUDA_NAVIGATION.md
-├── PROMPTS.md
-├── README.md
-├── VERSION
-├── CHANGELOG.md
-├── templates/
 ├── packages/
+├── tests/
 ├── docs/
-└── tests/
+└── scripts/
 ```
 
 **Repository Root**
 
 | Path | Purpose |
 |---|---|
-| `ENGINEERING_GOVERNANCE_v1.0.md` | Engineering Governance v1.0 frozen baseline |
+| `README.md` | Project introduction |
+| `VERSION` | Current repository version |
+| `CHANGELOG.md` | Release history |
 | `AGENTS.md` | AI engineering rules |
 | `GARUDA_CONTEXT.md` | Current repository state |
 | `GARUDA_WORKFLOW.md` | Engineering lifecycle |
 | `GARUDA_GLOSSARY.md` | Canonical terminology |
 | `GARUDA_NAVIGATION.md` | Repository navigation |
-| `PROMPTS.md` | AI prompt library |
-| `README.md` | Project introduction |
-| `VERSION` | Current repository version |
-| `CHANGELOG.md` | Release history |
-| `templates/` | Engineering document templates |
 | `packages/` | Production source code |
-| `docs/` | Architecture and engineering documentation |
 | `tests/` | Repository test suite |
+| `docs/` | Architecture and engineering documentation |
+| `scripts/` | Repository validation and tooling scripts |
 
 ---
 

@@ -55,6 +55,7 @@ Before contributing to Project Garuda, complete the repository bootstrap sequenc
 - [packages/](../packages/)
 - [tests/](../tests/)
 - [docs/](README.md)
+- [scripts/](../scripts/)
 
 ## Owner
 
