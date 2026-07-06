@@ -28,6 +28,7 @@ Approved sprint documents.
 - [GAR-SPRINT-0007 Closure Report](GAR-SPRINT-0007-closure-report.md)
 - [GAR-SPRINT-0008 Action Foundation Certification](GAR-SPRINT-0008-action-certification.md)
 - [GAR-SPRINT-0008 Closure Report](GAR-SPRINT-0008-closure-report.md)
+- [GAR-SPRINT-0009 Execution Foundation Certification](GAR-SPRINT-0009-execution-certification.md)
 
 ## AI Implementation Notes
 

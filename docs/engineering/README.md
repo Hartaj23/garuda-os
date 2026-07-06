@@ -96,6 +96,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Execution Serialization and Validation Certification](execution-serialization-validation.md)
 - [Execution Strategy Contract](execution-strategy-contract.md)
 - [Execution Chain Contract](execution-chain-contract.md)
+- [Execution Workspace](execution-workspace.md)
 
 ## AI Implementation Notes
 
