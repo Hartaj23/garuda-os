@@ -115,6 +115,14 @@ Read before planning or implementation.
 
 ---
 
+## Level 8 — Engineering Document Templates
+
+- `templates/`
+
+**Purpose:** Defines reusable planning, review, closure, and release document templates.
+
+---
+
 # Repository Structure
 
 ```
@@ -128,6 +136,7 @@ Garuda/
 ├── README.md
 ├── VERSION
 ├── CHANGELOG.md
+├── templates/
 ├── packages/
 ├── docs/
 └── tests/
@@ -146,6 +155,7 @@ Garuda/
 | `README.md` | Project introduction |
 | `VERSION` | Current repository version |
 | `CHANGELOG.md` | Release history |
+| `templates/` | Engineering document templates |
 | `packages/` | Production source code |
 | `docs/` | Architecture and engineering documentation |
 | `tests/` | Repository test suite |

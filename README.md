@@ -30,6 +30,8 @@ Engineering governance documents are located at the repository root:
 - `GARUDA_NAVIGATION.md`
 - `PROMPTS.md`
 
+Engineering document templates are located under `templates/`.
+
 Every AI and human engineer should review these before contributing.
 
 ## Current Release
