@@ -19,20 +19,13 @@ before code is added.
 
 ## Engineering Governance
 
-Project Garuda uses Constitutional Engineering.
-
-Engineering governance documents are located at the repository root:
+Before contributing to Project Garuda, review:
 
 - `AGENTS.md`
 - `GARUDA_CONTEXT.md`
 - `GARUDA_WORKFLOW.md`
 - `GARUDA_GLOSSARY.md`
 - `GARUDA_NAVIGATION.md`
-- `PROMPTS.md`
-
-Engineering document templates are located under `templates/`.
-
-Every AI and human engineer should review these before contributing.
 
 ## Current Release
 
