@@ -91,6 +91,10 @@ GAR-0001 through GAR-0015.
 - [Action Workspace](action-workspace.md)
 - [Action Foundation SDK Architecture Guide](../sdk/action-foundation/architecture-guide.md)
 
+## Universal Execution Framework
+
+- [Universal Execution Framework](universal-execution-framework.md)
+
 ## AI Implementation Notes
 
 Do not change architecture from implementation work. Raise ambiguity before coding.

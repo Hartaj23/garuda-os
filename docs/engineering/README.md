@@ -89,6 +89,10 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Action Workspace](action-workspace.md)
 - [Action Foundation SDK Developer Guide](../sdk/action-foundation/developer-guide.md)
 
+## Universal Execution Framework
+
+- [Universal Execution Framework](universal-execution-framework.md)
+
 ## AI Implementation Notes
 
 Engineering documentation must stay synchronized with implemented behavior.
