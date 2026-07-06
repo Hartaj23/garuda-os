@@ -4,7 +4,15 @@
 
 Contains Garuda documentation, architecture references, engineering guidance and sprint records.
 
-## Engineering Governance
+## Governance Layer
+
+### Constitutional Layer
+
+- [ARCHITECTURE.md](../ARCHITECTURE.md)
+- [Architecture Documentation](architecture/README.md)
+- [Sprint Records](sprints/README.md)
+
+### Engineering Layer
 
 Before contributing to Project Garuda, review:
 
@@ -13,6 +21,18 @@ Before contributing to Project Garuda, review:
 - [GARUDA_WORKFLOW.md](../GARUDA_WORKFLOW.md)
 - [GARUDA_GLOSSARY.md](../GARUDA_GLOSSARY.md)
 - [GARUDA_NAVIGATION.md](../GARUDA_NAVIGATION.md)
+- [PROMPTS.md](../PROMPTS.md) *(optional)*
+
+### Engineering Document Templates
+
+- [templates/README.md](../templates/README.md)
+- [mission-specification.md](../templates/mission-specification.md)
+- [implementation-plan.md](../templates/implementation-plan.md)
+- [approval.md](../templates/approval.md)
+- [architecture-review.md](../templates/architecture-review.md)
+- [completion-report.md](../templates/completion-report.md)
+- [release-notes.md](../templates/release-notes.md)
+- [sprint-closure.md](../templates/sprint-closure.md)
 
 ## Owner
 
