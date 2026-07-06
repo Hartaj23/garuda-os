@@ -27,11 +27,13 @@ Every engineer, AI coding agent, reviewer, or contributor should begin here befo
 ```
 GAR Constitutions
         ↓
-PROJECT_GARUDA_MASTER.md
+Architecture Decision Records
         ↓
-Engineering Handbook
+Sprint Specifications
         ↓
 Repository
+        ↓
+GAR-REFERENCE-0001 (descriptive reference)
 ```
 
 ## GAR Constitutions
@@ -54,10 +56,11 @@ Defines how Project Garuda is built.
 - `GARUDA_WORKFLOW.md`
 - `GARUDA_GLOSSARY.md`
 - `GARUDA_NAVIGATION.md`
+- [`GAR-REFERENCE-0001.md`](../GAR-REFERENCE-0001.md) *(descriptive institutional reference)*
 - `PROMPTS.md` *(optional)*
 - `templates/`
 
-**Authority:** Engineering governance
+**Authority:** Engineering governance (GAR-REFERENCE-0001 is descriptive only; not normative)
 
 ## Repository
 
@@ -112,6 +115,7 @@ The engineering governance documents shall be read in the following order.
 | `GARUDA_WORKFLOW.md` | Engineering lifecycle | Rare |
 | `GARUDA_GLOSSARY.md` | Canonical terminology | Occasional |
 | `GARUDA_NAVIGATION.md` | Repository navigation | Rare |
+| `GAR-REFERENCE-0001.md` | Constitutional engineering reference manual (descriptive) | Occasional |
 | `PROMPTS.md` *(optional)* | Reusable AI prompt templates | Occasional |
 
 ---
@@ -209,6 +213,7 @@ Garuda/
 ├── GARUDA_WORKFLOW.md
 ├── GARUDA_GLOSSARY.md
 ├── GARUDA_NAVIGATION.md
+├── GAR-REFERENCE-0001.md
 ├── packages/
 ├── tests/
 ├── docs/
@@ -227,6 +232,7 @@ Garuda/
 | `GARUDA_WORKFLOW.md` | Engineering lifecycle |
 | `GARUDA_GLOSSARY.md` | Canonical terminology |
 | `GARUDA_NAVIGATION.md` | Repository navigation |
+| `GAR-REFERENCE-0001.md` | Constitutional engineering reference manual (descriptive) |
 | `packages/` | Production source code |
 | `tests/` | Repository test suite |
 | `docs/` | Architecture and engineering documentation |

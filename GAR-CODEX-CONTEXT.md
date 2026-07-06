@@ -13,15 +13,15 @@ Future constitutional changes require Architecture Change Proposals under GAR-00
 
 ## Current release status
 
-v0.1.0-alpha is released.
-Historical release preparation records exist for v0.2.0-alpha through v0.9.0-alpha.
-v0.10.0-alpha is the current release prepared pending tag approval.
+v0.1.0-alpha through v0.9.0-alpha are released.
+v0.10.0-alpha is the current release (published; tag `v0.10.0-alpha` on commit `369a93b`).
 
 ## Current status
 
-GAR-SPRINT-0010 Complete.
-Interface Foundation (Phase II) implemented, certified, documented, and institutionally closed.
-Awaiting approval to tag `v0.10.0-alpha`.
+GAR-SPRINT-0010 complete and closed.
+Interface Foundation (Phase II) published at `v0.10.0-alpha`.
+GAR-REFERENCE-0001 (Constitutional Engineering Reference Manual) published.
+Governance baseline frozen. Sprint 0010 is the Canonical Foundation Reference for Phase II.
 
 ## Completed Sprint 2 missions
 
@@ -132,7 +132,11 @@ Awaiting approval to tag `v0.10.0-alpha`.
 
 ## Current next mission
 
-Awaiting explicit approval for release tag `v0.10.0-alpha`.
+No sprint authorized. Sprint 0011 requires separate constitutional and architectural authorization.
+
+## Institutional references
+
+- GAR-REFERENCE-0001 — Garuda Constitutional Engineering Reference Manual (descriptive, non-normative)
 
 ## Engineering workflow
 
