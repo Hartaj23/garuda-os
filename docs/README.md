@@ -4,6 +4,20 @@
 
 Contains Garuda documentation, architecture references, engineering guidance and sprint records.
 
+## Engineering Governance
+
+Project Garuda uses Constitutional Engineering.
+
+Engineering governance documents live under [`engineering/`](../engineering/):
+
+- [AGENTS.md](../engineering/AGENTS.md)
+- [GARUDA_CONTEXT.md](../engineering/GARUDA_CONTEXT.md)
+- [GARUDA_WORKFLOW.md](../engineering/GARUDA_WORKFLOW.md)
+- [GARUDA_GLOSSARY.md](../engineering/GARUDA_GLOSSARY.md)
+- [GARUDA_NAVIGATION.md](../engineering/GARUDA_NAVIGATION.md)
+
+Every AI and human engineer should review these before contributing.
+
 ## Owner
 
 Founding Team.
