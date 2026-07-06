@@ -1,6 +1,6 @@
 # Contributing to Garuda
 
-Garuda implementation follows constitutional architecture, approved sprint missions, and the repository engineering governance layer.
+Garuda implementation follows constitutional architecture, approved sprint missions, and Engineering Governance v1.0.
 
 ## Required Workflow
 
@@ -14,15 +14,17 @@ Garuda implementation follows constitutional architecture, approved sprint missi
 8. Run validation.
 9. Request architecture review before merge.
 
-## Engineering Governance
+## Engineering Governance v1.0
 
-Before contributing, review:
+Before contributing, complete the repository bootstrap sequence in `GARUDA_NAVIGATION.md`:
 
-- `AGENTS.md`
-- `GARUDA_CONTEXT.md`
-- `GARUDA_WORKFLOW.md`
-- `GARUDA_GLOSSARY.md`
-- `GARUDA_NAVIGATION.md`
+1. `AGENTS.md`
+2. `GARUDA_CONTEXT.md`
+3. `GARUDA_WORKFLOW.md`
+4. `GARUDA_GLOSSARY.md`
+5. `GARUDA_NAVIGATION.md`
+6. Applicable GAR Constitutions
+7. Approved Sprint Mission
 
 Optional resources:
 

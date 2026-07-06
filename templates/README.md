@@ -1,5 +1,11 @@
 # templates
 
+Engineering Document Templates v1.0
+
+Version: 1.0
+
+Last Updated: 2026-07-06
+
 ## Purpose
 
 Contains reusable engineering document templates for Project Garuda missions.

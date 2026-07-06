@@ -4,6 +4,12 @@
 
 Project Garuda — AI Engineering Operating Manual
 
+Version: 1.0
+
+Last Updated: 2026-07-06
+
+Document Owner: Project Garuda Engineering Governance
+
 ---
 
 # Purpose

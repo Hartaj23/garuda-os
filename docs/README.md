@@ -4,7 +4,7 @@
 
 Contains Garuda documentation, architecture references, engineering guidance and sprint records.
 
-## Governance Layer
+## Governance Layer v1.0
 
 ### Constitutional Layer
 

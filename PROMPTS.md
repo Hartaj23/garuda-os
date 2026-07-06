@@ -6,6 +6,10 @@ AI Prompt Library
 
 Version: 1.0
 
+Last Updated: 2026-07-06
+
+Document Owner: Project Garuda Engineering Governance
+
 ---
 
 ## Mission Kickoff

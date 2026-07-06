@@ -2,7 +2,7 @@
 
 # GARUDA_NAVIGATION.md
 
-Repository Navigation & Engineering Document Hierarchy
+Repository Navigation & Engineering Governance v1.0
 
 Version: 1.0
 
@@ -16,7 +16,7 @@ Change Frequency: Rare
 
 # Purpose
 
-This document serves as the entry point into Project Garuda.
+This document serves as the entry point into Project Garuda Engineering Governance v1.0.
 
 Every engineer, AI coding agent, reviewer, or contributor should begin here before navigating deeper into the repository.
 

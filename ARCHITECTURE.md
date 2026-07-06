@@ -24,7 +24,7 @@ Before implementing a change:
 6. Keep changes small, reviewable and traceable.
 7. Avoid future-sprint functionality.
 
-## Engineering Governance Layer
+## Engineering Governance Layer v1.0
 
 Repository engineering governance is defined at the repository root:
 

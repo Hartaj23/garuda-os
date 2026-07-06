@@ -17,7 +17,7 @@ documents, and the committed repository state.
 Implementation must remain traceable to those documents. Architectural ambiguity must be resolved
 before code is added.
 
-## Engineering Governance
+## Engineering Governance v1.0
 
 Project Garuda uses Constitutional Engineering.
 
