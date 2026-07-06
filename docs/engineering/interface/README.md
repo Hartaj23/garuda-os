@@ -11,6 +11,7 @@ Engineering documentation for the Interface Foundation implementing ADR-0011 und
 - [Interface Lifecycle and Boundary Model](interface-lifecycle-boundary-model.md) — Mission Charlie engineering summary
 - [Translation Framework](translation-framework.md) — Mission Delta engineering summary
 - [Validation Framework](validation-framework.md) — Mission Echo engineering summary
+- [Interface Registry](interface-registry.md) — Mission Foxtrot engineering summary
 
 ## Related Authority
 
@@ -27,5 +28,6 @@ Engineering documentation for the Interface Foundation implementing ADR-0011 und
 | Charlie | Interface Lifecycle and Boundary Model |
 | Delta | Translation Framework |
 | Echo | Validation Framework |
-| Foxtrot | Deferred |
+| Foxtrot | Interface Registry |
+| Golf | Deferred |
 | Hotel | SDK developer guide (deferred) |

@@ -30,6 +30,7 @@ class InterfaceCoreTest(unittest.TestCase):
             "CanonicalTranslationContract",
             "normalize_to_canonical_payload",
             "evaluate_interface_artifact",
+            "InterfaceRegistry",
         ):
             self.assertIn(symbol, interface_pkg.__all__)
             self.assertTrue(hasattr(interface_pkg, symbol))
