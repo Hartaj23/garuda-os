@@ -39,9 +39,7 @@ GARUDA_GLOSSARY.md
 ↓
 GARUDA_NAVIGATION.md
 ↓
-Applicable GAR Constitutions
-↓
-Approved Sprint Mission
+Mission Specification
 ↓
 Implementation
 ```
