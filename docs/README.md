@@ -43,6 +43,7 @@ Approved GAR architecture documents.
 - [Reasoning Foundation SDK](sdk/reasoning-foundation/README.md)
 - [Decision Foundation SDK](sdk/decision-foundation/README.md)
 - [Action Foundation SDK](sdk/action-foundation/README.md)
+- [Execution Foundation SDK](sdk/execution-foundation/README.md)
 
 ## AI Implementation Notes
 

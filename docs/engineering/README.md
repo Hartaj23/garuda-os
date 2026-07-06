@@ -97,6 +97,7 @@ GAR-0004, GAR-0011 and GAR-0012.
 - [Execution Strategy Contract](execution-strategy-contract.md)
 - [Execution Chain Contract](execution-chain-contract.md)
 - [Execution Workspace](execution-workspace.md)
+- [Execution Foundation SDK Developer Guide](../sdk/execution-foundation/developer-guide.md)
 
 ## AI Implementation Notes
 
