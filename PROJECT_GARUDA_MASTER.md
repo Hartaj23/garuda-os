@@ -143,19 +143,19 @@ constitutions and approved sprint plans.
 
 | Field | Value |
 | --- | --- |
-| Version | `v0.9.0-alpha` |
-| Git tag | `v0.9.0-alpha` — *Project Garuda v0.9.0-alpha* |
-| Sprint | GAR-SPRINT-0009 (Complete) |
-| Theme | Universal Execution Foundation |
-| Architecture baseline | GAR-0016 |
+| Version | `v0.10.0-alpha` |
+| Git tag | `v0.10.0-alpha` — *not created — pending explicit approval* |
+| Sprint | GAR-SPRINT-0010 (Complete) |
+| Theme | Interface Foundation (Phase II) |
+| Architecture baseline | GAR-0017 |
 
 ## Current Sprint
 
 | Field | Value |
 | --- | --- |
-| Active sprint | GAR-SPRINT-0010 |
-| Status | Planning — no approved mission specification |
-| Authorization | Not authorized for implementation |
+| Active sprint | None — GAR-SPRINT-0010 complete |
+| Status | Awaiting approval to tag `v0.10.0-alpha` |
+| Authorization | No implementation authorized |
 
 ## Completed Foundations
 
@@ -169,6 +169,7 @@ constitutions and approved sprint plans.
 | 5 | Decision | `packages/decision` | `v0.7.0-alpha` | Complete |
 | 6 | Action | `packages/action` | `v0.8.0-alpha` | Complete |
 | 7 | Execution | `packages/execution` | `v0.9.0-alpha` | Complete |
+| 8 | Interface (Phase II) | `packages/interface` | `v0.10.0-alpha` | Complete |
 
 ## Engineering Governance
 
@@ -185,9 +186,9 @@ Governance documents: `AGENTS.md`, `GARUDA_CONTEXT.md`, `GARUDA_WORKFLOW.md`, `G
 
 | Metric | Value |
 | --- | --- |
-| Foundations completed | 8 (including Platform Core) |
-| Complete test suite | 712 passing |
-| Execution Foundation suite | 105 passing |
+| Foundations completed | 9 (including Platform Core and Interface) |
+| Complete test suite | 806 passing |
+| Interface Foundation suite | PASS |
 | Repository foundation validation | PASS |
 | Engineering toolchain validation | PASS |
 | Repository status | Clean (tracked files) |
@@ -205,6 +206,7 @@ Governance documents: `AGENTS.md`, `GARUDA_CONTEXT.md`, `GARUDA_WORKFLOW.md`, `G
 | `v0.7.0-alpha` | GAR-SPRINT-0007 | Decision Foundation | Release prepared — tag not in repository |
 | `v0.8.0-alpha` | GAR-SPRINT-0008 | Action Foundation | Release prepared — tag not in repository |
 | `v0.9.0-alpha` | GAR-SPRINT-0009 | Execution Foundation | Tagged |
+| `v0.10.0-alpha` | GAR-SPRINT-0010 | Interface Foundation (Phase II) | Release prepared — tag pending approval |
 
 Release notes: [`docs/releases/`](docs/releases/README.md). Changelog: [`CHANGELOG.md`](CHANGELOG.md).
 
@@ -829,27 +831,24 @@ Long-term vision: a complete constitutional operating system for intelligent aut
 ## Today
 
 ```
-GAR-SPRINT-0009  →  Complete  →  v0.9.0-alpha tagged
+GAR-SPRINT-0010  →  Complete  →  v0.10.0-alpha prepared pending tag approval
         ↓
-GAR-SPRINT-0010  →  Planning  →  Awaiting mission specification
-        ↓
-Mission Alpha    →  Not authorized
+Future Phase II work  →  Requires separate constitutional authorization
 ```
 
 | Field | Value |
 | --- | --- |
-| Current release | `v0.9.0-alpha` |
-| Completed sprint | GAR-SPRINT-0009 |
-| Next sprint | GAR-SPRINT-0010 |
+| Current release | `v0.10.0-alpha` (prepared pending tag approval) |
+| Completed sprint | GAR-SPRINT-0010 |
+| Next sprint | Not authorized |
 | Next mission | Not specified |
 | Implementation authorized | No |
 | Architecture authorized | Awaiting Chief Systems Architect instructions |
 
 ## Immediate Actions Available
 
-1. Approve GAR-SPRINT-0010 mission specification
-2. Commit uncommitted governance files (`BOOTSTRAP.md`, navigation updates) if desired
-3. Tag missing releases (`v0.7.0-alpha`, `v0.8.0-alpha`) if retrospective tagging is approved
+1. Approve Git tag `v0.10.0-alpha` after review of Mission India institutional commit
+2. Authorize next Phase II sprint through constitutional process (GAR-0016 ACP if required)
 
 ---
 

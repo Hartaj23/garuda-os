@@ -57,9 +57,9 @@ Implementation follows approved sprint missions.
 |---|---|
 | Repository Status | Clean (tracked files) |
 | Current Branch | `master` |
-| Current Version | `v0.9.0-alpha` (prepared pending tag approval) |
-| Current Sprint | GAR-SPRINT-0009 (Complete) |
-| Current Mission | Awaiting approval to tag `v0.9.0-alpha` |
+| Current Version | `v0.10.0-alpha` (prepared pending tag approval) |
+| Current Sprint | GAR-SPRINT-0010 (Complete) |
+| Current Mission | Awaiting approval to tag `v0.10.0-alpha` |
 
 ---
 
@@ -133,7 +133,18 @@ Implementation follows approved sprint missions.
 | Field | Value |
 |---|---|
 | Status | Complete |
-| Release | `v0.9.0-alpha` (prepared pending tag approval) |
+| Release | `v0.9.0-alpha` |
+
+---
+
+## Interface Foundation
+
+| Field | Value |
+|---|---|
+| Status | Complete |
+| Release | `v0.10.0-alpha` (prepared pending tag approval) |
+| Phase | Phase II |
+| Constitutional authority | GAR-0017 v1.0 |
 
 ---
 
@@ -141,8 +152,10 @@ Implementation follows approved sprint missions.
 
 | Check | Result |
 |---|---|
-| Execution Foundation Suite (Alpha–Hotel) | 101 passed |
-| Complete Test Suite | 712 passed |
+| Interface Foundation Suite (Alpha–Hotel) | PASS |
+| Interface Foundation Certification | PASS |
+| Interface Foundation SDK verification | PASS |
+| Complete Test Suite | 806 passed |
 | Repository Foundation Validation | PASS |
 | Engineering Toolchain Validation | PASS |
 
@@ -238,9 +251,9 @@ These will be introduced only through future approved constitutions and sprint p
 
 | Field | Value |
 |---|---|
-| Current Sprint | GAR-SPRINT-0009 (Complete) |
-| Current Status | Awaiting approval to tag `v0.9.0-alpha` |
-| Next Milestone | GAR-SPRINT-0010 (planning begins after `v0.9.0-alpha` tag approval) |
+| Current Sprint | GAR-SPRINT-0010 (Complete) |
+| Current Status | Awaiting approval to tag `v0.10.0-alpha` |
+| Next Milestone | Future Phase II work requires separate constitutional authorization |
 
 ---
 

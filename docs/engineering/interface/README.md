@@ -29,5 +29,6 @@ Engineering documentation for the Interface Foundation implementing ADR-0011 und
 | Delta | Translation Framework |
 | Echo | Validation Framework |
 | Foxtrot | Interface Registry |
-| Golf | Deferred |
-| Hotel | SDK developer guide (deferred) |
+| Golf | Certification record |
+| Hotel | SDK documentation |
+| India | Sprint closure |

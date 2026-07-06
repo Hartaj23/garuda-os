@@ -252,9 +252,13 @@ Decision
 Action
 ↓
 Execution
+↓
+Interface Foundation (Phase II — GAR-0017)
 ```
 
-Future foundations shall extend this sequence.
+Phase I cognitive foundations are complete. Interface Foundation is the first Phase II foundation.
+
+Future foundations shall extend this sequence only through approved constitutional authority.
 
 ---
 

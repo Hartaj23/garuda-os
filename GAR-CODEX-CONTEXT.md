@@ -8,22 +8,20 @@ engineering, and AI-assisted implementation.
 ## Current architecture status
 
 GAR-0001 through GAR-0016 are complete and frozen at v1.0.
+GAR-0017 (Phase II Constitutional Extension) is complete and frozen at v1.0.
 Future constitutional changes require Architecture Change Proposals under GAR-0016.
 
 ## Current release status
 
 v0.1.0-alpha is released.
-Historical release preparation records exist for v0.2.0-alpha, v0.3.0-alpha and v0.4.0-alpha.
-Historical release preparation records exist for v0.5.0-alpha.
-Historical release preparation records exist for v0.6.0-alpha.
-Historical release preparation records exist for v0.7.0-alpha.
-Historical release preparation records exist for v0.8.0-alpha.
-v0.9.0-alpha is the current release prepared pending tag approval.
+Historical release preparation records exist for v0.2.0-alpha through v0.9.0-alpha.
+v0.10.0-alpha is the current release prepared pending tag approval.
 
 ## Current status
 
-GAR-SPRINT-0009 Complete.
-Awaiting approval to tag v0.9.0-alpha.
+GAR-SPRINT-0010 Complete.
+Interface Foundation (Phase II) implemented, certified, documented, and institutionally closed.
+Awaiting approval to tag `v0.10.0-alpha`.
 
 ## Completed Sprint 2 missions
 
@@ -120,9 +118,21 @@ Awaiting approval to tag v0.9.0-alpha.
 - Mission Hotel — Universal Execution Foundation SDK Documentation.
 - Mission India — Sprint Closure & Release Preparation.
 
+## Completed Sprint 10 missions
+
+- Mission Alpha — Interface Core.
+- Mission Bravo — Canonical Interface Contracts.
+- Mission Charlie — Interface Lifecycle and Boundary Model.
+- Mission Delta — Translation Framework.
+- Mission Echo — Validation Framework.
+- Mission Foxtrot — Interface Registry.
+- Mission Golf — Interface Foundation Certification.
+- Mission Hotel — Interface Foundation SDK Documentation.
+- Mission India — Sprint Closure & Release Preparation.
+
 ## Current next mission
 
-Awaiting explicit approval for release tag `v0.9.0-alpha`.
+Awaiting explicit approval for release tag `v0.10.0-alpha`.
 
 ## Engineering workflow
 

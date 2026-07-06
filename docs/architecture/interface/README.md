@@ -29,6 +29,6 @@ Architecture documentation for the Interface Foundation implementing ADR-0011 un
 | Delta | Translation Framework |
 | Echo | Validation Framework |
 | Foxtrot | Interface Registry |
-| Golf | Deferred |
-| Golf | Certification record (sprint documentation) |
+| Golf | Certification record |
 | Hotel | SDK documentation (`docs/sdk/interface/`) |
+| India | Sprint closure (institutional release) |

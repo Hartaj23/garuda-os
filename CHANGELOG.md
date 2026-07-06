@@ -4,6 +4,22 @@ All notable changes to Project Garuda will be documented in this file.
 
 The project follows semantic versioning as required by the repository architecture.
 
+## v0.10.0-alpha - 2026-07-06
+
+### Added
+
+- Interface Foundation (Phase II) under `packages.interface` as the constitutional realization of
+  the Garuda Constitutional Membrane (GAR-0017, ADR-0011).
+- Interface Core with Platform Core inheritance baseline (Mission Alpha).
+- Canonical Interface Contracts for request and response communication (Mission Bravo).
+- Interface Lifecycle and Boundary Model with constitutional membrane exclusivity (Mission Charlie).
+- Translation Framework with inbound `normalize_to_canonical_payload` (Mission Delta).
+- Validation Framework with deterministic `evaluate_interface_artifact` (Mission Echo).
+- Interface Registry as process-local descriptive catalog (Mission Foxtrot).
+- Interface Foundation certification suite with ten constitutional scenarios (Mission Golf).
+- Interface Foundation SDK documentation with 80/80 public API coverage (Mission Hotel).
+- Sprint closure report and release notes for `v0.10.0-alpha`.
+
 ## v0.9.0-alpha - 2026-07-06
 
 ### Added

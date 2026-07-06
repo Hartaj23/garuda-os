@@ -3,7 +3,7 @@
 Garuda is the Operating System for Human Intelligence.
 
 This repository is the monorepo foundation for Project Garuda. It now includes the
-GAR-SPRINT-0009 Universal Execution Foundation prepared for release as `v0.9.0-alpha`.
+GAR-SPRINT-0010 Interface Foundation prepared for release as `v0.10.0-alpha`.
 
 No intelligence, trading, broker integration, portfolio management, authentication, Knowledge
 Graph, Context Engine, reasoning engine, Workflow Engine, query engine, retrieval engine, search
@@ -11,7 +11,7 @@ engine, persistence or database design is implemented in this release.
 
 ## Source Of Truth
 
-The governing architecture documents are `GAR-0001` through `GAR-0016`, the approved sprint
+The governing architecture documents are `GAR-0001` through `GAR-0017`, the approved sprint
 documents, and the committed repository state.
 
 Implementation must remain traceable to those documents. Architectural ambiguity must be resolved
@@ -44,10 +44,11 @@ across AI coding agents.
 
 ## Current Release
 
-- Release: `v0.9.0-alpha`
-- Sprint: GAR-SPRINT-0009
-- Status: Universal Execution Foundation release prepared pending tag approval
-- Recommended tag: `v0.9.0-alpha`
+- Release: `v0.10.0-alpha`
+- Sprint: GAR-SPRINT-0010
+- Status: Interface Foundation release prepared pending tag approval
+- Recommended tag: `v0.10.0-alpha`
+- Previous release: `v0.9.0-alpha`
 
 ## Platform Core
 
@@ -156,6 +157,19 @@ GAR-SPRINT-0009 delivers the service-independent Universal Execution Foundation 
 - Platform Integration & Quality Certification
 - Universal Execution Foundation SDK Documentation
 
+## Interface Foundation
+
+GAR-SPRINT-0010 delivers the Interface Foundation under `packages/interface`:
+
+- Interface Core
+- Canonical Interface Contracts
+- Interface Lifecycle and Boundary Model
+- Translation Framework
+- Validation Framework
+- Interface Registry
+- Interface Foundation Certification
+- Interface Foundation SDK Documentation
+
 ## Documentation
 
 - [Platform Core SDK](docs/sdk/platform-core/README.md)
@@ -166,6 +180,7 @@ GAR-SPRINT-0009 delivers the service-independent Universal Execution Foundation 
 - [Decision Foundation SDK](docs/sdk/decision-foundation/README.md)
 - [Action Foundation SDK](docs/sdk/action-foundation/README.md)
 - [Execution Foundation SDK](docs/sdk/execution-foundation/README.md)
+- [Interface Foundation SDK](docs/sdk/interface/README.md)
 - [Sprint 2 Closure Report](docs/sprints/GAR-SPRINT-0002-closure-report.md)
 - [Sprint 3 Closure Report](docs/sprints/GAR-SPRINT-0003-closure-report.md)
 - [Sprint 4 Closure Report](docs/sprints/GAR-SPRINT-0004-closure-report.md)
@@ -174,6 +189,7 @@ GAR-SPRINT-0009 delivers the service-independent Universal Execution Foundation 
 - [Sprint 7 Closure Report](docs/sprints/GAR-SPRINT-0007-closure-report.md)
 - [Sprint 8 Closure Report](docs/sprints/GAR-SPRINT-0008-closure-report.md)
 - [Sprint 9 Closure Report](docs/sprints/GAR-SPRINT-0009-closure-report.md)
+- [Sprint 10 Closure Report](docs/sprints/GAR-SPRINT-0010-closure-report.md)
 - [v0.2.0-alpha Release Notes](docs/releases/v0.2.0-alpha.md)
 - [v0.3.0-alpha Release Notes](docs/releases/v0.3.0-alpha.md)
 - [v0.4.0-alpha Release Notes](docs/releases/v0.4.0-alpha.md)
@@ -182,6 +198,7 @@ GAR-SPRINT-0009 delivers the service-independent Universal Execution Foundation 
 - [v0.7.0-alpha Release Notes](docs/releases/v0.7.0-alpha.md)
 - [v0.8.0-alpha Release Notes](docs/releases/v0.8.0-alpha.md)
 - [v0.9.0-alpha Release Notes](docs/releases/v0.9.0-alpha.md)
+- [v0.10.0-alpha Release Notes](docs/releases/v0.10.0-alpha.md)
 - [Developer Onboarding](docs/developer-onboarding.md)
 
 ## Quick Start
