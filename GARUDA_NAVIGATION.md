@@ -22,6 +22,54 @@ Every engineer, AI coding agent, reviewer, or contributor should begin here befo
 
 ---
 
+# Governance Hierarchy
+
+```
+GAR Constitutions
+        ↓
+Engineering Handbook
+        ↓
+Repository
+```
+
+## GAR Constitutions
+
+Defines what Project Garuda is.
+
+- GAR-INDEX
+- GAR-0001 through GAR-0024
+
+**Authority:** Highest
+
+## Engineering Handbook
+
+Defines how Project Garuda is built.
+
+- `AGENTS.md`
+- `GARUDA_CONTEXT.md`
+- `GARUDA_WORKFLOW.md`
+- `GARUDA_GLOSSARY.md`
+- `GARUDA_NAVIGATION.md`
+- `PROMPTS.md` *(optional)*
+- `templates/`
+
+**Authority:** Engineering governance
+
+## Repository
+
+Defines implementation.
+
+- `packages/`
+- `tests/`
+- `docs/`
+- `VERSION`
+- `CHANGELOG.md`
+- `README.md`
+
+**Authority:** Implementation
+
+---
+
 # Repository Entry Point
 
 ```

@@ -6,13 +6,21 @@ Contains Garuda documentation, architecture references, engineering guidance and
 
 ## Governance Layer v1.0
 
-### Constitutional Layer
+```
+GAR Constitutions
+        ↓
+Engineering Handbook
+        ↓
+Repository
+```
+
+### GAR Constitutions
 
 - [ARCHITECTURE.md](../ARCHITECTURE.md)
 - [Architecture Documentation](architecture/README.md)
 - [Sprint Records](sprints/README.md)
 
-### Engineering Layer
+### Engineering Handbook
 
 Before contributing to Project Garuda, complete the repository bootstrap sequence:
 
@@ -36,6 +44,15 @@ Before contributing to Project Garuda, complete the repository bootstrap sequenc
 - [completion-report.md](../templates/completion-report.md)
 - [release-notes.md](../templates/release-notes.md)
 - [sprint-closure.md](../templates/sprint-closure.md)
+
+### Repository
+
+- [README.md](../README.md)
+- [VERSION](../VERSION)
+- [CHANGELOG.md](../CHANGELOG.md)
+- [packages/](../packages/)
+- [tests/](../tests/)
+- [docs/](README.md)
 
 ## Owner
 
