@@ -3,7 +3,7 @@
 Garuda is the Operating System for Human Intelligence.
 
 This repository is the monorepo foundation for Project Garuda. It now includes the
-GAR-SPRINT-0008 Universal Action Foundation prepared for release as `v0.8.0-alpha`.
+GAR-SPRINT-0009 Universal Execution Foundation prepared for release as `v0.9.0-alpha`.
 
 No intelligence, trading, broker integration, portfolio management, authentication, Knowledge
 Graph, Context Engine, reasoning engine, Workflow Engine, query engine, retrieval engine, search
@@ -37,12 +37,17 @@ The frozen baseline is recorded in [`ENGINEERING_GOVERNANCE_v1.0.md`](ENGINEERIN
 
 See also [`docs/README.md`](docs/README.md) for the full governance layer index.
 
+## Current Status
+
+Project Garuda now includes an AI Engineering Governance layer that standardizes implementation
+across AI coding agents.
+
 ## Current Release
 
-- Release: `v0.8.0-alpha`
-- Sprint: GAR-SPRINT-0008
-- Status: Universal Action Foundation release prepared pending tag approval
-- Recommended tag: `v0.8.0-alpha`
+- Release: `v0.9.0-alpha`
+- Sprint: GAR-SPRINT-0009
+- Status: Universal Execution Foundation release prepared pending tag approval
+- Recommended tag: `v0.9.0-alpha`
 
 ## Platform Core
 
@@ -137,6 +142,20 @@ GAR-SPRINT-0008 delivers the service-independent Universal Action Foundation und
 - Platform Integration & Quality Certification
 - Universal Action Foundation SDK Documentation
 
+## Universal Execution Foundation
+
+GAR-SPRINT-0009 delivers the service-independent Universal Execution Foundation under
+`packages/execution`:
+
+- Universal Execution Framework
+- Execution Input & Provenance Framework
+- Execution Serialization & Validation Certification
+- Execution Strategy Contract
+- Execution Chain Contract
+- Execution Workspace
+- Platform Integration & Quality Certification
+- Universal Execution Foundation SDK Documentation
+
 ## Documentation
 
 - [Platform Core SDK](docs/sdk/platform-core/README.md)
@@ -146,6 +165,7 @@ GAR-SPRINT-0008 delivers the service-independent Universal Action Foundation und
 - [Reasoning Foundation SDK](docs/sdk/reasoning-foundation/README.md)
 - [Decision Foundation SDK](docs/sdk/decision-foundation/README.md)
 - [Action Foundation SDK](docs/sdk/action-foundation/README.md)
+- [Execution Foundation SDK](docs/sdk/execution-foundation/README.md)
 - [Sprint 2 Closure Report](docs/sprints/GAR-SPRINT-0002-closure-report.md)
 - [Sprint 3 Closure Report](docs/sprints/GAR-SPRINT-0003-closure-report.md)
 - [Sprint 4 Closure Report](docs/sprints/GAR-SPRINT-0004-closure-report.md)
@@ -153,6 +173,7 @@ GAR-SPRINT-0008 delivers the service-independent Universal Action Foundation und
 - [Sprint 6 Closure Report](docs/sprints/GAR-SPRINT-0006-closure-report.md)
 - [Sprint 7 Closure Report](docs/sprints/GAR-SPRINT-0007-closure-report.md)
 - [Sprint 8 Closure Report](docs/sprints/GAR-SPRINT-0008-closure-report.md)
+- [Sprint 9 Closure Report](docs/sprints/GAR-SPRINT-0009-closure-report.md)
 - [v0.2.0-alpha Release Notes](docs/releases/v0.2.0-alpha.md)
 - [v0.3.0-alpha Release Notes](docs/releases/v0.3.0-alpha.md)
 - [v0.4.0-alpha Release Notes](docs/releases/v0.4.0-alpha.md)
@@ -160,6 +181,7 @@ GAR-SPRINT-0008 delivers the service-independent Universal Action Foundation und
 - [v0.6.0-alpha Release Notes](docs/releases/v0.6.0-alpha.md)
 - [v0.7.0-alpha Release Notes](docs/releases/v0.7.0-alpha.md)
 - [v0.8.0-alpha Release Notes](docs/releases/v0.8.0-alpha.md)
+- [v0.9.0-alpha Release Notes](docs/releases/v0.9.0-alpha.md)
 - [Developer Onboarding](docs/developer-onboarding.md)
 
 ## Quick Start
@@ -200,10 +222,10 @@ Garuda is modular, observable, explainable, secure, documented and testable. Eve
 have one clear responsibility and must avoid hidden business logic.
 
 Platform Core, Memory Foundation, Knowledge Foundation, Context Foundation, Universal Reasoning
-Foundation, Universal Decision Foundation and Universal Action Foundation remain
-service-independent and domain-neutral.
+Foundation, Universal Decision Foundation, Universal Action Foundation and Universal Execution
+Foundation remain service-independent and domain-neutral.
 Persistence, REST endpoints, database storage, event bus publishing, workflow execution, reasoning
-execution, inference, decision execution, action execution, outcome computation, scheduling,
-orchestration, AI integration, Knowledge Graph behavior, Context Engine behavior, query engines,
-retrieval engines, search engines, trading systems and portfolio systems remain out of scope until
-explicitly approved in future architecture and sprint work.
+execution, inference, decision execution, action execution, execution behavior, outcome computation,
+scheduling, orchestration, AI integration, Knowledge Graph behavior, Context Engine behavior, query
+engines, retrieval engines, search engines, trading systems and portfolio systems remain out of scope
+until explicitly approved in future architecture and sprint work.

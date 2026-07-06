@@ -4,6 +4,39 @@ All notable changes to Project Garuda will be documented in this file.
 
 The project follows semantic versioning as required by the repository architecture.
 
+## v0.9.0-alpha - 2026-07-06
+
+### Added
+
+- Universal Execution Framework for platform Execution objects, execution types, execution states,
+  outcomes, confidence, metadata and Platform Core inheritance.
+- Execution Input & Provenance Framework for opaque execution input references, input collections,
+  execution origins and descriptive provenance records.
+- Execution serialization and validation certification with deterministic Execution payloads and
+  Platform Core validation compatibility.
+- Execution Strategy Contract for descriptive strategy type, metadata, strategy and contract models.
+- Execution Chain Contract for descriptive chain type, metadata, step reference, chain and contract
+  models using opaque execution identifiers.
+- Execution Workspace for process-local `UniversalExecution` references with exact identifier add,
+  get, remove, enumerate, clear, statistics and validation behavior.
+- Execution Foundation platform integration certification suite and permanent sprint certification
+  record.
+- Universal Execution Foundation SDK documentation covering developer usage, architecture, API
+  reference, best practices, extensions and examples.
+- Sprint closure report and release notes for `v0.9.0-alpha`.
+
+### Engineering Improvements
+
+- AI Engineering Operating Manual (`AGENTS.md`).
+- Repository Context guide (`GARUDA_CONTEXT.md`).
+- Engineering Workflow guide (`GARUDA_WORKFLOW.md`).
+- Canonical Terminology glossary (`GARUDA_GLOSSARY.md`).
+- Repository Navigation guide (`GARUDA_NAVIGATION.md`).
+- Engineering Governance v1.0 baseline (`ENGINEERING_GOVERNANCE_v1.0.md`).
+
+These are repository engineering improvements. They standardize implementation across AI coding
+agents and do not introduce new platform functionality.
+
 ## v0.8.0-alpha - 2026-07-05
 
 ### Added

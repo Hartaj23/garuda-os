@@ -76,10 +76,12 @@ Approved GAR architecture documents.
 - GAR-SPRINT-0006
 - GAR-SPRINT-0007
 - GAR-SPRINT-0008
+- GAR-SPRINT-0009
 
 ## Release Documentation
 
 - [Releases](releases/README.md)
+- [v0.9.0-alpha Release Notes](releases/v0.9.0-alpha.md)
 - [v0.8.0-alpha Release Notes](releases/v0.8.0-alpha.md)
 - [v0.7.0-alpha Release Notes](releases/v0.7.0-alpha.md)
 - [v0.6.0-alpha Release Notes](releases/v0.6.0-alpha.md)

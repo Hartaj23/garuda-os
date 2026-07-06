@@ -57,10 +57,9 @@ Implementation follows approved sprint missions.
 |---|---|
 | Repository Status | Clean (tracked files) |
 | Current Branch | `master` |
-| Commits Ahead of Origin | 27 |
-| Current Version | `v0.9.0-alpha` (in progress) |
-| Current Sprint | GAR-SPRINT-0009 |
-| Current Mission | Mission India — Sprint Closure & Release Preparation (awaiting approval) |
+| Current Version | `v0.9.0-alpha` (prepared pending tag approval) |
+| Current Sprint | GAR-SPRINT-0009 (Complete) |
+| Current Mission | Awaiting approval to tag `v0.9.0-alpha` |
 
 ---
 
@@ -133,10 +132,8 @@ Implementation follows approved sprint missions.
 
 | Field | Value |
 |---|---|
-| Status | In Progress |
-| Completed Missions | Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel |
-| Remaining Missions | India |
-| Target Release | `v0.9.0-alpha` |
+| Status | Complete |
+| Release | `v0.9.0-alpha` (prepared pending tag approval) |
 
 ---
 
@@ -241,9 +238,9 @@ These will be introduced only through future approved constitutions and sprint p
 
 | Field | Value |
 |---|---|
-| Current Sprint | GAR-SPRINT-0009 |
-| Current Mission | Mission India — Sprint Closure & Release Preparation |
-| After Sprint 9 | Release `v0.9.0-alpha`; Sprint 10 per approved roadmap |
+| Current Sprint | GAR-SPRINT-0009 (Complete) |
+| Current Status | Awaiting approval to tag `v0.9.0-alpha` |
+| Next Milestone | GAR-SPRINT-0010 (planning begins after `v0.9.0-alpha` tag approval) |
 
 ---
 
