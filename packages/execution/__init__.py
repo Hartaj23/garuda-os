@@ -39,6 +39,13 @@ from .strategy import (
     validate_execution_strategy_contract,
     validate_execution_strategy_metadata,
 )
+from .workspace import (
+    ExecutionWorkspace,
+    WorkspaceStatistics,
+    validate_execution_reference,
+    validate_execution_workspace,
+    validate_workspace_statistics,
+)
 
 __all__ = [
     "ExecutionChain",
@@ -60,7 +67,9 @@ __all__ = [
     "ExecutionStrategyMetadata",
     "ExecutionStrategyType",
     "ExecutionType",
+    "ExecutionWorkspace",
     "UniversalExecution",
+    "WorkspaceStatistics",
     "validate_execution",
     "validate_execution_chain",
     "validate_execution_chain_contract",
@@ -72,4 +81,7 @@ __all__ = [
     "validate_execution_strategy",
     "validate_execution_strategy_contract",
     "validate_execution_strategy_metadata",
+    "validate_execution_reference",
+    "validate_execution_workspace",
+    "validate_workspace_statistics",
 ]
