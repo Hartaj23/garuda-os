@@ -17,6 +17,20 @@ documents, and the committed repository state.
 Implementation must remain traceable to those documents. Architectural ambiguity must be resolved
 before code is added.
 
+## Engineering Governance
+
+Project Garuda uses Constitutional Engineering.
+
+Engineering governance documents are located under `engineering/`:
+
+- `engineering/AGENTS.md`
+- `engineering/GARUDA_CONTEXT.md`
+- `engineering/GARUDA_WORKFLOW.md`
+- `engineering/GARUDA_GLOSSARY.md`
+- `engineering/GARUDA_NAVIGATION.md`
+
+Every AI and human engineer should review these before contributing.
+
 ## Current Release
 
 - Release: `v0.8.0-alpha`
