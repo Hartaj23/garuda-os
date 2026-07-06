@@ -7,6 +7,7 @@ Engineering documentation for the Interface Foundation implementing ADR-0011 und
 ## Documents
 
 - [Implementation](implementation.md) — Mission Alpha engineering summary
+- [Canonical Interface Contracts](canonical-interface-contracts.md) — Mission Bravo engineering summary
 
 ## Related Authority
 
@@ -19,5 +20,6 @@ Engineering documentation for the Interface Foundation implementing ADR-0011 und
 | Mission | Engineering documents |
 | --- | --- |
 | Alpha | Implementation |
-| Bravo–Foxtrot | Deferred |
+| Bravo | Canonical Interface Contracts |
+| Charlie–Foxtrot | Deferred |
 | Hotel | SDK developer guide (deferred) |

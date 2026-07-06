@@ -18,12 +18,16 @@ class InterfaceCoreTest(unittest.TestCase):
     def test_package_exports_import_cleanly(self) -> None:
         import packages.interface as interface_pkg
 
-        self.assertEqual(interface_pkg.__all__, [
+        for symbol in (
             "InterfaceFoundation",
             "InterfaceFoundationCategory",
             "InterfaceFoundationMetadata",
             "validate_interface_foundation",
-        ])
+            "CanonicalInterfaceRequest",
+            "CanonicalInterfaceResponse",
+        ):
+            self.assertIn(symbol, interface_pkg.__all__)
+            self.assertTrue(hasattr(interface_pkg, symbol))
 
     def test_interface_foundation_inherits_platform_core_object_behavior(self) -> None:
         foundation = InterfaceFoundation(

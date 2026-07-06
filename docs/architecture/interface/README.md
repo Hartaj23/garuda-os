@@ -7,6 +7,7 @@ Architecture documentation for the Interface Foundation implementing ADR-0011 un
 ## Documents
 
 - [Overview](overview.md) — Mission Alpha foundation architecture
+- [Canonical Interface Contracts](canonical-interface-contracts.md) — Mission Bravo contract architecture
 
 ## Related Authority
 
@@ -19,6 +20,7 @@ Architecture documentation for the Interface Foundation implementing ADR-0011 un
 | Mission | Architecture documents |
 | --- | --- |
 | Alpha | Overview |
-| Bravo–Foxtrot | Deferred |
+| Bravo | Canonical Interface Contracts |
+| Charlie–Foxtrot | Deferred |
 | Golf | Certification record (sprint documentation) |
 | Hotel | SDK architecture guide (deferred) |
