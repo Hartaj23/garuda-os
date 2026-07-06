@@ -1,4 +1,4 @@
-# Mission Completion Report
+# Completion Report
 
 ## Mission
 

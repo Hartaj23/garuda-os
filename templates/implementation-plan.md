@@ -48,6 +48,8 @@
 
 <!-- Conditions that define mission completion. -->
 
-## Awaiting Architecture Approval
+## Approval
 
-No files shall be modified until this plan receives explicit approval.
+Record approval using [approval.md](approval.md).
+
+No files shall be modified until approval is recorded.

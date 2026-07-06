@@ -121,6 +121,16 @@ Read before planning or implementation.
 
 **Purpose:** Defines reusable planning, review, closure, and release document templates.
 
+**Templates:**
+
+- `templates/mission-specification.md`
+- `templates/implementation-plan.md`
+- `templates/approval.md`
+- `templates/architecture-review.md`
+- `templates/completion-report.md`
+- `templates/release-notes.md`
+- `templates/sprint-closure.md`
+
 ---
 
 # Repository Structure
