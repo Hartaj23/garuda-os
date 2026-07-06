@@ -1,3 +1,14 @@
+from .chain import (
+    ExecutionChain,
+    ExecutionChainContract,
+    ExecutionChainMetadata,
+    ExecutionChainType,
+    ExecutionStepReference,
+    validate_execution_chain,
+    validate_execution_chain_contract,
+    validate_execution_chain_metadata,
+    validate_execution_step_reference,
+)
 from .core import (
     ExecutionConfidence,
     ExecutionMetadata,
@@ -30,6 +41,10 @@ from .strategy import (
 )
 
 __all__ = [
+    "ExecutionChain",
+    "ExecutionChainContract",
+    "ExecutionChainMetadata",
+    "ExecutionChainType",
     "ExecutionConfidence",
     "ExecutionInputCollection",
     "ExecutionInputReference",
@@ -39,6 +54,7 @@ __all__ = [
     "ExecutionOutcome",
     "ExecutionProvenance",
     "ExecutionState",
+    "ExecutionStepReference",
     "ExecutionStrategy",
     "ExecutionStrategyContract",
     "ExecutionStrategyMetadata",
@@ -46,9 +62,13 @@ __all__ = [
     "ExecutionType",
     "UniversalExecution",
     "validate_execution",
+    "validate_execution_chain",
+    "validate_execution_chain_contract",
+    "validate_execution_chain_metadata",
     "validate_execution_input_collection",
     "validate_execution_input_reference",
     "validate_execution_provenance",
+    "validate_execution_step_reference",
     "validate_execution_strategy",
     "validate_execution_strategy_contract",
     "validate_execution_strategy_metadata",

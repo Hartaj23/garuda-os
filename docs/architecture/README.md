@@ -97,6 +97,7 @@ GAR-0001 through GAR-0015.
 - [Execution Input and Provenance Framework](execution-input-provenance-framework.md)
 - [Execution Serialization and Validation Certification](execution-serialization-validation.md)
 - [Execution Strategy Contract](execution-strategy-contract.md)
+- [Execution Chain Contract](execution-chain-contract.md)
 
 ## AI Implementation Notes
 
