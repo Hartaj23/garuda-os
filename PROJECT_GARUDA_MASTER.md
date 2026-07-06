@@ -16,24 +16,29 @@ Status: Living architectural reference — not a constitutional document
 
 # Document Authority
 
-This document is the **single architectural reference for onboarding and continuity** in Project
-Garuda. It synthesizes vision, status, architecture, history, governance, and roadmap context for
-new architecture threads, human architects, and senior contributors.
+`PROJECT_GARUDA_MASTER.md` is the primary architectural onboarding and continuity reference for
+Project Garuda.
 
-**It is not the supreme source of truth.**
+It synthesizes the current architecture, repository, sprint history, and engineering approach.
 
-Authority order:
+It does not replace:
 
-1. GAR Constitutions (GAR-0001 through the latest approved GAR document)
-2. Approved Sprint Documents
+- GAR Constitutions (architectural authority)
+- Approved Sprint Specifications (implementation authority)
+- Committed Repository State (implementation truth)
+- [`GARUDA_CONTEXT.md`](GARUDA_CONTEXT.md) (live operational state)
+
+When conflicts exist, precedence shall be:
+
+1. GAR Constitutions
+2. Approved Sprint Specifications
 3. Committed Repository State
-4. [`VERSION`](VERSION)
-5. Release Documentation
-6. [`GARUDA_CONTEXT.md`](GARUDA_CONTEXT.md) — live operational state
-7. This document and other Engineering Governance documents
+4. [`VERSION`](VERSION) / Release Documentation
+5. [`GARUDA_CONTEXT.md`](GARUDA_CONTEXT.md)
+6. `PROJECT_GARUDA_MASTER.md`
+7. Engineering Handbook
 
-When this document conflicts with GAR Constitutions or committed repository state, the higher
-authority wins. Part IV contains executive summaries only — never substitutes for full GAR text.
+Part IV contains executive summaries only — never substitutes for full GAR text.
 
 ---
 
