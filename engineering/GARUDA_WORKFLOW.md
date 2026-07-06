@@ -98,8 +98,8 @@ Every mission finishes with a clean repository.
 
 Before implementation:
 
-- Read `AGENTS.md`
-- Read `GARUDA_CONTEXT.md`
+- Read `engineering/AGENTS.md`
+- Read `engineering/GARUDA_CONTEXT.md`
 - Read applicable constitutions
 - Read approved sprint documents
 - Review current repository state
@@ -275,8 +275,8 @@ If uncertainty exists:
 
 Read:
 
-1. `AGENTS.md`
-2. `GARUDA_CONTEXT.md`
+1. `engineering/AGENTS.md`
+2. `engineering/GARUDA_CONTEXT.md`
 3. Applicable constitutions
 4. Approved sprint documents
 
@@ -308,7 +308,7 @@ This document evolves only when the engineering process changes.
 
 It shall not record repository state.
 
-Repository state belongs in `GARUDA_CONTEXT.md`.
+Repository state belongs in `engineering/GARUDA_CONTEXT.md`.
 
 Architectural rules belong in the GAR constitutions.
 

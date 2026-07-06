@@ -39,7 +39,7 @@ These documents are the highest architectural authority.
 
 ## Level 2 — AI Engineering
 
-- `AGENTS.md`
+- `engineering/AGENTS.md`
 
 **Purpose:** Defines how AI engineers behave.
 
@@ -49,7 +49,7 @@ Read before performing any work.
 
 ## Level 3 — Repository Context
 
-- `GARUDA_CONTEXT.md`
+- `engineering/GARUDA_CONTEXT.md`
 
 **Purpose:** Defines the current repository state.
 
@@ -59,7 +59,7 @@ Read before planning or implementation.
 
 ## Level 4 — Engineering Workflow
 
-- `GARUDA_WORKFLOW.md`
+- `engineering/GARUDA_WORKFLOW.md`
 
 **Purpose:** Defines how work progresses through planning, implementation, testing, review, and release.
 
@@ -67,9 +67,17 @@ Read before planning or implementation.
 
 ## Level 5 — Canonical Terminology
 
-- `GARUDA_GLOSSARY.md`
+- `engineering/GARUDA_GLOSSARY.md`
 
 **Purpose:** Defines the canonical language of Project Garuda.
+
+---
+
+## Level 6 — Repository Navigation
+
+- `engineering/GARUDA_NAVIGATION.md`
+
+**Purpose:** Defines the engineering document hierarchy and repository entry point.
 
 ---
 
@@ -82,13 +90,21 @@ Read before planning or implementation.
 | `README.md` | Project introduction |
 | `VERSION` | Current repository version |
 | `CHANGELOG.md` | Release history |
-| `AGENTS.md` | AI engineering rules |
-| `GARUDA_CONTEXT.md` | Current repository state |
-| `GARUDA_WORKFLOW.md` | Engineering lifecycle |
-| `GARUDA_GLOSSARY.md` | Canonical terminology |
+| `GAR-CODEX-CONTEXT.md` | Sprint and mission status record |
+| `engineering/` | AI engineering governance documents |
 | `docs/` | Architecture and engineering documentation |
 | `packages/` | Production source code |
 | `tests/` | Repository test suite |
+
+**engineering/**
+
+| Path | Purpose |
+|---|---|
+| `engineering/AGENTS.md` | AI engineering rules |
+| `engineering/GARUDA_CONTEXT.md` | Current repository state |
+| `engineering/GARUDA_WORKFLOW.md` | Engineering lifecycle |
+| `engineering/GARUDA_GLOSSARY.md` | Canonical terminology |
+| `engineering/GARUDA_NAVIGATION.md` | Repository navigation |
 
 ---
 
@@ -177,20 +193,21 @@ When conflicts exist:
 3. Committed Repository State
 4. `VERSION`
 5. Release Documentation
-6. `GARUDA_CONTEXT.md`
+6. `engineering/GARUDA_CONTEXT.md`
 7. Other Engineering Documentation
 
 ---
 
 # Quick Start for AI Engineers
 
-1. Read `AGENTS.md`
-2. Read `GARUDA_CONTEXT.md`
-3. Read `GARUDA_WORKFLOW.md`
-4. Read `GARUDA_GLOSSARY.md`
-5. Read approved sprint mission
-6. Produce implementation plan
-7. Wait for architecture approval
+1. Read `engineering/GARUDA_NAVIGATION.md`
+2. Read `engineering/AGENTS.md`
+3. Read `engineering/GARUDA_CONTEXT.md`
+4. Read `engineering/GARUDA_WORKFLOW.md`
+5. Read `engineering/GARUDA_GLOSSARY.md`
+6. Read approved sprint mission
+7. Produce implementation plan
+8. Wait for architecture approval
 
 Never begin implementation before approval.
 
@@ -206,7 +223,7 @@ Update this document only when:
 
 Do not record repository state here.
 
-Repository state belongs only in `GARUDA_CONTEXT.md`.
+Repository state belongs only in `engineering/GARUDA_CONTEXT.md`.
 
 ---
 
