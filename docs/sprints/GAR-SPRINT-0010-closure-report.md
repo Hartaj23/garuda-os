@@ -59,7 +59,7 @@ Canonical inventory of institutional artifacts produced by Sprint 0010.
 | Mission Foxtrot commit | `81adac0` | Complete |
 | Mission Golf commit | `d542f51` | Complete |
 | Mission Hotel commit | `da111fe` | Complete |
-| Mission India commit | `058c48f1e17c0b821b1cc4fbd4531f98f376d0b8` | Complete |
+| Mission India commit | `fe34f8ccf4b31188eb7b1dae286a996b9faf6898` | Complete |
 | Certification record | [GAR-SPRINT-0010-interface-certification.md](GAR-SPRINT-0010-interface-certification.md) | Complete |
 | SDK documentation | [docs/sdk/interface/](../sdk/interface/README.md) | Complete |
 | Release notes | [v0.10.0-alpha.md](../releases/v0.10.0-alpha.md) | Complete |
@@ -79,7 +79,7 @@ Canonical inventory of institutional artifacts produced by Sprint 0010.
 | Foxtrot — Interface Registry | GAR-REVIEW-S10-006 | `81adac0` |
 | Golf — Certification | GAR-REVIEW-S10-007 | `d542f51` |
 | Hotel — SDK Documentation | GAR-REVIEW-S10-008 | `da111fe` |
-| India — Institutional Release | GAR-REVIEW-S10-009 | `9b8182d` |
+| India — Institutional Release | GAR-REVIEW-S10-009 | `fe34f8ccf4b31188eb7b1dae286a996b9faf6898` |
 
 ## Repository State Snapshot
 
@@ -88,7 +88,7 @@ Reproducible release state recorded at Mission India completion.
 | Field | Value |
 | --- | --- |
 | Repository branch | `master` |
-| Release commit | `9b8182d86f17da9617e15d419b4ff3483b9f4f5a` |
+| Release commit | `fe34f8ccf4b31188eb7b1dae286a996b9faf6898` |
 | Previous release | `v0.9.0-alpha` (GAR-SPRINT-0009) |
 | Target release | `v0.10.0-alpha` (GAR-SPRINT-0010) |
 | Total regression count | 806 tests passed |
@@ -208,7 +208,7 @@ traceable practical examples using implemented APIs only.
 - Validation is descriptive evaluator semantics — no live external system integration.
 - Registry returns catalog metadata only — no instantiation or execution.
 - Docker compose validation may be skipped when Docker CLI is unavailable.
-- Git tag `v0.10.0-alpha` has not been created — pending explicit approval.
+- Git tag `v0.10.0-alpha` created on release documentation alignment commit — see Release Tag Checklist.
 
 ## Release Preparation
 
@@ -229,8 +229,8 @@ traceable practical examples using implemented APIs only.
 | Closure report published | Complete |
 | Release manifest complete | Complete |
 | Version consistency verified | Complete |
-| Founder approval for tag | Pending |
-| `git tag v0.10.0-alpha` | **Not authorized in Mission India** |
+| Founder approval for tag | Complete |
+| `git tag v0.10.0-alpha` | Created on release documentation alignment commit |
 
 ## Documentation Synchronization Checklist
 
