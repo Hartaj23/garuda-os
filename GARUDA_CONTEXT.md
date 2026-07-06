@@ -14,7 +14,7 @@ Last Updated: 2026-07-06
 
 This document contains the current operational state of Project Garuda.
 
-Unlike `engineering/AGENTS.md`, which defines engineering behavior, this document tracks the evolving state of the repository.
+Unlike `AGENTS.md`, which defines engineering behavior, this document tracks the evolving state of the repository.
 
 It is updated as the project evolves and serves as the primary context source for AI engineers and human contributors.
 
@@ -198,11 +198,11 @@ Each mission requires:
 
 Every AI engineer shall:
 
-1. Read `engineering/AGENTS.md`
-2. Read `engineering/GARUDA_CONTEXT.md`
-3. Read `engineering/GARUDA_WORKFLOW.md`
-4. Read `engineering/GARUDA_GLOSSARY.md`
-5. Read `engineering/GARUDA_NAVIGATION.md`
+1. Read `AGENTS.md`
+2. Read `GARUDA_CONTEXT.md`
+3. Read `GARUDA_WORKFLOW.md`
+4. Read `GARUDA_GLOSSARY.md`
+5. Read `GARUDA_NAVIGATION.md`
 6. Read applicable GAR Constitutions
 7. Read the approved sprint mission
 8. Produce an implementation plan

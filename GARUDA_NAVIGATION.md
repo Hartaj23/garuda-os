@@ -29,15 +29,17 @@ Repository Entry Point
 ↓
 README.md
 ↓
-engineering/AGENTS.md
+AGENTS.md
 ↓
-engineering/GARUDA_CONTEXT.md
+GARUDA_CONTEXT.md
 ↓
-engineering/GARUDA_WORKFLOW.md
+GARUDA_WORKFLOW.md
 ↓
-engineering/GARUDA_GLOSSARY.md
+GARUDA_GLOSSARY.md
 ↓
-engineering/GARUDA_NAVIGATION.md
+GARUDA_NAVIGATION.md
+↓
+PROMPTS.md
 ↓
 Mission Specification
 ↓
@@ -63,7 +65,7 @@ These documents are the highest architectural authority.
 
 ## Level 2 — AI Engineering
 
-- `engineering/AGENTS.md`
+- `AGENTS.md`
 
 **Purpose:** Defines how AI engineers behave.
 
@@ -73,7 +75,7 @@ Read before performing any work.
 
 ## Level 3 — Repository Context
 
-- `engineering/GARUDA_CONTEXT.md`
+- `GARUDA_CONTEXT.md`
 
 **Purpose:** Defines the current repository state.
 
@@ -83,7 +85,7 @@ Read before planning or implementation.
 
 ## Level 4 — Engineering Workflow
 
-- `engineering/GARUDA_WORKFLOW.md`
+- `GARUDA_WORKFLOW.md`
 
 **Purpose:** Defines how work progresses through planning, implementation, testing, review, and release.
 
@@ -91,7 +93,7 @@ Read before planning or implementation.
 
 ## Level 5 — Canonical Terminology
 
-- `engineering/GARUDA_GLOSSARY.md`
+- `GARUDA_GLOSSARY.md`
 
 **Purpose:** Defines the canonical language of Project Garuda.
 
@@ -99,9 +101,17 @@ Read before planning or implementation.
 
 ## Level 6 — Repository Navigation
 
-- `engineering/GARUDA_NAVIGATION.md`
+- `GARUDA_NAVIGATION.md`
 
 **Purpose:** Defines the engineering document hierarchy and repository entry point.
+
+---
+
+## Level 7 — AI Prompt Library
+
+- `PROMPTS.md`
+
+**Purpose:** Defines reusable AI engineering prompts.
 
 ---
 
@@ -109,13 +119,12 @@ Read before planning or implementation.
 
 ```
 Garuda/
-├── engineering/
-│   ├── AGENTS.md
-│   ├── GARUDA_CONTEXT.md
-│   ├── GARUDA_WORKFLOW.md
-│   ├── GARUDA_GLOSSARY.md
-│   ├── GARUDA_NAVIGATION.md
-│   └── PROMPTS.md
+├── AGENTS.md
+├── GARUDA_CONTEXT.md
+├── GARUDA_WORKFLOW.md
+├── GARUDA_GLOSSARY.md
+├── GARUDA_NAVIGATION.md
+├── PROMPTS.md
 ├── README.md
 ├── VERSION
 ├── CHANGELOG.md
@@ -128,24 +137,18 @@ Garuda/
 
 | Path | Purpose |
 |---|---|
+| `AGENTS.md` | AI engineering rules |
+| `GARUDA_CONTEXT.md` | Current repository state |
+| `GARUDA_WORKFLOW.md` | Engineering lifecycle |
+| `GARUDA_GLOSSARY.md` | Canonical terminology |
+| `GARUDA_NAVIGATION.md` | Repository navigation |
+| `PROMPTS.md` | AI prompt library |
 | `README.md` | Project introduction |
 | `VERSION` | Current repository version |
 | `CHANGELOG.md` | Release history |
-| `engineering/` | AI engineering governance documents |
 | `packages/` | Production source code |
 | `docs/` | Architecture and engineering documentation |
 | `tests/` | Repository test suite |
-
-**engineering/**
-
-| Path | Purpose |
-|---|---|
-| `engineering/AGENTS.md` | AI engineering rules |
-| `engineering/GARUDA_CONTEXT.md` | Current repository state |
-| `engineering/GARUDA_WORKFLOW.md` | Engineering lifecycle |
-| `engineering/GARUDA_GLOSSARY.md` | Canonical terminology |
-| `engineering/GARUDA_NAVIGATION.md` | Repository navigation |
-| `engineering/PROMPTS.md` | AI prompt library |
 
 ---
 
@@ -234,7 +237,7 @@ When conflicts exist:
 3. Committed Repository State
 4. `VERSION`
 5. Release Documentation
-6. `engineering/GARUDA_CONTEXT.md`
+6. `GARUDA_CONTEXT.md`
 7. Other Engineering Documentation
 
 ---
@@ -243,11 +246,11 @@ When conflicts exist:
 
 Every AI engineer shall initialize its session in the following order:
 
-1. `engineering/AGENTS.md`
-2. `engineering/GARUDA_CONTEXT.md`
-3. `engineering/GARUDA_WORKFLOW.md`
-4. `engineering/GARUDA_GLOSSARY.md`
-5. `engineering/GARUDA_NAVIGATION.md`
+1. `AGENTS.md`
+2. `GARUDA_CONTEXT.md`
+3. `GARUDA_WORKFLOW.md`
+4. `GARUDA_GLOSSARY.md`
+5. `GARUDA_NAVIGATION.md`
 6. Applicable GAR Constitutions
 7. Approved Sprint Mission
 
@@ -280,7 +283,7 @@ Update this document only when:
 
 Do not record repository state here.
 
-Repository state belongs only in `engineering/GARUDA_CONTEXT.md`.
+Repository state belongs only in `GARUDA_CONTEXT.md`.
 
 ---
 
