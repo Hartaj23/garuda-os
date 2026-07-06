@@ -288,18 +288,35 @@ Implementation shall not begin until this sequence has been completed.
 
 ---
 
-# Quick Start for AI Engineers
+# AI Engineer Workflow
 
-After completing the repository bootstrap sequence:
+```
+Open Cursor
+↓
+Read AGENTS.md
+↓
+Read GARUDA_CONTEXT.md
+↓
+Read Mission
+↓
+Produce Plan
+↓
+Wait
+↓
+Approve
+↓
+Implement
+↓
+Review
+↓
+Commit
+```
 
-1. Produce an implementation plan
-2. Wait for architecture approval
-3. Implement only approved scope
-4. Run verification
-5. Produce completion report
-6. Stop
+Complete the repository bootstrap sequence before beginning this workflow.
 
 Never begin implementation before approval.
+
+Do not begin the next mission automatically.
 
 ---
 
