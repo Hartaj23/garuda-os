@@ -33,6 +33,8 @@ Before contributing to Project Garuda, complete the repository bootstrap sequenc
 
 `GARUDA_NAVIGATION.md` is the engineering governance entry point. It links the constitutional layer, engineering layer, `PROMPTS.md`, and `templates/`.
 
+The frozen baseline is recorded in [`ENGINEERING_GOVERNANCE_v1.0.md`](ENGINEERING_GOVERNANCE_v1.0.md).
+
 See also [`docs/README.md`](docs/README.md) for the full governance layer index.
 
 ## Current Release

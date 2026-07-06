@@ -45,6 +45,7 @@ Defines what Project Garuda is.
 
 Defines how Project Garuda is built.
 
+- `ENGINEERING_GOVERNANCE_v1.0.md` *(frozen baseline)*
 - `AGENTS.md`
 - `GARUDA_CONTEXT.md`
 - `GARUDA_WORKFLOW.md`
@@ -196,6 +197,7 @@ Read before planning or implementation.
 
 ```
 Garuda/
+├── ENGINEERING_GOVERNANCE_v1.0.md
 ├── AGENTS.md
 ├── GARUDA_CONTEXT.md
 ├── GARUDA_WORKFLOW.md
@@ -215,6 +217,7 @@ Garuda/
 
 | Path | Purpose |
 |---|---|
+| `ENGINEERING_GOVERNANCE_v1.0.md` | Engineering Governance v1.0 frozen baseline |
 | `AGENTS.md` | AI engineering rules |
 | `GARUDA_CONTEXT.md` | Current repository state |
 | `GARUDA_WORKFLOW.md` | Engineering lifecycle |

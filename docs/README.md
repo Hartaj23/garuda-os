@@ -22,6 +22,8 @@ Repository
 
 ### Engineering Handbook
 
+- [ENGINEERING_GOVERNANCE_v1.0.md](../ENGINEERING_GOVERNANCE_v1.0.md) *(frozen baseline)*
+
 Before contributing to Project Garuda, complete the repository bootstrap sequence:
 
 1. [AGENTS.md](../AGENTS.md)
