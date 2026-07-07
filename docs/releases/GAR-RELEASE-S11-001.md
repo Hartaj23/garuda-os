@@ -39,7 +39,7 @@ artifacts, version alignment, and release traceability only.
 | Foxtrot | Integration Registry | `121365c` | Complete |
 | Golf | Integration Foundation Certification | GAR-CERT-S11-001 (India publication) | Complete |
 | Hotel | Integration Foundation SDK Documentation | `459ae1b` | Complete |
-| India | Institutional Release and Sprint Closure | Mission India commit | Complete |
+| India | Institutional Release and Sprint Closure | `273a4da` | Complete |
 
 ---
 
@@ -74,7 +74,7 @@ artifacts, version alignment, and release traceability only.
 | Foxtrot — Integration Registry | GAR-REVIEW-S11-006 | `121365c` |
 | Golf — Certification | GAR-REVIEW-S11-007 | GAR-CERT-S11-001 (India) |
 | Hotel — SDK Documentation | GAR-REVIEW-S11-008 | `459ae1b` |
-| India — Institutional Release | GAR-REVIEW-S11-009 | Mission India commit |
+| India — Institutional Release | GAR-REVIEW-S11-009 | `273a4da` |
 
 ---
 
