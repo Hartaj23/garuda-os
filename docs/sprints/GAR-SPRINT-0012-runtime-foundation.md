@@ -742,10 +742,13 @@ Full principle-level mapping: see ADR-0013 Constitutional Traceability appendix.
 | Mission Echo authorization | **Granted** — implementation authorized for Mission Echo only |
 | Mission Echo implementation | **Complete** — `78c365d` |
 | GAR-REVIEW-S12-005 | **Approved** |
-| Missions Foxtrot–India | Not authorized |
-| Implementation | Missions Alpha–Echo complete; Foxtrot–India blocked |
+| Mission Foxtrot authorization | **Granted** — implementation authorized for Mission Foxtrot only |
+| Mission Foxtrot implementation | **Complete** — `e9de697` |
+| GAR-REVIEW-S12-006 | **Approved** |
+| Missions Golf–India | Not authorized |
+| Implementation | Missions Alpha–Foxtrot complete; Golf–India blocked |
 
-Missions Alpha through Echo are institutionally complete. Missions Foxtrot–India require separate Founder authorization after mission review.
+Missions Alpha through Foxtrot are institutionally complete. Missions Golf–India require separate Founder authorization after mission review.
 
 ---
 
