@@ -33,6 +33,7 @@ Approved sprint documents.
 - [GAR-SPRINT-0010 Interface Foundation](GAR-SPRINT-0010-interface-foundation.md)
 - [GAR-SPRINT-0010 Interface Foundation Certification](GAR-SPRINT-0010-interface-certification.md)
 - [GAR-SPRINT-0010 Closure Report](GAR-SPRINT-0010-closure-report.md)
+- [GAR-SPRINT-0011 Integration Foundation](GAR-SPRINT-0011-integration-foundation.md)
 
 ## AI Implementation Notes
 
