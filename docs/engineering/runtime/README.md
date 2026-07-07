@@ -12,6 +12,7 @@ Engineering documentation for the Runtime Foundation implementing ADR-0013 under
 - [Runtime Context Classification](runtime-context-classification.md) — Mission Delta engineering summary
 - [Runtime Validation Framework](runtime-validation-framework.md) — Mission Echo engineering summary
 - [Runtime Registry](runtime-registry.md) — Mission Foxtrot engineering summary
+- [Runtime Foundation Certification](runtime-foundation-certification.md) — Mission Golf engineering summary
 
 ## Related Authority
 
@@ -29,6 +30,6 @@ Engineering documentation for the Runtime Foundation implementing ADR-0013 under
 | Delta | Runtime Context Classification |
 | Echo | Runtime Validation Framework |
 | Foxtrot | Runtime Registry |
-| Golf | Certification record (pending) |
+| Golf | Runtime Foundation Certification |
 | Hotel | SDK documentation (pending) |
 | India | Sprint closure (pending) |
