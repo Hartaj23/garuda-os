@@ -25,8 +25,9 @@ Integration Foundation (Phase II) published at `v0.11.0-alpha`.
 GAR-0019 ratified — Runtime Foundation authorized at constitutional level (descriptive External
 Runtime Governance only). ADR-0013 approved v1.0. GAR-SPRINT-0012 architecturally approved.
 GAR-SPRINT-0012 Mission Alpha complete — GAR-REVIEW-S12-001 approved (`a33f2d1`).
-Missions Bravo–India not authorized.
-Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorization for Mission Bravo.
+GAR-SPRINT-0012 Mission Bravo complete — GAR-REVIEW-S12-002 approved (`626e7f3`).
+Missions Charlie–India not authorized.
+Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorization for Mission Charlie.
 
 ## Completed Sprint 11 missions
 
@@ -42,8 +43,8 @@ Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorizatio
 
 ## Current next mission
 
-GAR-SPRINT-0012 Mission Bravo — Runtime Contracts.
-Not authorized — requires separate Founder authorization after Mission Alpha closure.
+GAR-SPRINT-0012 Mission Charlie — Runtime Lifecycle and Boundary Model.
+Not authorized — requires separate Founder authorization after Mission Bravo closure.
 
 ## Completed Sprint 2 missions
 
@@ -155,6 +156,7 @@ Not authorized — requires separate Founder authorization after Mission Alpha c
 ## Completed Sprint 12 missions
 
 - Mission Alpha — Runtime Core — approved in GAR-REVIEW-S12-001.
+- Mission Bravo — Runtime Contracts — approved in GAR-REVIEW-S12-002.
 
 ## Institutional references
 
