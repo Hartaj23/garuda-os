@@ -2,16 +2,16 @@ Project:
 Garuda OS
 
 Version:
-0.11.0-alpha
+0.12.0-alpha
 
 Architecture:
-GAR-0018
+GAR-0019
 
 Sprint:
-GAR-SPRINT-0011
+GAR-SPRINT-0012
 
 Status:
-Integration Foundation release published
+Runtime Foundation release published
 
 Last Updated:
 2026-07-07

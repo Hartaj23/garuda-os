@@ -4,6 +4,26 @@ All notable changes to Project Garuda will be documented in this file.
 
 The project follows semantic versioning as required by the repository architecture.
 
+## v0.12.0-alpha - 2026-07-07
+
+### Added
+
+- Runtime Foundation (External Runtime Governance) under `packages.runtime` as the constitutional
+  realization of descriptive external runtime governance (GAR-0019, ADR-0013).
+- Runtime Core with Platform Core inheritance baseline (Mission Alpha).
+- Runtime Contracts with dual subordination to Integration and Interface contracts (Mission Bravo).
+- Runtime Lifecycle and Boundary Model with stack traversal semantics (Mission Charlie).
+- Runtime Context Classification with pure deterministic evaluation (Mission Delta).
+- Validation Framework with deterministic `evaluate_runtime_artifact`, variability containment, and
+  operational runtime exclusion (Mission Echo).
+- Runtime Registry as process-local descriptive catalog (Mission Foxtrot).
+- Runtime Foundation certification with fourteen constitutional scenarios — GAR-CERT-S12-001 (Mission
+  Golf).
+- Runtime Foundation SDK documentation with 102/102 public API coverage and tripartite distinction
+  guide (Mission Hotel).
+- Institutional release report GAR-RELEASE-S12-001, sprint closure report, and release notes for
+  `v0.12.0-alpha`.
+
 ## v0.11.0-alpha - 2026-07-07
 
 ### Added

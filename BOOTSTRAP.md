@@ -204,6 +204,8 @@ The following sections change as releases complete. All other sections remain in
 | --- | --- |
 | GAR-0001 through GAR-0016 | Frozen v1.0 — Phase I |
 | GAR-0017 | Frozen v1.0 — Phase II Constitutional Extension |
+| GAR-0018 | Frozen v1.0 — Phase II Constitutional Extension (Integration) |
+| GAR-0019 | Ratified v1.0 — External Capability Expansion (Runtime) |
 
 ## Completed ADRs
 
@@ -211,6 +213,8 @@ The following sections change as releases complete. All other sections remain in
 | --- | --- |
 | ADR-0001 through ADR-0010 | Phase I foundations |
 | ADR-0011 | Interface Foundation (Phase II) |
+| ADR-0012 | Integration Foundation (Phase II) |
+| ADR-0013 | Runtime Foundation (External Capability Expansion) |
 
 ## Completed Foundations
 
@@ -225,12 +229,14 @@ The following sections change as releases complete. All other sections remain in
 | Action | `v0.8.0-alpha` | Phase I |
 | Execution | `v0.9.0-alpha` | Phase I |
 | Interface | `v0.10.0-alpha` | Phase II |
+| Integration | `v0.11.0-alpha` | Phase II |
+| Runtime | `v0.12.0-alpha` | External Capability Expansion |
 
 ## Canonical Sprint
 
 | Field | Value |
 | --- | --- |
-| Canonical exemplar | GAR-SPRINT-0010 — Interface Foundation |
+| Canonical exemplar | GAR-SPRINT-0012 — Runtime Foundation |
 | Reference manual | GAR-REFERENCE-0001 |
 
 ## Repository Status
@@ -239,7 +245,7 @@ The following sections change as releases complete. All other sections remain in
 | --- | --- |
 | Repository State | Published |
 | Working Tree | Clean (excluding local `.cursor/`) |
-| Current Release | `v0.10.0-alpha` |
+| Current Release | `v0.12.0-alpha` |
 | Governance Baseline | Checkpoint 029 (Frozen) |
 
 If this snapshot conflicts with committed repository state, the committed state takes precedence.
@@ -248,13 +254,11 @@ If this snapshot conflicts with committed repository state, the committed state 
 
 # Current Engineering Posture
 
-Sprint 0011 **implementation** has not yet been authorized.
+GAR-SPRINT-0012 is **complete and closed** at `v0.12.0-alpha`.
 
-The constitutional review for Sprint 0011 is the next activity.
+The repository is in **HOLD**. No sprint is authorized automatically.
 
-No ADR drafting, sprint specification, mission planning, or coding should begin until the
-constitutional chain for Sprint 0011 is established through Founder authorization and completed
-architectural review.
+Future sprint work requires separate constitutional review and Founder authorization.
 
 ---
 

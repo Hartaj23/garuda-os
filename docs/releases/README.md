@@ -6,6 +6,8 @@ Contains release notes and release preparation records for Project Garuda.
 
 ## Releases
 
+- [GAR-RELEASE-S12-001](GAR-RELEASE-S12-001.md)
+- [v0.12.0-alpha](v0.12.0-alpha.md)
 - [GAR-RELEASE-S11-001](GAR-RELEASE-S11-001.md)
 - [v0.11.0-alpha](v0.11.0-alpha.md)
 - [v0.10.0-alpha](v0.10.0-alpha.md)

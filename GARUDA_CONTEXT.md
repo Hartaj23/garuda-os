@@ -57,8 +57,8 @@ Implementation follows approved sprint missions.
 |---|---|
 | Repository Status | Clean (tracked files) |
 | Current Branch | `master` |
-| Current Version | `v0.11.0-alpha` |
-| Current Sprint | GAR-SPRINT-0011 (Complete) |
+| Current Version | `v0.12.0-alpha` |
+| Current Sprint | GAR-SPRINT-0012 (Complete) |
 | Current Mission | None — repository HOLD |
 
 ---
@@ -159,15 +159,29 @@ Implementation follows approved sprint missions.
 
 ---
 
+## Runtime Foundation
+
+| Field | Value |
+|---|---|
+| Status | Complete |
+| Release | `v0.12.0-alpha` |
+| Phase | External Capability Expansion |
+| Constitutional authority | GAR-0019 v1.0 |
+
+---
+
 # Repository Health
 
 | Check | Result |
 |---|---|
+| Runtime Foundation Suite (Alpha–Hotel) | PASS |
+| Runtime Foundation Certification (GAR-CERT-S12-001) | PASS |
+| Runtime Foundation SDK verification | PASS |
 | Integration Foundation Suite (Alpha–Hotel) | PASS |
 | Integration Foundation Certification (GAR-CERT-S11-001) | PASS |
 | Integration Foundation SDK verification | PASS |
 | Interface Foundation Suite (Alpha–Hotel) | PASS |
-| Complete Test Suite | 903 passed |
+| Complete Test Suite | 1042 passed |
 | Repository Foundation Validation | PASS |
 | Engineering Toolchain Validation | PASS |
 
@@ -263,9 +277,9 @@ These will be introduced only through future approved constitutions and sprint p
 
 | Field | Value |
 |---|---|
-| Current Sprint | GAR-SPRINT-0011 (Complete) |
+| Current Sprint | GAR-SPRINT-0012 (Complete) |
 | Current Status | Repository HOLD — no sprint authorized |
-| Next Milestone | GAR-SPRINT-0012 requires separate constitutional review and Founder authorization |
+| Next Milestone | Future sprint requires separate constitutional review and Founder authorization |
 
 ---
 

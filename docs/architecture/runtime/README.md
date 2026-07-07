@@ -32,4 +32,4 @@ Architecture documentation for the Runtime Foundation implementing ADR-0013 unde
 | Foxtrot | Runtime Registry |
 | Golf | Runtime Foundation Certification |
 | Hotel | SDK documentation (`docs/sdk/runtime/`) |
-| India | Sprint closure (institutional release) (pending) |
+| India | Sprint closure (institutional release) |

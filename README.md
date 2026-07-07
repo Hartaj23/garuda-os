@@ -3,7 +3,7 @@
 Garuda is the Operating System for Human Intelligence.
 
 This repository is the monorepo foundation for Project Garuda. It now includes the
-GAR-SPRINT-0011 Integration Foundation released as `v0.11.0-alpha`.
+GAR-SPRINT-0012 Runtime Foundation released as `v0.12.0-alpha`.
 
 No intelligence, trading, broker integration, portfolio management, authentication, Knowledge
 Graph, Context Engine, reasoning engine, Workflow Engine, query engine, retrieval engine, search
@@ -44,11 +44,11 @@ across AI coding agents.
 
 ## Current Release
 
-- Release: `v0.11.0-alpha`
-- Sprint: GAR-SPRINT-0011
-- Status: Integration Foundation release published
-- Tag: `v0.11.0-alpha`
-- Previous release: `v0.10.0-alpha`
+- Release: `v0.12.0-alpha`
+- Sprint: GAR-SPRINT-0012
+- Status: Runtime Foundation release published
+- Tag: Pending separate Founder authorization for `v0.12.0-alpha`
+- Previous release: `v0.11.0-alpha`
 
 ## Platform Core
 
@@ -183,6 +183,19 @@ GAR-SPRINT-0011 delivers the Integration Foundation under `packages.integration`
 - Integration Foundation Certification
 - Integration Foundation SDK Documentation
 
+## Runtime Foundation
+
+GAR-SPRINT-0012 delivers the Runtime Foundation under `packages.runtime`:
+
+- Runtime Core
+- Runtime Contracts
+- Runtime Lifecycle and Boundary Model
+- Runtime Context Classification
+- Runtime Validation Framework
+- Runtime Registry
+- Runtime Foundation Certification
+- Runtime Foundation SDK Documentation
+
 ## Documentation
 
 - [Platform Core SDK](docs/sdk/platform-core/README.md)
@@ -206,6 +219,7 @@ GAR-SPRINT-0011 delivers the Integration Foundation under `packages.integration`
 - [Sprint 9 Closure Report](docs/sprints/GAR-SPRINT-0009-closure-report.md)
 - [Sprint 10 Closure Report](docs/sprints/GAR-SPRINT-0010-closure-report.md)
 - [Sprint 11 Closure Report](docs/sprints/GAR-SPRINT-0011-closure.md)
+- [Sprint 12 Closure Report](docs/sprints/GAR-SPRINT-0012-closure.md)
 - [v0.2.0-alpha Release Notes](docs/releases/v0.2.0-alpha.md)
 - [v0.3.0-alpha Release Notes](docs/releases/v0.3.0-alpha.md)
 - [v0.4.0-alpha Release Notes](docs/releases/v0.4.0-alpha.md)
@@ -216,6 +230,7 @@ GAR-SPRINT-0011 delivers the Integration Foundation under `packages.integration`
 - [v0.9.0-alpha Release Notes](docs/releases/v0.9.0-alpha.md)
 - [v0.10.0-alpha Release Notes](docs/releases/v0.10.0-alpha.md)
 - [v0.11.0-alpha Release Notes](docs/releases/v0.11.0-alpha.md)
+- [v0.12.0-alpha Release Notes](docs/releases/v0.12.0-alpha.md)
 - [Developer Onboarding](docs/developer-onboarding.md)
 
 ## Quick Start
