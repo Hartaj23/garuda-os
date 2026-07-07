@@ -12,7 +12,7 @@
 | Certification | [GAR-CERT-S12-001](../sprints/GAR-SPRINT-0012-runtime-certification.md) — **PASS** |
 | Release mission | Mission India — Institutional Release |
 | Previous release | `v0.11.0-alpha` (GAR-SPRINT-0011) |
-| Recommended tag | `v0.12.0-alpha` (separate Founder authorization required) |
+| Recommended tag | `v0.12.0-alpha` |
 
 ## Executive Verification Summary
 
@@ -67,7 +67,7 @@ artifacts, version alignment, and release traceability only.
 | Release notes | [v0.12.0-alpha.md](v0.12.0-alpha.md) | Complete |
 | VERSION | [VERSION](../../VERSION) | `0.12.0-alpha` |
 | CHANGELOG | [CHANGELOG.md](../../CHANGELOG.md) | Updated |
-| Git tag | `v0.12.0-alpha` | Pending separate Founder authorization |
+| Git tag | `v0.12.0-alpha` | Created on Mission India commit `bd29741` |
 
 ---
 
@@ -132,7 +132,7 @@ artifacts, version alignment, and release traceability only.
 | Release manifest complete | Complete |
 | Version consistency verified | Complete |
 | Founder authorization for Mission India | Complete |
-| `git tag v0.12.0-alpha` | Pending separate Founder authorization |
+| `git tag v0.12.0-alpha` | Complete (`bd29741`) |
 
 ---
 

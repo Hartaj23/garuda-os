@@ -47,7 +47,7 @@ across AI coding agents.
 - Release: `v0.12.0-alpha`
 - Sprint: GAR-SPRINT-0012
 - Status: Runtime Foundation release published
-- Tag: Pending separate Founder authorization for `v0.12.0-alpha`
+- Tag: `v0.12.0-alpha`
 - Previous release: `v0.11.0-alpha`
 
 ## Platform Core
