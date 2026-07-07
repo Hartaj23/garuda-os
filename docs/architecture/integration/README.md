@@ -10,6 +10,7 @@ Architecture documentation for the Integration Foundation implementing ADR-0012 
 - [Integration Contracts](integration-contracts.md) — Mission Bravo contract architecture
 - [Integration Lifecycle and Boundary Model](integration-lifecycle-boundary-model.md) — Mission Charlie lifecycle architecture
 - [Integration Relationship Framework](integration-relationship-framework.md) — Mission Delta relationship architecture
+- [Integration Validation Framework](integration-validation-framework.md) — Mission Echo validation architecture
 
 ## Related Authority
 
@@ -25,7 +26,7 @@ Architecture documentation for the Integration Foundation implementing ADR-0012 
 | Bravo | Integration Contracts |
 | Charlie | Integration Lifecycle and Boundary Model |
 | Delta | Integration Relationship Framework |
-| Echo | Integration Validation Framework (pending) |
+| Echo | Integration Validation Framework |
 | Foxtrot | Integration Registry (pending) |
 | Golf | Certification record (pending) |
 | Hotel | SDK documentation (`docs/sdk/integration/`) (pending) |
