@@ -739,10 +739,13 @@ Full principle-level mapping: see ADR-0013 Constitutional Traceability appendix.
 | Mission Delta authorization | **Granted** — implementation authorized for Mission Delta only |
 | Mission Delta implementation | **Complete** — `820bc2a` |
 | GAR-REVIEW-S12-004 | **Approved** |
-| Missions Echo–India | Not authorized |
-| Implementation | Missions Alpha–Delta complete; Echo–India blocked |
+| Mission Echo authorization | **Granted** — implementation authorized for Mission Echo only |
+| Mission Echo implementation | **Complete** — `78c365d` |
+| GAR-REVIEW-S12-005 | **Approved** |
+| Missions Foxtrot–India | Not authorized |
+| Implementation | Missions Alpha–Echo complete; Foxtrot–India blocked |
 
-Missions Alpha through Delta are institutionally complete. Missions Echo–India require separate Founder authorization after mission review.
+Missions Alpha through Echo are institutionally complete. Missions Foxtrot–India require separate Founder authorization after mission review.
 
 ---
 

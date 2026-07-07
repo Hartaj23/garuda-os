@@ -28,8 +28,9 @@ GAR-SPRINT-0012 Mission Alpha complete — GAR-REVIEW-S12-001 approved (`a33f2d1
 GAR-SPRINT-0012 Mission Bravo complete — GAR-REVIEW-S12-002 approved (`626e7f3`).
 GAR-SPRINT-0012 Mission Charlie complete — GAR-REVIEW-S12-003 approved (`c4c203b`).
 GAR-SPRINT-0012 Mission Delta complete — GAR-REVIEW-S12-004 approved (`820bc2a`).
-Missions Echo–India not authorized.
-Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorization for Mission Echo.
+GAR-SPRINT-0012 Mission Echo complete — GAR-REVIEW-S12-005 approved (`78c365d`).
+Missions Foxtrot–India not authorized.
+Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorization for Mission Foxtrot.
 
 ## Completed Sprint 11 missions
 
@@ -45,8 +46,8 @@ Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorizatio
 
 ## Current next mission
 
-GAR-SPRINT-0012 Mission Echo — Runtime Validation Framework.
-Not authorized — requires separate Founder authorization after Mission Delta closure.
+GAR-SPRINT-0012 Mission Foxtrot — Runtime Registry.
+Not authorized — requires separate Founder authorization after Mission Echo closure.
 
 ## Completed Sprint 2 missions
 
@@ -161,6 +162,7 @@ Not authorized — requires separate Founder authorization after Mission Delta c
 - Mission Bravo — Runtime Contracts — approved in GAR-REVIEW-S12-002.
 - Mission Charlie — Runtime Lifecycle and Boundary Model — approved in GAR-REVIEW-S12-003.
 - Mission Delta — Runtime Context Classification — approved in GAR-REVIEW-S12-004.
+- Mission Echo — Runtime Validation Framework — approved in GAR-REVIEW-S12-005.
 
 ## Institutional references
 
