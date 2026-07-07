@@ -733,10 +733,13 @@ Full principle-level mapping: see ADR-0013 Constitutional Traceability appendix.
 | Mission Bravo authorization | **Granted** — implementation authorized for Mission Bravo only |
 | Mission Bravo implementation | **Complete** — `626e7f3` |
 | GAR-REVIEW-S12-002 | **Approved** |
-| Missions Charlie–India | Not authorized |
-| Implementation | Missions Alpha–Bravo complete; Charlie–India blocked |
+| Mission Charlie authorization | **Granted** — implementation authorized for Mission Charlie only |
+| Mission Charlie implementation | **Complete** — `c4c203b` |
+| GAR-REVIEW-S12-003 | **Approved** |
+| Missions Delta–India | Not authorized |
+| Implementation | Missions Alpha–Charlie complete; Delta–India blocked |
 
-Missions Alpha and Bravo are institutionally complete. Missions Charlie–India require separate Founder authorization after mission review.
+Missions Alpha, Bravo, and Charlie are institutionally complete. Missions Delta–India require separate Founder authorization after mission review.
 
 ---
 
