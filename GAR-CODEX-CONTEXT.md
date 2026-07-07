@@ -23,8 +23,10 @@ v0.11.0-alpha is the current release (GAR-SPRINT-0011 Integration Foundation).
 GAR-SPRINT-0011 complete and closed.
 Integration Foundation (Phase II) published at `v0.11.0-alpha`.
 GAR-0019 ratified — Runtime Foundation authorized at constitutional level (descriptive External
-Runtime Governance only). ADR-0013 approved v1.0. GAR-SPRINT-0012 not yet authorized.
-Repository status: Architectural gate complete — sprint drafting awaits explicit Founder authorization.
+Runtime Governance only). ADR-0013 approved v1.0. GAR-SPRINT-0012 architecturally approved.
+GAR-SPRINT-0012 Mission Alpha complete — GAR-REVIEW-S12-001 approved (`a33f2d1`).
+Missions Bravo–India not authorized.
+Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorization for Mission Bravo.
 
 ## Completed Sprint 11 missions
 
@@ -40,8 +42,8 @@ Repository status: Architectural gate complete — sprint drafting awaits explic
 
 ## Current next mission
 
-GAR-0019 ratified. ADR-0013 approved v1.0. GAR-SPRINT-0012 drafting awaits explicit Founder
-authorization. Mission Alpha and implementation remain blocked.
+GAR-SPRINT-0012 Mission Bravo — Runtime Contracts.
+Not authorized — requires separate Founder authorization after Mission Alpha closure.
 
 ## Completed Sprint 2 missions
 
@@ -149,6 +151,10 @@ authorization. Mission Alpha and implementation remain blocked.
 - Mission Golf — Interface Foundation Certification.
 - Mission Hotel — Interface Foundation SDK Documentation.
 - Mission India — Sprint Closure & Release Preparation.
+
+## Completed Sprint 12 missions
+
+- Mission Alpha — Runtime Core — approved in GAR-REVIEW-S12-001.
 
 ## Institutional references
 
