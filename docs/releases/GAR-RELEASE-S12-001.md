@@ -49,7 +49,7 @@ artifacts, version alignment, and release traceability only.
 | Foxtrot | Runtime Registry | `e9de697` | Complete |
 | Golf | Runtime Foundation Certification | `d6dd58f` | Complete |
 | Hotel | Runtime Foundation SDK Documentation | `436ad44` | Complete |
-| India | Institutional Release and Sprint Closure | *(pending publication)* | Complete |
+| India | Institutional Release and Sprint Closure | `bd29741` | Complete |
 
 ---
 
@@ -83,7 +83,7 @@ artifacts, version alignment, and release traceability only.
 | Foxtrot — Runtime Registry | GAR-REVIEW-S12-006 | `e9de697` |
 | Golf — Certification | GAR-REVIEW-S12-007 | `d6dd58f` |
 | Hotel — SDK Documentation | GAR-REVIEW-S12-008 | `436ad44` |
-| India — Institutional Release | GAR-REVIEW-S12-009 | *(pending publication)* |
+| India — Institutional Release | GAR-REVIEW-S12-009 | `bd29741` |
 
 ---
 
@@ -123,7 +123,7 @@ artifacts, version alignment, and release traceability only.
 
 | Item | Status |
 | --- | --- |
-| Mission India commit created | Pending publication |
+| Mission India commit created | Complete (`bd29741`) |
 | Full regression suite green | Complete |
 | `VERSION` shows `0.12.0-alpha` | Complete |
 | Release notes published | Complete |

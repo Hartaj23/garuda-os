@@ -15,13 +15,14 @@ Future constitutional changes require Architecture Change Proposals under GAR-00
 
 ## Current release status
 
-v0.1.0-alpha through v0.10.0-alpha are released.
-v0.11.0-alpha is the current release (GAR-SPRINT-0011 Integration Foundation).
+v0.1.0-alpha through v0.11.0-alpha are released.
+v0.12.0-alpha is the current release (GAR-SPRINT-0012 Runtime Foundation).
 
 ## Current status
 
 GAR-SPRINT-0011 complete and closed.
-Integration Foundation (Phase II) published at `v0.11.0-alpha`.
+GAR-SPRINT-0012 complete and closed.
+Runtime Foundation (External Runtime Governance) published at `v0.12.0-alpha`.
 GAR-0019 ratified — Runtime Foundation authorized at constitutional level (descriptive External
 Runtime Governance only). ADR-0013 approved v1.0. GAR-SPRINT-0012 architecturally approved.
 GAR-SPRINT-0012 Mission Alpha complete — GAR-REVIEW-S12-001 approved (`a33f2d1`).
@@ -32,8 +33,8 @@ GAR-SPRINT-0012 Mission Echo complete — GAR-REVIEW-S12-005 approved (`78c365d`
 GAR-SPRINT-0012 Mission Foxtrot complete — GAR-REVIEW-S12-006 approved (`e9de697`).
 GAR-SPRINT-0012 Mission Golf complete — GAR-REVIEW-S12-007 approved (`d6dd58f`).
 GAR-SPRINT-0012 Mission Hotel complete — GAR-REVIEW-S12-008 approved (`436ad44`).
-Mission India not authorized.
-Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorization for Mission India.
+GAR-SPRINT-0012 Mission India complete — GAR-REVIEW-S12-009 approved (`bd29741`).
+Repository status: **HOLD** — no sprint authorized.
 
 ## Completed Sprint 11 missions
 
@@ -49,8 +50,9 @@ Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorizatio
 
 ## Current next mission
 
-GAR-SPRINT-0012 Mission India — Sprint Closure & Release Preparation.
-Not authorized — requires separate Founder authorization after Mission Hotel closure.
+None — repository HOLD.
+
+Future sprint work requires separate constitutional review and Founder authorization.
 
 ## Completed Sprint 2 missions
 
@@ -169,6 +171,7 @@ Not authorized — requires separate Founder authorization after Mission Hotel c
 - Mission Foxtrot — Runtime Registry — approved in GAR-REVIEW-S12-006.
 - Mission Golf — Runtime Foundation Certification — approved in GAR-REVIEW-S12-007.
 - Mission Hotel — Runtime Foundation SDK Documentation — approved in GAR-REVIEW-S12-008.
+- Mission India — Sprint Closure & Release Preparation — approved in GAR-REVIEW-S12-009.
 
 ## Institutional references
 

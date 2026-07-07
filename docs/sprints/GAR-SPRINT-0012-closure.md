@@ -58,7 +58,7 @@ Interface Foundation, or Integration Foundation packages were modified.
 | Mission Foxtrot commit | `e9de697` | Complete |
 | Mission Golf commit | `d6dd58f` | Complete |
 | Mission Hotel commit | `436ad44` | Complete |
-| Mission India commit | *(pending publication)* | Complete |
+| Mission India commit | `bd29741` | Complete |
 | Certification record | [GAR-SPRINT-0012-runtime-certification.md](GAR-SPRINT-0012-runtime-certification.md) | Complete |
 | Institutional release | [GAR-RELEASE-S12-001](../releases/GAR-RELEASE-S12-001.md) | Complete |
 | SDK documentation | [docs/sdk/runtime/](../sdk/runtime/README.md) | Complete |
@@ -79,14 +79,14 @@ Interface Foundation, or Integration Foundation packages were modified.
 | Foxtrot — Runtime Registry | GAR-REVIEW-S12-006 | `e9de697` |
 | Golf — Certification | GAR-REVIEW-S12-007 | `d6dd58f` |
 | Hotel — SDK Documentation | GAR-REVIEW-S12-008 | `436ad44` |
-| India — Institutional Release | GAR-REVIEW-S12-009 | *(pending publication)* |
+| India — Institutional Release | GAR-REVIEW-S12-009 | `bd29741` |
 
 ## Repository State Snapshot
 
 | Field | Value |
 | --- | --- |
 | Repository branch | `master` |
-| Release commit | *(pending publication)* |
+| Release commit | `bd29741` |
 | Previous release | `v0.11.0-alpha` (GAR-SPRINT-0011) |
 | Target release | `v0.12.0-alpha` (GAR-SPRINT-0012) |
 | Total regression count | 1042 tests passed |

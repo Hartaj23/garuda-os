@@ -752,10 +752,14 @@ Full principle-level mapping: see ADR-0013 Constitutional Traceability appendix.
 | Mission Hotel authorization | **Granted** — implementation authorized for Mission Hotel only |
 | Mission Hotel implementation | **Complete** — `436ad44` |
 | GAR-REVIEW-S12-008 | **Approved** |
-| Mission India | Not authorized |
-| Implementation | Missions Alpha–Hotel complete; India blocked |
+| Mission India authorization | **Granted** — implementation authorized for Mission India only |
+| Mission India implementation | **Complete** — `bd29741` |
+| GAR-REVIEW-S12-009 | **Approved** |
+| GAR-SPRINT-0012 | **Closed** |
+| Repository | **HOLD** |
 
-Missions Alpha through Hotel are institutionally complete. Mission India requires separate Founder authorization after mission review.
+Missions Alpha through India are institutionally complete. GAR-SPRINT-0012 is closed. The repository
+returns to HOLD pending next constitutional cycle.
 
 ---
 
