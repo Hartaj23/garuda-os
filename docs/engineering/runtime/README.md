@@ -11,6 +11,7 @@ Engineering documentation for the Runtime Foundation implementing ADR-0013 under
 - [Runtime Lifecycle and Boundary Model](runtime-lifecycle-boundary-model.md) — Mission Charlie engineering summary
 - [Runtime Context Classification](runtime-context-classification.md) — Mission Delta engineering summary
 - [Runtime Validation Framework](runtime-validation-framework.md) — Mission Echo engineering summary
+- [Runtime Registry](runtime-registry.md) — Mission Foxtrot engineering summary
 
 ## Related Authority
 
@@ -27,7 +28,7 @@ Engineering documentation for the Runtime Foundation implementing ADR-0013 under
 | Charlie | Runtime Lifecycle and Boundary Model |
 | Delta | Runtime Context Classification |
 | Echo | Runtime Validation Framework |
-| Foxtrot | Runtime Registry (pending) |
+| Foxtrot | Runtime Registry |
 | Golf | Certification record (pending) |
 | Hotel | SDK documentation (pending) |
 | India | Sprint closure (pending) |

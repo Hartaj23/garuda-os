@@ -1,0 +1,65 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+from packages.objects import ValidationCategory, ValidationResult
+
+from .metadata import RuntimeRegistryMetadata, validate_runtime_registry_metadata
+
+
+@dataclass(frozen=True, slots=True)
+class RuntimeContextCatalogDeclaration:
+    """Descriptive runtime context catalog classification for metadata only.
+
+    Catalog declarations classify runtime context metadata only. They do not imply
+    execution permissions, scheduling authority, activation priority, or operational state.
+    """
+
+    catalog_identifier: str
+    catalog_metadata: RuntimeRegistryMetadata | None = None
+
+    def __post_init__(self) -> None:
+        if self.catalog_metadata is None:
+            object.__setattr__(self, "catalog_metadata", RuntimeRegistryMetadata())
+
+    def to_dict(self) -> dict[str, object]:
+        catalog_metadata = self.catalog_metadata or RuntimeRegistryMetadata()
+        return {
+            "catalog_identifier": self.catalog_identifier,
+            "catalog_metadata": catalog_metadata.to_dict(),
+        }
+
+
+def validate_runtime_context_catalog_declaration(
+    declaration: object,
+    field_prefix: str = "catalog_declaration",
+) -> ValidationResult:
+    result = ValidationResult()
+
+    if not isinstance(declaration, RuntimeContextCatalogDeclaration):
+        result.add_error(
+            "Catalog declaration must be a RuntimeContextCatalogDeclaration value.",
+            ValidationCategory.SCHEMA,
+            field=field_prefix,
+            code="invalid_catalog_declaration",
+        )
+        return result
+
+    if not isinstance(declaration.catalog_identifier, str) or not declaration.catalog_identifier:
+        result.add_error(
+            "Catalog identifier must be a non-empty string.",
+            ValidationCategory.IDENTITY,
+            field=f"{field_prefix}.catalog_identifier",
+            code="invalid_catalog_identifier",
+        )
+
+    catalog_metadata = declaration.catalog_metadata
+    if catalog_metadata is not None:
+        result.merge(
+            validate_runtime_registry_metadata(
+                catalog_metadata,
+                field_prefix=f"{field_prefix}.catalog_metadata",
+            )
+        )
+
+    return result
