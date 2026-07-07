@@ -9,6 +9,7 @@ Engineering documentation for the Integration Foundation implementing ADR-0012 u
 - [Implementation](implementation.md) — Mission Alpha engineering summary
 - [Integration Contracts](integration-contracts.md) — Mission Bravo engineering summary
 - [Integration Lifecycle and Boundary Model](integration-lifecycle-boundary-model.md) — Mission Charlie engineering summary
+- [Integration Relationship Framework](integration-relationship-framework.md) — Mission Delta engineering summary
 
 ## Related Authority
 
@@ -23,7 +24,7 @@ Engineering documentation for the Integration Foundation implementing ADR-0012 u
 | Alpha | Implementation |
 | Bravo | Integration Contracts |
 | Charlie | Integration Lifecycle and Boundary Model |
-| Delta | Integration Relationship Framework (pending) |
+| Delta | Integration Relationship Framework |
 | Echo | Integration Validation Framework (pending) |
 | Foxtrot | Integration Registry (pending) |
 | Golf | Certification record (pending) |
