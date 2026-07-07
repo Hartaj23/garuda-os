@@ -8,6 +8,7 @@ Architecture documentation for the Runtime Foundation implementing ADR-0013 unde
 
 - [Overview](overview.md) — Mission Alpha foundation architecture
 - [Runtime Contracts](runtime-contracts.md) — Mission Bravo contract architecture
+- [Runtime Lifecycle and Boundary Model](runtime-lifecycle-boundary-model.md) — Mission Charlie lifecycle architecture
 
 ## Related Authority
 
@@ -21,7 +22,7 @@ Architecture documentation for the Runtime Foundation implementing ADR-0013 unde
 | --- | --- |
 | Alpha | Overview |
 | Bravo | Runtime Contracts |
-| Charlie | Runtime Lifecycle and Boundary Model (pending) |
+| Charlie | Runtime Lifecycle and Boundary Model |
 | Delta | Runtime Context Classification (pending) |
 | Echo | Runtime Validation Framework (pending) |
 | Foxtrot | Runtime Registry (pending) |
