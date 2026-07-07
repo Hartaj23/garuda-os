@@ -749,10 +749,13 @@ Full principle-level mapping: see ADR-0013 Constitutional Traceability appendix.
 | Mission Golf implementation | **Complete** — `d6dd58f` |
 | GAR-REVIEW-S12-007 | **Approved** |
 | GAR-CERT-S12-001 | **PASS** |
-| Missions Hotel–India | Not authorized |
-| Implementation | Missions Alpha–Golf complete; Hotel–India blocked |
+| Mission Hotel authorization | **Granted** — implementation authorized for Mission Hotel only |
+| Mission Hotel implementation | **Complete** — `436ad44` |
+| GAR-REVIEW-S12-008 | **Approved** |
+| Mission India | Not authorized |
+| Implementation | Missions Alpha–Hotel complete; India blocked |
 
-Missions Alpha through Golf are institutionally complete. Missions Hotel–India require separate Founder authorization after mission review.
+Missions Alpha through Hotel are institutionally complete. Mission India requires separate Founder authorization after mission review.
 
 ---
 
