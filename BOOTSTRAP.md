@@ -2,11 +2,11 @@
 
 # BOOTSTRAP.md
 
-AI Engineer Bootstrap Guide
+Institutional Bootstrap Guide
 
-Version: 1.0
+Version: 2.0
 
-Last Updated: 2026-07-06
+Last Updated: 2026-07-07
 
 Document Owner: Project Garuda Engineering Governance
 
@@ -14,24 +14,139 @@ Document Owner: Project Garuda Engineering Governance
 
 # Purpose
 
-This document is the single entry point for AI coding agents initializing work in Project Garuda.
+This document is the institutional entry point for every new architecture thread, AI coding agent,
+and engineering contributor initializing work in Project Garuda.
 
-For architecture threads and project synthesis, read [`PROJECT_GARUDA_MASTER.md`](PROJECT_GARUDA_MASTER.md)
-first. This document consolidates the implementation bootstrap sequence.
+Project Garuda has crossed an important threshold: future work inherits a mature engineering system
+rather than creating one. This bootstrap establishes the frozen governance baseline from which all
+new foundational work begins.
 
-Do not begin implementation until the full bootstrap sequence is complete and architecture approval
-is granted.
+For architectural synthesis, read [`PROJECT_GARUDA_MASTER.md`](PROJECT_GARUDA_MASTER.md). For the
+complete engineering handbook, read [`GAR-REFERENCE-0001.md`](GAR-REFERENCE-0001.md).
+
+Do not begin implementation until the full bootstrap sequence is complete and explicit architecture
+approval is granted.
 
 ---
 
-# Before You Begin
+# Reference Principle
 
-Project Garuda uses Constitutional Engineering.
+This bootstrap describes the repository as it exists at publication. It is descriptive rather than
+normative. Where conflict exists, GAR constitutions, ADRs, approved sprint specifications, and the
+committed repository always take precedence.
 
-AI agents are implementation engineers, not architects. Preserve architectural integrity above
-implementation speed. Never invent architecture. Never implement future sprint functionality.
+---
 
-The frozen engineering baseline is recorded in [`ENGINEERING_GOVERNANCE_v1.0.md`](ENGINEERING_GOVERNANCE_v1.0.md).
+# Repository as Single Source of Truth
+
+The Git repository is the authoritative record of Project Garuda.
+
+- Implemented behavior lives in committed code and tests
+- Constitutional authority lives in ratified GAR documents
+- Architectural decisions live in approved ADRs
+- Authorized work lives in approved sprint specifications
+- Institutional state lives in release artifacts, closure reports, and synchronized context documents
+
+Never infer architecture from code alone. Never treat conversation context as authority over the
+repository.
+
+---
+
+# Frozen Governance Baseline
+
+The following are frozen and SHALL NOT be reopened without explicit constitutional authorization:
+
+| Area | Status |
+| --- | --- |
+| Phase I foundations | Complete and immutable |
+| GAR-0001 through GAR-0017 | Frozen at v1.0 |
+| ADR-0001 through ADR-0011 | Approved and frozen |
+| GAR-SPRINT-0001 through GAR-SPRINT-0010 | Closed |
+| Release `v0.10.0-alpha` | Published |
+| GAR-REFERENCE-0001 | Published |
+
+Completed sprints, release artifacts, and constitutional documents are historical records. Post-release
+documentation maintenance does not reopen closed sprints.
+
+---
+
+# Architectural Authority versus Implementation Authority
+
+| Role | Authority | Responsibility |
+| --- | --- | --- |
+| Founder | Ratification | Ratifies constitutions and releases |
+| Chief Systems Architect | Architecture | Drafts constitutions, ADRs, sprint specifications; reviews missions |
+| Principal Implementation Engineer | Implementation | Plans, implements, tests, and documents under approved scope only |
+
+AI coding agents are implementation engineers, not architects.
+
+- Constitutional drafting requires Founder authorization
+- ADR drafting requires architectural authority
+- Sprint specification requires approved constitutional chain
+- Implementation requires approved mission plan and architecture review
+
+---
+
+# Canonical Sprint Exemplar
+
+**GAR-SPRINT-0010** is the Canonical Foundation Reference for Phase II.
+
+Future foundational sprints inherit — not recreate — Sprint 0010 institutional assets:
+
+- Constitutional chain (GAR → ADR → Sprint)
+- Mission sequence (Alpha through India)
+- Certification model (Mission Golf)
+- SDK documentation model (Mission Hotel)
+- Institutional release model (Mission India)
+- Governance baseline sequence
+
+See [`GAR-REFERENCE-0001.md`](GAR-REFERENCE-0001.md) Section 16 for the complete canonical index.
+
+---
+
+# Garuda Engineering Standard
+
+Every foundational sprint follows this lifecycle:
+
+```
+Constitution
+      ↓
+Architecture
+      ↓
+Sprint Specification
+      ↓
+Mission Planning
+      ↓
+Implementation
+      ↓
+Verification
+      ↓
+Certification
+      ↓
+Developer Enablement
+      ↓
+Institutional Release
+      ↓
+Published Release
+      ↓
+Governance Baseline
+```
+
+This sequence is established engineering standard — not experimental process.
+
+---
+
+# Institutional Layers
+
+Project Garuda possesses five permanent institutional layers:
+
+| Layer | Artifact type | Status |
+| --- | --- | --- |
+| Constitutional | GAR documents | Established |
+| Architectural | ADRs | Established |
+| Engineering | Sprint specifications and missions | Established |
+| Institutional | Releases, certification, closure reports | Established |
+| Reference | GAR-REFERENCE documents | Established |
 
 ---
 
@@ -46,32 +161,106 @@ Complete these steps in order before planning or coding.
 | 3 | [`GARUDA_WORKFLOW.md`](GARUDA_WORKFLOW.md) | Engineering lifecycle |
 | 4 | [`GARUDA_GLOSSARY.md`](GARUDA_GLOSSARY.md) | Canonical terminology |
 | 5 | [`GARUDA_NAVIGATION.md`](GARUDA_NAVIGATION.md) | Document hierarchy and navigation |
-| 6 | Applicable GAR Constitutions | Architectural authority — see [`ARCHITECTURE.md`](ARCHITECTURE.md) |
-| 7 | Approved Sprint Mission | Current authorized work — see [`docs/sprints/`](docs/sprints/README.md) |
+| 6 | [`GAR-REFERENCE-0001.md`](GAR-REFERENCE-0001.md) | Constitutional engineering reference manual |
+| 7 | Applicable GAR Constitutions | Architectural authority — see [`ARCHITECTURE.md`](ARCHITECTURE.md) |
+| 8 | Approved Sprint Mission | Current authorized work — see [`docs/sprints/`](docs/sprints/README.md) |
 
-Implementation shall not begin until steps 1 through 7 are completed.
+Implementation shall not begin until steps 1 through 8 are completed and explicit approval is granted.
 
 ---
 
-# Current Repository Snapshot
+# Authority Order
 
-Read [`GARUDA_CONTEXT.md`](GARUDA_CONTEXT.md) for authoritative state. Snapshot at document creation:
+When documents conflict, resolve in this order:
+
+1. GAR Constitutions (GAR-0001 through GAR-0017 and successors)
+2. Architecture Decision Records
+3. Approved Sprint Documents
+4. Committed Repository State
+5. [`VERSION`](VERSION)
+6. Release Documentation
+7. [`GARUDA_CONTEXT.md`](GARUDA_CONTEXT.md)
+8. Engineering Governance documents
+9. Descriptive references (including this document and GAR-REFERENCE-0001)
+
+---
+
+# Variable State (Updated Per Release)
+
+The following sections change as releases complete. All other sections remain intentionally stable.
+
+## Current Release
 
 | Field | Value |
 | --- | --- |
-| Release | `v0.9.0-alpha` |
-| Sprint | GAR-SPRINT-0009 (Complete) |
-| Foundations | Platform Core, Memory, Knowledge, Context, Reasoning, Decision, Action, Execution |
-| Tests | 712 passing |
-| Next milestone | GAR-SPRINT-0010 (planning only — not authorized for implementation) |
+| Release | `v0.10.0-alpha` |
+| Tag | `v0.10.0-alpha` on commit `369a93b` |
+| Governance baseline commit | `a3f2ba3` |
+| Tests at baseline | 806 passed |
+
+## Completed Constitutions
+
+| Document | Status |
+| --- | --- |
+| GAR-0001 through GAR-0016 | Frozen v1.0 — Phase I |
+| GAR-0017 | Frozen v1.0 — Phase II Constitutional Extension |
+
+## Completed ADRs
+
+| ADR | Foundation |
+| --- | --- |
+| ADR-0001 through ADR-0010 | Phase I foundations |
+| ADR-0011 | Interface Foundation (Phase II) |
+
+## Completed Foundations
+
+| Foundation | Release | Phase |
+| --- | --- | --- |
+| Platform Core | `v0.2.0-alpha` | Phase I |
+| Memory | `v0.3.0-alpha` | Phase I |
+| Knowledge | `v0.4.0-alpha` | Phase I |
+| Context | `v0.5.0-alpha` | Phase I |
+| Reasoning | `v0.6.0-alpha` | Phase I |
+| Decision | `v0.7.0-alpha` | Phase I |
+| Action | `v0.8.0-alpha` | Phase I |
+| Execution | `v0.9.0-alpha` | Phase I |
+| Interface | `v0.10.0-alpha` | Phase II |
+
+## Canonical Sprint
+
+| Field | Value |
+| --- | --- |
+| Canonical exemplar | GAR-SPRINT-0010 — Interface Foundation |
+| Reference manual | GAR-REFERENCE-0001 |
+
+## Repository Status
+
+| Field | Value |
+| --- | --- |
+| Repository State | Published |
+| Working Tree | Clean (excluding local `.cursor/`) |
+| Current Release | `v0.10.0-alpha` |
+| Governance Baseline | Checkpoint 029 (Frozen) |
 
 If this snapshot conflicts with committed repository state, the committed state takes precedence.
 
 ---
 
+# Current Engineering Posture
+
+Sprint 0011 **implementation** has not yet been authorized.
+
+The constitutional review for Sprint 0011 is the next activity.
+
+No ADR drafting, sprint specification, mission planning, or coding should begin until the
+constitutional chain for Sprint 0011 is established through Founder authorization and completed
+architectural review.
+
+---
+
 # Mission Workflow
 
-After bootstrap, every mission follows this lifecycle:
+After bootstrap, every authorized mission follows this lifecycle:
 
 ```
 Read Mission Specification
@@ -99,58 +288,41 @@ Stop
 
 Never begin the next mission automatically.
 
-Reusable prompts for this workflow are in [`PROMPTS.md`](PROMPTS.md).
+Reusable prompts: [`PROMPTS.md`](PROMPTS.md) *(if present)*
 
-Document templates are in [`templates/`](templates/README.md).
+Document templates: [`templates/`](templates/README.md)
 
 ---
 
 # Approval Gates
 
-- No implementation begins without explicit architecture approval.
-- Plans are reviewed before coding.
-- Every completed mission requires architecture review.
-- Git tags require separate explicit approval.
-- One mission. One commit.
+- No implementation begins without explicit architecture approval
+- Plans are reviewed before coding
+- Every completed mission requires architecture review
+- Git tags require separate explicit approval
+- One mission. One commit
 
 If approval is withheld: stop, do not modify the repository, wait for revised instructions.
 
 ---
 
-# Authority Order
-
-When documents conflict, resolve in this order:
-
-1. GAR Constitutions (GAR-0001 through GAR-0016)
-2. Approved Sprint Documents
-3. Committed Repository State
-4. [`VERSION`](VERSION)
-5. Release Documentation
-6. [`GARUDA_CONTEXT.md`](GARUDA_CONTEXT.md)
-7. Engineering Governance documents
-
-Never infer architecture from code alone.
-
----
-
 # Absolute Prohibitions
 
-- Never invent architecture.
-- Never implement future sprint missions.
-- Never modify GAR constitutional documents without approval.
-- Never rename canonical objects.
+- Never invent architecture
+- Never implement future sprint missions
+- Never modify GAR constitutional documents without approval
+- Never reopen closed sprints or release artifacts
+- Never rename canonical objects
 - Never add persistence, REST, execution engines, scheduling, orchestration, AI behaviour,
-  workflow engines, or frontend features outside approved scope.
-- Never modify unrelated packages.
-- Never fake tests, documentation, or completion.
+  workflow engines, or frontend features outside approved scope
+- Never modify unrelated packages
+- Never fake tests, documentation, or completion
 
 ---
 
 # Local Development Bootstrap
 
 This is separate from the AI engineering bootstrap sequence above.
-
-To set up the local development environment:
 
 ```bash
 make bootstrap
@@ -164,7 +336,9 @@ See [`README.md`](README.md) for full setup, validation, and quick-start command
 
 | Document | Role |
 | --- | --- |
+| [`GAR-REFERENCE-0001.md`](GAR-REFERENCE-0001.md) | Constitutional engineering reference manual |
 | [`GARUDA_NAVIGATION.md`](GARUDA_NAVIGATION.md) | Engineering governance entry point |
+| [`GAR-CODEX-CONTEXT.md`](GAR-CODEX-CONTEXT.md) | Codex operational context |
 | [`docs/README.md`](docs/README.md) | Documentation and governance index |
 | [`docs/developer-onboarding.md`](docs/developer-onboarding.md) | Human contributor onboarding |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution requirements |
@@ -173,11 +347,18 @@ See [`README.md`](README.md) for full setup, validation, and quick-start command
 
 # Change Policy
 
-Update this document when:
+**Stable sections** (change only when engineering process evolves):
 
-- The repository bootstrap sequence changes
-- Engineering governance structure changes
-- A new release milestone requires snapshot updates
+- Purpose, authority model, institutional layers, engineering standard, bootstrap sequence, prohibitions
+
+**Variable sections** (update at each release baseline):
+
+- Current Release
+- Completed Foundations
+- Completed ADRs
+- Completed Constitutions
+- Repository Status
+- Canonical Sprint (when a newer sprint supersedes the exemplar)
 
 Do not use this document to introduce architectural decisions. Architectural decisions belong in GAR
 constitutions and approved sprint documents.
