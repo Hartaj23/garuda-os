@@ -7,6 +7,7 @@ Architecture documentation for the Integration Foundation implementing ADR-0012 
 ## Documents
 
 - [Overview](overview.md) — Mission Alpha foundation architecture
+- [Integration Contracts](integration-contracts.md) — Mission Bravo contract architecture
 
 ## Related Authority
 
@@ -19,7 +20,7 @@ Architecture documentation for the Integration Foundation implementing ADR-0012 
 | Mission | Architecture documents |
 | --- | --- |
 | Alpha | Overview |
-| Bravo | Integration Contracts (pending) |
+| Bravo | Integration Contracts |
 | Charlie | Integration Lifecycle and Boundary Model (pending) |
 | Delta | Integration Relationship Framework (pending) |
 | Echo | Integration Validation Framework (pending) |
