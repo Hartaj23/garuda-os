@@ -10,6 +10,7 @@ engineering, and AI-assisted implementation.
 GAR-0001 through GAR-0016 are complete and frozen at v1.0.
 GAR-0017 (Phase II Constitutional Extension — Interface) is complete and frozen at v1.0.
 GAR-0018 (Phase II Constitutional Extension — Integration) is complete and frozen at v1.0.
+GAR-0019 (External Capability Expansion — Second Derivation) is ratified at v1.0.
 Future constitutional changes require Architecture Change Proposals under GAR-0016.
 
 ## Current release status
@@ -21,7 +22,9 @@ v0.11.0-alpha is the current release (GAR-SPRINT-0011 Integration Foundation).
 
 GAR-SPRINT-0011 complete and closed.
 Integration Foundation (Phase II) published at `v0.11.0-alpha`.
-Repository status: **HOLD** — no sprint authorized.
+GAR-0019 ratified — Runtime Foundation authorized at constitutional level (descriptive External
+Runtime Governance only). ADR-0013 and GAR-SPRINT-0012 not yet authorized.
+Repository status: Constitutional cycle open — implementation not authorized.
 
 ## Completed Sprint 11 missions
 
@@ -37,8 +40,8 @@ Repository status: **HOLD** — no sprint authorized.
 
 ## Current next mission
 
-No sprint authorized. Repository is on HOLD. GAR-SPRINT-0012 requires separate constitutional review
-and Founder authorization.
+GAR-0019 ratified. Next authorized architectural activity: ADR-0013 drafting upon explicit Founder
+authorization. GAR-SPRINT-0012 and implementation remain blocked until ADR approval.
 
 ## Completed Sprint 2 missions
 
