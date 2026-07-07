@@ -4,6 +4,25 @@ All notable changes to Project Garuda will be documented in this file.
 
 The project follows semantic versioning as required by the repository architecture.
 
+## v0.11.0-alpha - 2026-07-07
+
+### Added
+
+- Integration Foundation (Phase II) under `packages.integration` as the constitutional realization of
+  descriptive external integration governance (GAR-0018, ADR-0012).
+- Integration Core with Platform Core inheritance baseline (Mission Alpha).
+- Integration Contracts subordinate to canonical Interface contracts (Mission Bravo).
+- Integration Lifecycle and Boundary Model with Interface dependency (Mission Charlie).
+- Integration Relationship Framework with participant classification semantics (Mission Delta).
+- Validation Framework with deterministic `evaluate_integration_artifact` and variability containment
+  (Mission Echo).
+- Integration Registry as process-local descriptive catalog (Mission Foxtrot).
+- Integration Foundation certification with twelve constitutional scenarios — GAR-CERT-S11-001 (Mission
+  Golf).
+- Integration Foundation SDK documentation with 94/94 public API coverage (Mission Hotel).
+- Institutional release report GAR-RELEASE-S11-001, sprint closure report, and release notes for
+  `v0.11.0-alpha`.
+
 ## v0.10.0-alpha - 2026-07-06
 
 ### Added

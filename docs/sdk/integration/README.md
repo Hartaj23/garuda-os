@@ -11,7 +11,8 @@
 
 ## Purpose
 
-This documentation set is the developer-facing counterpart to **GAR-CERT-S11-001** (Golf Certification PASS).
+This documentation set is the developer-facing counterpart to
+**[GAR-CERT-S11-001](../../sprints/GAR-SPRINT-0011-integration-certification.md)** (Golf Certification PASS).
 If Golf answers whether the Integration Foundation implementation is correct, Hotel answers whether
 another engineer can successfully build with the published foundation.
 

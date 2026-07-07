@@ -8,20 +8,37 @@ engineering, and AI-assisted implementation.
 ## Current architecture status
 
 GAR-0001 through GAR-0016 are complete and frozen at v1.0.
-GAR-0017 (Phase II Constitutional Extension) is complete and frozen at v1.0.
+GAR-0017 (Phase II Constitutional Extension — Interface) is complete and frozen at v1.0.
+GAR-0018 (Phase II Constitutional Extension — Integration) is complete and frozen at v1.0.
 Future constitutional changes require Architecture Change Proposals under GAR-0016.
 
 ## Current release status
 
-v0.1.0-alpha through v0.9.0-alpha are released.
-v0.10.0-alpha is the current release (published; tag `v0.10.0-alpha` on commit `369a93b`).
+v0.1.0-alpha through v0.10.0-alpha are released.
+v0.11.0-alpha is the current release (GAR-SPRINT-0011 Integration Foundation).
 
 ## Current status
 
-GAR-SPRINT-0010 complete and closed.
-Interface Foundation (Phase II) published at `v0.10.0-alpha`.
-GAR-REFERENCE-0001 (Constitutional Engineering Reference Manual) published.
-Governance baseline frozen. Sprint 0010 is the Canonical Foundation Reference for Phase II.
+GAR-SPRINT-0011 complete and closed.
+Integration Foundation (Phase II) published at `v0.11.0-alpha`.
+Repository status: **HOLD** — no sprint authorized.
+
+## Completed Sprint 11 missions
+
+- Mission Alpha — Integration Core.
+- Mission Bravo — Integration Contracts.
+- Mission Charlie — Integration Lifecycle and Boundary Model.
+- Mission Delta — Integration Relationship Framework.
+- Mission Echo — Integration Validation Framework.
+- Mission Foxtrot — Integration Registry.
+- Mission Golf — Integration Foundation Certification.
+- Mission Hotel — Integration Foundation SDK Documentation.
+- Mission India — Sprint Closure & Release Preparation.
+
+## Current next mission
+
+No sprint authorized. Repository is on HOLD. GAR-SPRINT-0012 requires separate constitutional review
+and Founder authorization.
 
 ## Completed Sprint 2 missions
 
@@ -129,10 +146,6 @@ Governance baseline frozen. Sprint 0010 is the Canonical Foundation Reference fo
 - Mission Golf — Interface Foundation Certification.
 - Mission Hotel — Interface Foundation SDK Documentation.
 - Mission India — Sprint Closure & Release Preparation.
-
-## Current next mission
-
-No sprint authorized. Sprint 0011 requires separate constitutional and architectural authorization.
 
 ## Institutional references
 

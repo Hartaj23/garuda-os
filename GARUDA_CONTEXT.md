@@ -57,9 +57,9 @@ Implementation follows approved sprint missions.
 |---|---|
 | Repository Status | Clean (tracked files) |
 | Current Branch | `master` |
-| Current Version | `v0.10.0-alpha` (prepared pending tag approval) |
-| Current Sprint | GAR-SPRINT-0010 (Complete) |
-| Current Mission | Awaiting approval to tag `v0.10.0-alpha` |
+| Current Version | `v0.11.0-alpha` |
+| Current Sprint | GAR-SPRINT-0011 (Complete) |
+| Current Mission | None — repository HOLD |
 
 ---
 
@@ -142,9 +142,20 @@ Implementation follows approved sprint missions.
 | Field | Value |
 |---|---|
 | Status | Complete |
-| Release | `v0.10.0-alpha` (prepared pending tag approval) |
+| Release | `v0.10.0-alpha` |
 | Phase | Phase II |
 | Constitutional authority | GAR-0017 v1.0 |
+
+---
+
+## Integration Foundation
+
+| Field | Value |
+|---|---|
+| Status | Complete |
+| Release | `v0.11.0-alpha` |
+| Phase | Phase II |
+| Constitutional authority | GAR-0018 v1.0 |
 
 ---
 
@@ -152,10 +163,11 @@ Implementation follows approved sprint missions.
 
 | Check | Result |
 |---|---|
+| Integration Foundation Suite (Alpha–Hotel) | PASS |
+| Integration Foundation Certification (GAR-CERT-S11-001) | PASS |
+| Integration Foundation SDK verification | PASS |
 | Interface Foundation Suite (Alpha–Hotel) | PASS |
-| Interface Foundation Certification | PASS |
-| Interface Foundation SDK verification | PASS |
-| Complete Test Suite | 806 passed |
+| Complete Test Suite | 903 passed |
 | Repository Foundation Validation | PASS |
 | Engineering Toolchain Validation | PASS |
 
@@ -251,9 +263,9 @@ These will be introduced only through future approved constitutions and sprint p
 
 | Field | Value |
 |---|---|
-| Current Sprint | GAR-SPRINT-0010 (Complete) |
-| Current Status | Awaiting approval to tag `v0.10.0-alpha` |
-| Next Milestone | Future Phase II work requires separate constitutional authorization |
+| Current Sprint | GAR-SPRINT-0011 (Complete) |
+| Current Status | Repository HOLD — no sprint authorized |
+| Next Milestone | GAR-SPRINT-0012 requires separate constitutional review and Founder authorization |
 
 ---
 
