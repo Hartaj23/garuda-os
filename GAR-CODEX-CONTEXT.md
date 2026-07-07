@@ -23,8 +23,8 @@ v0.11.0-alpha is the current release (GAR-SPRINT-0011 Integration Foundation).
 GAR-SPRINT-0011 complete and closed.
 Integration Foundation (Phase II) published at `v0.11.0-alpha`.
 GAR-0019 ratified — Runtime Foundation authorized at constitutional level (descriptive External
-Runtime Governance only). ADR-0013 and GAR-SPRINT-0012 not yet authorized.
-Repository status: Constitutional cycle open — implementation not authorized.
+Runtime Governance only). ADR-0013 approved v1.0. GAR-SPRINT-0012 not yet authorized.
+Repository status: Architectural gate complete — sprint drafting awaits explicit Founder authorization.
 
 ## Completed Sprint 11 missions
 
@@ -40,8 +40,8 @@ Repository status: Constitutional cycle open — implementation not authorized.
 
 ## Current next mission
 
-GAR-0019 ratified. Next authorized architectural activity: ADR-0013 drafting upon explicit Founder
-authorization. GAR-SPRINT-0012 and implementation remain blocked until ADR approval.
+GAR-0019 ratified. ADR-0013 approved v1.0. GAR-SPRINT-0012 drafting awaits explicit Founder
+authorization. Mission Alpha and implementation remain blocked.
 
 ## Completed Sprint 2 missions
 

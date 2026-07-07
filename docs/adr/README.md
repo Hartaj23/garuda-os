@@ -15,6 +15,8 @@ ADRs derive authority exclusively from GAR Constitutions. They never establish c
 | ID | Title | Status |
 | --- | --- | --- |
 | [ADR-0011](ADR-0011-interface-foundation.md) | Interface Foundation | Approved v1.0 |
+| [ADR-0012](ADR-0012-integration-foundation.md) | Integration Foundation | Approved v1.0 |
+| [ADR-0013](ADR-0013-runtime-foundation.md) | Runtime Foundation | Approved v1.0 |
 
 ## Related Documents
 

@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | ADR-0013 |
 | Title | Runtime Foundation |
-| Status | Draft — Pending Architectural Review |
+| Status | Approved v1.0 |
 | Date | 2026-07-07 |
 | Authority | [GAR-0019](../../GAR-0019.md) — External Capability Expansion Constitutional Extension — Second Derivation |
 | Epoch | External Capability Expansion (continued) |
@@ -348,4 +348,4 @@ certifications SHALL conform to:
 
 ---
 
-End of ADR-0013 (Draft)
+End of ADR-0013
