@@ -11,6 +11,8 @@ Architecture documentation for the Integration Foundation implementing ADR-0012 
 - [Integration Lifecycle and Boundary Model](integration-lifecycle-boundary-model.md) — Mission Charlie lifecycle architecture
 - [Integration Relationship Framework](integration-relationship-framework.md) — Mission Delta relationship architecture
 - [Integration Validation Framework](integration-validation-framework.md) — Mission Echo validation architecture
+- [Integration Registry](integration-registry.md) — Mission Foxtrot registry architecture
+- [Integration Foundation Architecture Diagram](integration-foundation-architecture-diagram.md) — Consolidated module diagram
 
 ## Related Authority
 
@@ -27,7 +29,7 @@ Architecture documentation for the Integration Foundation implementing ADR-0012 
 | Charlie | Integration Lifecycle and Boundary Model |
 | Delta | Integration Relationship Framework |
 | Echo | Integration Validation Framework |
-| Foxtrot | Integration Registry (pending) |
+| Foxtrot | Integration Registry |
 | Golf | Certification record (pending) |
 | Hotel | SDK documentation (`docs/sdk/integration/`) (pending) |
 | India | Sprint closure (institutional release) (pending) |
