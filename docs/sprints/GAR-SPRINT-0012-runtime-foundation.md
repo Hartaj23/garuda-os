@@ -745,10 +745,14 @@ Full principle-level mapping: see ADR-0013 Constitutional Traceability appendix.
 | Mission Foxtrot authorization | **Granted** — implementation authorized for Mission Foxtrot only |
 | Mission Foxtrot implementation | **Complete** — `e9de697` |
 | GAR-REVIEW-S12-006 | **Approved** |
-| Missions Golf–India | Not authorized |
-| Implementation | Missions Alpha–Foxtrot complete; Golf–India blocked |
+| Mission Golf authorization | **Granted** — implementation authorized for Mission Golf only |
+| Mission Golf implementation | **Complete** — `d6dd58f` |
+| GAR-REVIEW-S12-007 | **Approved** |
+| GAR-CERT-S12-001 | **PASS** |
+| Missions Hotel–India | Not authorized |
+| Implementation | Missions Alpha–Golf complete; Hotel–India blocked |
 
-Missions Alpha through Foxtrot are institutionally complete. Missions Golf–India require separate Founder authorization after mission review.
+Missions Alpha through Golf are institutionally complete. Missions Hotel–India require separate Founder authorization after mission review.
 
 ---
 

@@ -30,8 +30,9 @@ GAR-SPRINT-0012 Mission Charlie complete — GAR-REVIEW-S12-003 approved (`c4c20
 GAR-SPRINT-0012 Mission Delta complete — GAR-REVIEW-S12-004 approved (`820bc2a`).
 GAR-SPRINT-0012 Mission Echo complete — GAR-REVIEW-S12-005 approved (`78c365d`).
 GAR-SPRINT-0012 Mission Foxtrot complete — GAR-REVIEW-S12-006 approved (`e9de697`).
-Missions Golf–India not authorized.
-Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorization for Mission Golf.
+GAR-SPRINT-0012 Mission Golf complete — GAR-REVIEW-S12-007 approved (`d6dd58f`).
+Missions Hotel–India not authorized.
+Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorization for Mission Hotel.
 
 ## Completed Sprint 11 missions
 
@@ -47,8 +48,8 @@ Repository status: GAR-SPRINT-0012 in progress — awaiting Founder authorizatio
 
 ## Current next mission
 
-GAR-SPRINT-0012 Mission Golf — Runtime Foundation Certification.
-Not authorized — requires separate Founder authorization after Mission Foxtrot closure.
+GAR-SPRINT-0012 Mission Hotel — Runtime Foundation SDK Documentation.
+Not authorized — requires separate Founder authorization after Mission Golf closure.
 
 ## Completed Sprint 2 missions
 
@@ -165,6 +166,7 @@ Not authorized — requires separate Founder authorization after Mission Foxtrot
 - Mission Delta — Runtime Context Classification — approved in GAR-REVIEW-S12-004.
 - Mission Echo — Runtime Validation Framework — approved in GAR-REVIEW-S12-005.
 - Mission Foxtrot — Runtime Registry — approved in GAR-REVIEW-S12-006.
+- Mission Golf — Runtime Foundation Certification — approved in GAR-REVIEW-S12-007.
 
 ## Institutional references
 
