@@ -195,6 +195,7 @@ GAR-SPRINT-0011 delivers the Integration Foundation under `packages.integration`
 - [Execution Foundation SDK](docs/sdk/execution-foundation/README.md)
 - [Interface Foundation SDK](docs/sdk/interface/README.md)
 - [Integration Foundation SDK](docs/sdk/integration/README.md)
+- [Runtime Foundation SDK](docs/sdk/runtime/README.md)
 - [Sprint 2 Closure Report](docs/sprints/GAR-SPRINT-0002-closure-report.md)
 - [Sprint 3 Closure Report](docs/sprints/GAR-SPRINT-0003-closure-report.md)
 - [Sprint 4 Closure Report](docs/sprints/GAR-SPRINT-0004-closure-report.md)

@@ -31,5 +31,5 @@ Engineering documentation for the Runtime Foundation implementing ADR-0013 under
 | Echo | Runtime Validation Framework |
 | Foxtrot | Runtime Registry |
 | Golf | Runtime Foundation Certification |
-| Hotel | SDK documentation (pending) |
+| Hotel | SDK documentation (`docs/sdk/runtime/`) |
 | India | Sprint closure (pending) |
