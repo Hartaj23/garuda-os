@@ -12,6 +12,15 @@ Governance documents in this directory are **descriptive only** unless explicitl
 constitutional law elsewhere. They never supersede GAR constitutions, ADRs, or approved sprint
 specifications.
 
+## Governance Vocabulary
+
+| Term | Meaning |
+| --- | --- |
+| **Decision** | What the Founder has concluded |
+| **Recommendation** | What institutional assessment proposes |
+| **Authorization** | Permission to begin work |
+| **Ratification** | Approval of a completed governance artifact |
+
 ## Documents
 
 | Document | Role |

@@ -19,6 +19,36 @@ This document does not authorize work.
 
 ---
 
+## Governance Vocabulary
+
+| Term | Meaning |
+| --- | --- |
+| **Decision** | What the Founder has concluded |
+| **Recommendation** | What institutional assessment proposes |
+| **Authorization** | Permission to begin work on a governance artifact |
+| **Ratification** | Founder approval of a completed governance artifact |
+
+A decision about direction does not imply authorization to begin work.
+
+---
+
+## Constitutional Evolution Gates (Layer 0 → Layer 1)
+
+When a Governance Cycle identifies constitutional evolution as necessary, two Founder gates apply:
+
+| Stage | Purpose | Authority |
+| --- | --- | --- |
+| **Gate A** | Whether constitutional evolution is necessary | Founder Decision |
+| **Recommendation** | Identify appropriate next governance artifact | Institutional assessment |
+| **Gate B** | Authorize drafting of that artifact | Founder Decision |
+| **Drafting** | Produce constitutional proposal | Chief Systems Architect |
+| **Ratification** | Accept, amend, or reject completed constitution | Founder |
+
+Gate A answers **whether** evolution is needed. Gate B answers **whether work may begin**. Neither
+gate authorizes ADR, sprint, or engineering work.
+
+---
+
 ## Repository and Institution
 
 Project Garuda distinguishes two complementary concepts:
@@ -65,9 +95,8 @@ Founder Decision
 
 **Outputs:** Institutional decisions only.
 
-**Current position (Governance Cycle 6):** Institutional HOLD — Founder Decision recorded:
-constitutional evolution required. Next artifact: GAR-0020 (constitutional drafting by architectural
-authority).
+**Current position (Governance Cycle 6):** Institutional HOLD — Gate A complete (constitutional
+evolution required). GAR-0020 recommended. Gate B pending (drafting not authorized).
 
 ---
 
@@ -88,7 +117,7 @@ a valid and complete outcome.
 | Cycle | Review artifact | Outcome |
 | --- | --- | --- |
 | Governance Cycle 5 | Architecture 5 | Governance model adopted — `4a9a2b1` |
-| Governance Cycle 6 | Pending | Constitutional evolution required — GAR-0020 next |
+| Governance Cycle 6 | Pending | Gate A complete — GAR-0020 recommended; Gate B pending |
 
 ---
 

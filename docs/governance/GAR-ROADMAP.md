@@ -45,10 +45,12 @@ Decision cycles). Do not update mid-sprint or mid-mission.
 | **Git tag** | `v0.12.0-alpha` on `bd29741` |
 | **Institution state** | **Institutional HOLD** |
 | **Governance cycle** | **Governance Cycle 6** — active |
-| **Layer 0** | Founder Decision recorded — constitutional evolution required |
-| **Layer 1** | GAR-0020 drafting — next artifact (not yet in repository) |
+| **Gate A** | **Complete** — constitutional evolution required (Founder Decision) |
+| **Recommendation** | GAR-0020 — next governance artifact for Founder consideration |
+| **Gate B** | **Pending** — Founder authorization to begin GAR-0020 drafting |
+| **Layer 1** | No active governance chain |
 | **Layer 2** | No active sprint |
-| **Next gate** | GAR-0020 draft → Founder ratification |
+| **Engineering authority** | **None** |
 | **Test baseline** | 1042 passing tests |
 | **Regression floor** | 1042 (`unittest discover tests`) |
 
@@ -249,14 +251,23 @@ Implementation → Mission Review → Certification → SDK → Release → Tag 
 
 ## Governance Cycle 6 (Active)
 
-Founder Decision recorded: **constitutional evolution required**.
+**Gate A (Founder Decision):** Constitutional evolution required — **complete**.
+
+**Recommendation (institutional assessment):** GAR-0020 — Third External Capability Expansion
+Constitutional Extension.
+
+**Gate B (Founder Decision):** Authorization to begin GAR-0020 drafting — **pending**.
 
 ```
 Governance Cycle 6
         ↓
-Founder Decision — constitutional evolution required     ← recorded
+Gate A — constitutional evolution required          ← complete
         ↓
-GAR-0020 (Third External Capability Expansion Constitutional Extension)
+Recommendation — GAR-0020                           ← recorded
+        ↓
+Gate B — authorize GAR-0020 drafting                ← pending
+        ↓
+GAR-0020 drafting (Chief Systems Architect)
         ↓
 Founder ratification of GAR-0020
         ↓
@@ -265,8 +276,8 @@ ADR-0014 (if GAR-0020 authorizes a foundation)
 GAR-SPRINT-0013 (if ADR approved)
 ```
 
-GAR-0020 drafting is the next governance artifact. ADR-0014, GAR-SPRINT-0013, and implementation
-are not authorized. Sprint 0013 is not assumed.
+GAR-0020 drafting, ADR-0014, GAR-SPRINT-0013, and implementation are not authorized. Sprint 0013
+is not assumed.
 
 ---
 

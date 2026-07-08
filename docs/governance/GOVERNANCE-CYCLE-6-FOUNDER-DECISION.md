@@ -11,14 +11,30 @@
 
 ## Authority Constraint
 
-This document records Layer 0 institutional decisions. It creates no engineering, sprint,
+This document records Layer 0 institutional **decisions**. It creates no engineering, sprint,
 implementation, certification, SDK, or release authority.
+
+---
+
+## Governance Vocabulary
+
+These terms are used consistently across the governance corpus:
+
+| Term | Meaning |
+| --- | --- |
+| **Decision** | What the Founder has concluded |
+| **Recommendation** | What institutional assessment proposes |
+| **Authorization** | Permission to begin work on a governance artifact |
+| **Ratification** | Founder approval of a completed governance artifact |
+
+A **decision** about direction does not imply **authorization** to begin work. Each transition
+requires an explicit governance event.
 
 ---
 
 ## Decision 1 — Adopt Governance Cycle Naming
 
-**Status:** Adopted
+**Status:** Adopted (Founder Decision)
 
 Future institutional reviews shall be named **Governance Cycle N**, not Architecture N.
 
@@ -39,54 +55,72 @@ Founder Decision (adopted — `4a9a2b1`)
 Institutional HOLD
 ```
 
-**Forward model:**
+---
 
-```
-Governance Cycle 6
-        ↓
-Repository Assessment
-        ↓
-Founder Decision
-        ↓
-GAR-0020 (if required)
-        ↓
-ADR-0014
-        ↓
-GAR-SPRINT-0013
-```
+## Gate A — Constitutional Evolution Required
 
-Not every cycle reaches GAR-0020, an ADR, or a sprint. A cycle is complete when the Founder Decision
-is recorded.
+**Status:** Complete (Founder Decision)
+
+**Gate A question:** Does Governance Cycle 6 require constitutional evolution?
+
+**Founder Decision:** **Yes.** Constitutional evolution is required before a new foundation, ADR, or
+sprint may be authorized.
+
+Gate A determines **whether** evolution is needed. It does not authorize drafting, ratification, ADR
+work, sprint work, or engineering.
 
 ---
 
-## Decision 2 — Constitutional Evolution Required
+## Institutional Recommendation — Next Governance Artifact
 
-**Status:** Adopted
+**Status:** Recommendation (not authorization)
 
-Governance Cycle 6 requires **constitutional evolution** before a new foundation, ADR, or sprint may
-be authorized.
+Following Gate A, institutional assessment recommends **GAR-0020** — Third External Capability
+Expansion Constitutional Extension — as the appropriate next governance artifact for Founder
+consideration.
 
-The institution has determined that analysis and drafting of **GAR-0020** — Third External Capability
-Expansion Constitutional Extension — is the next governance artifact.
+This is a **recommendation**, not permission to begin drafting.
+
+| Stage | Purpose | Authority | Cycle 6 status |
+| --- | --- | --- | --- |
+| Gate A | Whether constitutional evolution is necessary | Founder Decision | **Complete** |
+| Recommendation | Identify appropriate next governance artifact | Institutional assessment | **GAR-0020 recommended** |
+| Gate B | Authorize drafting of that artifact | Founder Decision | **Pending** |
+| GAR-0020 drafting | Produce constitutional proposal | Chief Systems Architect | Not authorized |
+| Ratification | Accept, amend, or reject GAR-0020 | Founder | Not applicable — no draft |
+| ADR-0014 | Architectural interpretation (if warranted) | Separate authorization | Not authorized |
+| GAR-SPRINT-0013 | Implementation mission (if warranted) | Separate authorization | Not authorized |
+| Engineering | Repository work | Separate authorization | Not authorized |
 
 ---
 
-## What This Decision Authorizes
+## Gate B — GAR-0020 Drafting Authorization
+
+**Status:** Pending (Founder Decision not yet recorded)
+
+**Gate B question:** Does the Founder authorize GAR-0020 drafting to begin?
+
+Until Gate B is explicitly recorded, the Chief Systems Architect shall not produce GAR-0020 text.
+The institution remains at **Institutional HOLD**.
+
+---
+
+## What Gate A Authorizes
 
 | Action | Status |
 | --- | --- |
-| GAR-0020 drafting (Chief Systems Architect) | **Next authorized governance artifact** |
-| Founder ratification of GAR-0020 | Pending draft completion |
-| Governance documentation updates | Authorized (this record) |
+| Record that constitutional evolution is required | **Complete** |
+| Identify GAR-0020 as recommended next artifact | **Complete** (recommendation) |
+| Governance documentation updates | **Authorized** (this record) |
 
 ---
 
-## What This Decision Does Not Authorize
+## What Gate A and Gate B Do Not Authorize
 
 | Action | Status |
 | --- | --- |
-| GAR-0020 ratification | Not authorized — draft does not exist |
+| GAR-0020 drafting | **Not authorized** — Gate B pending |
+| GAR-0020 ratification | Not applicable — no draft |
 | ADR-0014 | Not authorized |
 | GAR-SPRINT-0013 | Not authorized |
 | Mission Alpha or any implementation | Not authorized |
@@ -95,9 +129,9 @@ Expansion Constitutional Extension — is the next governance artifact.
 
 ---
 
-## GAR-0020 Scope (Institutional Direction — Not Draft Authorization Text)
+## GAR-0020 Scope (Recommendation Context — Not Draft Text)
 
-If drafted and ratified, GAR-0020 is expected to address (per Architecture 5):
+If Gate B is authorized, drafted, and ratified, GAR-0020 is expected to address (per Architecture 5):
 
 1. Post-Runtime candidate domain analysis (Orchestration first, per GAR-0017 naming)
 2. Descriptive vs operational Orchestration (Runtime re-derivation precedent)
@@ -114,10 +148,13 @@ GAR-0020 must not authorize implementation, ADR drafting, or sprint work directl
 | Domain | State |
 | --- | --- |
 | **Repository** | `v0.12.0-alpha` — stable institutional memory |
-| **Institution** | Institutional HOLD — Governance Cycle 6 active |
-| **Governance Cycle** | Cycle 6 — Founder Decision recorded |
-| **Next artifact** | GAR-0020 (constitutional drafting) |
-| **Engineering** | No active sprint |
+| **Governance framework** | Architecture 5 — closed and adopted |
+| **Governance cycle** | Cycle 6 — active |
+| **Gate A** | **Complete** — constitutional evolution required |
+| **Recommendation** | GAR-0020 |
+| **Gate B** | **Pending** — Founder authorization to begin drafting |
+| **Institution** | **Institutional HOLD** |
+| **Engineering authority** | **None** |
 
 ---
 
