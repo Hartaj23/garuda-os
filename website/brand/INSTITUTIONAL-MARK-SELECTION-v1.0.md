@@ -12,7 +12,7 @@
 | Framework | [INSTITUTIONAL-MARK-EXPLORATION-v1.0.md](INSTITUTIONAL-MARK-EXPLORATION-v1.0.md) |
 | Candidates | [mark-selection/candidates/](mark-selection/candidates/) |
 | Version | 1.0 |
-| Status | **Complete — Selection recommends; Adoption not authorized** |
+| Status | **Complete — C-03 Baseline adopted** |
 
 This document creates no constitutional, architectural, sprint, or engineering authority.
 

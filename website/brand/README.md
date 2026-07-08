@@ -6,6 +6,8 @@
 | --- | --- |
 | Mission | Mission 001 — Launch the Public Foundation |
 | Phase | Phase B — Brand Foundation |
+| Status | **Closed** |
+| Closure | [MISSION-001-PHASE-B-CLOSURE.md](../../docs/governance/MISSION-001-PHASE-B-CLOSURE.md) |
 | Layer | Public Communication — Brand |
 
 ---
@@ -23,36 +25,24 @@ Canonical Page Specification v1.0   ✓ Recorded
         ↓
 Institutional Mark Exploration v1.0 ✓ Recorded
         ↓
-Institutional Mark Selection v1.0   ✓ Recorded (complete)
+Institutional Mark Selection v1.0   ✓ Complete
         ↓
-Institutional Mark Adoption           — recommended for Founder Decision (not authorized)
+Institutional Mark v1.0             ✓ Adopted — C-03 Baseline
         ↓
-Implementation                        — not authorized
+Implementation                      — not authorized
 ```
 
 ---
 
-## Selection Result
+## Adopted Mark
 
-**Recommended:** C-03 Baseline — [c-03-baseline.svg](mark-selection/candidates/c-03-baseline.svg)
+**C-03 Baseline** — [institutional-mark-v1.0.svg](mark/institutional-mark-v1.0.svg)
 
-Selection record: [INSTITUTIONAL-MARK-SELECTION-v1.0.md](INSTITUTIONAL-MARK-SELECTION-v1.0.md)
+Record: [INSTITUTIONAL-MARK-v1.0.md](INSTITUTIONAL-MARK-v1.0.md)
 
-Authorization: [MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md)
+Adoption: [MISSION-001-PHASE-B-INSTITUTIONAL-MARK-ADOPTION.md](../../docs/governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-ADOPTION.md)
 
-Selection recommends. Adoption commits.
-
----
-
-## Final Pause — Complete
-
-Adoption print exercise conducted. Evidence indicates C-03 Baseline makes the page **more itself**, not merely more branded.
-
-Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-ADOPTION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-ADOPTION.md) — **Institutional Mark Adoption recommended** for Founder Decision.
-
-Prior evidence: [PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md](../../docs/institutional/PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md)
-
-Selection recommends C-03 Baseline. Adoption commits. Implementation remains unauthorized.
+The mark acknowledges the institution. It does not define it.
 
 ---
 
@@ -60,6 +50,7 @@ Selection recommends C-03 Baseline. Adoption commits. Implementation remains una
 
 | Document | Link |
 | --- | --- |
+| Institutional Mark Adoption | [MISSION-001-PHASE-B-INSTITUTIONAL-MARK-ADOPTION.md](../../docs/governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-ADOPTION.md) |
 | Institutional Mark Selection | [MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md) |
 | Institutional Mark Exploration | [MISSION-001-PHASE-B-INSTITUTIONAL-MARK-EXPLORATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-EXPLORATION-AUTHORIZATION.md) |
 | Canonical Page Specification | [MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md) |
@@ -78,17 +69,19 @@ Selection recommends C-03 Baseline. Adoption commits. Implementation remains una
 | [CANONICAL-PAGE-SPECIFICATION-v1.0.md](CANONICAL-PAGE-SPECIFICATION-v1.0.md) | 1.0 | Recorded |
 | [INSTITUTIONAL-MARK-EXPLORATION-v1.0.md](INSTITUTIONAL-MARK-EXPLORATION-v1.0.md) | 1.0 | Recorded |
 | [INSTITUTIONAL-MARK-SELECTION-v1.0.md](INSTITUTIONAL-MARK-SELECTION-v1.0.md) | 1.0 | Complete |
-| [mark-selection/candidates/](mark-selection/candidates/) | — | 6 candidates evaluated |
+| [INSTITUTIONAL-MARK-v1.0.md](INSTITUTIONAL-MARK-v1.0.md) | 1.0 | **Adopted** |
+| [mark/institutional-mark-v1.0.svg](mark/institutional-mark-v1.0.svg) | 1.0 | **Adopted** |
+| [mark-selection/candidates/](mark-selection/candidates/) | — | Historical record |
 
 ---
 
 ## Institutional Guidance
 
-The mark exists to acknowledge the institution.
+Phase B is closed.
 
-The institution does not exist to justify the mark.
+The institution remains greater than its symbol.
 
-Institutional Mark Adoption remains unauthorized until explicitly approved by Founder Decision.
+Implementation remains unauthorized until explicitly approved by Founder Decision.
 
 The website introduces.
 
