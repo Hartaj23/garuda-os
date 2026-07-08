@@ -23,6 +23,7 @@
 | 9 | The Integration Foundation | [chapter-09-the-integration-foundation.md](chapter-09-the-integration-foundation.md) |
 | 10 | The Runtime Foundation | [chapter-10-the-runtime-foundation.md](chapter-10-the-runtime-foundation.md) |
 | 11 | The Decision Not to Expand | [chapter-11-the-decision-not-to-expand.md](chapter-11-the-decision-not-to-expand.md) |
+| 12 | Architecture 5: When the Project Became an Institution | [chapter-12-architecture-5-when-the-project-became-an-institution.md](chapter-12-architecture-5-when-the-project-became-an-institution.md) |
 
 ## Note
 
