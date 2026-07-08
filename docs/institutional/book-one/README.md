@@ -15,6 +15,7 @@
 | 1 | Why Garuda Had to Exist | [chapter-01-why-garuda-had-to-exist.md](chapter-01-why-garuda-had-to-exist.md) |
 | 2 | The Birth of Constitutional Engineering | [chapter-02-the-birth-of-constitutional-engineering.md](chapter-02-the-birth-of-constitutional-engineering.md) |
 | 3 | The Founder and the First Question | [chapter-03-the-founder-and-the-first-question.md](chapter-03-the-founder-and-the-first-question.md) |
+| 4 | Repository as Institutional Memory | [chapter-04-repository-as-institutional-memory.md](chapter-04-repository-as-institutional-memory.md) |
 
 ## Note
 
