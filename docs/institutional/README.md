@@ -28,6 +28,7 @@ and committed repository state.
 | [selected-texts/](selected-texts/README.md) | Volume V — Selected Constitutional Texts (Complete, First Edition) |
 | [FIRST-EDITION-COMPLETION-DECLARATION.md](FIRST-EDITION-COMPLETION-DECLARATION.md) | First Edition Completion Declaration (no authority) |
 | [INVITATION-TO-FUTURE-STEWARDS.md](INVITATION-TO-FUTURE-STEWARDS.md) | The Library of the First Constitutional Epoch — invitation to future stewards (no authority) |
+| [COLOPHON-FIRST-EDITION.md](COLOPHON-FIRST-EDITION.md) | Colophon — The First Edition (no authority) |
 | [../governance/CONSTITUTIONAL-BASELINE-v1.0.md](../governance/CONSTITUTIONAL-BASELINE-v1.0.md) | Constitutional Baseline v1.0 (informational reference) |
 
 ## Maintenance

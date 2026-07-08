@@ -161,6 +161,7 @@ That library is offered not as the final word of Project Garuda, but as the fait
 | Editorial Review Checklist | [EDITORIAL-REVIEW-CHECKLIST.md](EDITORIAL-REVIEW-CHECKLIST.md) |
 | First Edition Completion Declaration | [FIRST-EDITION-COMPLETION-DECLARATION.md](FIRST-EDITION-COMPLETION-DECLARATION.md) |
 | An Invitation to Future Stewards | [INVITATION-TO-FUTURE-STEWARDS.md](INVITATION-TO-FUTURE-STEWARDS.md) |
+| Colophon — The First Edition | [COLOPHON-FIRST-EDITION.md](COLOPHON-FIRST-EDITION.md) |
 
 ---
 
