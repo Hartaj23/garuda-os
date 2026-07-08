@@ -1,0 +1,70 @@
+# Project Garuda — Companion & Glossary
+
+## Volume III — The Preservation Series
+
+| Field | Value |
+| --- | --- |
+| Title | Companion & Glossary |
+| Classification | Institutional Literature |
+| Authority | Informational (Non-Constitutional) |
+| Status | In Progress |
+| Purpose | Explain institutional vocabulary without creating authority |
+
+Every institutional term explained — not definitions alone, but short essays explaining why each idea
+matters.
+
+This companion creates no constitutional, architectural, sprint, or engineering authority.
+
+---
+
+## Contents
+
+| Section | Title | File |
+| --- | --- | --- |
+| Introduction | Why This Companion Exists | [introduction.md](introduction.md) |
+
+---
+
+## Entry Structure
+
+Each glossary entry follows the same structure:
+
+- **Definition** — the institutional meaning of the term
+- **Purpose** — why the concept exists
+- **Relationship** — how it connects to other institutional concepts
+- **Repository References** — where the concept appears within the canonical record
+
+---
+
+## Reading Order
+
+Read this Companion alongside:
+
+1. [Book One](../book-one/README.md) — narrative history
+2. [Institutional Atlas](../atlas/README.md) — visual structure
+3. This Companion — institutional vocabulary
+
+Together they provide narrative, structure, and language.
+
+---
+
+## Planned Entries
+
+- Constitutional Engineering
+- Repository-first
+- Institutional HOLD
+- Authority Before Action
+- Governance Before Architecture
+- Constitutional Baseline
+- Epoch Pause
+- Governance Cycle
+- Founder Decision
+- Ratification
+- Stewardship
+
+---
+
+## Note
+
+The Companion explains vocabulary that already exists within the institutional corpus.
+It does not replace constitutions, ADRs, or governance records.

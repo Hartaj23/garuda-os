@@ -32,7 +32,7 @@ navigate it.
 | --- | --- | --- |
 | I | [Book One — The First Constitutional Epoch](book-one/README.md) | Complete (Frozen) |
 | II | [Institutional Atlas](atlas/README.md) | Complete (Plates 1–12) |
-| III | Glossary & Companion | Planned |
+| III | [Companion & Glossary](companion/README.md) | In Progress |
 | IV | Institutional Timeline | Planned |
 | V | Selected Constitutional Texts | Planned |
 
@@ -96,10 +96,16 @@ Suggested contents:
 
 ## Volume III — The Companion
 
-**Project Garuda — Glossary & Companion**
+**Project Garuda — Companion & Glossary**
 
 Every institutional term explained — not definitions alone, but short essays explaining why each
 idea matters.
+
+| Section | File |
+| --- | --- |
+| Introduction | [companion/introduction.md](companion/introduction.md) |
+
+**Status:** In Progress — introduction recorded; glossary entries to follow.
 
 Suggested entries include:
 
@@ -158,9 +164,9 @@ Preservation before evolution. No new constitutions, architecture, or engineerin
 ```
 Book One                    ✓ Complete (Frozen)
         ↓
-Institutional Atlas         (Volume II)
+Institutional Atlas         ✓ Complete (Plates 1–12)
         ↓
-Glossary & Companion        (Volume III)
+Companion & Glossary        (Volume III — In Progress)
         ↓
 Institutional Timeline      (Volume IV)
         ↓
