@@ -155,8 +155,9 @@ Every significant event. Chronological.
 | Entry 5 — The Constitutional Extension of Integration | [timeline/entry-05-the-constitutional-extension-of-integration.md](timeline/entry-05-the-constitutional-extension-of-integration.md) |
 | Entry 6 — The Constitutional Extension of Runtime | [timeline/entry-06-the-constitutional-extension-of-runtime.md](timeline/entry-06-the-constitutional-extension-of-runtime.md) |
 | Entry 7 — Governance Cycle 6 — The Constitutional Question | [timeline/entry-07-governance-cycle-6-the-constitutional-question.md](timeline/entry-07-governance-cycle-6-the-constitutional-question.md) |
+| Entry 8 — GAR-0020 — The Constitutional Recognition of Completion | [timeline/entry-08-gar-0020-the-constitutional-recognition-of-completion.md](timeline/entry-08-gar-0020-the-constitutional-recognition-of-completion.md) |
 
-**Status:** In Progress — introduction and Entries 1–7 recorded; timeline entries to follow.
+**Status:** In Progress — introduction and Entries 1–8 recorded; timeline entries to follow.
 
 Suggested contents:
 

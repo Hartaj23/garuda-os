@@ -33,6 +33,7 @@ This timeline creates no constitutional, architectural, sprint, or engineering a
 | 5 | The Constitutional Extension of Integration | The First Constitutional Epoch | [entry-05-the-constitutional-extension-of-integration.md](entry-05-the-constitutional-extension-of-integration.md) |
 | 6 | The Constitutional Extension of Runtime | The First Constitutional Epoch | [entry-06-the-constitutional-extension-of-runtime.md](entry-06-the-constitutional-extension-of-runtime.md) |
 | 7 | Governance Cycle 6 — The Constitutional Question | The First Constitutional Epoch | [entry-07-governance-cycle-6-the-constitutional-question.md](entry-07-governance-cycle-6-the-constitutional-question.md) |
+| 8 | GAR-0020 — The Constitutional Recognition of Completion | The First Constitutional Epoch | [entry-08-gar-0020-the-constitutional-recognition-of-completion.md](entry-08-gar-0020-the-constitutional-recognition-of-completion.md) |
 
 ---
 
