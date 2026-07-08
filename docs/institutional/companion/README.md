@@ -33,6 +33,7 @@ This companion creates no constitutional, architectural, sprint, or engineering 
 | 4 | Constitutional Corpus | [entry-04-constitutional-corpus.md](entry-04-constitutional-corpus.md) |
 | 5 | Architectural Corpus | [entry-05-architectural-corpus.md](entry-05-architectural-corpus.md) |
 | 6 | Governance Corpus | [entry-06-governance-corpus.md](entry-06-governance-corpus.md) |
+| 7 | Authority | [entry-07-authority.md](entry-07-authority.md) |
 
 ---
 
