@@ -41,7 +41,11 @@ A thousand thoughtful readers who genuinely engage with the ideas are worth far 
 
 **Authorization:** [MISSION-001-PHASE-A-FOUNDER-DECISION.md](../governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md)
 
-**Phase A Status:** Complete — pending Founder review
+**Phase A Status:** Complete (Approved — Closed) — [Closure Record](../governance/MISSION-001-PHASE-A-CLOSURE.md)
+
+**Institutional Note:** [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md)
+
+**Phase B:** Not authorized — Institution on HOLD pending reflection and explicit Founder authorization.
 
 **Website structure:** [website/README.md](../../website/README.md)
 

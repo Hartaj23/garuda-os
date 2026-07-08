@@ -32,6 +32,8 @@ and committed repository state.
 | [CLOSING-THE-FIRST-CONSTITUTIONAL-EPOCH.md](CLOSING-THE-FIRST-CONSTITUTIONAL-EPOCH.md) | Closing the First Constitutional Epoch — Institutional Record (no authority) |
 | [LAUNCH-PROGRAM.md](LAUNCH-PROGRAM.md) | Launch Program — from creation to communication (intent only; no authority) |
 | [../governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md](../governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md) | Mission 001 Phase A — Founder Decision |
+| [../governance/MISSION-001-PHASE-A-CLOSURE.md](../governance/MISSION-001-PHASE-A-CLOSURE.md) | Mission 001 Phase A — Closure Record |
+| [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md) | Mission 001 Phase A — Institutional Note |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |
