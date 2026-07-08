@@ -44,9 +44,11 @@ Canonical Page Specification v1.0   ✓ Recorded
         ↓
 Institutional Mark Exploration v1.0 ✓ Recorded (this document)
         ↓
-Institutional Mark Selection v1.0   ✓ Recorded
+Institutional Mark Selection v1.0   ✓ Complete — C-03 adopted
         ↓
-Institutional Mark Adoption           — not authorized
+Institutional Mark v1.0             ✓ Adopted
+        ↓
+Implementation                      — not authorized
         ↓
 Implementation                      — not authorized
 ```
