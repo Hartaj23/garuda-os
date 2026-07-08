@@ -106,8 +106,9 @@ idea matters.
 | Introduction | [companion/introduction.md](companion/introduction.md) |
 | Entry 1 — Institution | [companion/entry-01-institution.md](companion/entry-01-institution.md) |
 | Entry 2 — Constitutional Engineering | [companion/entry-02-constitutional-engineering.md](companion/entry-02-constitutional-engineering.md) |
+| Entry 3 — Repository-First | [companion/entry-03-repository-first.md](companion/entry-03-repository-first.md) |
 
-**Status:** In Progress — introduction and Entries 1–2 recorded; remaining glossary entries to follow.
+**Status:** In Progress — introduction and Entries 1–3 recorded; remaining glossary entries to follow.
 
 Suggested entries include:
 

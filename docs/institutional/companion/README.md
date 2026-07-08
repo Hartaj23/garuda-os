@@ -29,6 +29,7 @@ This companion creates no constitutional, architectural, sprint, or engineering 
 | --- | --- | --- |
 | 1 | Institution | [entry-01-institution.md](entry-01-institution.md) |
 | 2 | Constitutional Engineering | [entry-02-constitutional-engineering.md](entry-02-constitutional-engineering.md) |
+| 3 | Repository-First | [entry-03-repository-first.md](entry-03-repository-first.md) |
 
 ---
 
