@@ -158,8 +158,9 @@ Every significant event. Chronological.
 | Entry 8 — GAR-0020 — The Constitutional Recognition of Completion | [timeline/entry-08-gar-0020-the-constitutional-recognition-of-completion.md](timeline/entry-08-gar-0020-the-constitutional-recognition-of-completion.md) |
 | Entry 9 — Constitutional Baseline v1.0 — The First Constitutional Inheritance | [timeline/entry-09-constitutional-baseline-v1-0-the-first-constitutional-inheritance.md](timeline/entry-09-constitutional-baseline-v1-0-the-first-constitutional-inheritance.md) |
 | Entry 10 — Book One Completed — The First Constitutional Epoch Preserved | [timeline/entry-10-book-one-completed-the-first-constitutional-epoch-preserved.md](timeline/entry-10-book-one-completed-the-first-constitutional-epoch-preserved.md) |
+| Entry 11 — Institutional Atlas Completed — The Institution Mapped | [timeline/entry-11-institutional-atlas-completed-the-institution-mapped.md](timeline/entry-11-institutional-atlas-completed-the-institution-mapped.md) |
 
-**Status:** In Progress — introduction and Entries 1–10 recorded; timeline entries to follow.
+**Status:** In Progress — introduction and Entries 1–11 recorded; timeline entries to follow.
 
 Suggested contents:
 
