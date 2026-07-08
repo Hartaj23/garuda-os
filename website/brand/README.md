@@ -23,7 +23,9 @@ Canonical Page Specification v1.0   ✓ Recorded
         ↓
 Institutional Mark Exploration v1.0   ✓ Recorded
         ↓
-Institutional Mark Selection          — not authorized
+Institutional Mark Selection v1.0   — recommended next (not authorized)
+        ↓
+Institutional Mark Adoption         — not authorized
         ↓
 Implementation                        — not authorized
 ```
