@@ -24,6 +24,7 @@ and committed repository state.
 | [CONSTITUTIONAL-ENGINEERING.md](CONSTITUTIONAL-ENGINEERING.md) | Constitutional Engineering — A Discipline for Building Enduring Institutions (no authority) |
 | [THE-CONSTITUTIONAL-ENGINEERING-PLEDGE.md](THE-CONSTITUTIONAL-ENGINEERING-PLEDGE.md) | The Constitutional Engineering Pledge (no authority) |
 | [FOUNDING-GENERATION-DECLARATION.md](FOUNDING-GENERATION-DECLARATION.md) | Founding Generation Declaration (no authority) |
+| [RESOLUTION-OF-THE-FOUNDING-GENERATION.md](RESOLUTION-OF-THE-FOUNDING-GENERATION.md) | Resolution of the Founding Generation (no authority) |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |
