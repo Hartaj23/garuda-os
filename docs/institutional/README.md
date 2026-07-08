@@ -26,6 +26,7 @@ and committed repository state.
 | [FOUNDING-GENERATION-DECLARATION.md](FOUNDING-GENERATION-DECLARATION.md) | Founding Generation Declaration (no authority) |
 | [RESOLUTION-OF-THE-FOUNDING-GENERATION.md](RESOLUTION-OF-THE-FOUNDING-GENERATION.md) | Resolution of the Founding Generation (no authority) |
 | [A-LETTER-FROM-THE-FOUNDER.md](A-LETTER-FROM-THE-FOUNDER.md) | A Letter from the Founder (no authority) |
+| [THE-INSTITUTIONS-PROMISE.md](THE-INSTITUTIONS-PROMISE.md) | The Institution's Promise (no authority) |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |
