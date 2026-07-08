@@ -44,7 +44,6 @@ It assumes that once a decision has been made, the legitimacy of that decision r
 examination again.
 
 Projects evolve through momentum.
-
 Features accumulate.
 Architectures expand.
 Teams inherit decisions that were made years before they arrived.
@@ -149,6 +148,7 @@ With Constitutional Engineering, restraint becomes as legitimate as innovation.
 The first constitutional epoch of Project Garuda would eventually demonstrate exactly that.
 
 Its greatest achievement would not merely be the capabilities it established.
+
 It would be the governance model that allowed the institution, after careful analysis, to say:
 
 "Under the current constitutional framework, this is enough."

@@ -14,6 +14,7 @@
 | --- | --- | --- |
 | 1 | Why Garuda Had to Exist | [chapter-01-why-garuda-had-to-exist.md](chapter-01-why-garuda-had-to-exist.md) |
 | 2 | The Birth of Constitutional Engineering | [chapter-02-the-birth-of-constitutional-engineering.md](chapter-02-the-birth-of-constitutional-engineering.md) |
+| 2 | The Birth of Constitutional Engineering | [chapter-02-the-birth-of-constitutional-engineering.md](chapter-02-the-birth-of-constitutional-engineering.md) |
 
 ## Note
 
