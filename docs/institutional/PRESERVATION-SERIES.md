@@ -114,8 +114,9 @@ idea matters.
 | Entry 8 — Authority Before Action | [companion/entry-08-authority-before-action.md](companion/entry-08-authority-before-action.md) |
 | Entry 9 — Governance Cycle | [companion/entry-09-governance-cycle.md](companion/entry-09-governance-cycle.md) |
 | Entry 10 — Gate A | [companion/entry-10-gate-a.md](companion/entry-10-gate-a.md) |
+| Entry 11 — Institutional Recommendation | [companion/entry-11-institutional-recommendation.md](companion/entry-11-institutional-recommendation.md) |
 
-**Status:** In Progress — introduction and Entries 1–10 recorded; remaining glossary entries to follow.
+**Status:** In Progress — introduction and Entries 1–11 recorded; remaining glossary entries to follow.
 
 Suggested entries include:
 
