@@ -31,6 +31,7 @@ This timeline creates no constitutional, architectural, sprint, or engineering a
 | 3 | The Beginning of the First Constitutional Epoch | The First Constitutional Epoch | [entry-03-the-beginning-of-the-first-constitutional-epoch.md](entry-03-the-beginning-of-the-first-constitutional-epoch.md) |
 | 4 | The Constitutional Extension of Phase II | The First Constitutional Epoch | [entry-04-the-constitutional-extension-of-phase-ii.md](entry-04-the-constitutional-extension-of-phase-ii.md) |
 | 5 | The Constitutional Extension of Integration | The First Constitutional Epoch | [entry-05-the-constitutional-extension-of-integration.md](entry-05-the-constitutional-extension-of-integration.md) |
+| 6 | The Constitutional Extension of Runtime | The First Constitutional Epoch | [entry-06-the-constitutional-extension-of-runtime.md](entry-06-the-constitutional-extension-of-runtime.md) |
 
 ---
 

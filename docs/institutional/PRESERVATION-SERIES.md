@@ -153,8 +153,9 @@ Every significant event. Chronological.
 | Entry 3 — The Beginning of the First Constitutional Epoch | [timeline/entry-03-the-beginning-of-the-first-constitutional-epoch.md](timeline/entry-03-the-beginning-of-the-first-constitutional-epoch.md) |
 | Entry 4 — The Constitutional Extension of Phase II | [timeline/entry-04-the-constitutional-extension-of-phase-ii.md](timeline/entry-04-the-constitutional-extension-of-phase-ii.md) |
 | Entry 5 — The Constitutional Extension of Integration | [timeline/entry-05-the-constitutional-extension-of-integration.md](timeline/entry-05-the-constitutional-extension-of-integration.md) |
+| Entry 6 — The Constitutional Extension of Runtime | [timeline/entry-06-the-constitutional-extension-of-runtime.md](timeline/entry-06-the-constitutional-extension-of-runtime.md) |
 
-**Status:** In Progress — introduction and Entries 1–5 recorded; timeline entries to follow.
+**Status:** In Progress — introduction and Entries 1–6 recorded; timeline entries to follow.
 
 Suggested contents:
 
