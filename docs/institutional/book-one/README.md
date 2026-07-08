@@ -41,6 +41,12 @@
 | --- |
 | [epilogue.md](epilogue.md) |
 
+## Blessing
+
+| File |
+| --- |
+| [blessing.md](blessing.md) |
+
 ## Dedication
 
 | Placement | File |
