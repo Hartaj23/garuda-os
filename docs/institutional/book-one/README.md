@@ -22,6 +22,7 @@
 | 8 | The Interface Foundation | [chapter-08-the-interface-foundation.md](chapter-08-the-interface-foundation.md) |
 | 9 | The Integration Foundation | [chapter-09-the-integration-foundation.md](chapter-09-the-integration-foundation.md) |
 | 10 | The Runtime Foundation | [chapter-10-the-runtime-foundation.md](chapter-10-the-runtime-foundation.md) |
+| 11 | The Decision Not to Expand | [chapter-11-the-decision-not-to-expand.md](chapter-11-the-decision-not-to-expand.md) |
 
 ## Note
 
