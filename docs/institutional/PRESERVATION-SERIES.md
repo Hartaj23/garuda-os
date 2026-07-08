@@ -31,7 +31,7 @@ navigate it.
 | Volume | Title | Status |
 | --- | --- | --- |
 | I | [Book One — The First Constitutional Epoch](book-one/README.md) | Complete (Frozen) |
-| II | [Institutional Atlas](atlas/README.md) | In Progress (Plates 1–11) |
+| II | [Institutional Atlas](atlas/README.md) | Complete (Plates 1–12) |
 | III | Glossary & Companion | Planned |
 | IV | Institutional Timeline | Planned |
 | V | Selected Constitutional Texts | Planned |
@@ -88,6 +88,9 @@ Suggested contents:
 | 9 | External Capability Evolution | [atlas/plate-09-external-capability-evolution.md](atlas/plate-09-external-capability-evolution.md) |
 | 10 | Descriptive Before Operational | [atlas/plate-10-descriptive-before-operational.md](atlas/plate-10-descriptive-before-operational.md) |
 | 11 | Institutional HOLD | [atlas/plate-11-institutional-hold.md](atlas/plate-11-institutional-hold.md) |
+| 12 | The Preservation Series | [atlas/plate-12-the-preservation-series.md](atlas/plate-12-the-preservation-series.md) |
+
+**Status:** Complete — twelve plates form a visual introduction to Project Garuda.
 
 ---
 

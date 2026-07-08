@@ -7,7 +7,7 @@
 | Title | Institutional Atlas |
 | Classification | Institutional Literature |
 | Authority | Informational (Non-Constitutional) |
-| Status | In Progress |
+| Status | Complete |
 | Design Goal | A reader should understand Garuda visually in thirty minutes |
 
 A visual companion to Book One. Not prose. Not governance. A collection of diagrams that explain the
@@ -32,14 +32,7 @@ This atlas creates no constitutional, architectural, sprint, or engineering auth
 | 9 | External Capability Evolution | [plate-09-external-capability-evolution.md](plate-09-external-capability-evolution.md) |
 | 10 | Descriptive Before Operational | [plate-10-descriptive-before-operational.md](plate-10-descriptive-before-operational.md) |
 | 11 | Institutional HOLD | [plate-11-institutional-hold.md](plate-11-institutional-hold.md) |
-
----
-
-## Planned Plates
-
-- Authority hierarchy
-- Repository map
-- Architecture 5 governance layers (detail)
+| 12 | The Preservation Series | [plate-12-the-preservation-series.md](plate-12-the-preservation-series.md) |
 
 ---
 
@@ -47,3 +40,5 @@ This atlas creates no constitutional, architectural, sprint, or engineering auth
 
 Read Plate 1 before exploring the constitutional corpus, architectural records, governance history, or
 Book One.
+
+All twelve plates form a visual introduction to Project Garuda. Volume II is complete.
