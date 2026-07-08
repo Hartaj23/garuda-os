@@ -28,20 +28,15 @@ This atlas creates no constitutional, architectural, sprint, or engineering auth
 | 5 | The First Constitutional Epoch | [plate-05-the-first-constitutional-epoch.md](plate-05-the-first-constitutional-epoch.md) |
 | 6 | The Governance Cycle | [plate-06-the-governance-cycle.md](plate-06-the-governance-cycle.md) |
 | 7 | The Two-Gate Model | [plate-07-the-two-gate-model.md](plate-07-the-two-gate-model.md) |
+| 8 | Repository as Institutional Memory | [plate-08-repository-as-institutional-memory.md](plate-08-repository-as-institutional-memory.md) |
 
 ---
 
 ## Planned Plates
 
-- Constitutional evolution timeline
 - Authority hierarchy
-- Governance lifecycle
 - Repository map
-- Constitutional → ADR → Sprint → Engineering chain
-- Governance Cycle model
-- Repository as institutional memory
-- Architecture 5 governance layers
-- The First Constitutional Epoch timeline
+- Architecture 5 governance layers (detail)
 
 ---
 
