@@ -11,6 +11,7 @@ GAR-0001 through GAR-0016 are complete and frozen at v1.0.
 GAR-0017 (Phase II Constitutional Extension — Interface) is complete and frozen at v1.0.
 GAR-0018 (Phase II Constitutional Extension — Integration) is complete and frozen at v1.0.
 GAR-0019 (External Capability Expansion — Second Derivation) is ratified at v1.0.
+GAR-0020 (External Capability Expansion — Third Derivation) is ratified at v1.0 — descriptive epoch pause.
 Future constitutional changes require Architecture Change Proposals under GAR-0016.
 
 ## Current release status
@@ -36,8 +37,8 @@ GAR-SPRINT-0012 Mission Hotel complete — GAR-REVIEW-S12-008 approved (`436ad44
 GAR-SPRINT-0012 Mission India complete — GAR-REVIEW-S12-009 approved (`bd29741`).
 Repository status: **Institutional HOLD** — no sprint authorized.
 Architecture 5 closed — Founder Decision adopted (`4a9a2b1`).
-Governance Cycle 6 — Gate B granted: GAR-0020 drafting authorized (Chief Systems Architect).
-Institutional HOLD suspended only for drafting. Engineering not authorized.
+GAR-0020 v1.0 Founder Ratified — descriptive external-capability epoch pause. Governance Cycle 6
+closed. Institutional HOLD. ADR-0014 and GAR-SPRINT-0013 not authorized.
 
 ## Completed Sprint 11 missions
 

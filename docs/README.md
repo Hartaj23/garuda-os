@@ -23,7 +23,8 @@ Descriptive only — authorizes nothing.
 - [Institutional Strategic Lifecycle v1.0](governance/INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md)
 - [Architecture 5 Founder Decision](governance/ARCHITECTURE-5-FOUNDER-DECISION.md)
 - [Governance Cycle 6 Founder Decision](governance/GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md)
-- [Governance Cycle 6 Gate B Authorization](governance/GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md)
+- [GAR-0020 Founder Ratification](governance/GAR-0020-FOUNDER-RATIFICATION.md)
+- [Governance Cycle 6 Closure](governance/GOVERNANCE-CYCLE-6-CLOSURE.md)
 - [Architecture 5 Review](architecture/ARCHITECTURE-5-repository-strategic-review.md)
 
 ### GAR Constitutions

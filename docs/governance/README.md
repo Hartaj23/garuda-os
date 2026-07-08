@@ -30,6 +30,8 @@ specifications.
 | [ARCHITECTURE-5-FOUNDER-DECISION.md](ARCHITECTURE-5-FOUNDER-DECISION.md) | Founder Decision record closing Architecture 5 |
 | [GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md](GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md) | Governance Cycle 6 — Gate A complete |
 | [GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md](GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md) | Gate B — GAR-0020 drafting authorized |
+| [GAR-0020-FOUNDER-RATIFICATION.md](GAR-0020-FOUNDER-RATIFICATION.md) | GAR-0020 Founder ratification — epoch pause |
+| [GOVERNANCE-CYCLE-6-CLOSURE.md](GOVERNANCE-CYCLE-6-CLOSURE.md) | Governance Cycle 6 closure |
 
 ## Related Documents
 

@@ -95,8 +95,8 @@ Founder Decision
 
 **Outputs:** Institutional decisions only.
 
-**Current position (Governance Cycle 6):** Gate B granted — GAR-0020 drafting authorized (Chief
-Systems Architect). Institutional HOLD suspended only for drafting. Engineering not authorized.
+**Current position:** Governance Cycle 6 **closed** — GAR-0020 ratified; descriptive epoch pause;
+Institutional HOLD. No ADR, sprint, or engineering authorization.
 
 ---
 
@@ -117,7 +117,7 @@ a valid and complete outcome.
 | Cycle | Review artifact | Outcome |
 | --- | --- | --- |
 | Governance Cycle 5 | Architecture 5 | Governance model adopted — `4a9a2b1` |
-| Governance Cycle 6 | GAR-0020 drafting | Gate B granted — awaiting draft and Founder ratification |
+| Governance Cycle 6 | GAR-0020 ratified | Epoch pause — Cycle closed |
 
 ---
 

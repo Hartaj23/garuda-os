@@ -260,9 +260,9 @@ The institution is in **Institutional HOLD**. No sprint is authorized automatica
 
 The repository records the current baseline (`v0.12.0-alpha`). Governance pauses between cycles.
 
-Architecture 5 is closed. Governance Cycle 6 — Gate B granted: GAR-0020 drafting authorized for
-Chief Systems Architect only. See
-[`docs/governance/GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md`](docs/governance/GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md).
+GAR-0020 v1.0 is Founder Ratified. Descriptive external-capability epoch pause is the constitutional
+baseline. Governance Cycle 6 is closed. Institution at **Institutional HOLD**. See
+[`docs/governance/GAR-0020-FOUNDER-RATIFICATION.md`](docs/governance/GAR-0020-FOUNDER-RATIFICATION.md).
 
 Future sprint work requires separate constitutional review and Founder authorization.
 

@@ -8,8 +8,8 @@
 | Classification | Institutional governance — descriptive only |
 | Authority | **None** — this document authorizes nothing |
 | Version | 1.0 |
-| Governance baseline | Architecture 5 Founder Decision — `v0.12.0-alpha` |
-| Last updated | 2026-07-08 (Governance Cycle 6 Founder Decision) |
+| Governance baseline | GAR-0020 Founder Ratification — `v0.12.0-alpha` |
+| Last updated | 2026-07-08 (GAR-0020 ratified — epoch pause) |
 
 ---
 
@@ -44,13 +44,14 @@ Decision cycles). Do not update mid-sprint or mid-mission.
 | **Repository release** | `v0.12.0-alpha` |
 | **Git tag** | `v0.12.0-alpha` on `bd29741` |
 | **Institution state** | **Institutional HOLD** |
-| **Governance cycle** | **Governance Cycle 6** — active |
-| **Gate A** | **Complete** — constitutional evolution required (Founder Decision) |
-| **Recommendation** | GAR-0020 — next governance artifact for Founder consideration |
-| **Gate B** | **Granted** — GAR-0020 drafting authorized (Chief Systems Architect) |
+| **Governance cycle** | **Governance Cycle 6** — **closed** |
+| **Constitutional law** | GAR-0020 v1.0 — **Founder Ratified** |
+| **Descriptive epoch** | **Pause** — descriptive layer constitutionally complete |
+| **Gate A / Gate B / Ratification** | Complete |
 | **Layer 1** | No active governance chain |
 | **Layer 2** | No active sprint |
 | **Engineering authority** | **None** |
+| **Next gate** | New Governance Cycle + explicit Founder authorization |
 | **Test baseline** | 1042 passing tests |
 | **Regression floor** | 1042 (`unittest discover tests`) |
 
@@ -72,6 +73,7 @@ Decision cycles). Do not update mid-sprint or mid-mission.
 | GAR-0017 | Frozen v1.0 | Phase II — Interface Foundation, Constitutional Membrane |
 | GAR-0018 | Frozen v1.0 | External Capability Expansion — Integration |
 | GAR-0019 | Ratified v1.0 | External Capability Expansion — Runtime (descriptive) |
+| GAR-0020 | Ratified v1.0 | External Capability Expansion — Third Derivation (epoch pause) |
 
 **Not committed as full text in repository:** GAR-0001 through GAR-0016 (referenced throughout
 engineering documents; external corpus dependency).
@@ -186,7 +188,7 @@ Runtime Foundation
 | --- | --- | --- |
 | **Integration** | Complete | GAR-0018, ADR-0012, `v0.11.0-alpha` |
 | **Runtime** | Complete (descriptive) | GAR-0019, ADR-0013, `v0.12.0-alpha` |
-| **Orchestration** | Not authorized | Rejected as operational under GAR-0018 and GAR-0019 |
+| **Orchestration** | Not authorized (descriptive and operational) | Rejected under GAR-0020 — epoch pause |
 
 ---
 
@@ -196,7 +198,7 @@ The following are recorded for institutional awareness only. **None authorize wo
 
 | Candidate | GAR-0019 outcome | Notes |
 | --- | --- | --- |
-| External Orchestration Governance (descriptive) | Not evaluated | Requires GAR-0020 constitutional analysis if epoch continues |
+| External Orchestration Governance (descriptive) | REJECTED | GAR-0020 Article VII Candidate B — not admissible under current law |
 | Operational Runtime | REJECTED | Remains rejected under Descriptive Before Operational |
 | Orchestration (operational) | REJECTED | Remains rejected |
 | Transport / Connectivity | REJECTED | Operational |
@@ -206,9 +208,9 @@ The following are recorded for institutional awareness only. **None authorize wo
 | Integration re-extension | REJECTED | Integration complete and immutable |
 | Universal Execution Extension | REJECTED | Phase I separation preserved |
 
-**Constitutional fork (unresolved):** Can External Orchestration Governance be derived as a
-descriptive foundation — as Runtime was derived from Operational Runtime — or does the External
-Capability Expansion epoch pause at `v0.12.0-alpha`? Resolution requires GAR-0020 (if authorized).
+**Constitutional fork (resolved):** GAR-0020 ratified epoch pause at `v0.12.0-alpha`. No third
+descriptive foundation is authorized under current law. Future expansion requires a new governance
+cycle and separate constitutional evolution if warranted.
 
 ---
 
@@ -232,7 +234,7 @@ From GAR-0019 and Sprint 0012 closure records:
 | --- | --- |
 | Phase I (Platform Core + cognitive foundations) | Complete — `v0.9.0-alpha` |
 | Phase II (Interface membrane) | Complete — `v0.10.0-alpha` |
-| External Capability Expansion (descriptive) | Integration and Runtime complete — Orchestration unresolved |
+| External Capability Expansion (descriptive) | Integration and Runtime complete — **epoch pause** (GAR-0020) |
 
 ---
 
@@ -249,35 +251,28 @@ Implementation → Mission Review → Certification → SDK → Release → Tag 
 
 ---
 
-## Governance Cycle 6 (Active)
+## Governance Cycle 6 (Closed)
 
-**Gate A (Founder Decision):** Constitutional evolution required — **complete**.
-
-**Recommendation (institutional assessment):** GAR-0020 — Third External Capability Expansion
-Constitutional Extension.
-
-**Gate B (Founder Authorization):** GAR-0020 drafting — **granted**.
+Governance Cycle 6 closed with GAR-0020 Founder ratification on 2026-07-08.
 
 ```
-Governance Cycle 6
-        ↓
 Gate A — constitutional evolution required          ← complete
         ↓
 Recommendation — GAR-0020                           ← recorded
         ↓
 Gate B — authorize GAR-0020 drafting                ← granted
         ↓
-GAR-0020 drafting (Chief Systems Architect)         ← authorized
+GAR-0020 drafting                                   ← submitted (`a800f7b`)
         ↓
-Founder ratification of GAR-0020
+Founder ratification                                ← complete
         ↓
-ADR-0014 (if GAR-0020 authorizes a foundation)
+Epoch pause — descriptive layer complete            ← constitutional baseline
         ↓
-GAR-SPRINT-0013 (if ADR approved)
+Institutional HOLD
 ```
 
-GAR-0020 drafting is authorized. ADR-0014, GAR-SPRINT-0013, and implementation are not authorized.
-Sprint 0013 is not assumed.
+ADR-0014, GAR-SPRINT-0013, and implementation are **not authorized**. See
+[GOVERNANCE-CYCLE-6-CLOSURE.md](GOVERNANCE-CYCLE-6-CLOSURE.md).
 
 ---
 
@@ -297,7 +292,8 @@ Sprint 0013 is not assumed.
 
 - [INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md](INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md)
 - [ARCHITECTURE-5-FOUNDER-DECISION.md](ARCHITECTURE-5-FOUNDER-DECISION.md)
-- [Architecture 5 Review](../architecture/ARCHITECTURE-5-repository-strategic-review.md)
+- [GAR-0020-FOUNDER-RATIFICATION.md](GAR-0020-FOUNDER-RATIFICATION.md)
+- [GOVERNANCE-CYCLE-6-CLOSURE.md](GOVERNANCE-CYCLE-6-CLOSURE.md)
 - [GARUDA_CONTEXT.md](../../GARUDA_CONTEXT.md)
 - [GAR-REFERENCE-0001.md](../../GAR-REFERENCE-0001.md)
 
