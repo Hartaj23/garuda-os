@@ -153,4 +153,12 @@ That library is offered not as the final word of Project Garuda, but as the fait
 
 ---
 
+## Related Documents
+
+| Document | File |
+| --- | --- |
+| Editorial Workflow | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) |
+
+---
+
 End of First Edition Editorial Pass — Editorial Charter
