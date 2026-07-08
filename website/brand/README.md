@@ -13,14 +13,22 @@
 ## Legitimacy Chain
 
 ```
-Visual Philosophy v1.0      ✓ Recorded
-Design Language v1.0        ✓ Recorded
-Design Tokens v1.0          ✓ Recorded
-Logo                        — not authorized
-Implementation              — not authorized
+Visual Philosophy v1.0              ✓ Recorded
+        ↓
+Design Language v1.0                ✓ Recorded
+        ↓
+Design Tokens v1.0                  ✓ Recorded
+        ↓
+Canonical Page Specification v1.0   — recommended next (not authorized)
+        ↓
+Logo                                — not authorized (not recommended next)
+        ↓
+Implementation                      — not authorized
 ```
 
-Authorization: [MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md)
+Founder recommendation: [FOUNDER-RECOMMENDATION-CANONICAL-PAGE-SPECIFICATION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-CANONICAL-PAGE-SPECIFICATION.md)
+
+Design Tokens authorization: [MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md)
 
 ---
 
@@ -32,20 +40,17 @@ Authorization: [MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md](../../docs/g
 | [DESIGN-LANGUAGE-v1.0.md](DESIGN-LANGUAGE-v1.0.md) | 1.0 | Recorded |
 | [DESIGN-TOKENS-v1.0.md](DESIGN-TOKENS-v1.0.md) | 1.0 | Recorded |
 | [tokens/design-tokens.yaml](tokens/design-tokens.yaml) | 1.0 | Recorded |
-
----
-
-## Next Artifact (Not Authorized)
-
-**Logo** — emerges from philosophy, language, and tokens — not before.
-
-**Implementation** — stylesheet and page rendering — requires separate Founder authorization.
+| Canonical Page Specification v1.0 | — | Pending authorization |
 
 ---
 
 ## Institutional Guidance
 
-Design Tokens v1.0 serves as visual implementation guidance only.
+The page is the institution.
+
+Logo is one expression of the design system — not the next authorized artifact.
+
+Canonical Page Specification proves the page stands alone before any mark is designed.
 
 The website introduces.
 
