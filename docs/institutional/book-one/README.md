@@ -5,8 +5,15 @@
 | Title | The First Constitutional Epoch |
 | Classification | Institutional Literature |
 | Authority | Informational (Non-Constitutional) |
+| Status | Complete (Frozen) |
 | Repository release at opening | `v0.12.0-alpha` |
 | Constitutional baseline | GAR-0017 through GAR-0020 |
+
+## Foreword
+
+| Author | File |
+| --- | --- |
+| Chief Systems Architect | [foreword.md](foreword.md) |
 
 ## Chapters
 
@@ -32,3 +39,7 @@
 
 Book One is narrative institutional literature. It explains philosophy and origin. It does not
 authorize work or amend constitutional law.
+
+Book One is complete. No further edits are authorized until a separate editorial pass is approved.
+Future work may include rhythm refinement, repository diagrams, timelines, and selected excerpts from
+the constitutional corpus.
