@@ -33,7 +33,8 @@ and committed repository state.
 | [LAUNCH-PROGRAM.md](LAUNCH-PROGRAM.md) | Launch Program — from creation to communication (intent only; no authority) |
 | [../governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md](../governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md) | Mission 001 Phase A — Founder Decision |
 | [../governance/MISSION-001-PHASE-A-CLOSURE.md](../governance/MISSION-001-PHASE-A-CLOSURE.md) | Mission 001 Phase A — Closure Record |
-| [../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md](../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md) | Mission 001 Phase B — Founder Readiness Assessment (does not authorize) |
+| [../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md](../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md) | Mission 001 Phase B — Founder Readiness Assessment |
+| [../governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md](../governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md) | Mission 001 Phase B — Design Tokens v1.0 Authorization |
 | [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md) | Mission 001 Phase A — Institutional Note |
 | [FOUNDER-REFLECTION-MISSION-001-PHASE-A.md](FOUNDER-REFLECTION-MISSION-001-PHASE-A.md) | Founder Reflection — Mission 001 Phase A |
 | [FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md](FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md) | Founder Recommendation — Design Legitimacy Chain |

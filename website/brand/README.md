@@ -8,33 +8,19 @@
 | Phase | Phase B — Brand Foundation |
 | Layer | Public Communication — Brand |
 
-This directory contains brand foundation artifacts for the public website.
-
-Brand artifacts create no constitutional, architectural, sprint, or engineering authority.
-
-The repository remains the institution's canonical source of truth.
-
 ---
 
 ## Legitimacy Chain
 
 ```
 Visual Philosophy v1.0      ✓ Recorded
-        ↓
 Design Language v1.0        ✓ Recorded
-        ↓
-Design Tokens               — not authorized
-        ↓
+Design Tokens v1.0          ✓ Recorded
 Logo                        — not authorized
-        ↓
 Implementation              — not authorized
 ```
 
-Judgment precedes tools.
-
-Design Language is judgment.
-
-Typography and color are tools.
+Authorization: [MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md)
 
 ---
 
@@ -44,33 +30,26 @@ Typography and color are tools.
 | --- | --- | --- |
 | [VISUAL-PHILOSOPHY-v1.0.md](VISUAL-PHILOSOPHY-v1.0.md) | 1.0 | Recorded |
 | [DESIGN-LANGUAGE-v1.0.md](DESIGN-LANGUAGE-v1.0.md) | 1.0 | Recorded |
-
----
-
-## The Page as Identity
-
-Project Garuda's visual identity shall be recognizable through the page itself — layout, margins, spacing, hierarchy, restraint — not primarily through a logo.
-
-See [Founder Recommendation — Design Language](../../docs/institutional/FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md).
+| [DESIGN-TOKENS-v1.0.md](DESIGN-TOKENS-v1.0.md) | 1.0 | Recorded |
+| [tokens/design-tokens.yaml](tokens/design-tokens.yaml) | 1.0 | Recorded |
 
 ---
 
 ## Next Artifact (Not Authorized)
 
-**Design Tokens v1.0** — color, typography, spacing values derived from Design Language.
+**Logo** — emerges from philosophy, language, and tokens — not before.
 
-Requires explicit Founder authorization following readiness review.
-
-Logo emerges after tokens — not before.
+**Implementation** — stylesheet and page rendering — requires separate Founder authorization.
 
 ---
 
-## Related
+## Institutional Guidance
 
-- [website/README.md](../README.md)
-- [website/styles/README.md](../styles/README.md)
-- [FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md](../../docs/institutional/FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md)
-- [MISSION-001-PHASE-B-READINESS-ASSESSMENT.md](../../docs/governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md)
+Design Tokens v1.0 serves as visual implementation guidance only.
+
+The website introduces.
+
+The repository governs.
 
 ---
 

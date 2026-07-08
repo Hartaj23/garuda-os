@@ -1,0 +1,188 @@
+# Project Garuda — Design Tokens
+# Version 1.0
+# Authorized by MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION
+# Implements: VISUAL-PHILOSOPHY-v1.0, DESIGN-LANGUAGE-v1.0
+# Does not authorize: logo, implementation, deployment
+
+meta:
+  version: "1.0"
+  mission: Mission 001 — Phase B
+  authorization: docs/governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md
+
+# --- Color ---
+# Warm archival paper, restrained ink, institutional accent
+# All pairings meet WCAG AA for intended use (documented in DESIGN-TOKENS-v1.0.md)
+
+color:
+  background:
+    primary: "#F7F5F0"      # warm paper — primary page ground
+    secondary: "#EFEDE6"    # subtle section separation
+    elevated: "#FFFFFF"     # cards, diagrams on white
+  text:
+    primary: "#1C1C1A"      # near-black ink
+    secondary: "#4A4A45"    # supporting prose
+    tertiary: "#6B6B63"     # metadata, captions
+    inverse: "#F7F5F0"       # on dark accent surfaces
+  accent:
+    primary: "#2E4057"        # deep institutional slate
+    primary-hover: "#243347"
+    muted: "#5C6B7A"         # secondary emphasis
+  link:
+    default: "#2E4057"
+    visited: "#4A3728"       # archive brown
+    hover: "#1B2838"
+  border:
+    subtle: "#E5E2DA"
+    default: "#D4D0C4"
+    strong: "#B8B3A8"
+  semantic:
+    repository: "#2E4057"    # canonical source links — visually distinct
+    note: "#5C6B7A"          # institutional notes, disclaimers
+  diagram:
+    stroke: "#1C1C1A"
+    stroke-secondary: "#6B6B63"
+    fill: "#EFEDE6"
+    fill-accent: "#E8EBF0"
+    arrow: "#2E4057"
+
+# --- Typography ---
+# Serif carries institutional voice; sans supports UI and metadata
+# System stack for Phase A token definition; webfont selection at implementation
+
+typography:
+  font-family:
+    serif: '"Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif'
+    sans: '"Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif'
+    mono: '"IBM Plex Mono", "SF Mono", Monaco, Consolas, monospace'
+  role:
+    display: serif          # page titles
+    heading: serif          # h1–h3
+    body: serif             # primary reading text
+    ui: sans                # navigation, labels, buttons
+    code: mono              # repository paths, identifiers
+    caption: sans           # metadata, figure captions
+  size:
+    xs: "0.8125rem"         # 13px — captions, fine print
+    sm: "0.875rem"          # 14px — secondary text
+    base: "1.0625rem"       # 17px — body (generous readability)
+    lg: "1.1875rem"         # 19px — lead paragraphs
+    xl: "1.375rem"          # 22px — h3
+    "2xl": "1.625rem"       # 26px — h2
+    "3xl": "2rem"           # 32px — h1
+    "4xl": "2.5rem"         # 40px — home proposition only
+  line-height:
+    tight: 1.25
+    snug: 1.375
+    normal: 1.6             # body default
+    relaxed: 1.75           # long-form
+  weight:
+    regular: 400
+    medium: 500
+    semibold: 600
+  letter-spacing:
+    normal: "0"
+    tight: "-0.01em"
+    wide: "0.02em"            # small caps / labels only
+
+# --- Spacing ---
+# 4px base unit — generous rhythm per Design Language Rule 1
+
+spacing:
+  unit: 4
+  scale:
+    "0": "0"
+    "1": "4px"
+    "2": "8px"
+    "3": "12px"
+    "4": "16px"
+    "5": "20px"
+    "6": "24px"
+    "8": "32px"
+    "10": "40px"
+    "12": "48px"
+    "16": "64px"
+    "20": "80px"
+    "24": "96px"
+  page:
+    margin-mobile: "24px"
+    margin-tablet: "48px"
+    margin-desktop: "64px"
+  section:
+    gap-sm: "32px"
+    gap-md: "48px"
+    gap-lg: "64px"
+  paragraph:
+    after: "1.25em"
+
+# --- Layout ---
+# Single primary reading column; page as identity
+
+layout:
+  max-width:
+    prose: "42rem"           # ~672px — optimal reading measure
+    content: "48rem"         # ~768px — gateway pages
+    wide: "72rem"            # ~1152px — navigation + content
+    full: "80rem"            # ~1280px — maximum site width
+  grid:
+    columns: 12
+    gutter: "24px"
+    gutter-lg: "32px"
+  reading:
+    measure-chars: "65-75"     # target characters per line body text
+
+# --- Diagram ---
+# Atlas discipline — explanatory, restrained
+
+diagram:
+  stroke-width:
+    thin: "1px"
+    default: "1.5px"
+    emphasis: "2px"
+  corner-radius: "2px"         # minimal — not rounded startup aesthetic
+  arrow:
+    head-size: "6px"
+  box:
+    padding: "12px"
+    min-width: "120px"
+  font:
+    label: sans
+    label-size: sm
+  palette:
+    use-token-only: true       # no ad-hoc diagram colors
+
+# --- Accessibility ---
+
+accessibility:
+  contrast:
+    standard: "WCAG 2.1 AA"
+    body-min: "4.5:1"
+    large-text-min: "3:1"
+    ui-component-min: "3:1"
+  focus:
+    ring-color: "#2E4057"
+    ring-width: "2px"
+    ring-offset: "2px"
+  motion:
+    respect-prefers-reduced-motion: true
+    no-autoplay: true
+  target:
+    min-touch: "44px"
+
+# --- Component tokens (guidance only — implementation not authorized) ---
+
+component:
+  navigation:
+    font: ui
+    size: sm
+    weight: medium
+  repository-link:
+    font: mono
+    size: sm
+    color: repository
+  disclaimer:
+    font: caption
+    size: xs
+    color: note
+    border-left: "3px solid"
+    border-color: border.default
+    padding-left: spacing.4
