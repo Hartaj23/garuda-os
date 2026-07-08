@@ -36,6 +36,7 @@ This companion creates no constitutional, architectural, sprint, or engineering 
 | 7 | Authority | [entry-07-authority.md](entry-07-authority.md) |
 | 8 | Authority Before Action | [entry-08-authority-before-action.md](entry-08-authority-before-action.md) |
 | 9 | Governance Cycle | [entry-09-governance-cycle.md](entry-09-governance-cycle.md) |
+| 10 | Gate A | [entry-10-gate-a.md](entry-10-gate-a.md) |
 
 ---
 
