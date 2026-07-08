@@ -23,8 +23,10 @@ authority:
 deployment:
   status: authorized
   authorization: docs/governance/MISSION-001-PUBLIC-DEPLOYMENT-AUTHORIZATION.md
-  hosting: github-pages
+  hosting: cloudflare-pages
+  hosting_selection: docs/governance/HOSTING-ENVIRONMENT-SELECTION-FOUNDER-DECISION.md
   deploy_root: website/public/
   workflow: .github/workflows/deploy-public-site.yml
-  custom_domain: none
+  custom_domain: garuda.foundation
+  public_url: https://garuda.foundation/
   public_announcement: none

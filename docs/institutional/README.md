@@ -48,6 +48,8 @@ and committed repository state.
 | [../governance/MISSION-001-FINAL-ACCEPTANCE-REVIEW-AUTHORIZATION.md](../governance/MISSION-001-FINAL-ACCEPTANCE-REVIEW-AUTHORIZATION.md) | Mission 001 — Final Acceptance Review Authorization |
 | [../governance/MISSION-001-CLOSURE.md](../governance/MISSION-001-CLOSURE.md) | Mission 001 — Closure Record |
 | [../governance/MISSION-001-PUBLIC-DEPLOYMENT-AUTHORIZATION.md](../governance/MISSION-001-PUBLIC-DEPLOYMENT-AUTHORIZATION.md) | Mission 001 — Public Deployment Authorization |
+| [FOUNDER-RECOMMENDATION-HOSTING-ENVIRONMENT-SELECTION.md](FOUNDER-RECOMMENDATION-HOSTING-ENVIRONMENT-SELECTION.md) | Founder Recommendation — Hosting Environment Selection (post–Mission 001) |
+| [../governance/HOSTING-ENVIRONMENT-SELECTION-FOUNDER-DECISION.md](../governance/HOSTING-ENVIRONMENT-SELECTION-FOUNDER-DECISION.md) | Hosting Environment Selection — Founder Decision (ratified) |
 | [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md) | Mission 001 Phase A — Institutional Note |
 | [FOUNDER-REFLECTION-MISSION-001-PHASE-A.md](FOUNDER-REFLECTION-MISSION-001-PHASE-A.md) | Founder Reflection — Mission 001 Phase A |
 | [FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md](FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md) | Founder Recommendation — Design Legitimacy Chain |
