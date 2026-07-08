@@ -31,6 +31,7 @@ and committed repository state.
 | [COLOPHON-FIRST-EDITION.md](COLOPHON-FIRST-EDITION.md) | Colophon — The First Edition (no authority) |
 | [THE-STEWARDS-CHARGE.md](THE-STEWARDS-CHARGE.md) | The Steward's Charge (no authority) |
 | [INSTITUTIONAL-INHERITANCE-REGISTER.md](INSTITUTIONAL-INHERITANCE-REGISTER.md) | Institutional Inheritance Register — First Constitutional Epoch (no authority) |
+| [TO-THE-READER-WHO-CLOSED-THE-LAST-PAGE.md](TO-THE-READER-WHO-CLOSED-THE-LAST-PAGE.md) | To the Reader Who Closed the Last Page (no authority) |
 | [../governance/CONSTITUTIONAL-BASELINE-v1.0.md](../governance/CONSTITUTIONAL-BASELINE-v1.0.md) | Constitutional Baseline v1.0 (informational reference) |
 
 ## Maintenance

@@ -164,6 +164,7 @@ That library is offered not as the final word of Project Garuda, but as the fait
 | Colophon — The First Edition | [COLOPHON-FIRST-EDITION.md](COLOPHON-FIRST-EDITION.md) |
 | The Steward's Charge | [THE-STEWARDS-CHARGE.md](THE-STEWARDS-CHARGE.md) |
 | Institutional Inheritance Register | [INSTITUTIONAL-INHERITANCE-REGISTER.md](INSTITUTIONAL-INHERITANCE-REGISTER.md) |
+| To the Reader Who Closed the Last Page | [TO-THE-READER-WHO-CLOSED-THE-LAST-PAGE.md](TO-THE-READER-WHO-CLOSED-THE-LAST-PAGE.md) |
 
 ---
 
