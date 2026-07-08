@@ -151,8 +151,9 @@ Every significant event. Chronological.
 | Entry 1 — The Emergence of an Institution | [timeline/entry-01-the-emergence-of-an-institution.md](timeline/entry-01-the-emergence-of-an-institution.md) |
 | Entry 2 — The Adoption of Constitutional Engineering | [timeline/entry-02-the-adoption-of-constitutional-engineering.md](timeline/entry-02-the-adoption-of-constitutional-engineering.md) |
 | Entry 3 — The Beginning of the First Constitutional Epoch | [timeline/entry-03-the-beginning-of-the-first-constitutional-epoch.md](timeline/entry-03-the-beginning-of-the-first-constitutional-epoch.md) |
+| Entry 4 — The Constitutional Extension of Phase II | [timeline/entry-04-the-constitutional-extension-of-phase-ii.md](timeline/entry-04-the-constitutional-extension-of-phase-ii.md) |
 
-**Status:** In Progress — introduction and Entries 1–3 recorded; timeline entries to follow.
+**Status:** In Progress — introduction and Entries 1–4 recorded; timeline entries to follow.
 
 Suggested contents:
 
