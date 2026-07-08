@@ -17,7 +17,8 @@ and committed repository state.
 
 | Path | Description |
 | --- | --- |
-| [book-one/](book-one/README.md) | Book One — The First Constitutional Epoch |
+| [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
+| [book-one/](book-one/README.md) | Volume I — Book One — The First Constitutional Epoch (Complete, Frozen) |
 | [../governance/CONSTITUTIONAL-BASELINE-v1.0.md](../governance/CONSTITUTIONAL-BASELINE-v1.0.md) | Constitutional Baseline v1.0 (informational reference) |
 
 ## Maintenance
