@@ -160,8 +160,9 @@ Every significant event. Chronological.
 | Entry 10 — Book One Completed — The First Constitutional Epoch Preserved | [timeline/entry-10-book-one-completed-the-first-constitutional-epoch-preserved.md](timeline/entry-10-book-one-completed-the-first-constitutional-epoch-preserved.md) |
 | Entry 11 — Institutional Atlas Completed — The Institution Mapped | [timeline/entry-11-institutional-atlas-completed-the-institution-mapped.md](timeline/entry-11-institutional-atlas-completed-the-institution-mapped.md) |
 | Entry 12 — Companion & Glossary Completed — The Institution's Language Preserved | [timeline/entry-12-companion-and-glossary-completed-the-institutions-language-preserved.md](timeline/entry-12-companion-and-glossary-completed-the-institutions-language-preserved.md) |
+| Entry 13 — Institutional Timeline Completed — The Institution's Chronology Preserved | [timeline/entry-13-institutional-timeline-completed-the-institutions-chronology-preserved.md](timeline/entry-13-institutional-timeline-completed-the-institutions-chronology-preserved.md) |
 
-**Status:** In Progress — introduction and Entries 1–12 recorded; timeline entries to follow.
+**Status:** In Progress — introduction and Entries 1–13 recorded; timeline entries to follow.
 
 Suggested contents:
 
