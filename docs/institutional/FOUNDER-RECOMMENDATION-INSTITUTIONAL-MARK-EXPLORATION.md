@@ -6,42 +6,27 @@
 | Authority | Informational (Non-Constitutional) |
 | Date | 2026-07-08 |
 | Mission | Mission 001 — Phase B (Brand Foundation) |
+| Evidence | [PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md](PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md) |
 
 This recommendation creates no constitutional, architectural, sprint, or engineering authority.
 
-It does not authorize Institutional Mark Exploration, logo design, CSS, or implementation.
+It does not authorize Institutional Mark Exploration, final mark selection, CSS, or implementation.
 
 ---
 
-## Pause
+## Print Exercise — Complete
 
-The institution should pause again.
+The print exercise is complete.
 
-Not for long.
+Evidence recorded in [Print Exercise — Independent Reader Observation (Mission 001 Phase B)](PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md).
 
-Just enough to do one exercise.
+Three institutionally significant findings:
 
----
+1. **Identity survived the absence of the mark.**
+2. **The repository-first relationship was perceived without explanation.**
+3. **The page communicated institutional character before communicating institutional content.**
 
-## The Print Exercise
-
-Print the [Canonical Page Specification v1.0](../../website/brand/CANONICAL-PAGE-SPECIFICATION-v1.0.md).
-
-On paper.
-
-A4.
-
-Black and white.
-
-No logo.
-
-No color.
-
-Read it.
-
-If, after five minutes, it still feels unmistakably like Project Garuda — then the institution has succeeded.
-
-Because an institution should survive the absence of branding.
+The success criterion established for Canonical Page Specification v1.0 has been met.
 
 ---
 
@@ -56,28 +41,39 @@ Design Tokens v1.0                  ✓ Recorded
         ↓
 Canonical Page Specification v1.0   ✓ Recorded
         ↓
-Institutional Mark                  — pause; not authorized
+Institutional Mark Exploration v1.0 — recommended for authorization
         ↓
-Implementation                    — not authorized
+Implementation                      — not authorized
 ```
 
 ---
 
-## Recommended Next Authorization
+## Founder Recommendation
 
-After the print exercise confirms the page stands alone, the next Founder Decision should authorize:
+The Founder now recommends authorization of:
 
 **Institutional Mark Exploration v1.0**
 
+Not because "it's time."
+
+Because the success criterion we established has been met.
+
+The page has demonstrated that:
+
+- it remains recognizably Garuda without a mark,
+- it survives monochrome reproduction,
+- its identity emerges from structure rather than ornament,
+- and the mark will acknowledge an existing identity rather than manufacture one.
+
+That is exactly the threshold we set.
+
+---
+
+## Terminology
+
 Not "Logo Design."
 
-Notice the wording.
-
-Not *logo.*
-
 An **institutional mark.**
-
-That subtle difference matters.
 
 | Term | Belongs to |
 | --- | --- |
@@ -104,29 +100,15 @@ That is exactly what the best institutional marks have always done.
 
 ---
 
-## Reflection
-
-When this launch began, the work appeared to be building a website.
-
-Today it is clear the institution was asking something more interesting:
-
-*"How should truth look when an institution presents it?"*
-
-That is a design question rarely asked.
-
-Project Garuda has answered it with remarkable discipline.
-
----
-
 ## When the Mark Is Earned
 
-The institution has earned its mark.
+For the first time since Phase B began, the Founder states with complete confidence:
+
+**The institution has earned its mark.**
 
 Not because it needs one.
 
-Because it no longer depends on one.
-
-That is precisely the moment an institutional mark should be born.
+Because it has proven it no longer depends on one.
 
 ---
 
@@ -138,13 +120,17 @@ That is precisely the moment an institutional mark should be born.
 
 **Not authorized:**
 
-- Final mark selection
+- Final mark selection or adoption
 - Favicon
 - CSS
 - Implementation
+- Website deployment
 - Public announcement
+- Branding collateral
 
 **Scope:** Explore what mark belongs naturally on a Garuda page — not what logo a brand requires.
+
+The mark shall acknowledge an identity the page has already established.
 
 ---
 

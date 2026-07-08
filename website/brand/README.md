@@ -28,15 +28,13 @@ Implementation                      — not authorized
 
 ---
 
-## Reflection Pause
+## Reflection Pause — Complete
 
-Before the next authorization, the Founder recommends the **print exercise**:
+The print exercise is complete.
 
-Print [CANONICAL-PAGE-SPECIFICATION-v1.0.md](CANONICAL-PAGE-SPECIFICATION-v1.0.md) on A4, black and white, no logo, no color. Read it for five minutes.
+Evidence: [PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md](../../docs/institutional/PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md)
 
-If it still feels unmistakably like Project Garuda, the page has succeeded without branding.
-
-Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md)
+Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md) — Institutional Mark Exploration v1.0 recommended for authorization.
 
 ---
 

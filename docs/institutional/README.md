@@ -40,6 +40,7 @@ and committed repository state.
 | [FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md](FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md) | Founder Recommendation — Design Legitimacy Chain |
 | [FOUNDER-RECOMMENDATION-CANONICAL-PAGE-SPECIFICATION.md](FOUNDER-RECOMMENDATION-CANONICAL-PAGE-SPECIFICATION.md) | Founder Recommendation — Canonical Page Specification |
 | [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md](FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md) | Founder Recommendation — Institutional Mark Exploration |
+| [PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md](PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md) | Print Exercise — Independent Reader Observation (evidence record) |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |
