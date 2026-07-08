@@ -27,7 +27,9 @@ The repository remains the source of authority.
 
 ## Selections
 
-Selections to follow.
+| Text | Title | File |
+| --- | --- | --- |
+| I | GAR-0017 — Phase II Constitutional Extension | [text-01-gar-0017-phase-ii-constitutional-extension.md](text-01-gar-0017-phase-ii-constitutional-extension.md) |
 
 ---
 

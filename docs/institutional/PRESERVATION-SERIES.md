@@ -189,8 +189,9 @@ interpretation to make the constitutional corpus approachable without altering i
 | Section | File |
 | --- | --- |
 | Editor's Introduction | [selected-texts/editors-introduction.md](selected-texts/editors-introduction.md) |
+| Text I — GAR-0017 — Phase II Constitutional Extension | [selected-texts/text-01-gar-0017-phase-ii-constitutional-extension.md](selected-texts/text-01-gar-0017-phase-ii-constitutional-extension.md) |
 
-**Status:** In Progress — Editor's Introduction recorded; selections to follow.
+**Status:** In Progress — Editor's Introduction and Text I recorded; selections to follow.
 
 Selections will include significant constitutional artifacts from:
 
