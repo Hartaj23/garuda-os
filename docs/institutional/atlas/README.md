@@ -29,6 +29,7 @@ This atlas creates no constitutional, architectural, sprint, or engineering auth
 | 6 | The Governance Cycle | [plate-06-the-governance-cycle.md](plate-06-the-governance-cycle.md) |
 | 7 | The Two-Gate Model | [plate-07-the-two-gate-model.md](plate-07-the-two-gate-model.md) |
 | 8 | Repository as Institutional Memory | [plate-08-repository-as-institutional-memory.md](plate-08-repository-as-institutional-memory.md) |
+| 9 | External Capability Evolution | [plate-09-external-capability-evolution.md](plate-09-external-capability-evolution.md) |
 
 ---
 
