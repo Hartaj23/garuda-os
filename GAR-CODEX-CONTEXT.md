@@ -36,8 +36,8 @@ GAR-SPRINT-0012 Mission Hotel complete — GAR-REVIEW-S12-008 approved (`436ad44
 GAR-SPRINT-0012 Mission India complete — GAR-REVIEW-S12-009 approved (`bd29741`).
 Repository status: **Institutional HOLD** — no sprint authorized.
 Architecture 5 closed — Founder Decision adopted (`4a9a2b1`).
-Governance Cycle 6 — Gate A complete: constitutional evolution required. GAR-0020 recommended.
-Gate B pending: drafting not authorized.
+Governance Cycle 6 — Gate B granted: GAR-0020 drafting authorized (Chief Systems Architect).
+Institutional HOLD suspended only for drafting. Engineering not authorized.
 
 ## Completed Sprint 11 missions
 

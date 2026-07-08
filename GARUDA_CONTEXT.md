@@ -290,10 +290,10 @@ See [`docs/governance/GAR-ROADMAP.md`](docs/governance/GAR-ROADMAP.md) for insti
 |---|---|
 | Current Sprint | GAR-SPRINT-0012 (Complete) |
 | Current Status | **Institutional HOLD** — no sprint authorized |
-| Governance Cycle | **Cycle 6** — Gate A complete; Gate B pending |
+| Governance Cycle | **Cycle 6** — Gate B granted; GAR-0020 drafting authorized |
 | Architecture 5 | Closed — Founder Decision adopted (`4a9a2b1`) |
-| Recommendation | **GAR-0020** — next governance artifact for Founder consideration |
-| Next gate | **Gate B** — Founder authorization to begin GAR-0020 drafting |
+| Active authorization | **GAR-0020 drafting** — Chief Systems Architect only |
+| Next gate | **Founder ratification** of GAR-0020 draft |
 
 ---
 

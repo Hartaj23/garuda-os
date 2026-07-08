@@ -28,7 +28,8 @@ specifications.
 | [INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md](INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md) | Three-layer institutional lifecycle (Layer 0–2) |
 | [GAR-ROADMAP.md](GAR-ROADMAP.md) | Descriptive institutional roadmap at governance baselines |
 | [ARCHITECTURE-5-FOUNDER-DECISION.md](ARCHITECTURE-5-FOUNDER-DECISION.md) | Founder Decision record closing Architecture 5 |
-| [GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md](GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md) | Governance Cycle 6 — constitutional evolution required |
+| [GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md](GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md) | Governance Cycle 6 — Gate A complete |
+| [GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md](GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md) | Gate B — GAR-0020 drafting authorized |
 
 ## Related Documents
 

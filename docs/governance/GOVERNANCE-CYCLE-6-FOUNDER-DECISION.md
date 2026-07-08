@@ -85,8 +85,8 @@ This is a **recommendation**, not permission to begin drafting.
 | --- | --- | --- | --- |
 | Gate A | Whether constitutional evolution is necessary | Founder Decision | **Complete** |
 | Recommendation | Identify appropriate next governance artifact | Institutional assessment | **GAR-0020 recommended** |
-| Gate B | Authorize drafting of that artifact | Founder Decision | **Pending** |
-| GAR-0020 drafting | Produce constitutional proposal | Chief Systems Architect | Not authorized |
+| Gate B | Authorize drafting of that artifact | Founder Decision | **Granted** |
+| GAR-0020 drafting | Produce constitutional proposal | Chief Systems Architect | **Authorized** |
 | Ratification | Accept, amend, or reject GAR-0020 | Founder | Not applicable — no draft |
 | ADR-0014 | Architectural interpretation (if warranted) | Separate authorization | Not authorized |
 | GAR-SPRINT-0013 | Implementation mission (if warranted) | Separate authorization | Not authorized |
@@ -96,12 +96,12 @@ This is a **recommendation**, not permission to begin drafting.
 
 ## Gate B — GAR-0020 Drafting Authorization
 
-**Status:** Pending (Founder Decision not yet recorded)
+**Status:** **GRANTED** — see [GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md](GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md)
 
 **Gate B question:** Does the Founder authorize GAR-0020 drafting to begin?
 
-Until Gate B is explicitly recorded, the Chief Systems Architect shall not produce GAR-0020 text.
-The institution remains at **Institutional HOLD**.
+**Founder Authorization:** Granted. Chief Systems Architect authorized to draft GAR-0020 only.
+Institutional HOLD suspended exclusively for GAR-0020 drafting.
 
 ---
 
@@ -119,7 +119,7 @@ The institution remains at **Institutional HOLD**.
 
 | Action | Status |
 | --- | --- |
-| GAR-0020 drafting | **Not authorized** — Gate B pending |
+| GAR-0020 drafting | **Authorized** — Gate B granted (drafting only) |
 | GAR-0020 ratification | Not applicable — no draft |
 | ADR-0014 | Not authorized |
 | GAR-SPRINT-0013 | Not authorized |
@@ -152,8 +152,8 @@ GAR-0020 must not authorize implementation, ADR drafting, or sprint work directl
 | **Governance cycle** | Cycle 6 — active |
 | **Gate A** | **Complete** — constitutional evolution required |
 | **Recommendation** | GAR-0020 |
-| **Gate B** | **Pending** — Founder authorization to begin drafting |
-| **Institution** | **Institutional HOLD** |
+| **Gate B** | **Granted** — GAR-0020 drafting authorized |
+| **Institution** | Institutional HOLD — suspended only for GAR-0020 drafting |
 | **Engineering authority** | **None** |
 
 ---

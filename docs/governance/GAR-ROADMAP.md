@@ -47,7 +47,7 @@ Decision cycles). Do not update mid-sprint or mid-mission.
 | **Governance cycle** | **Governance Cycle 6** — active |
 | **Gate A** | **Complete** — constitutional evolution required (Founder Decision) |
 | **Recommendation** | GAR-0020 — next governance artifact for Founder consideration |
-| **Gate B** | **Pending** — Founder authorization to begin GAR-0020 drafting |
+| **Gate B** | **Granted** — GAR-0020 drafting authorized (Chief Systems Architect) |
 | **Layer 1** | No active governance chain |
 | **Layer 2** | No active sprint |
 | **Engineering authority** | **None** |
@@ -256,7 +256,7 @@ Implementation → Mission Review → Certification → SDK → Release → Tag 
 **Recommendation (institutional assessment):** GAR-0020 — Third External Capability Expansion
 Constitutional Extension.
 
-**Gate B (Founder Decision):** Authorization to begin GAR-0020 drafting — **pending**.
+**Gate B (Founder Authorization):** GAR-0020 drafting — **granted**.
 
 ```
 Governance Cycle 6
@@ -265,9 +265,9 @@ Gate A — constitutional evolution required          ← complete
         ↓
 Recommendation — GAR-0020                           ← recorded
         ↓
-Gate B — authorize GAR-0020 drafting                ← pending
+Gate B — authorize GAR-0020 drafting                ← granted
         ↓
-GAR-0020 drafting (Chief Systems Architect)
+GAR-0020 drafting (Chief Systems Architect)         ← authorized
         ↓
 Founder ratification of GAR-0020
         ↓
@@ -276,8 +276,8 @@ ADR-0014 (if GAR-0020 authorizes a foundation)
 GAR-SPRINT-0013 (if ADR approved)
 ```
 
-GAR-0020 drafting, ADR-0014, GAR-SPRINT-0013, and implementation are not authorized. Sprint 0013
-is not assumed.
+GAR-0020 drafting is authorized. ADR-0014, GAR-SPRINT-0013, and implementation are not authorized.
+Sprint 0013 is not assumed.
 
 ---
 

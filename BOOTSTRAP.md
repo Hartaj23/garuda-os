@@ -260,9 +260,9 @@ The institution is in **Institutional HOLD**. No sprint is authorized automatica
 
 The repository records the current baseline (`v0.12.0-alpha`). Governance pauses between cycles.
 
-Architecture 5 is closed. Governance Cycle 6 is active — Gate A complete (constitutional evolution
-required); GAR-0020 recommended; Gate B pending (drafting not authorized). See
-[`docs/governance/GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md`](docs/governance/GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md).
+Architecture 5 is closed. Governance Cycle 6 — Gate B granted: GAR-0020 drafting authorized for
+Chief Systems Architect only. See
+[`docs/governance/GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md`](docs/governance/GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md).
 
 Future sprint work requires separate constitutional review and Founder authorization.
 
