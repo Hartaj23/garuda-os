@@ -111,8 +111,9 @@ idea matters.
 | Entry 5 — Architectural Corpus | [companion/entry-05-architectural-corpus.md](companion/entry-05-architectural-corpus.md) |
 | Entry 6 — Governance Corpus | [companion/entry-06-governance-corpus.md](companion/entry-06-governance-corpus.md) |
 | Entry 7 — Authority | [companion/entry-07-authority.md](companion/entry-07-authority.md) |
+| Entry 8 — Authority Before Action | [companion/entry-08-authority-before-action.md](companion/entry-08-authority-before-action.md) |
 
-**Status:** In Progress — introduction and Entries 1–7 recorded; remaining glossary entries to follow.
+**Status:** In Progress — introduction and Entries 1–8 recorded; remaining glossary entries to follow.
 
 Suggested entries include:
 
