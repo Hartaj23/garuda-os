@@ -12,7 +12,23 @@
 | Repository | `Hartaj23/garuda-os` |
 | Production branch | `master` |
 | Public domain | `drgaruda.com` |
-| Deploy root | `website/public/` |
+| Pages root directory | `website/` |
+| Deploy root | `public/` (relative to `website/`) |
+
+---
+
+## Why the Pages root is `website/`
+
+The repository root contains engineering metadata (`pyproject.toml`, `package.json`) for the full Garuda monorepo. Cloudflare Pages detects those files and runs dependency installation (for example `pip install .`) before the build command.
+
+The public website is a **static build** inside `website/`. It uses stdlib Python only via `scripts/build_site.py` and does not require installing the monorepo as a Python package.
+
+Scoping the Cloudflare **Root directory** to `website/` tells Cloudflare to treat this subtree as the Pages project only.
+
+Repository-side markers:
+
+- [wrangler.toml](wrangler.toml) — Pages output directory declaration
+- [.python-version](.python-version) — Python version for the static build
 
 ---
 
@@ -29,7 +45,7 @@ Generates:
 - Institutional Mark v1.0 (C-03 Baseline)
 - `docs/` mirror for repository-first navigation
 
-Cloudflare Pages runs the same build command during Git-triggered deploys.
+Cloudflare runs the equivalent command from the `website/` directory during Git-triggered deploys.
 
 ---
 
@@ -48,38 +64,40 @@ Open `http://localhost:8000/`
 
 Deployment is triggered by Cloudflare when changes are pushed to `master`.
 
-Cloudflare clones the repository, runs the build command, and publishes `website/public/`.
+Cloudflare clones the repository, runs the build from `website/`, and publishes `website/public/`.
 
-No Wrangler CLI step is required. No GitHub Actions deploy workflow is required.
+No Wrangler CLI deploy step is required. No GitHub Actions deploy workflow is required.
 
-### One-time Cloudflare setup
-
-1. Sign in to [Cloudflare Dashboard](https://dash.cloudflare.com/).
-2. Go to **Workers & Pages** → **Create application** → **Pages** → **Connect to Git**.
-3. Click **Get started** and select **GitHub**.
-4. If the Cloudflare GitHub App is not yet installed, authorize it on GitHub, then return to Cloudflare.
-5. Select repository **`Hartaj23/garuda-os`**.
-6. Configure the project:
+### Cloudflare project settings
 
 | Setting | Value |
 | --- | --- |
 | Project name | `drgaruda` |
 | Production branch | `master` |
+| Root directory | `website` |
 | Framework preset | None |
-| Build command | `python3 website/scripts/build_site.py` |
-| Build output directory | `website/public` |
-| Root directory | `/` (repository root) |
+| Build command | `python3 scripts/build_site.py` |
+| Build output directory | `public` |
 
-7. (Optional) Environment variable: `PYTHON_VERSION` = `3.11`
-8. Save and deploy.
-9. Open project **`drgaruda`** → **Custom domains** → add **`drgaruda.com`**.
-10. Ensure DNS for **`drgaruda.com`** is managed by Cloudflare and shows **Active**.
+### Optional safety net
 
-### After setup
+If Cloudflare still attempts dependency installation, add this environment variable in **Settings → Environment variables** (Production and Preview):
 
-Each push to `master` that Cloudflare monitors triggers a new build and deploy automatically.
+| Variable | Value |
+| --- | --- |
+| `SKIP_DEPENDENCY_INSTALL` | `1` |
 
-Monitor builds in Cloudflare: **Workers & Pages** → **`drgaruda`** → **Deployments**.
+This disables automatic `pip install` / `npm install` and runs only the build command above.
+
+### One-time Cloudflare setup
+
+1. Sign in to [Cloudflare Dashboard](https://dash.cloudflare.com/).
+2. Go to **Workers & Pages** → **Create application** → **Pages** → **Connect to Git**.
+3. Select repository **`Hartaj23/garuda-os`**.
+4. Apply the project settings in the table above.
+5. Save and deploy.
+6. Open project **`drgaruda`** → **Custom domains** → add **`drgaruda.com`** and **`www.drgaruda.com`**.
+7. Ensure DNS for **`drgaruda.com`** is managed by Cloudflare and shows **Active**.
 
 ### Verify deployment
 

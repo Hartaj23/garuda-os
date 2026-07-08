@@ -1,0 +1,11 @@
+# Cloudflare Pages — static public website configuration
+#
+# This directory is the Pages project root. It contains no Python package
+# metadata and no Node workspace manifest. The engineering monorepo's
+# pyproject.toml and package.json live outside this directory by design.
+#
+# Build command (Cloudflare dashboard / Git integration):
+#   python3 scripts/build_site.py
+
+name = "drgaruda"
+pages_build_output_dir = "./public"
