@@ -238,6 +238,7 @@ Each volume requires explicit authorization before work begins. This document re
 | Editorial Workflow | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) |
 | Editorial Review Checklist | [EDITORIAL-REVIEW-CHECKLIST.md](EDITORIAL-REVIEW-CHECKLIST.md) |
 | First Edition Completion Declaration | [FIRST-EDITION-COMPLETION-DECLARATION.md](FIRST-EDITION-COMPLETION-DECLARATION.md) |
+| An Invitation to Future Stewards | [INVITATION-TO-FUTURE-STEWARDS.md](INVITATION-TO-FUTURE-STEWARDS.md) |
 
 Following completion of Volumes I–V, the First Edition Editorial Pass presents the completed
 Preservation Series with clarity, consistency, and craftsmanship appropriate for a permanent first
