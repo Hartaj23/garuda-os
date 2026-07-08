@@ -25,7 +25,7 @@ Institutional Mark Exploration v1.0 ✓ Recorded
         ↓
 Institutional Mark Selection v1.0   ✓ Recorded (complete)
         ↓
-Institutional Mark Adoption           — final pause (not authorized)
+Institutional Mark Adoption           — recommended for Founder Decision (not authorized)
         ↓
 Implementation                        — not authorized
 ```
@@ -44,13 +44,15 @@ Selection recommends. Adoption commits.
 
 ---
 
-## Final Pause — Before Adoption
+## Final Pause — Complete
 
-Print the Canonical Page twice — without the mark, and with C-03 Baseline at header placement. Ask: *Does the page become more itself, or merely more branded?*
+Adoption print exercise conducted. Evidence indicates C-03 Baseline makes the page **more itself**, not merely more branded.
 
-Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-ADOPTION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-ADOPTION.md)
+Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-ADOPTION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-ADOPTION.md) — **Institutional Mark Adoption recommended** for Founder Decision.
 
 Prior evidence: [PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md](../../docs/institutional/PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md)
+
+Selection recommends C-03 Baseline. Adoption commits. Implementation remains unauthorized.
 
 ---
 
