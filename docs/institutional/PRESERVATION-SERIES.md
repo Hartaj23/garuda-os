@@ -161,8 +161,9 @@ Every significant event. Chronological.
 | Entry 11 — Institutional Atlas Completed — The Institution Mapped | [timeline/entry-11-institutional-atlas-completed-the-institution-mapped.md](timeline/entry-11-institutional-atlas-completed-the-institution-mapped.md) |
 | Entry 12 — Companion & Glossary Completed — The Institution's Language Preserved | [timeline/entry-12-companion-and-glossary-completed-the-institutions-language-preserved.md](timeline/entry-12-companion-and-glossary-completed-the-institutions-language-preserved.md) |
 | Entry 13 — Institutional Timeline Completed — The Institution's Chronology Preserved | [timeline/entry-13-institutional-timeline-completed-the-institutions-chronology-preserved.md](timeline/entry-13-institutional-timeline-completed-the-institutions-chronology-preserved.md) |
+| Entry 14 — The Preservation Series Established — The Institution Learns to Preserve Itself | [timeline/entry-14-the-preservation-series-established-the-institution-learns-to-preserve-itself.md](timeline/entry-14-the-preservation-series-established-the-institution-learns-to-preserve-itself.md) |
 
-**Status:** In Progress — introduction and Entries 1–13 recorded; timeline entries to follow.
+**Status:** In Progress — introduction and Entries 1–14 recorded; timeline entries to follow.
 
 Suggested contents:
 
