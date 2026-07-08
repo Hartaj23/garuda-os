@@ -117,8 +117,9 @@ idea matters.
 | Entry 11 — Institutional Recommendation | [companion/entry-11-institutional-recommendation.md](companion/entry-11-institutional-recommendation.md) |
 | Entry 12 — Gate B | [companion/entry-12-gate-b.md](companion/entry-12-gate-b.md) |
 | Entry 13 — Ratification | [companion/entry-13-ratification.md](companion/entry-13-ratification.md) |
+| Entry 14 — Institutional HOLD | [companion/entry-14-institutional-hold.md](companion/entry-14-institutional-hold.md) |
 
-**Status:** In Progress — introduction and Entries 1–13 recorded; remaining glossary entries to follow.
+**Status:** In Progress — introduction and Entries 1–14 recorded; remaining glossary entries to follow.
 
 Suggested entries include:
 

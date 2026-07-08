@@ -40,6 +40,7 @@ This companion creates no constitutional, architectural, sprint, or engineering 
 | 11 | Institutional Recommendation | [entry-11-institutional-recommendation.md](entry-11-institutional-recommendation.md) |
 | 12 | Gate B | [entry-12-gate-b.md](entry-12-gate-b.md) |
 | 13 | Ratification | [entry-13-ratification.md](entry-13-ratification.md) |
+| 14 | Institutional HOLD | [entry-14-institutional-hold.md](entry-14-institutional-hold.md) |
 
 ---
 
