@@ -5,9 +5,10 @@
 | Field | Value |
 | --- | --- |
 | Mission | Mission 001 — Launch the Public Foundation |
-| Phase | Phase A — Site Architecture (authorized) |
+| Phase | Phase A — Site Architecture |
+| Status | **Complete (Approved — Closed)** |
+| Closure | [MISSION-001-PHASE-A-CLOSURE.md](../docs/governance/MISSION-001-PHASE-A-CLOSURE.md) |
 | Authorization | [MISSION-001-PHASE-A-FOUNDER-DECISION.md](../docs/governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md) |
-| Status | Phase A — In Progress |
 
 This directory creates no constitutional, architectural, sprint, or engineering authority.
 
