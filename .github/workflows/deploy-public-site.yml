@@ -38,4 +38,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy website/public --project-name=garuda-foundation --branch=master
+          command: pages deploy website/public --project-name=drgaruda --branch=master
