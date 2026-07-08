@@ -21,6 +21,7 @@
 | 7 | The First Constitutional Epoch Begins | [chapter-07-the-first-constitutional-epoch-begins.md](chapter-07-the-first-constitutional-epoch-begins.md) |
 | 8 | The Interface Foundation | [chapter-08-the-interface-foundation.md](chapter-08-the-interface-foundation.md) |
 | 9 | The Integration Foundation | [chapter-09-the-integration-foundation.md](chapter-09-the-integration-foundation.md) |
+| 10 | The Runtime Foundation | [chapter-10-the-runtime-foundation.md](chapter-10-the-runtime-foundation.md) |
 
 ## Note
 
