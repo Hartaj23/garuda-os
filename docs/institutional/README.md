@@ -30,6 +30,7 @@ and committed repository state.
 | [THE-INSTITUTIONS-PROMISE.md](THE-INSTITUTIONS-PROMISE.md) | The Institution's Promise (no authority) |
 | [A-BLANK-PAGE.md](A-BLANK-PAGE.md) | A Blank Page (no authority) |
 | [CLOSING-THE-FIRST-CONSTITUTIONAL-EPOCH.md](CLOSING-THE-FIRST-CONSTITUTIONAL-EPOCH.md) | Closing the First Constitutional Epoch — Institutional Record (no authority) |
+| [LAUNCH-PROGRAM.md](LAUNCH-PROGRAM.md) | Launch Program — from creation to communication (intent only; no authority) |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |
