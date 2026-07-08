@@ -25,6 +25,7 @@ Descriptive only — authorizes nothing.
 - [Governance Cycle 6 Founder Decision](governance/GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md)
 - [GAR-0020 Founder Ratification](governance/GAR-0020-FOUNDER-RATIFICATION.md)
 - [Constitutional Baseline v1.0](governance/CONSTITUTIONAL-BASELINE-v1.0.md)
+- [Institutional Literature](institutional/README.md) — Book One and narrative canon
 - [Architecture 5 Review](architecture/ARCHITECTURE-5-repository-strategic-review.md)
 
 ### GAR Constitutions
