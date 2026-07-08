@@ -21,22 +21,26 @@ Design Tokens v1.0                  ✓ Recorded
         ↓
 Canonical Page Specification v1.0   ✓ Recorded
         ↓
-Institutional Mark Exploration v1.0   ✓ Recorded
+Institutional Mark Exploration v1.0 ✓ Recorded
         ↓
-Institutional Mark Selection v1.0   — recommended next (not authorized)
+Institutional Mark Selection v1.0   ✓ Recorded (complete)
         ↓
-Institutional Mark Adoption         — not authorized
+Institutional Mark Adoption           — not authorized
         ↓
 Implementation                        — not authorized
 ```
 
 ---
 
-## Evidence
+## Selection Result
 
-Print exercise: [PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md](../../docs/institutional/PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md)
+**Recommended:** C-03 Baseline — [c-03-baseline.svg](mark-selection/candidates/c-03-baseline.svg)
 
-Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md)
+Selection record: [INSTITUTIONAL-MARK-SELECTION-v1.0.md](INSTITUTIONAL-MARK-SELECTION-v1.0.md)
+
+Authorization: [MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md)
+
+Selection recommends. Adoption commits.
 
 ---
 
@@ -44,6 +48,7 @@ Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.m
 
 | Document | Link |
 | --- | --- |
+| Institutional Mark Selection | [MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md) |
 | Institutional Mark Exploration | [MISSION-001-PHASE-B-INSTITUTIONAL-MARK-EXPLORATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-EXPLORATION-AUTHORIZATION.md) |
 | Canonical Page Specification | [MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md) |
 | Design Tokens | [MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md) |
@@ -60,18 +65,18 @@ Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.m
 | [tokens/design-tokens.yaml](tokens/design-tokens.yaml) | 1.0 | Recorded |
 | [CANONICAL-PAGE-SPECIFICATION-v1.0.md](CANONICAL-PAGE-SPECIFICATION-v1.0.md) | 1.0 | Recorded |
 | [INSTITUTIONAL-MARK-EXPLORATION-v1.0.md](INSTITUTIONAL-MARK-EXPLORATION-v1.0.md) | 1.0 | Recorded |
+| [INSTITUTIONAL-MARK-SELECTION-v1.0.md](INSTITUTIONAL-MARK-SELECTION-v1.0.md) | 1.0 | Complete |
+| [mark-selection/candidates/](mark-selection/candidates/) | — | 6 candidates evaluated |
 
 ---
 
 ## Institutional Guidance
 
-The page is the institution.
+The mark exists to acknowledge the institution.
 
-The page precedes the mark.
+The institution does not exist to justify the mark.
 
-The mark acknowledges — it does not carry.
-
-Institutional Mark Selection remains unauthorized until explicitly approved by Founder Decision.
+Institutional Mark Adoption remains unauthorized until explicitly approved by Founder Decision.
 
 The website introduces.
 

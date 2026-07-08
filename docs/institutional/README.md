@@ -37,6 +37,7 @@ and committed repository state.
 | [../governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md](../governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md) | Mission 001 Phase B — Design Tokens v1.0 Authorization |
 | [../governance/MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md](../governance/MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md) | Mission 001 Phase B — Canonical Page Specification v1.0 Authorization |
 | [../governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-EXPLORATION-AUTHORIZATION.md](../governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-EXPLORATION-AUTHORIZATION.md) | Mission 001 Phase B — Institutional Mark Exploration v1.0 Authorization |
+| [../governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md](../governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md) | Mission 001 Phase B — Institutional Mark Selection v1.0 Authorization |
 | [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md) | Mission 001 Phase A — Institutional Note |
 | [FOUNDER-REFLECTION-MISSION-001-PHASE-A.md](FOUNDER-REFLECTION-MISSION-001-PHASE-A.md) | Founder Reflection — Mission 001 Phase A |
 | [FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md](FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md) | Founder Recommendation — Design Legitimacy Chain |
