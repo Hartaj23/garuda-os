@@ -121,6 +121,8 @@ Contents include:
 - The Library of the First Constitutional Epoch
 - Colophon
 - The Steward's Charge
+- Institutional Inheritance Register
+- To the Reader Who Closed the Last Page
 
 **Purpose:**
 
