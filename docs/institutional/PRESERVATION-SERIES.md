@@ -119,8 +119,9 @@ idea matters.
 | Entry 13 — Ratification | [companion/entry-13-ratification.md](companion/entry-13-ratification.md) |
 | Entry 14 — Institutional HOLD | [companion/entry-14-institutional-hold.md](companion/entry-14-institutional-hold.md) |
 | Entry 15 — Stewardship | [companion/entry-15-stewardship.md](companion/entry-15-stewardship.md) |
+| Entry 16 — Constitutional Baseline | [companion/entry-16-constitutional-baseline.md](companion/entry-16-constitutional-baseline.md) |
 
-**Status:** In Progress — introduction and Entries 1–15 recorded; remaining glossary entries to follow.
+**Status:** In Progress — introduction and Entries 1–16 recorded; remaining glossary entries to follow.
 
 Suggested entries include:
 

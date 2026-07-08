@@ -42,6 +42,7 @@ This companion creates no constitutional, architectural, sprint, or engineering 
 | 13 | Ratification | [entry-13-ratification.md](entry-13-ratification.md) |
 | 14 | Institutional HOLD | [entry-14-institutional-hold.md](entry-14-institutional-hold.md) |
 | 15 | Stewardship | [entry-15-stewardship.md](entry-15-stewardship.md) |
+| 16 | Constitutional Baseline | [entry-16-constitutional-baseline.md](entry-16-constitutional-baseline.md) |
 
 ---
 
@@ -75,7 +76,6 @@ Together they provide narrative, structure, and language.
 Remaining planned entries:
 
 - Governance Before Architecture
-- Constitutional Baseline
 - Epoch Pause
 - Founder Decision
 
