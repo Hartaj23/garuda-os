@@ -17,6 +17,7 @@ and committed repository state.
 
 | Path | Description |
 | --- | --- |
+| [MANIFESTO.md](MANIFESTO.md) | Project Garuda Manifesto — Why We Exist (no authority) |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |
