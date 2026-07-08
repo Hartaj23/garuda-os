@@ -175,7 +175,17 @@ Read before planning or implementation.
 
 ---
 
-## Level 7 — AI Prompt Library
+## Level 7 — Institutional Governance
+
+- [`docs/governance/GAR-ROADMAP.md`](docs/governance/GAR-ROADMAP.md) — descriptive institutional roadmap
+- [`docs/governance/INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md`](docs/governance/INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md) — three-layer lifecycle
+- [`docs/governance/ARCHITECTURE-5-FOUNDER-DECISION.md`](docs/governance/ARCHITECTURE-5-FOUNDER-DECISION.md) — Architecture 5 closure
+
+**Purpose:** Records institutional direction and lifecycle models. **Descriptive only — authorizes nothing.**
+
+---
+
+## Level 8 — AI Prompt Library
 
 - `PROMPTS.md`
 
@@ -183,7 +193,7 @@ Read before planning or implementation.
 
 ---
 
-## Level 8 — Engineering Document Templates
+## Level 9 — Engineering Document Templates
 
 - `templates/`
 

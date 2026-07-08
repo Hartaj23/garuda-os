@@ -14,6 +14,16 @@ Engineering Handbook
 Repository
 ```
 
+### Institutional Governance
+
+Descriptive only — authorizes nothing.
+
+- [Governance Index](governance/README.md)
+- [GAR-ROADMAP](governance/GAR-ROADMAP.md) — institutional direction at governance baselines
+- [Institutional Strategic Lifecycle v1.0](governance/INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md)
+- [Architecture 5 Founder Decision](governance/ARCHITECTURE-5-FOUNDER-DECISION.md)
+- [Architecture 5 Review](architecture/ARCHITECTURE-5-repository-strategic-review.md)
+
 ### GAR Constitutions
 
 - [ARCHITECTURE.md](../ARCHITECTURE.md)

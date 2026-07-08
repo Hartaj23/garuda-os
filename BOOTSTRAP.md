@@ -256,7 +256,13 @@ If this snapshot conflicts with committed repository state, the committed state 
 
 GAR-SPRINT-0012 is **complete and closed** at `v0.12.0-alpha`.
 
-The repository is in **HOLD**. No sprint is authorized automatically.
+The institution is in **Institutional HOLD**. No sprint is authorized automatically.
+
+The repository records the current baseline (`v0.12.0-alpha`). Governance pauses between cycles.
+
+Architecture 5 is closed. Founder Decision adopted the Institutional Strategic Lifecycle v1.0,
+Certification as a permanent engineering phase, `docs/governance/GAR-ROADMAP.md`, and Institutional
+HOLD terminology. See [`docs/governance/`](docs/governance/README.md).
 
 Future sprint work requires separate constitutional review and Founder authorization.
 

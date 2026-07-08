@@ -59,7 +59,7 @@ Implementation follows approved sprint missions.
 | Current Branch | `master` |
 | Current Version | `v0.12.0-alpha` |
 | Current Sprint | GAR-SPRINT-0012 (Complete) |
-| Current Mission | None — repository HOLD |
+| Current Mission | None — Institutional HOLD |
 
 ---
 
@@ -273,13 +273,25 @@ These will be introduced only through future approved constitutions and sprint p
 
 ---
 
+# Institutional Assets
+
+| Asset | Description |
+|---|---|
+| Garuda OS | Software platform — foundations through `v0.12.0-alpha` |
+| Garuda Constitutional Engineering | Institutional method for platform evolution — formalized at Architecture 5 |
+
+See [`docs/governance/GAR-ROADMAP.md`](docs/governance/GAR-ROADMAP.md) for institutional direction (descriptive only).
+
+---
+
 # Next Planned Work
 
 | Field | Value |
 |---|---|
 | Current Sprint | GAR-SPRINT-0012 (Complete) |
-| Current Status | Repository HOLD — no sprint authorized |
-| Next Milestone | Future sprint requires separate constitutional review and Founder authorization |
+| Current Status | **Institutional HOLD** — no sprint authorized |
+| Architecture 5 | Closed — Founder Decision adopted (2026-07-08) |
+| Next Milestone | Next constitutional cycle requires separate Founder authorization (GAR-0020 not authorized) |
 
 ---
 

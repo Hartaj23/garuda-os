@@ -53,20 +53,21 @@ Architecture Approval
 ↓
 Implementation
 ↓
-Testing
+Mission Review
 ↓
-Documentation
+Certification
 ↓
-Verification
+SDK
 ↓
-Architecture Review
+Release
 ↓
-Git Commit
+Git Tag
 ↓
-Mission Complete
-↓
-Next Mission
+Institutional HOLD
 ```
+
+Certification is a permanent named phase between Mission Review and SDK. It is not optional testing
+and is not folded into Release. See [`docs/governance/INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md`](docs/governance/INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md).
 
 No phase may be skipped.
 
@@ -181,6 +182,18 @@ Execute:
 Report all failures honestly.
 
 Never suppress failures.
+
+---
+
+# Certification Phase
+
+Certification (typically Mission Golf) verifies cross-foundation interoperability and constitutional
+compliance. Certification introduces no new production functionality.
+
+Certification sits permanently between Mission Review and SDK documentation. It is a governance phase,
+not a subset of Release.
+
+Execute certification using the sprint certification record and documented verification workflow.
 
 ---
 

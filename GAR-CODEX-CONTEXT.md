@@ -34,7 +34,8 @@ GAR-SPRINT-0012 Mission Foxtrot complete — GAR-REVIEW-S12-006 approved (`e9de6
 GAR-SPRINT-0012 Mission Golf complete — GAR-REVIEW-S12-007 approved (`d6dd58f`).
 GAR-SPRINT-0012 Mission Hotel complete — GAR-REVIEW-S12-008 approved (`436ad44`).
 GAR-SPRINT-0012 Mission India complete — GAR-REVIEW-S12-009 approved (`bd29741`).
-Repository status: **HOLD** — no sprint authorized.
+Repository status: **Institutional HOLD** — no sprint authorized.
+Architecture 5 closed — Founder Decision adopted (2026-07-08).
 
 ## Completed Sprint 11 missions
 
@@ -50,7 +51,7 @@ Repository status: **HOLD** — no sprint authorized.
 
 ## Current next mission
 
-None — repository HOLD.
+None — Institutional HOLD.
 
 Future sprint work requires separate constitutional review and Founder authorization.
 
