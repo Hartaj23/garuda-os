@@ -26,6 +26,7 @@ This atlas creates no constitutional, architectural, sprint, or engineering auth
 | 3 | Authority Before Action | [plate-03-authority-before-action.md](plate-03-authority-before-action.md) |
 | 4 | The Constitutional Timeline | [plate-04-the-constitutional-timeline.md](plate-04-the-constitutional-timeline.md) |
 | 5 | The First Constitutional Epoch | [plate-05-the-first-constitutional-epoch.md](plate-05-the-first-constitutional-epoch.md) |
+| 6 | The Governance Cycle | [plate-06-the-governance-cycle.md](plate-06-the-governance-cycle.md) |
 
 ---
 
