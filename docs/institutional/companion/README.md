@@ -35,6 +35,7 @@ This companion creates no constitutional, architectural, sprint, or engineering 
 | 6 | Governance Corpus | [entry-06-governance-corpus.md](entry-06-governance-corpus.md) |
 | 7 | Authority | [entry-07-authority.md](entry-07-authority.md) |
 | 8 | Authority Before Action | [entry-08-authority-before-action.md](entry-08-authority-before-action.md) |
+| 9 | Governance Cycle | [entry-09-governance-cycle.md](entry-09-governance-cycle.md) |
 
 ---
 

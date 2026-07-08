@@ -112,8 +112,9 @@ idea matters.
 | Entry 6 — Governance Corpus | [companion/entry-06-governance-corpus.md](companion/entry-06-governance-corpus.md) |
 | Entry 7 — Authority | [companion/entry-07-authority.md](companion/entry-07-authority.md) |
 | Entry 8 — Authority Before Action | [companion/entry-08-authority-before-action.md](companion/entry-08-authority-before-action.md) |
+| Entry 9 — Governance Cycle | [companion/entry-09-governance-cycle.md](companion/entry-09-governance-cycle.md) |
 
-**Status:** In Progress — introduction and Entries 1–8 recorded; remaining glossary entries to follow.
+**Status:** In Progress — introduction and Entries 1–9 recorded; remaining glossary entries to follow.
 
 Suggested entries include:
 
