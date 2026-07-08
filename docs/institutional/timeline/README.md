@@ -28,6 +28,7 @@ This timeline creates no constitutional, architectural, sprint, or engineering a
 | --- | --- | --- | --- |
 | 1 | The Emergence of an Institution | Pre-Constitutional Era | [entry-01-the-emergence-of-an-institution.md](entry-01-the-emergence-of-an-institution.md) |
 | 2 | The Adoption of Constitutional Engineering | Pre-Constitutional Era | [entry-02-the-adoption-of-constitutional-engineering.md](entry-02-the-adoption-of-constitutional-engineering.md) |
+| 3 | The Beginning of the First Constitutional Epoch | The First Constitutional Epoch | [entry-03-the-beginning-of-the-first-constitutional-epoch.md](entry-03-the-beginning-of-the-first-constitutional-epoch.md) |
 
 ---
 
