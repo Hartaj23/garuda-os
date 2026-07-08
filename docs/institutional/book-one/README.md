@@ -20,6 +20,7 @@
 | 6 | Governance Before Architecture | [chapter-06-governance-before-architecture.md](chapter-06-governance-before-architecture.md) |
 | 7 | The First Constitutional Epoch Begins | [chapter-07-the-first-constitutional-epoch-begins.md](chapter-07-the-first-constitutional-epoch-begins.md) |
 | 8 | The Interface Foundation | [chapter-08-the-interface-foundation.md](chapter-08-the-interface-foundation.md) |
+| 9 | The Integration Foundation | [chapter-09-the-integration-foundation.md](chapter-09-the-integration-foundation.md) |
 
 ## Note
 
