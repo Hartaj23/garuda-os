@@ -39,6 +39,7 @@ and committed repository state.
 | [FOUNDER-REFLECTION-MISSION-001-PHASE-A.md](FOUNDER-REFLECTION-MISSION-001-PHASE-A.md) | Founder Reflection — Mission 001 Phase A |
 | [FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md](FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md) | Founder Recommendation — Design Legitimacy Chain |
 | [FOUNDER-RECOMMENDATION-CANONICAL-PAGE-SPECIFICATION.md](FOUNDER-RECOMMENDATION-CANONICAL-PAGE-SPECIFICATION.md) | Founder Recommendation — Canonical Page Specification |
+| [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md](FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md) | Founder Recommendation — Institutional Mark Exploration |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |

@@ -21,16 +21,31 @@ Design Tokens v1.0                  ✓ Recorded
         ↓
 Canonical Page Specification v1.0   ✓ Recorded
         ↓
-Logo                                — not authorized
+Institutional Mark Exploration v1.0 — recommended next (pause; not authorized)
         ↓
 Implementation                      — not authorized
 ```
 
-Canonical Page Specification authorization: [MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md)
+---
 
-Founder recommendation: [FOUNDER-RECOMMENDATION-CANONICAL-PAGE-SPECIFICATION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-CANONICAL-PAGE-SPECIFICATION.md)
+## Reflection Pause
 
-Design Tokens authorization: [MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md)
+Before the next authorization, the Founder recommends the **print exercise**:
+
+Print [CANONICAL-PAGE-SPECIFICATION-v1.0.md](CANONICAL-PAGE-SPECIFICATION-v1.0.md) on A4, black and white, no logo, no color. Read it for five minutes.
+
+If it still feels unmistakably like Project Garuda, the page has succeeded without branding.
+
+Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md)
+
+---
+
+## Authorizations
+
+| Document | Link |
+| --- | --- |
+| Canonical Page Specification | [MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md) |
+| Design Tokens | [MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md) |
 
 ---
 
@@ -52,7 +67,9 @@ The page is the institution.
 
 The page precedes the mark.
 
-Logo design remains unauthorized until explicitly approved by Founder Decision.
+A logo belongs to a brand. An institutional mark belongs to an institution.
+
+Institutional Mark Exploration remains unauthorized until explicitly approved by Founder Decision.
 
 The website introduces.
 
