@@ -1,17 +1,34 @@
 # Styles
 
-## Phase B — Brand Foundation
+## Mission 001 — Phase C — Implementation
 
-Visual philosophy: [../brand/VISUAL-PHILOSOPHY-v1.0.md](../brand/VISUAL-PHILOSOPHY-v1.0.md)
+| Field | Value |
+| --- | --- |
+| Authorization | [MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md) |
+| Tokens source | [../brand/tokens/design-tokens.yaml](../brand/tokens/design-tokens.yaml) |
+| Page specification | [../brand/CANONICAL-PAGE-SPECIFICATION-v1.0.md](../brand/CANONICAL-PAGE-SPECIFICATION-v1.0.md) |
 
-This directory is reserved for future stylesheet and design token definitions.
+CSS derived exclusively from approved Design Tokens v1.0.
 
-**Typography and color implementation not authorized until explicit Founder determination.**
-
-No visual design decisions beyond recorded philosophy shall be considered final without Phase B authorization.
-
-See [brand/README.md](../brand/README.md).
+Built copies are published to `pages/assets/styles/` by the site builder.
 
 ---
 
-## Phase A — Reserved (Historical)
+## Files
+
+| File | Purpose |
+| --- | --- |
+| [tokens.css](tokens.css) | CSS custom properties from design tokens |
+| [main.css](main.css) | Canonical page layout and component styles |
+
+---
+
+## Build
+
+```bash
+.venv/bin/python website/scripts/build_site.py
+```
+
+---
+
+End of Styles Documentation

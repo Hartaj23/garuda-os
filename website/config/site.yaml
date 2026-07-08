@@ -5,14 +5,12 @@
 site:
   name: Project Garuda
   tagline: Building institutions worthy of the intelligence they guide.
-  phase: A
-  phase_name: Site Architecture
+  phase: C
+  phase_name: Implementation
   phase_status: complete
-  phase_result: closed
-  phase_approved: 2026-07-08
-  closure: docs/governance/MISSION-001-PHASE-A-CLOSURE.md
   mission: Mission 001 — Launch the Public Foundation
-  authorization: docs/governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md
+  authorization: docs/governance/MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md
+  phase_b_closure: docs/governance/MISSION-001-PHASE-B-CLOSURE.md
 
 authority:
   canonical_source: repository

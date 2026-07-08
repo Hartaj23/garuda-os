@@ -1,11 +1,19 @@
 # Components
 
-## Phase A — Reserved
+## Mission 001 — Phase C — Implementation
 
-This directory is reserved for future UI components.
+Reusable page components are implemented as semantic HTML patterns in the site builder:
 
-**Not authorized in Phase A.**
+| Component | Implementation |
+| --- | --- |
+| Site header | `site-header`, `site-mark`, `site-nav` |
+| Gateway page | `gateway-page`, `gateway-page__title` |
+| Repository callout | `repository-callout` |
+| Reading journey | `reading-journey` |
+| Site footer | `site-footer` |
 
-Component development requires Phase B (brand foundation) and subsequent rendering authorization.
+See [../scripts/build_site.py](../scripts/build_site.py) and [../styles/main.css](../styles/main.css).
 
-No visual design decisions are final during Phase A.
+---
+
+End of Components Documentation

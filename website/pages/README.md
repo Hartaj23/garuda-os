@@ -1,11 +1,39 @@
 # Pages
 
-## Phase A — Reserved
+## Mission 001 — Phase C — Implementation
 
-This directory is reserved for the future page rendering layer.
+| Field | Value |
+| --- | --- |
+| Authorization | [MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md) |
+| Builder | [../scripts/build_site.py](../scripts/build_site.py) |
+| Source content | [../content/](../content/) |
 
-**Not authorized in Phase A.**
+Generated HTML gateway pages. Faithful translation of approved content and Canonical Page Specification.
 
-A page layer will map `content/` markdown and `config/navigation.yaml` to rendered public pages when a subsequent phase is authorized.
+**Deployment not authorized.**
 
-No rendering engine, framework, or deployment configuration shall be introduced without explicit Founder authorization.
+---
+
+## Build
+
+```bash
+.venv/bin/python website/scripts/build_site.py
+```
+
+Output: 19 gateway pages, assets (styles, institutional mark).
+
+---
+
+## Local Preview
+
+Serve from repository root so repository links resolve:
+
+```bash
+python -m http.server 8000
+```
+
+Open `http://localhost:8000/website/pages/`
+
+---
+
+End of Pages Documentation

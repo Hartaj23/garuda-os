@@ -1,0 +1,373 @@
+/* Project Garuda — Main Stylesheet */
+/* Implements CANONICAL-PAGE-SPECIFICATION-v1.0 */
+/* Authorized by MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION */
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");
+@import "tokens.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-background-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-serif);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--color-link-default);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-link-visited);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.site {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Header --- */
+
+.site-header {
+  padding: var(--spacing-page-margin-mobile);
+  padding-bottom: 0;
+}
+
+.site-header__inner {
+  max-width: var(--layout-max-width-wide);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--spacing-4);
+  padding-bottom: var(--spacing-section-gap-sm);
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.site-mark {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: var(--min-touch-target);
+  min-height: var(--min-touch-target);
+}
+
+.site-mark svg {
+  width: 24px;
+  height: 24px;
+}
+
+.site-nav {
+  flex: 1 1 auto;
+}
+
+.site-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-2) var(--spacing-4);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.site-nav__list a {
+  color: var(--color-text-secondary);
+  padding: var(--spacing-2) 0;
+  min-height: var(--min-touch-target);
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-nav__list a:hover {
+  color: var(--color-text-primary);
+}
+
+.site-nav__list a[aria-current="page"] {
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* --- Main --- */
+
+.site-main {
+  flex: 1 1 auto;
+  padding: var(--spacing-page-margin-mobile);
+  padding-top: var(--spacing-section-gap-sm);
+}
+
+.gateway-page {
+  max-width: var(--layout-max-width-content);
+  margin: 0 auto;
+}
+
+.gateway-page__title {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.25;
+  margin: 0 0 var(--spacing-6);
+  color: var(--color-text-primary);
+}
+
+.gateway-page__lead {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--spacing-paragraph-after);
+}
+
+.page-content {
+  margin-bottom: var(--spacing-section-gap-md);
+}
+
+.page-content > *:first-child {
+  margin-top: 0;
+}
+
+.page-content h2 {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  margin: var(--spacing-section-gap-md) 0 var(--spacing-6);
+  color: var(--color-text-primary);
+}
+
+.page-content h3 {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  margin: var(--spacing-section-gap-sm) 0 var(--spacing-6);
+  color: var(--color-text-primary);
+}
+
+.page-content p {
+  margin: 0 0 var(--spacing-paragraph-after);
+}
+
+.page-content ul,
+.page-content ol {
+  margin: var(--spacing-4) 0 var(--spacing-6);
+  padding-left: var(--spacing-6);
+}
+
+.page-content li {
+  margin-bottom: var(--spacing-2);
+}
+
+.page-content li:last-child {
+  margin-bottom: 0;
+}
+
+.page-content hr {
+  border: none;
+  border-top: 1px solid var(--color-border-subtle);
+  margin: var(--spacing-section-gap-md) 0;
+}
+
+.page-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--spacing-4) 0 var(--spacing-6);
+  font-size: var(--font-size-sm);
+}
+
+.page-content th {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-semibold);
+  text-align: left;
+  padding: var(--spacing-3) var(--spacing-4);
+  border-bottom: 1px solid var(--color-border-default);
+  color: var(--color-text-primary);
+}
+
+.page-content td {
+  padding: var(--spacing-3) var(--spacing-4);
+  border-bottom: 1px solid var(--color-border-subtle);
+  color: var(--color-text-secondary);
+}
+
+.page-content blockquote {
+  margin: var(--spacing-4) 0 var(--spacing-6);
+  padding-left: var(--spacing-4);
+  border-left: 3px solid var(--color-border-default);
+  color: var(--color-text-secondary);
+}
+
+.page-content strong {
+  font-weight: var(--font-weight-semibold);
+}
+
+.page-content em {
+  font-style: italic;
+}
+
+.page-content a.repository-link,
+.page-content a[href*="docs/"],
+.page-content a[href*="packages/"] {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
+  color: var(--color-semantic-repository);
+}
+
+.page-content a.repository-link:hover,
+.page-content a[href*="docs/"]:hover,
+.page-content a[href*="packages/"]:hover {
+  text-decoration: underline;
+}
+
+/* --- Repository callout --- */
+
+.repository-callout {
+  background: var(--color-background-secondary);
+  padding: var(--spacing-6);
+  margin: var(--spacing-section-gap-md) 0;
+}
+
+.repository-callout__label {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  margin: 0 0 var(--spacing-2);
+  color: var(--color-text-primary);
+}
+
+.repository-callout__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.repository-callout__links li {
+  margin-bottom: var(--spacing-2);
+}
+
+.repository-callout__links a {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
+  color: var(--color-semantic-repository);
+}
+
+/* --- Reading journey --- */
+
+.reading-journey {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-tertiary);
+  margin: var(--spacing-section-gap-md) 0 var(--spacing-section-gap-lg);
+}
+
+.reading-journey a {
+  color: var(--color-link-default);
+}
+
+/* --- Footer --- */
+
+.site-footer {
+  max-width: var(--layout-max-width-content);
+  margin: 0 auto;
+  padding: var(--spacing-8) var(--spacing-page-margin-mobile) var(--spacing-section-gap-lg);
+  border-top: 1px solid var(--color-border-subtle);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-tertiary);
+}
+
+.site-footer__mark {
+  margin-bottom: var(--spacing-4);
+}
+
+.site-footer__mark svg {
+  width: 16px;
+  height: 16px;
+  opacity: 0.85;
+}
+
+.site-footer p {
+  margin: 0 0 var(--spacing-2);
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Home proposition --- */
+
+.home-proposition {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.25;
+  margin: 0 0 var(--spacing-section-gap-sm);
+  color: var(--color-text-primary);
+}
+
+/* --- Responsive --- */
+
+@media (min-width: 768px) {
+  .site-header,
+  .site-main {
+    padding-left: var(--spacing-page-margin-tablet);
+    padding-right: var(--spacing-page-margin-tablet);
+  }
+
+  .site-footer {
+    padding-left: var(--spacing-page-margin-tablet);
+    padding-right: var(--spacing-page-margin-tablet);
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-header,
+  .site-main {
+    padding-left: var(--spacing-page-margin-desktop);
+    padding-right: var(--spacing-page-margin-desktop);
+  }
+
+  .site-footer {
+    padding-left: var(--spacing-page-margin-desktop);
+    padding-right: var(--spacing-page-margin-desktop);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

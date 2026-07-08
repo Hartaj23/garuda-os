@@ -133,7 +133,7 @@ Where differences arise, the repository prevails.
 | A | Site architecture | **Complete (Closed)** — [Closure](../../docs/governance/MISSION-001-PHASE-A-CLOSURE.md) |
 | B | Brand foundation | **Complete (Closed)** — [Closure](../../docs/governance/MISSION-001-PHASE-B-CLOSURE.md) |
 | — | Implementation Readiness Review | **Complete** — [Review](../../docs/governance/IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md) |
-| C | Implementation | Not authorized |
+| C | Implementation | **Complete** — [Authorization](../../docs/governance/MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md) |
 | D | Research & News | Not authorized |
 | — | Public deployment | Not authorized |
 | — | Custom domain | Not authorized |
@@ -153,9 +153,11 @@ Phase A is complete when:
 - [x] Institution and Library structural gateways created
 - [x] Founder review of Phase A structure — **Approved 2026-07-08**
 
-Phase A and Phase B are **closed**. Implementation Readiness Review is **complete**. Phase C requires explicit Founder authorization.
+Phase C implementation is **complete**. Public deployment is **not authorized**.
 
-See [IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md](../docs/governance/IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md).
+Build: `.venv/bin/python website/scripts/build_site.py`
+
+Preview: serve repository root; open `/website/pages/`
 
 ---
 
