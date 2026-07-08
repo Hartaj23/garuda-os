@@ -240,6 +240,7 @@ Each volume requires explicit authorization before work begins. This document re
 | First Edition Completion Declaration | [FIRST-EDITION-COMPLETION-DECLARATION.md](FIRST-EDITION-COMPLETION-DECLARATION.md) |
 | An Invitation to Future Stewards | [INVITATION-TO-FUTURE-STEWARDS.md](INVITATION-TO-FUTURE-STEWARDS.md) |
 | Colophon — The First Edition | [COLOPHON-FIRST-EDITION.md](COLOPHON-FIRST-EDITION.md) |
+| The Steward's Charge | [THE-STEWARDS-CHARGE.md](THE-STEWARDS-CHARGE.md) |
 
 Following completion of Volumes I–V, the First Edition Editorial Pass presents the completed
 Preservation Series with clarity, consistency, and craftsmanship appropriate for a permanent first

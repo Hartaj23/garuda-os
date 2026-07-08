@@ -162,6 +162,7 @@ That library is offered not as the final word of Project Garuda, but as the fait
 | First Edition Completion Declaration | [FIRST-EDITION-COMPLETION-DECLARATION.md](FIRST-EDITION-COMPLETION-DECLARATION.md) |
 | An Invitation to Future Stewards | [INVITATION-TO-FUTURE-STEWARDS.md](INVITATION-TO-FUTURE-STEWARDS.md) |
 | Colophon — The First Edition | [COLOPHON-FIRST-EDITION.md](COLOPHON-FIRST-EDITION.md) |
+| The Steward's Charge | [THE-STEWARDS-CHARGE.md](THE-STEWARDS-CHARGE.md) |
 
 ---
 
