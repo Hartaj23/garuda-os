@@ -40,6 +40,8 @@ and committed repository state.
 | [../governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md](../governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md) | Mission 001 Phase B — Institutional Mark Selection v1.0 Authorization |
 | [../governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-ADOPTION.md](../governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-ADOPTION.md) | Mission 001 Phase B — Institutional Mark Adoption |
 | [../governance/MISSION-001-PHASE-B-CLOSURE.md](../governance/MISSION-001-PHASE-B-CLOSURE.md) | Mission 001 Phase B — Closure Record |
+| [../governance/MISSION-001-IMPLEMENTATION-READINESS-REVIEW-AUTHORIZATION.md](../governance/MISSION-001-IMPLEMENTATION-READINESS-REVIEW-AUTHORIZATION.md) | Mission 001 — Implementation Readiness Review Authorization |
+| [../governance/IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md](../governance/IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md) | Implementation Readiness Review — Mission 001 (complete) |
 | [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md) | Mission 001 Phase A — Institutional Note |
 | [FOUNDER-REFLECTION-MISSION-001-PHASE-A.md](FOUNDER-REFLECTION-MISSION-001-PHASE-A.md) | Founder Reflection — Mission 001 Phase A |
 | [FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md](FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md) | Founder Recommendation — Design Legitimacy Chain |

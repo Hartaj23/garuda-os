@@ -130,9 +130,10 @@ Where differences arise, the repository prevails.
 
 | Phase | Scope | Status |
 | --- | --- | --- |
-| A | Site architecture | **Complete (Approved — Closed)** |
-| B | Brand foundation | Visual Philosophy v1.0 recorded — [Readiness Assessment](../../docs/governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md) pending |
-| C | Content integration | Not authorized |
+| A | Site architecture | **Complete (Closed)** — [Closure](../../docs/governance/MISSION-001-PHASE-A-CLOSURE.md) |
+| B | Brand foundation | **Complete (Closed)** — [Closure](../../docs/governance/MISSION-001-PHASE-B-CLOSURE.md) |
+| — | Implementation Readiness Review | **Complete** — [Review](../../docs/governance/IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md) |
+| C | Implementation | Not authorized |
 | D | Research & News | Not authorized |
 | — | Public deployment | Not authorized |
 | — | Custom domain | Not authorized |
@@ -152,7 +153,9 @@ Phase A is complete when:
 - [x] Institution and Library structural gateways created
 - [x] Founder review of Phase A structure — **Approved 2026-07-08**
 
-Phase A is **closed**. Phase B requires explicit Founder authorization.
+Phase A and Phase B are **closed**. Implementation Readiness Review is **complete**. Phase C requires explicit Founder authorization.
+
+See [IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md](../docs/governance/IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md).
 
 ---
 
