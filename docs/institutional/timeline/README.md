@@ -30,6 +30,7 @@ This timeline creates no constitutional, architectural, sprint, or engineering a
 | 2 | The Adoption of Constitutional Engineering | Pre-Constitutional Era | [entry-02-the-adoption-of-constitutional-engineering.md](entry-02-the-adoption-of-constitutional-engineering.md) |
 | 3 | The Beginning of the First Constitutional Epoch | The First Constitutional Epoch | [entry-03-the-beginning-of-the-first-constitutional-epoch.md](entry-03-the-beginning-of-the-first-constitutional-epoch.md) |
 | 4 | The Constitutional Extension of Phase II | The First Constitutional Epoch | [entry-04-the-constitutional-extension-of-phase-ii.md](entry-04-the-constitutional-extension-of-phase-ii.md) |
+| 5 | The Constitutional Extension of Integration | The First Constitutional Epoch | [entry-05-the-constitutional-extension-of-integration.md](entry-05-the-constitutional-extension-of-integration.md) |
 
 ---
 
