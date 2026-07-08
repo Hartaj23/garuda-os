@@ -7,7 +7,7 @@
 | Title | Selected Constitutional Texts |
 | Classification | Institutional Literature |
 | Authority | Informational (Non-Constitutional) |
-| Status | In Progress |
+| Status | Complete (First Edition) |
 | Purpose | Present constitutional artifacts with minimal editorial interpretation |
 
 Curated constitutional texts from the First Constitutional Epoch — presented to make the constitutional

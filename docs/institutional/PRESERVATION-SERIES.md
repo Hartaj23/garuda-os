@@ -30,11 +30,11 @@ navigate it.
 
 | Volume | Title | Status |
 | --- | --- | --- |
-| I | [Book One — The First Constitutional Epoch](book-one/README.md) | Complete (Frozen) |
-| II | [Institutional Atlas](atlas/README.md) | Complete (Plates 1–12) |
-| III | [Companion & Glossary](companion/README.md) | In Progress |
-| IV | [Institutional Timeline](timeline/README.md) | In Progress |
-| V | [Selected Constitutional Texts](selected-texts/README.md) | In Progress |
+| I | [Book One — The First Constitutional Epoch](book-one/README.md) | Complete (First Edition) |
+| II | [Institutional Atlas](atlas/README.md) | Complete (First Edition) |
+| III | [Companion & Glossary](companion/README.md) | Complete (First Edition) |
+| IV | [Institutional Timeline](timeline/README.md) | Complete (First Edition) |
+| V | [Selected Constitutional Texts](selected-texts/README.md) | Complete (First Edition) |
 
 ---
 
@@ -121,7 +121,7 @@ idea matters.
 | Entry 15 — Stewardship | [companion/entry-15-stewardship.md](companion/entry-15-stewardship.md) |
 | Entry 16 — Constitutional Baseline | [companion/entry-16-constitutional-baseline.md](companion/entry-16-constitutional-baseline.md) |
 
-**Status:** In Progress — introduction and Entries 1–16 recorded; remaining glossary entries to follow.
+**Status:** Complete (First Edition) — introduction and Entries 1–16 recorded.
 
 Suggested entries include:
 
@@ -163,7 +163,7 @@ Every significant event. Chronological.
 | Entry 13 — Institutional Timeline Completed — The Institution's Chronology Preserved | [timeline/entry-13-institutional-timeline-completed-the-institutions-chronology-preserved.md](timeline/entry-13-institutional-timeline-completed-the-institutions-chronology-preserved.md) |
 | Entry 14 — The Preservation Series Established — The Institution Learns to Preserve Itself | [timeline/entry-14-the-preservation-series-established-the-institution-learns-to-preserve-itself.md](timeline/entry-14-the-preservation-series-established-the-institution-learns-to-preserve-itself.md) |
 
-**Status:** In Progress — introduction and Entries 1–14 recorded; timeline entries to follow.
+**Status:** Complete (First Edition) — introduction and Entries 1–14 recorded.
 
 Suggested contents:
 
@@ -194,7 +194,7 @@ interpretation to make the constitutional corpus approachable without altering i
 | Text III — GAR-0019 — Runtime Constitutional Extension | [selected-texts/text-03-gar-0019-runtime-constitutional-extension.md](selected-texts/text-03-gar-0019-runtime-constitutional-extension.md) |
 | Text IV — GAR-0020 — The Constitutional Recognition of Completion | [selected-texts/text-04-gar-0020-the-constitutional-recognition-of-completion.md](selected-texts/text-04-gar-0020-the-constitutional-recognition-of-completion.md) |
 
-**Status:** In Progress — Editor's Introduction and Texts I–IV recorded; selections to follow.
+**Status:** Complete (First Edition) — Editor's Introduction and Texts I–IV recorded.
 
 Selections will include significant constitutional artifacts from:
 
@@ -213,17 +213,17 @@ The repository remains the source of authority.
 Preservation before evolution. No new constitutions, architecture, or engineering during this phase.
 
 ```
-Book One                    ✓ Complete (Frozen)
+Book One                    ✓ Complete (First Edition)
         ↓
-Institutional Atlas         ✓ Complete (Plates 1–12)
+Institutional Atlas         ✓ Complete (First Edition)
         ↓
-Companion & Glossary        (Volume III — In Progress)
+Companion & Glossary        ✓ Complete (First Edition)
         ↓
-Institutional Timeline      (Volume IV — In Progress)
+Institutional Timeline      ✓ Complete (First Edition)
         ↓
-Selected Constitutional Texts (Volume V — In Progress)
+Selected Constitutional Texts ✓ Complete (First Edition)
         ↓
-First Edition Editorial Pass
+First Edition Editorial Pass ✓ Complete
 ```
 
 Each volume requires explicit authorization before work begins. This document records intent only.
@@ -237,12 +237,13 @@ Each volume requires explicit authorization before work begins. This document re
 | Editorial Charter | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) |
 | Editorial Workflow | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) |
 | Editorial Review Checklist | [EDITORIAL-REVIEW-CHECKLIST.md](EDITORIAL-REVIEW-CHECKLIST.md) |
+| First Edition Completion Declaration | [FIRST-EDITION-COMPLETION-DECLARATION.md](FIRST-EDITION-COMPLETION-DECLARATION.md) |
 
 Following completion of Volumes I–V, the First Edition Editorial Pass presents the completed
 Preservation Series with clarity, consistency, and craftsmanship appropriate for a permanent first
 edition.
 
-**Status:** Charter, workflow, and review checklist recorded — editorial pass not yet begun.
+**Status:** Complete (First Edition) — charter, workflow, checklist, and completion declaration recorded.
 
 The editorial pass shall:
 
@@ -251,9 +252,9 @@ The editorial pass shall:
 - maintain a unified voice across all volumes,
 - distinguish editorial voice from institutional voice.
 
-Book One remains frozen until the editorial pass is explicitly authorized and executed.
+Book One remains frozen for the First Edition. Future editorial refinements require a subsequent edition.
 
-See the Editorial Charter and Editorial Workflow for principles, sequence, and completion criteria.
+See the Editorial Charter, Editorial Workflow, Editorial Review Checklist, and First Edition Completion Declaration for principles, sequence, and completion record.
 
 ---
 
@@ -267,7 +268,7 @@ Book One-specific refinements remain within the unified pass and may include:
 - Timelines
 - Selected excerpts from the constitutional corpus
 
-Book One remains frozen until that pass is explicitly authorized.
+Book One remains frozen for the First Edition.
 
 ---
 

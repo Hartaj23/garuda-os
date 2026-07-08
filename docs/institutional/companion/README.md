@@ -7,7 +7,7 @@
 | Title | Companion & Glossary |
 | Classification | Institutional Literature |
 | Authority | Informational (Non-Constitutional) |
-| Status | In Progress |
+| Status | Complete (First Edition) |
 | Purpose | Explain institutional vocabulary without creating authority |
 
 Every institutional term explained — not definitions alone, but short essays explaining why each idea

@@ -21,11 +21,12 @@ and committed repository state.
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |
 | [EDITORIAL-REVIEW-CHECKLIST.md](EDITORIAL-REVIEW-CHECKLIST.md) | First Edition Editorial Pass — editorial review checklist (no authority) |
-| [book-one/](book-one/README.md) | Volume I — Book One — The First Constitutional Epoch (Complete, Frozen) |
-| [atlas/](atlas/README.md) | Volume II — Institutional Atlas (Complete) |
-| [companion/](companion/README.md) | Volume III — Companion & Glossary (In Progress) |
-| [timeline/](timeline/README.md) | Volume IV — Institutional Timeline (In Progress) |
-| [selected-texts/](selected-texts/README.md) | Volume V — Selected Constitutional Texts (In Progress) |
+| [book-one/](book-one/README.md) | Volume I — Book One — The First Constitutional Epoch (Complete, First Edition) |
+| [atlas/](atlas/README.md) | Volume II — Institutional Atlas (Complete, First Edition) |
+| [companion/](companion/README.md) | Volume III — Companion & Glossary (Complete, First Edition) |
+| [timeline/](timeline/README.md) | Volume IV — Institutional Timeline (Complete, First Edition) |
+| [selected-texts/](selected-texts/README.md) | Volume V — Selected Constitutional Texts (Complete, First Edition) |
+| [FIRST-EDITION-COMPLETION-DECLARATION.md](FIRST-EDITION-COMPLETION-DECLARATION.md) | First Edition Completion Declaration (no authority) |
 | [../governance/CONSTITUTIONAL-BASELINE-v1.0.md](../governance/CONSTITUTIONAL-BASELINE-v1.0.md) | Constitutional Baseline v1.0 (informational reference) |
 
 ## Maintenance
