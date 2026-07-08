@@ -42,7 +42,9 @@ Design Tokens v1.0                  ✓ Recorded
         ↓
 Canonical Page Specification v1.0   ✓ Recorded (this document)
         ↓
-Logo                                — not authorized
+Institutional Mark Exploration v1.0   ✓ Recorded
+        ↓
+Institutional Mark Selection          — not authorized
         ↓
 Implementation                      — not authorized
 ```
