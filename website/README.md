@@ -133,7 +133,9 @@ Where differences arise, the repository prevails.
 | A | Site architecture | **Complete (Closed)** — [Closure](../../docs/governance/MISSION-001-PHASE-A-CLOSURE.md) |
 | B | Brand foundation | **Complete (Closed)** — [Closure](../../docs/governance/MISSION-001-PHASE-B-CLOSURE.md) |
 | — | Implementation Readiness Review | **Complete** — [Review](../../docs/governance/IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md) |
-| C | Implementation | **Complete** — [Authorization](../../docs/governance/MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md) |
+| C | Implementation | **Complete (Closed)** — [Closure](../docs/governance/MISSION-001-PHASE-C-CLOSURE.md) |
+| — | Final Acceptance Review | Recommended — [Recommendation](../docs/institutional/FOUNDER-RECOMMENDATION-FINAL-ACCEPTANCE-REVIEW-MISSION-001.md) |
+| — | Public deployment | Not authorized |
 | D | Research & News | Not authorized |
 | — | Public deployment | Not authorized |
 | — | Custom domain | Not authorized |
@@ -153,11 +155,13 @@ Phase A is complete when:
 - [x] Institution and Library structural gateways created
 - [x] Founder review of Phase A structure — **Approved 2026-07-08**
 
-Phase C implementation is **complete**. Public deployment is **not authorized**.
+Phase C is **approved and closed**. Final Acceptance Review recommended before deployment.
 
 Build: `.venv/bin/python website/scripts/build_site.py`
 
 Preview: serve repository root; open `/website/pages/`
+
+Mission 001 closes completely only after Final Acceptance Review succeeds.
 
 ---
 

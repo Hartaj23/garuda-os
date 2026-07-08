@@ -29,7 +29,11 @@ Institutional Mark Selection v1.0   ✓ Complete
         ↓
 Institutional Mark v1.0             ✓ Adopted — C-03 Baseline
         ↓
-Implementation (Phase C)            ✓ Complete — deployment not authorized
+Implementation (Phase C)            ✓ Closed — approved
+        ↓
+Final Acceptance Review             — recommended (not authorized)
+        ↓
+Public Deployment                   — not authorized
 
 ---
 
