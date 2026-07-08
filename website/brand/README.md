@@ -33,7 +33,7 @@ Implementation (Phase C)            ✓ Closed — approved
         ↓
 Final Acceptance Review             ✓ Complete — Mission 001 accepted
         ↓
-Public Deployment                   — not authorized
+Public Deployment                   ✓ Authorized — [DEPLOYMENT.md](../DEPLOYMENT.md)
 
 ---
 

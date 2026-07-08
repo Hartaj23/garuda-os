@@ -21,7 +21,10 @@ authority:
     The repository remains the institution's canonical source of truth.
 
 deployment:
-  status: not_authorized
-  hosting: none
+  status: authorized
+  authorization: docs/governance/MISSION-001-PUBLIC-DEPLOYMENT-AUTHORIZATION.md
+  hosting: github-pages
+  deploy_root: website/public/
+  workflow: .github/workflows/deploy-public-site.yml
   custom_domain: none
   public_announcement: none

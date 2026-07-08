@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WEBSITE = ROOT / "website"
-PAGES = WEBSITE / "pages"
+PAGES = WEBSITE / "public"
 BUILD_SCRIPT = WEBSITE / "scripts" / "build_site.py"
 
 
@@ -67,6 +67,13 @@ class Mission001PhaseCImplementationTests(unittest.TestCase):
         self.assertIn("--color-background-primary: #F7F5F0", css)
         self.assertIn("--font-size-base: 1.0625rem", css)
         self.assertIn("--layout-max-width-content: 48rem", css)
+
+    def test_repository_links_target_public_docs_mirror(self) -> None:
+        html = (PAGES / "index.html").read_text(encoding="utf-8")
+        self.assertIn('href="docs/institutional/PUBLIC-WELCOME.md"', html)
+        docs_mirror = PAGES / "docs" / "institutional" / "PUBLIC-WELCOME.md"
+        self.assertTrue(docs_mirror.is_file())
+
 
     def test_semantic_structure(self) -> None:
         html = (PAGES / "index.html").read_text(encoding="utf-8")

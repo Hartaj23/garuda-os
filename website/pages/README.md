@@ -1,39 +1,17 @@
 # Pages
 
-## Mission 001 — Phase C — Implementation
+## Superseded by Public Site
 
-| Field | Value |
-| --- | --- |
-| Authorization | [MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md) |
-| Builder | [../scripts/build_site.py](../scripts/build_site.py) |
-| Source content | [../content/](../content/) |
+Deployable HTML output now lives in [../public/](../public/).
 
-Generated HTML gateway pages. Faithful translation of approved content and Canonical Page Specification.
-
-**Deployment not authorized.**
-
----
-
-## Build
+Build:
 
 ```bash
 .venv/bin/python website/scripts/build_site.py
 ```
 
-Output: 19 gateway pages, assets (styles, institutional mark).
+See [../DEPLOYMENT.md](../DEPLOYMENT.md).
 
 ---
 
-## Local Preview
-
-Serve from repository root so repository links resolve:
-
-```bash
-python -m http.server 8000
-```
-
-Open `http://localhost:8000/website/pages/`
-
----
-
-End of Pages Documentation
+End of Pages Directory Notice

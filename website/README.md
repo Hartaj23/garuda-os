@@ -136,7 +136,7 @@ Where differences arise, the repository prevails.
 | C | Implementation | **Complete (Closed)** — [Closure](../docs/governance/MISSION-001-PHASE-C-CLOSURE.md) |
 | — | Final Acceptance Review | **Complete** — [Review](../docs/governance/FINAL-ACCEPTANCE-REVIEW-MISSION-001.md) |
 | — | Mission 001 | **Closed** — [Closure](../docs/governance/MISSION-001-CLOSURE.md) |
-| — | Public deployment | Not authorized |
+| — | Public deployment | **Authorized** — [Authorization](../docs/governance/MISSION-001-PUBLIC-DEPLOYMENT-AUTHORIZATION.md) |
 | D | Research & News | Not authorized |
 | — | Public deployment | Not authorized |
 | — | Custom domain | Not authorized |
@@ -156,11 +156,13 @@ Phase A is complete when:
 - [x] Institution and Library structural gateways created
 - [x] Founder review of Phase A structure — **Approved 2026-07-08**
 
-Mission 001 is **accepted and closed**. Public deployment is **not authorized**.
+Mission 001 is **accepted and closed**. Public deployment is **authorized**.
 
 Build: `.venv/bin/python website/scripts/build_site.py`
 
-Preview: serve repository root; open `/website/pages/`
+Preview: `python -m http.server 8000 --directory website/public`
+
+Deployment: [DEPLOYMENT.md](DEPLOYMENT.md)
 
 ---
 

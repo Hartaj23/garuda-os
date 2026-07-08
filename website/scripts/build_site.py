@@ -13,8 +13,7 @@ from pathlib import Path
 WEBSITE_ROOT = Path(__file__).resolve().parents[1]
 REPO_ROOT = WEBSITE_ROOT.parent
 CONTENT_ROOT = WEBSITE_ROOT / "content"
-PAGES_ROOT = WEBSITE_ROOT / "pages"
-ASSETS_ROOT = PAGES_ROOT / "assets"
+PUBLIC_ROOT = WEBSITE_ROOT / "public"
 STYLES_SRC = WEBSITE_ROOT / "styles"
 MARK_SRC = WEBSITE_ROOT / "brand" / "mark" / "institutional-mark-v1.0.svg"
 
@@ -70,20 +69,31 @@ def asset_prefix(output_path: Path) -> str:
     return "../" * depth if depth else ""
 
 
+def repo_doc_href(output_rel: str, repo_doc: Path) -> str:
+    output_dir = (PUBLIC_ROOT / output_rel).parent
+    public_doc = PUBLIC_ROOT / "docs" / repo_doc.relative_to(REPO_ROOT / "docs")
+    return Path(os.path.relpath(public_doc, output_dir)).as_posix()
+
+
 def repo_href(content_rel: str, href: str, output_rel: str) -> str:
     if href.startswith("http://") or href.startswith("https://"):
         return href
     if href.startswith("/"):
         return href
-    source = (CONTENT_ROOT / content_rel).parent
+    source = (WEBSITE_ROOT / content_rel).parent
     target = (source / href).resolve()
     try:
         target.relative_to(REPO_ROOT)
     except ValueError:
         return href
-    output_dir = (PAGES_ROOT / output_rel).parent
-    rel = Path(os.path.relpath(target, output_dir))
-    return rel.as_posix()
+    docs_root = REPO_ROOT / "docs"
+    if target == REPO_ROOT or target == docs_root.parent:
+        output_dir = (PUBLIC_ROOT / output_rel).parent
+        return Path(os.path.relpath(REPO_ROOT, output_dir)).as_posix() + "/"
+    if docs_root in target.parents or target == docs_root:
+        return repo_doc_href(output_rel, target)
+    output_dir = (PUBLIC_ROOT / output_rel).parent
+    return Path(os.path.relpath(target, output_dir)).as_posix()
 
 
 def site_href(content_rel: str, href: str, output_rel: str) -> str:
@@ -96,7 +106,7 @@ def site_href(content_rel: str, href: str, output_rel: str) -> str:
             key = f"content/{rel.as_posix()}"
         mapped = PAGE_MAP.get(key)
         if mapped:
-            return Path(os.path.relpath(PAGES_ROOT / mapped, PAGES_ROOT / Path(output_rel).parent)).as_posix()
+            return Path(os.path.relpath(PUBLIC_ROOT / mapped, PUBLIC_ROOT / Path(output_rel).parent)).as_posix()
     return href
 
 
@@ -170,7 +180,7 @@ def parse_table(lines: list[str], start: int, content_rel: str, output_rel: str)
     body_rows = rows[2:] if is_table_separator(rows[1]) else rows[1:]
     parts = ["<table>", "<thead><tr>"]
     for cell in header:
-        parts.append(f"<th>{convert_links(cell, '', output_rel)}</th>")
+        parts.append(f"<th>{convert_links(cell, content_rel, output_rel)}</th>")
     parts.append("</tr></thead><tbody>")
     for row in body_rows:
         parts.append("<tr>")
@@ -397,10 +407,11 @@ def render_page(content_rel: str, output_path: Path, parsed: ParsedPage) -> str:
 
 
 def copy_assets() -> None:
-    styles_dest = ASSETS_ROOT / "styles"
-    mark_dest = ASSETS_ROOT / "mark"
-    if ASSETS_ROOT.exists():
-        shutil.rmtree(ASSETS_ROOT)
+    assets_root = PUBLIC_ROOT / "assets"
+    styles_dest = assets_root / "styles"
+    mark_dest = assets_root / "mark"
+    if assets_root.exists():
+        shutil.rmtree(assets_root)
     styles_dest.mkdir(parents=True)
     mark_dest.mkdir(parents=True)
     shutil.copy2(STYLES_SRC / "tokens.css", styles_dest / "tokens.css")
@@ -408,22 +419,38 @@ def copy_assets() -> None:
     shutil.copy2(MARK_SRC, mark_dest / "institutional-mark-v1.0.svg")
 
 
+def copy_repository_docs() -> None:
+    docs_dest = PUBLIC_ROOT / "docs"
+    if docs_dest.exists():
+        shutil.rmtree(docs_dest)
+    shutil.copytree(REPO_ROOT / "docs", docs_dest)
+
+
 def build() -> list[Path]:
     copy_assets()
     built: list[Path] = []
     for content_rel, output_rel in PAGE_MAP.items():
         source = WEBSITE_ROOT / content_rel
-        output = PAGES_ROOT / output_rel
+        output = PUBLIC_ROOT / output_rel
         output.parent.mkdir(parents=True, exist_ok=True)
         parsed = parse_markdown(content_rel, output_rel, source.read_text(encoding="utf-8"))
         output.write_text(render_page(content_rel, Path(output_rel), parsed), encoding="utf-8")
         built.append(output)
+    copy_repository_docs()
     return built
 
 
 def main() -> int:
+    if PUBLIC_ROOT.exists():
+        for entry in PUBLIC_ROOT.iterdir():
+            if entry.name in {".gitkeep", "README.md"}:
+                continue
+            if entry.is_dir():
+                shutil.rmtree(entry)
+            else:
+                entry.unlink()
     built = build()
-    print(f"Built {len(built)} pages into {PAGES_ROOT}")
+    print(f"Built {len(built)} pages into {PUBLIC_ROOT}")
     return 0
 
 
