@@ -17,6 +17,7 @@ and committed repository state.
 
 | Path | Description |
 | --- | --- |
+| [PUBLIC-WELCOME.md](PUBLIC-WELCOME.md) | Project Garuda — public welcome and tagline (no authority) |
 | [MANIFESTO.md](MANIFESTO.md) | Project Garuda Manifesto — Why We Exist (no authority) |
 | [THE-GARUDA-VISION.md](THE-GARUDA-VISION.md) | The Garuda Vision — Building Institutions Worth Trusting (no authority) |
 | [THE-GARUDA-PRINCIPLES.md](THE-GARUDA-PRINCIPLES.md) | The Garuda Principles — The Values That Guide Every Decision (no authority) |
