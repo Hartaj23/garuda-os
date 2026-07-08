@@ -1,11 +1,17 @@
 # Styles
 
-## Phase A — Reserved
+## Phase B — Brand Foundation
+
+Visual philosophy: [../brand/VISUAL-PHILOSOPHY-v1.0.md](../brand/VISUAL-PHILOSOPHY-v1.0.md)
 
 This directory is reserved for future stylesheet and design token definitions.
 
-**Not authorized in Phase A.**
+**Typography and color implementation not authorized until explicit Founder determination.**
 
-Visual design — color palette, typography, spacing — requires **Phase B — Brand Foundation** authorization.
+No visual design decisions beyond recorded philosophy shall be considered final without Phase B authorization.
 
-No visual design decisions shall be considered final during Phase A.
+See [brand/README.md](../brand/README.md).
+
+---
+
+## Phase A — Reserved (Historical)

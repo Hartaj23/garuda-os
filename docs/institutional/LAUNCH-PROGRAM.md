@@ -45,7 +45,7 @@ A thousand thoughtful readers who genuinely engage with the ideas are worth far 
 
 **Institutional Note:** [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md)
 
-**Phase B:** Not authorized — [Founder Readiness Assessment](../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md) pending.
+**Phase B:** Visual Philosophy v1.0 recorded — [Founder Readiness Assessment](../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md) pending determination.
 
 **Website structure:** [website/README.md](../../website/README.md)
 

@@ -131,7 +131,7 @@ Where differences arise, the repository prevails.
 | Phase | Scope | Status |
 | --- | --- | --- |
 | A | Site architecture | **Complete (Approved — Closed)** |
-| B | Brand foundation | Not authorized — pending Founder decision after reflection |
+| B | Brand foundation | Visual Philosophy v1.0 recorded — [Readiness Assessment](../../docs/governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md) pending |
 | C | Content integration | Not authorized |
 | D | Research & News | Not authorized |
 | — | Public deployment | Not authorized |
