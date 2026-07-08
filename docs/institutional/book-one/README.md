@@ -17,6 +17,7 @@
 | 3 | The Founder and the First Question | [chapter-03-the-founder-and-the-first-question.md](chapter-03-the-founder-and-the-first-question.md) |
 | 4 | Repository as Institutional Memory | [chapter-04-repository-as-institutional-memory.md](chapter-04-repository-as-institutional-memory.md) |
 | 5 | Authority Before Action | [chapter-05-authority-before-action.md](chapter-05-authority-before-action.md) |
+| 6 | Governance Before Architecture | [chapter-06-governance-before-architecture.md](chapter-06-governance-before-architecture.md) |
 
 ## Note
 
