@@ -157,8 +157,9 @@ Every significant event. Chronological.
 | Entry 7 — Governance Cycle 6 — The Constitutional Question | [timeline/entry-07-governance-cycle-6-the-constitutional-question.md](timeline/entry-07-governance-cycle-6-the-constitutional-question.md) |
 | Entry 8 — GAR-0020 — The Constitutional Recognition of Completion | [timeline/entry-08-gar-0020-the-constitutional-recognition-of-completion.md](timeline/entry-08-gar-0020-the-constitutional-recognition-of-completion.md) |
 | Entry 9 — Constitutional Baseline v1.0 — The First Constitutional Inheritance | [timeline/entry-09-constitutional-baseline-v1-0-the-first-constitutional-inheritance.md](timeline/entry-09-constitutional-baseline-v1-0-the-first-constitutional-inheritance.md) |
+| Entry 10 — Book One Completed — The First Constitutional Epoch Preserved | [timeline/entry-10-book-one-completed-the-first-constitutional-epoch-preserved.md](timeline/entry-10-book-one-completed-the-first-constitutional-epoch-preserved.md) |
 
-**Status:** In Progress — introduction and Entries 1–9 recorded; timeline entries to follow.
+**Status:** In Progress — introduction and Entries 1–10 recorded; timeline entries to follow.
 
 Suggested contents:
 

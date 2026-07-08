@@ -35,6 +35,7 @@ This timeline creates no constitutional, architectural, sprint, or engineering a
 | 7 | Governance Cycle 6 — The Constitutional Question | The First Constitutional Epoch | [entry-07-governance-cycle-6-the-constitutional-question.md](entry-07-governance-cycle-6-the-constitutional-question.md) |
 | 8 | GAR-0020 — The Constitutional Recognition of Completion | The First Constitutional Epoch | [entry-08-gar-0020-the-constitutional-recognition-of-completion.md](entry-08-gar-0020-the-constitutional-recognition-of-completion.md) |
 | 9 | Constitutional Baseline v1.0 — The First Constitutional Inheritance | The Preservation Epoch | [entry-09-constitutional-baseline-v1-0-the-first-constitutional-inheritance.md](entry-09-constitutional-baseline-v1-0-the-first-constitutional-inheritance.md) |
+| 10 | Book One Completed — The First Constitutional Epoch Preserved | The Preservation Epoch | [entry-10-book-one-completed-the-first-constitutional-epoch-preserved.md](entry-10-book-one-completed-the-first-constitutional-epoch-preserved.md) |
 
 ---
 
