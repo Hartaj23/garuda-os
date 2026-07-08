@@ -36,6 +36,7 @@ and committed repository state.
 | [../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md](../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md) | Mission 001 Phase B — Founder Readiness Assessment (does not authorize) |
 | [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md) | Mission 001 Phase A — Institutional Note |
 | [FOUNDER-REFLECTION-MISSION-001-PHASE-A.md](FOUNDER-REFLECTION-MISSION-001-PHASE-A.md) | Founder Reflection — Mission 001 Phase A |
+| [FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md](FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md) | Founder Recommendation — Design Legitimacy Chain |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |
