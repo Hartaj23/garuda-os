@@ -22,6 +22,7 @@ and committed repository state.
 | [THE-GARUDA-PRINCIPLES.md](THE-GARUDA-PRINCIPLES.md) | The Garuda Principles — The Values That Guide Every Decision (no authority) |
 | [AN-INVITATION-TO-THE-WORLD.md](AN-INVITATION-TO-THE-WORLD.md) | An Invitation to the World (no authority) |
 | [CONSTITUTIONAL-ENGINEERING.md](CONSTITUTIONAL-ENGINEERING.md) | Constitutional Engineering — A Discipline for Building Enduring Institutions (no authority) |
+| [THE-CONSTITUTIONAL-ENGINEERING-PLEDGE.md](THE-CONSTITUTIONAL-ENGINEERING-PLEDGE.md) | The Constitutional Engineering Pledge (no authority) |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |
