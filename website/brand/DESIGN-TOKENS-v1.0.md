@@ -32,11 +32,12 @@ Typography and color serve the page — the page is the identity.
 ## Legitimacy Chain
 
 ```
-Visual Philosophy v1.0      ✓ Recorded
-Design Language v1.0        ✓ Recorded
-Design Tokens v1.0          ✓ Recorded (this document)
-Logo                        — not authorized
-Implementation              — not authorized
+Visual Philosophy v1.0              ✓ Recorded
+Design Language v1.0                ✓ Recorded
+Design Tokens v1.0                  ✓ Recorded (this document)
+Canonical Page Specification v1.0   ✓ Recorded
+Logo                                — not authorized
+Implementation                      — not authorized
 ```
 
 ---

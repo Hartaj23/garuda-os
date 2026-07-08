@@ -19,12 +19,14 @@ Design Language v1.0                ✓ Recorded
         ↓
 Design Tokens v1.0                  ✓ Recorded
         ↓
-Canonical Page Specification v1.0   — recommended next (not authorized)
+Canonical Page Specification v1.0   ✓ Recorded
         ↓
-Logo                                — not authorized (not recommended next)
+Logo                                — not authorized
         ↓
 Implementation                      — not authorized
 ```
+
+Canonical Page Specification authorization: [MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md)
 
 Founder recommendation: [FOUNDER-RECOMMENDATION-CANONICAL-PAGE-SPECIFICATION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-CANONICAL-PAGE-SPECIFICATION.md)
 
@@ -40,7 +42,7 @@ Design Tokens authorization: [MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md
 | [DESIGN-LANGUAGE-v1.0.md](DESIGN-LANGUAGE-v1.0.md) | 1.0 | Recorded |
 | [DESIGN-TOKENS-v1.0.md](DESIGN-TOKENS-v1.0.md) | 1.0 | Recorded |
 | [tokens/design-tokens.yaml](tokens/design-tokens.yaml) | 1.0 | Recorded |
-| Canonical Page Specification v1.0 | — | Pending authorization |
+| [CANONICAL-PAGE-SPECIFICATION-v1.0.md](CANONICAL-PAGE-SPECIFICATION-v1.0.md) | 1.0 | Recorded |
 
 ---
 
@@ -48,9 +50,9 @@ Design Tokens authorization: [MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md
 
 The page is the institution.
 
-Logo is one expression of the design system — not the next authorized artifact.
+The page precedes the mark.
 
-Canonical Page Specification proves the page stands alone before any mark is designed.
+Logo design remains unauthorized until explicitly approved by Founder Decision.
 
 The website introduces.
 
