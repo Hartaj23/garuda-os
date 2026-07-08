@@ -22,6 +22,7 @@ and committed repository state.
 | [atlas/](atlas/README.md) | Volume II — Institutional Atlas (Complete) |
 | [companion/](companion/README.md) | Volume III — Companion & Glossary (In Progress) |
 | [timeline/](timeline/README.md) | Volume IV — Institutional Timeline (In Progress) |
+| [selected-texts/](selected-texts/README.md) | Volume V — Selected Constitutional Texts (In Progress) |
 | [../governance/CONSTITUTIONAL-BASELINE-v1.0.md](../governance/CONSTITUTIONAL-BASELINE-v1.0.md) | Constitutional Baseline v1.0 (informational reference) |
 
 ## Maintenance

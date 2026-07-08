@@ -34,7 +34,7 @@ navigate it.
 | II | [Institutional Atlas](atlas/README.md) | Complete (Plates 1–12) |
 | III | [Companion & Glossary](companion/README.md) | In Progress |
 | IV | [Institutional Timeline](timeline/README.md) | In Progress |
-| V | Selected Constitutional Texts | Planned |
+| V | [Selected Constitutional Texts](selected-texts/README.md) | In Progress |
 
 ---
 
@@ -183,14 +183,24 @@ This becomes the institutional chronology.
 
 **Project Garuda — Selected Constitutional Texts**
 
-Curated excerpts from:
+Curated constitutional texts from the First Constitutional Epoch — presented with minimal editorial
+interpretation to make the constitutional corpus approachable without altering its meaning.
+
+| Section | File |
+| --- | --- |
+| Editor's Introduction | [selected-texts/editors-introduction.md](selected-texts/editors-introduction.md) |
+
+**Status:** In Progress — Editor's Introduction recorded; selections to follow.
+
+Selections will include significant constitutional artifacts from:
 
 - GAR constitutions
 - ADRs
 - Governance artifacts
-- Book One
 
-With commentary explaining their historical significance.
+Editorial introductions provide historical context only.
+Constitutional text remains unchanged.
+The repository remains the source of authority.
 
 ---
 
@@ -207,7 +217,7 @@ Companion & Glossary        (Volume III — In Progress)
         ↓
 Institutional Timeline      (Volume IV — In Progress)
         ↓
-Selected Constitutional Texts (Volume V)
+Selected Constitutional Texts (Volume V — In Progress)
         ↓
 Editorial Pass for Book One
 ```
