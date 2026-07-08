@@ -26,6 +26,7 @@
 | 12 | Architecture 5: When the Project Became an Institution | [chapter-12-architecture-5-when-the-project-became-an-institution.md](chapter-12-architecture-5-when-the-project-became-an-institution.md) |
 | 13 | Institutional HOLD | [chapter-13-institutional-hold.md](chapter-13-institutional-hold.md) |
 | 14 | The Repository Inherits the Institution | [chapter-14-the-repository-inherits-the-institution.md](chapter-14-the-repository-inherits-the-institution.md) |
+| 15 | The Institution Beyond the First Epoch | [chapter-15-the-institution-beyond-the-first-epoch.md](chapter-15-the-institution-beyond-the-first-epoch.md) |
 
 ## Note
 
