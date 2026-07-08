@@ -25,7 +25,7 @@ Institutional Mark Exploration v1.0 ✓ Recorded
         ↓
 Institutional Mark Selection v1.0   ✓ Recorded (complete)
         ↓
-Institutional Mark Adoption           — not authorized
+Institutional Mark Adoption           — final pause (not authorized)
         ↓
 Implementation                        — not authorized
 ```
@@ -41,6 +41,16 @@ Selection record: [INSTITUTIONAL-MARK-SELECTION-v1.0.md](INSTITUTIONAL-MARK-SELE
 Authorization: [MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-SELECTION-AUTHORIZATION.md)
 
 Selection recommends. Adoption commits.
+
+---
+
+## Final Pause — Before Adoption
+
+Print the Canonical Page twice — without the mark, and with C-03 Baseline at header placement. Ask: *Does the page become more itself, or merely more branded?*
+
+Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-ADOPTION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-ADOPTION.md)
+
+Prior evidence: [PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md](../../docs/institutional/PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md)
 
 ---
 
