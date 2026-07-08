@@ -31,7 +31,7 @@ navigate it.
 | Volume | Title | Status |
 | --- | --- | --- |
 | I | [Book One — The First Constitutional Epoch](book-one/README.md) | Complete (Frozen) |
-| II | Institutional Atlas | Planned |
+| II | [Institutional Atlas](atlas/README.md) | In Progress (Plate 1) |
 | III | Glossary & Companion | Planned |
 | IV | Institutional Timeline | Planned |
 | V | Selected Constitutional Texts | Planned |
@@ -74,6 +74,10 @@ Suggested contents:
 - The First Constitutional Epoch timeline
 
 **Design goal:** A reader should be able to understand Garuda visually in thirty minutes.
+
+| Plate | Title | File |
+| --- | --- | --- |
+| 1 | Project Garuda at a Glance | [atlas/plate-01-project-garuda-at-a-glance.md](atlas/plate-01-project-garuda-at-a-glance.md) |
 
 ---
 
