@@ -27,6 +27,7 @@ This atlas creates no constitutional, architectural, sprint, or engineering auth
 | 4 | The Constitutional Timeline | [plate-04-the-constitutional-timeline.md](plate-04-the-constitutional-timeline.md) |
 | 5 | The First Constitutional Epoch | [plate-05-the-first-constitutional-epoch.md](plate-05-the-first-constitutional-epoch.md) |
 | 6 | The Governance Cycle | [plate-06-the-governance-cycle.md](plate-06-the-governance-cycle.md) |
+| 7 | The Two-Gate Model | [plate-07-the-two-gate-model.md](plate-07-the-two-gate-model.md) |
 
 ---
 

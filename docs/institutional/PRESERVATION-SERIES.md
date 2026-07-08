@@ -31,7 +31,7 @@ navigate it.
 | Volume | Title | Status |
 | --- | --- | --- |
 | I | [Book One — The First Constitutional Epoch](book-one/README.md) | Complete (Frozen) |
-| II | [Institutional Atlas](atlas/README.md) | In Progress (Plates 1–6) |
+| II | [Institutional Atlas](atlas/README.md) | In Progress (Plates 1–7) |
 | III | Glossary & Companion | Planned |
 | IV | Institutional Timeline | Planned |
 | V | Selected Constitutional Texts | Planned |
@@ -83,6 +83,7 @@ Suggested contents:
 | 4 | The Constitutional Timeline | [atlas/plate-04-the-constitutional-timeline.md](atlas/plate-04-the-constitutional-timeline.md) |
 | 5 | The First Constitutional Epoch | [atlas/plate-05-the-first-constitutional-epoch.md](atlas/plate-05-the-first-constitutional-epoch.md) |
 | 6 | The Governance Cycle | [atlas/plate-06-the-governance-cycle.md](atlas/plate-06-the-governance-cycle.md) |
+| 7 | The Two-Gate Model | [atlas/plate-07-the-two-gate-model.md](atlas/plate-07-the-two-gate-model.md) |
 
 ---
 
