@@ -24,9 +24,12 @@ deployment:
   status: authorized
   authorization: docs/governance/MISSION-001-PUBLIC-DEPLOYMENT-AUTHORIZATION.md
   hosting: cloudflare-pages
+  deploy_method: git-integration
   hosting_selection: docs/governance/HOSTING-ENVIRONMENT-SELECTION-FOUNDER-DECISION.md
+  pages_project: drgaruda
+  production_branch: master
+  build_command: python3 website/scripts/build_site.py
   deploy_root: website/public/
-  workflow: .github/workflows/deploy-public-site.yml
   custom_domain: drgaruda.com
   public_url: https://drgaruda.com/
   public_announcement: none
