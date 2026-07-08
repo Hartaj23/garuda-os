@@ -148,8 +148,9 @@ Every significant event. Chronological.
 | Section | File |
 | --- | --- |
 | Introduction | [timeline/introduction.md](timeline/introduction.md) |
+| Entry 1 — The Emergence of an Institution | [timeline/entry-01-the-emergence-of-an-institution.md](timeline/entry-01-the-emergence-of-an-institution.md) |
 
-**Status:** In Progress — introduction recorded; timeline entries to follow.
+**Status:** In Progress — introduction and Entry 1 recorded; timeline entries to follow.
 
 Suggested contents:
 

@@ -22,6 +22,12 @@ This timeline creates no constitutional, architectural, sprint, or engineering a
 | --- | --- | --- |
 | Introduction | Why This Timeline Exists | [introduction.md](introduction.md) |
 
+## Entries
+
+| Entry | Title | Epoch | File |
+| --- | --- | --- | --- |
+| 1 | The Emergence of an Institution | Pre-Constitutional Era | [entry-01-the-emergence-of-an-institution.md](entry-01-the-emergence-of-an-institution.md) |
+
 ---
 
 ## Entry Structure
