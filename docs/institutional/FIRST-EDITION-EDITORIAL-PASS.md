@@ -158,6 +158,7 @@ That library is offered not as the final word of Project Garuda, but as the fait
 | Document | File |
 | --- | --- |
 | Editorial Workflow | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) |
+| Editorial Review Checklist | [EDITORIAL-REVIEW-CHECKLIST.md](EDITORIAL-REVIEW-CHECKLIST.md) |
 
 ---
 

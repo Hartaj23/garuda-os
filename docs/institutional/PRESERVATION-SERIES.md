@@ -236,12 +236,13 @@ Each volume requires explicit authorization before work begins. This document re
 | --- | --- |
 | Editorial Charter | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) |
 | Editorial Workflow | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) |
+| Editorial Review Checklist | [EDITORIAL-REVIEW-CHECKLIST.md](EDITORIAL-REVIEW-CHECKLIST.md) |
 
 Following completion of Volumes I–V, the First Edition Editorial Pass presents the completed
 Preservation Series with clarity, consistency, and craftsmanship appropriate for a permanent first
 edition.
 
-**Status:** Charter and workflow recorded — editorial pass not yet begun.
+**Status:** Charter, workflow, and review checklist recorded — editorial pass not yet begun.
 
 The editorial pass shall:
 
@@ -252,7 +253,7 @@ The editorial pass shall:
 
 Book One remains frozen until the editorial pass is explicitly authorized and executed.
 
-See the Editorial Charter for principles, checklist, and completion criteria.
+See the Editorial Charter and Editorial Workflow for principles, sequence, and completion criteria.
 
 ---
 
