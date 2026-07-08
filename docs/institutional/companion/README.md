@@ -41,6 +41,7 @@ This companion creates no constitutional, architectural, sprint, or engineering 
 | 12 | Gate B | [entry-12-gate-b.md](entry-12-gate-b.md) |
 | 13 | Ratification | [entry-13-ratification.md](entry-13-ratification.md) |
 | 14 | Institutional HOLD | [entry-14-institutional-hold.md](entry-14-institutional-hold.md) |
+| 15 | Stewardship | [entry-15-stewardship.md](entry-15-stewardship.md) |
 
 ---
 
@@ -69,17 +70,14 @@ Together they provide narrative, structure, and language.
 
 ## Planned Entries
 
-- Constitutional Engineering
-- Repository-first
-- Institutional HOLD
-- Authority Before Action
+- Stewardship
+
+Remaining planned entries:
+
 - Governance Before Architecture
 - Constitutional Baseline
 - Epoch Pause
-- Governance Cycle
 - Founder Decision
-- Ratification
-- Stewardship
 
 ---
 
