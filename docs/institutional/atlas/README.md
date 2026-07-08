@@ -23,6 +23,7 @@ This atlas creates no constitutional, architectural, sprint, or engineering auth
 | --- | --- | --- |
 | 1 | Project Garuda at a Glance | [plate-01-project-garuda-at-a-glance.md](plate-01-project-garuda-at-a-glance.md) |
 | 2 | The Three Governance Layers | [plate-02-the-three-governance-layers.md](plate-02-the-three-governance-layers.md) |
+| 3 | Authority Before Action | [plate-03-authority-before-action.md](plate-03-authority-before-action.md) |
 
 ---
 

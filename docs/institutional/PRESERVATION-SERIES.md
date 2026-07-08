@@ -31,7 +31,7 @@ navigate it.
 | Volume | Title | Status |
 | --- | --- | --- |
 | I | [Book One — The First Constitutional Epoch](book-one/README.md) | Complete (Frozen) |
-| II | [Institutional Atlas](atlas/README.md) | In Progress (Plates 1–2) |
+| II | [Institutional Atlas](atlas/README.md) | In Progress (Plates 1–3) |
 | III | Glossary & Companion | Planned |
 | IV | Institutional Timeline | Planned |
 | V | Selected Constitutional Texts | Planned |
@@ -79,6 +79,7 @@ Suggested contents:
 | --- | --- | --- |
 | 1 | Project Garuda at a Glance | [atlas/plate-01-project-garuda-at-a-glance.md](atlas/plate-01-project-garuda-at-a-glance.md) |
 | 2 | The Three Governance Layers | [atlas/plate-02-the-three-governance-layers.md](atlas/plate-02-the-three-governance-layers.md) |
+| 3 | Authority Before Action | [atlas/plate-03-authority-before-action.md](atlas/plate-03-authority-before-action.md) |
 
 ---
 
