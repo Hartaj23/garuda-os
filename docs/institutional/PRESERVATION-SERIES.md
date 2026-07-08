@@ -104,8 +104,9 @@ idea matters.
 | Section | File |
 | --- | --- |
 | Introduction | [companion/introduction.md](companion/introduction.md) |
+| Entry 1 — Institution | [companion/entry-01-institution.md](companion/entry-01-institution.md) |
 
-**Status:** In Progress — introduction recorded; glossary entries to follow.
+**Status:** In Progress — introduction and first entry recorded; remaining glossary entries to follow.
 
 Suggested entries include:
 

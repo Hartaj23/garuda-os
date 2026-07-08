@@ -23,6 +23,12 @@ This companion creates no constitutional, architectural, sprint, or engineering 
 | --- | --- | --- |
 | Introduction | Why This Companion Exists | [introduction.md](introduction.md) |
 
+## Entries
+
+| Entry | Term | File |
+| --- | --- | --- |
+| 1 | Institution | [entry-01-institution.md](entry-01-institution.md) |
+
 ---
 
 ## Entry Structure
