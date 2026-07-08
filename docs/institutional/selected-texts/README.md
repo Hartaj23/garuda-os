@@ -32,6 +32,7 @@ The repository remains the source of authority.
 | I | GAR-0017 — Phase II Constitutional Extension | [text-01-gar-0017-phase-ii-constitutional-extension.md](text-01-gar-0017-phase-ii-constitutional-extension.md) |
 | II | GAR-0018 — External Capability Expansion Constitutional Extension | [text-02-gar-0018-external-capability-expansion-constitutional-extension.md](text-02-gar-0018-external-capability-expansion-constitutional-extension.md) |
 | III | GAR-0019 — Runtime Constitutional Extension | [text-03-gar-0019-runtime-constitutional-extension.md](text-03-gar-0019-runtime-constitutional-extension.md) |
+| IV | GAR-0020 — The Constitutional Recognition of Completion | [text-04-gar-0020-the-constitutional-recognition-of-completion.md](text-04-gar-0020-the-constitutional-recognition-of-completion.md) |
 
 ---
 

@@ -192,8 +192,9 @@ interpretation to make the constitutional corpus approachable without altering i
 | Text I — GAR-0017 — Phase II Constitutional Extension | [selected-texts/text-01-gar-0017-phase-ii-constitutional-extension.md](selected-texts/text-01-gar-0017-phase-ii-constitutional-extension.md) |
 | Text II — GAR-0018 — External Capability Expansion Constitutional Extension | [selected-texts/text-02-gar-0018-external-capability-expansion-constitutional-extension.md](selected-texts/text-02-gar-0018-external-capability-expansion-constitutional-extension.md) |
 | Text III — GAR-0019 — Runtime Constitutional Extension | [selected-texts/text-03-gar-0019-runtime-constitutional-extension.md](selected-texts/text-03-gar-0019-runtime-constitutional-extension.md) |
+| Text IV — GAR-0020 — The Constitutional Recognition of Completion | [selected-texts/text-04-gar-0020-the-constitutional-recognition-of-completion.md](selected-texts/text-04-gar-0020-the-constitutional-recognition-of-completion.md) |
 
-**Status:** In Progress — Editor's Introduction and Texts I–III recorded; selections to follow.
+**Status:** In Progress — Editor's Introduction and Texts I–IV recorded; selections to follow.
 
 Selections will include significant constitutional artifacts from:
 
