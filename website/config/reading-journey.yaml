@@ -1,0 +1,61 @@
+# Project Garuda — Public Reading Journey
+# Intentional sequence for first-time visitors (Phase A)
+
+reading_journey:
+  description: >
+    Minimizes cognitive load and gradually introduces deeper ideas.
+    Each step links to the next.
+
+  steps:
+    - order: 1
+      title: Home
+      content: content/home.md
+      purpose: Answer what Project Garuda is in five minutes
+
+    - order: 2
+      title: The Manifesto
+      content: content/manifesto.md
+      repository: docs/institutional/MANIFESTO.md
+      purpose: Why Project Garuda exists
+
+    - order: 3
+      title: The Vision
+      content: content/vision.md
+      repository: docs/institutional/THE-GARUDA-VISION.md
+      purpose: Where the institution is heading
+
+    - order: 4
+      title: The Principles
+      content: content/principles.md
+      repository: docs/institutional/THE-GARUDA-PRINCIPLES.md
+      purpose: Values that guide every decision
+
+    - order: 5
+      title: Constitutional Engineering
+      content: content/constitutional-engineering.md
+      repository: docs/institutional/CONSTITUTIONAL-ENGINEERING.md
+      purpose: The discipline in depth
+
+    - order: 6
+      title: Invitation to the World
+      content: content/invitation.md
+      repository: docs/institutional/AN-INVITATION-TO-THE-WORLD.md
+      purpose: Join the global conversation
+
+    - order: 7
+      title: Research
+      content: content/research.md
+      status: placeholder
+      purpose: Academic anchor (Phase D unauthorized)
+
+    - order: 8
+      title: Repository
+      destination: repository_root
+      purpose: Enter the canonical institutional record
+
+  success_criteria:
+    - What is Project Garuda?
+    - Why does it exist?
+    - What is Constitutional Engineering?
+    - Why should I care?
+    - Where can I learn more?

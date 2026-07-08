@@ -1,0 +1,123 @@
+# Project Garuda — Information Architecture
+# Phase A — Navigation hierarchy (structure only; rendering not authorized)
+
+navigation:
+  - id: home
+    title: Home
+    content: content/home.md
+    path: /
+
+  - id: about
+    title: About
+    children:
+      - id: manifesto
+        title: The Manifesto
+        content: content/manifesto.md
+        path: /about/manifesto
+        repository: docs/institutional/MANIFESTO.md
+      - id: vision
+        title: The Vision
+        content: content/vision.md
+        path: /about/vision
+        repository: docs/institutional/THE-GARUDA-VISION.md
+      - id: principles
+        title: The Principles
+        content: content/principles.md
+        path: /about/principles
+        repository: docs/institutional/THE-GARUDA-PRINCIPLES.md
+
+  - id: constitutional-engineering
+    title: Constitutional Engineering
+    content: content/constitutional-engineering.md
+    path: /constitutional-engineering
+    repository: docs/institutional/CONSTITUTIONAL-ENGINEERING.md
+    children:
+      - id: ce-what
+        title: What it is
+        anchor: what-it-is
+      - id: ce-why
+        title: Why it matters
+        anchor: why-it-matters
+      - id: ce-faq
+        title: FAQ
+        status: placeholder
+        note: Phase C unauthorized
+
+  - id: institution
+    title: The Institution
+    children:
+      - id: constitutional-framework
+        title: Constitutional Framework
+        content: content/institution/constitutional-framework.md
+        path: /institution/constitutional-framework
+        repository: docs/governance/CONSTITUTIONAL-BASELINE-v1.0.md
+      - id: governance
+        title: Governance
+        content: content/institution/governance.md
+        path: /institution/governance
+        repository: docs/governance/README.md
+      - id: architecture
+        title: Architecture
+        content: content/institution/architecture.md
+        path: /institution/architecture
+        repository: docs/architecture/README.md
+      - id: engineering
+        title: Engineering
+        content: content/institution/engineering.md
+        path: /institution/engineering
+        repository: docs/engineering/README.md
+      - id: preservation
+        title: Preservation
+        content: content/institution/preservation.md
+        path: /institution/preservation
+        repository: docs/institutional/PRESERVATION-SERIES.md
+
+  - id: library
+    title: Library
+    children:
+      - id: book-one
+        title: Book One
+        content: content/library/book-one.md
+        path: /library/book-one
+        repository: docs/institutional/book-one/README.md
+      - id: atlas
+        title: Institutional Atlas
+        content: content/library/atlas.md
+        path: /library/atlas
+        repository: docs/institutional/atlas/README.md
+      - id: companion
+        title: Companion & Glossary
+        content: content/library/companion.md
+        path: /library/companion
+        repository: docs/institutional/companion/README.md
+      - id: timeline
+        title: Institutional Timeline
+        content: content/library/timeline.md
+        path: /library/timeline
+        repository: docs/institutional/timeline/README.md
+      - id: selected-texts
+        title: Selected Constitutional Texts
+        content: content/library/selected-texts.md
+        path: /library/selected-texts
+        repository: docs/institutional/selected-texts/README.md
+
+  - id: research
+    title: Research
+    content: content/research.md
+    path: /research
+    status: placeholder
+    note: Phase D unauthorized
+
+  - id: news
+    title: News
+    content: content/news.md
+    path: /news
+    status: placeholder
+    note: Phase D unauthorized
+
+  - id: contact
+    title: Contact
+    content: content/contact.md
+    path: /contact
+    status: placeholder
+    note: Phase D unauthorized

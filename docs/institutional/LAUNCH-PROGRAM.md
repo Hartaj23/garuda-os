@@ -39,6 +39,12 @@ A thousand thoughtful readers who genuinely engage with the ideas are worth far 
 
 ## Mission 001 — Launch the Public Foundation
 
+**Authorization:** [MISSION-001-PHASE-A-FOUNDER-DECISION.md](../governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md)
+
+**Phase A Status:** Complete — pending Founder review
+
+**Website structure:** [website/README.md](../../website/README.md)
+
 ### Objective
 
 Introduce Project Garuda to the world with clarity, credibility, and intellectual humility.

@@ -1,0 +1,24 @@
+# Project Garuda — Public Website Configuration
+# Phase A — Site Architecture only
+# This file creates no institutional authority.
+
+site:
+  name: Project Garuda
+  tagline: Building institutions worthy of the intelligence they guide.
+  phase: A
+  phase_name: Site Architecture
+  mission: Mission 001 — Launch the Public Foundation
+  authorization: docs/governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md
+
+authority:
+  canonical_source: repository
+  repository_root: ../
+  disclaimer: >
+    The public website introduces the institution.
+    The repository remains the institution's canonical source of truth.
+
+deployment:
+  status: not_authorized
+  hosting: none
+  custom_domain: none
+  public_announcement: none
