@@ -18,6 +18,7 @@ and committed repository state.
 | Path | Description |
 | --- | --- |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
+| [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [book-one/](book-one/README.md) | Volume I — Book One — The First Constitutional Epoch (Complete, Frozen) |
 | [atlas/](atlas/README.md) | Volume II — Institutional Atlas (Complete) |
 | [companion/](companion/README.md) | Volume III — Companion & Glossary (In Progress) |

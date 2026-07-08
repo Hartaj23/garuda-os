@@ -223,16 +223,40 @@ Institutional Timeline      (Volume IV — In Progress)
         ↓
 Selected Constitutional Texts (Volume V — In Progress)
         ↓
-Editorial Pass for Book One
+First Edition Editorial Pass
 ```
 
 Each volume requires explicit authorization before work begins. This document records intent only.
 
 ---
 
+## First Edition Editorial Pass
+
+**[FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md)**
+
+Following completion of Volumes I–V, the First Edition Editorial Pass presents the completed
+Preservation Series with clarity, consistency, and craftsmanship appropriate for a permanent first
+edition.
+
+**Status:** Charter recorded — editorial pass not yet begun.
+
+The editorial pass shall:
+
+- preserve meaning and canonical authority,
+- improve readability and presentation only,
+- maintain a unified voice across all volumes,
+- distinguish editorial voice from institutional voice.
+
+Book One remains frozen until the editorial pass is explicitly authorized and executed.
+
+See the Editorial Charter for principles, checklist, and completion criteria.
+
+---
+
 ## Editorial Pass (Book One)
 
-After Volumes II–V, a separate editorial pass on Book One may include:
+Superseded in scope by the First Edition Editorial Pass, which applies to all preservation volumes.
+Book One-specific refinements remain within the unified pass and may include:
 
 - Rhythm refinement
 - Repository diagrams
