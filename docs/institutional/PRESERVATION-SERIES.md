@@ -31,7 +31,7 @@ navigate it.
 | Volume | Title | Status |
 | --- | --- | --- |
 | I | [Book One — The First Constitutional Epoch](book-one/README.md) | Complete (Frozen) |
-| II | [Institutional Atlas](atlas/README.md) | In Progress (Plates 1–10) |
+| II | [Institutional Atlas](atlas/README.md) | In Progress (Plates 1–11) |
 | III | Glossary & Companion | Planned |
 | IV | Institutional Timeline | Planned |
 | V | Selected Constitutional Texts | Planned |
@@ -87,6 +87,7 @@ Suggested contents:
 | 8 | Repository as Institutional Memory | [atlas/plate-08-repository-as-institutional-memory.md](atlas/plate-08-repository-as-institutional-memory.md) |
 | 9 | External Capability Evolution | [atlas/plate-09-external-capability-evolution.md](atlas/plate-09-external-capability-evolution.md) |
 | 10 | Descriptive Before Operational | [atlas/plate-10-descriptive-before-operational.md](atlas/plate-10-descriptive-before-operational.md) |
+| 11 | Institutional HOLD | [atlas/plate-11-institutional-hold.md](atlas/plate-11-institutional-hold.md) |
 
 ---
 
