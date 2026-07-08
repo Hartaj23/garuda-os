@@ -1,0 +1,66 @@
+# Project Garuda — Institutional Timeline
+
+## Volume IV — The Preservation Series
+
+| Field | Value |
+| --- | --- |
+| Title | Institutional Timeline |
+| Classification | Institutional Literature |
+| Authority | Informational (Non-Constitutional) |
+| Status | In Progress |
+| Purpose | Chronological map of institutional evolution |
+
+Every significant event. Chronological.
+
+This timeline creates no constitutional, architectural, sprint, or engineering authority.
+
+---
+
+## Contents
+
+| Section | Title | File |
+| --- | --- | --- |
+| Introduction | Why This Timeline Exists | [introduction.md](introduction.md) |
+
+---
+
+## Entry Structure
+
+Each timeline entry records four elements:
+
+- **Date or Period** — when the milestone occurred
+- **Institutional Event** — what happened
+- **Significance** — why the milestone mattered
+- **Repository References** — where the canonical record may be found
+
+---
+
+## Reading Order
+
+Read this Timeline alongside:
+
+1. [Book One](../book-one/README.md) — narrative history
+2. [Institutional Atlas](../atlas/README.md) — visual structure
+3. [Companion & Glossary](../companion/README.md) — institutional vocabulary
+
+Book One tells the story. The Atlas explains structure. The Companion defines language. The Timeline
+shows sequence.
+
+---
+
+## Planned Entries
+
+- Founder decisions
+- Ratifications
+- Architecture milestones
+- Releases
+- Governance cycles
+- Book One completion
+- Preservation Series milestones
+
+---
+
+## Note
+
+The Timeline provides orientation within the repository.
+It does not replace committed institutional records.

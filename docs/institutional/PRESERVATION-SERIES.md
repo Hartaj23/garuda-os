@@ -33,7 +33,7 @@ navigate it.
 | I | [Book One — The First Constitutional Epoch](book-one/README.md) | Complete (Frozen) |
 | II | [Institutional Atlas](atlas/README.md) | Complete (Plates 1–12) |
 | III | [Companion & Glossary](companion/README.md) | In Progress |
-| IV | Institutional Timeline | Planned |
+| IV | [Institutional Timeline](timeline/README.md) | In Progress |
 | V | Selected Constitutional Texts | Planned |
 
 ---
@@ -145,6 +145,12 @@ Suggested entries include:
 
 Every significant event. Chronological.
 
+| Section | File |
+| --- | --- |
+| Introduction | [timeline/introduction.md](timeline/introduction.md) |
+
+**Status:** In Progress — introduction recorded; timeline entries to follow.
+
 Suggested contents:
 
 - Founder decisions
@@ -153,6 +159,7 @@ Suggested contents:
 - Releases
 - Governance cycles
 - Book One completion
+- Preservation Series milestones
 
 This becomes the institutional chronology.
 
@@ -184,7 +191,7 @@ Institutional Atlas         ✓ Complete (Plates 1–12)
         ↓
 Companion & Glossary        (Volume III — In Progress)
         ↓
-Institutional Timeline      (Volume IV)
+Institutional Timeline      (Volume IV — In Progress)
         ↓
 Selected Constitutional Texts (Volume V)
         ↓
