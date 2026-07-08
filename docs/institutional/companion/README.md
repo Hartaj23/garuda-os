@@ -32,6 +32,7 @@ This companion creates no constitutional, architectural, sprint, or engineering 
 | 3 | Repository-First | [entry-03-repository-first.md](entry-03-repository-first.md) |
 | 4 | Constitutional Corpus | [entry-04-constitutional-corpus.md](entry-04-constitutional-corpus.md) |
 | 5 | Architectural Corpus | [entry-05-architectural-corpus.md](entry-05-architectural-corpus.md) |
+| 6 | Governance Corpus | [entry-06-governance-corpus.md](entry-06-governance-corpus.md) |
 
 ---
 
