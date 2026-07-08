@@ -30,6 +30,16 @@ Institutional Mark Selection v1.0   ✓ Complete
 Institutional Mark v1.0             ✓ Adopted — C-03 Baseline
         ↓
 Implementation                      — not authorized
+
+---
+
+## Next Step
+
+Implementation Readiness Review recommended before Phase C.
+
+Founder recommendation: [FOUNDER-RECOMMENDATION-IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md](../../docs/institutional/FOUNDER-RECOMMENDATION-IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md)
+
+CSS and implementation remain unauthorized.
 ```
 
 ---
