@@ -46,6 +46,7 @@ Narrative institutional history of the first constitutional epoch.
 
 - Foreword by the Chief Systems Architect
 - Chapters 1–15
+- Dedication (final page, print edition — no names, dates, or signatures)
 - Status: **Complete (Frozen)** — no further edits until a separate editorial pass is approved
 
 ---
