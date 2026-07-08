@@ -32,6 +32,7 @@ specifications.
 | [GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md](GOVERNANCE-CYCLE-6-GATE-B-AUTHORIZATION.md) | Gate B — GAR-0020 drafting authorized |
 | [GAR-0020-FOUNDER-RATIFICATION.md](GAR-0020-FOUNDER-RATIFICATION.md) | GAR-0020 Founder ratification — epoch pause |
 | [GOVERNANCE-CYCLE-6-CLOSURE.md](GOVERNANCE-CYCLE-6-CLOSURE.md) | Governance Cycle 6 closure |
+| [CONSTITUTIONAL-BASELINE-v1.0.md](CONSTITUTIONAL-BASELINE-v1.0.md) | Canonical institutional reference — post–Cycle 6 baseline |
 
 ## Related Documents
 

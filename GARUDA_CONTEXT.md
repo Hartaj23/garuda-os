@@ -280,7 +280,7 @@ These will be introduced only through future approved constitutions and sprint p
 | Garuda OS | Software platform — foundations through `v0.12.0-alpha` |
 | Garuda Constitutional Engineering | Institutional method for platform evolution — formalized at Architecture 5 |
 
-See [`docs/governance/GAR-ROADMAP.md`](docs/governance/GAR-ROADMAP.md) for institutional direction (descriptive only).
+See [`docs/governance/CONSTITUTIONAL-BASELINE-v1.0.md`](docs/governance/CONSTITUTIONAL-BASELINE-v1.0.md) for the post–Cycle 6 institutional baseline (informational only).
 
 ---
 

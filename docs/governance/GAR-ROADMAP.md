@@ -8,7 +8,7 @@
 | Classification | Institutional governance — descriptive only |
 | Authority | **None** — this document authorizes nothing |
 | Version | 1.0 |
-| Governance baseline | GAR-0020 Founder Ratification — `v0.12.0-alpha` |
+| Governance baseline | GAR-0020 Founder Ratification — Constitutional Baseline v1.0 |
 | Last updated | 2026-07-08 (GAR-0020 ratified — epoch pause) |
 
 ---

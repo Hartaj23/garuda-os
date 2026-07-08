@@ -24,7 +24,7 @@ Descriptive only — authorizes nothing.
 - [Architecture 5 Founder Decision](governance/ARCHITECTURE-5-FOUNDER-DECISION.md)
 - [Governance Cycle 6 Founder Decision](governance/GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md)
 - [GAR-0020 Founder Ratification](governance/GAR-0020-FOUNDER-RATIFICATION.md)
-- [Governance Cycle 6 Closure](governance/GOVERNANCE-CYCLE-6-CLOSURE.md)
+- [Constitutional Baseline v1.0](governance/CONSTITUTIONAL-BASELINE-v1.0.md)
 - [Architecture 5 Review](architecture/ARCHITECTURE-5-repository-strategic-review.md)
 
 ### GAR Constitutions
