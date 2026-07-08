@@ -100,6 +100,35 @@ def site_href(content_rel: str, href: str, output_rel: str) -> str:
     return href
 
 
+def format_prose(text: str, content_rel: str, output_rel: str) -> str:
+    linked = convert_links(text, content_rel, output_rel, site=True)
+    linked = re.sub(
+        r"\*\*(.+?)\*\*",
+        lambda match: f"<strong>{html.escape(match.group(1))}</strong>",
+        linked,
+    )
+    linked = re.sub(
+        r"(?<!\*)\*([^*]+?)\*(?!\*)",
+        lambda match: f"<em>{html.escape(match.group(1))}</em>",
+        linked,
+    )
+    linked = re.sub(r"\*\(([^)]+)\)\*", r"<em>(\1)</em>", linked)
+    return linked
+
+
+def extract_repository_links(line: str, content_rel: str, output_rel: str) -> list[tuple[str, str]]:
+    links: list[tuple[str, str]] = []
+    for match in re.finditer(r"\[([^\]]+)\]\(([^)]+)\)", line):
+        links.append((match.group(1), repo_href(content_rel, match.group(2), output_rel)))
+    return links
+
+
+def repository_label_from_line(line: str) -> str:
+    label = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", "", line).strip()
+    label = label.rstrip(":").strip("*").strip()
+    return inline_format(label)
+
+
 def inline_format(text: str) -> str:
     text = html.escape(text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
@@ -184,16 +213,17 @@ def parse_markdown(content_rel: str, output_rel: str, text: str) -> ParsedPage:
 
         if stripped.startswith("**Reading journey:**") or stripped.startswith("Reading journey:"):
             journey = stripped.replace("**Reading journey:**", "Reading journey:").replace("**Next:**", "Next:")
-            reading_journey_html = convert_links(journey, content_rel, output_rel, site=True)
+            reading_journey_html = format_prose(journey, content_rel, output_rel)
             i += 1
             continue
 
         if (
             stripped.startswith("**Repository authority:**")
             or stripped.startswith("**Read the full")
-            or "repository:" in stripped.lower()
+            or ("repository:" in stripped.lower() and "[" in stripped)
         ):
-            repository_label = inline_format(stripped.rstrip(":").strip("*"))
+            repository_label = repository_label_from_line(stripped)
+            repository_links.extend(extract_repository_links(stripped, content_rel, output_rel))
             i += 1
             while i < len(lines):
                 line_stripped = lines[i].strip()
@@ -211,7 +241,15 @@ def parse_markdown(content_rel: str, output_rel: str, text: str) -> ParsedPage:
                 if line_stripped.startswith("The repository remains"):
                     i += 1
                     continue
+                if line_stripped.startswith("**Next in reading journey:**"):
+                    break
                 break
+            continue
+
+        if stripped.startswith("**Next in reading journey:**"):
+            journey = stripped.replace("**Next in reading journey:**", "Next in reading journey:")
+            reading_journey_html = format_prose(journey, content_rel, output_rel)
+            i += 1
             continue
 
         if stripped.startswith("**Canonical references:**"):
@@ -251,7 +289,7 @@ def parse_markdown(content_rel: str, output_rel: str, text: str) -> ParsedPage:
             items = []
             while i < len(lines) and re.match(r"^\d+\.\s", lines[i].strip()):
                 item = re.sub(r"^\d+\.\s", "", lines[i].strip())
-                items.append(f"<li>{convert_links(item, content_rel, output_rel, site=True)}</li>")
+                items.append(f"<li>{format_prose(item, content_rel, output_rel)}</li>")
                 i += 1
             body_parts.append("<ol>" + "".join(items) + "</ol>")
             continue
@@ -266,7 +304,7 @@ def parse_markdown(content_rel: str, output_rel: str, text: str) -> ParsedPage:
             continue
 
         if stripped:
-            body_parts.append(f"<p>{convert_links(stripped, content_rel, output_rel, site=True)}</p>")
+            body_parts.append(f"<p>{format_prose(stripped, content_rel, output_rel)}</p>")
         i += 1
 
     return ParsedPage(

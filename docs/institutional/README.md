@@ -44,7 +44,9 @@ and committed repository state.
 | [../governance/IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md](../governance/IMPLEMENTATION-READINESS-REVIEW-MISSION-001.md) | Implementation Readiness Review — Mission 001 (complete) |
 | [../governance/MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md](../governance/MISSION-001-PHASE-C-IMPLEMENTATION-AUTHORIZATION.md) | Mission 001 Phase C — Implementation Authorization |
 | [../governance/MISSION-001-PHASE-C-CLOSURE.md](../governance/MISSION-001-PHASE-C-CLOSURE.md) | Mission 001 Phase C — Closure Record |
-| [FOUNDER-RECOMMENDATION-FINAL-ACCEPTANCE-REVIEW-MISSION-001.md](FOUNDER-RECOMMENDATION-FINAL-ACCEPTANCE-REVIEW-MISSION-001.md) | Founder Recommendation — Final Acceptance Review |
+| [../governance/FINAL-ACCEPTANCE-REVIEW-MISSION-001.md](../governance/FINAL-ACCEPTANCE-REVIEW-MISSION-001.md) | Final Acceptance Review — Mission 001 (accepted) |
+| [../governance/MISSION-001-FINAL-ACCEPTANCE-REVIEW-AUTHORIZATION.md](../governance/MISSION-001-FINAL-ACCEPTANCE-REVIEW-AUTHORIZATION.md) | Mission 001 — Final Acceptance Review Authorization |
+| [../governance/MISSION-001-CLOSURE.md](../governance/MISSION-001-CLOSURE.md) | Mission 001 — Closure Record |
 | [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md) | Mission 001 Phase A — Institutional Note |
 | [FOUNDER-REFLECTION-MISSION-001-PHASE-A.md](FOUNDER-REFLECTION-MISSION-001-PHASE-A.md) | Founder Reflection — Mission 001 Phase A |
 | [FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md](FOUNDER-RECOMMENDATION-DESIGN-LANGUAGE.md) | Founder Recommendation — Design Legitimacy Chain |

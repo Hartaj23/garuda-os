@@ -31,7 +31,7 @@ Institutional Mark v1.0             ✓ Adopted — C-03 Baseline
         ↓
 Implementation (Phase C)            ✓ Closed — approved
         ↓
-Final Acceptance Review             — recommended (not authorized)
+Final Acceptance Review             ✓ Complete — Mission 001 accepted
         ↓
 Public Deployment                   — not authorized
 
