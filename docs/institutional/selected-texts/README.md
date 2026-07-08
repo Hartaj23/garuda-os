@@ -30,6 +30,7 @@ The repository remains the source of authority.
 | Text | Title | File |
 | --- | --- | --- |
 | I | GAR-0017 — Phase II Constitutional Extension | [text-01-gar-0017-phase-ii-constitutional-extension.md](text-01-gar-0017-phase-ii-constitutional-extension.md) |
+| II | GAR-0018 — External Capability Expansion Constitutional Extension | [text-02-gar-0018-external-capability-expansion-constitutional-extension.md](text-02-gar-0018-external-capability-expansion-constitutional-extension.md) |
 
 ---
 
