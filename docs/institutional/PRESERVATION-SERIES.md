@@ -149,8 +149,9 @@ Every significant event. Chronological.
 | --- | --- |
 | Introduction | [timeline/introduction.md](timeline/introduction.md) |
 | Entry 1 — The Emergence of an Institution | [timeline/entry-01-the-emergence-of-an-institution.md](timeline/entry-01-the-emergence-of-an-institution.md) |
+| Entry 2 — The Adoption of Constitutional Engineering | [timeline/entry-02-the-adoption-of-constitutional-engineering.md](timeline/entry-02-the-adoption-of-constitutional-engineering.md) |
 
-**Status:** In Progress — introduction and Entry 1 recorded; timeline entries to follow.
+**Status:** In Progress — introduction and Entries 1–2 recorded; timeline entries to follow.
 
 Suggested contents:
 
