@@ -191,8 +191,9 @@ interpretation to make the constitutional corpus approachable without altering i
 | Editor's Introduction | [selected-texts/editors-introduction.md](selected-texts/editors-introduction.md) |
 | Text I — GAR-0017 — Phase II Constitutional Extension | [selected-texts/text-01-gar-0017-phase-ii-constitutional-extension.md](selected-texts/text-01-gar-0017-phase-ii-constitutional-extension.md) |
 | Text II — GAR-0018 — External Capability Expansion Constitutional Extension | [selected-texts/text-02-gar-0018-external-capability-expansion-constitutional-extension.md](selected-texts/text-02-gar-0018-external-capability-expansion-constitutional-extension.md) |
+| Text III — GAR-0019 — Runtime Constitutional Extension | [selected-texts/text-03-gar-0019-runtime-constitutional-extension.md](selected-texts/text-03-gar-0019-runtime-constitutional-extension.md) |
 
-**Status:** In Progress — Editor's Introduction and Texts I–II recorded; selections to follow.
+**Status:** In Progress — Editor's Introduction and Texts I–III recorded; selections to follow.
 
 Selections will include significant constitutional artifacts from:
 
