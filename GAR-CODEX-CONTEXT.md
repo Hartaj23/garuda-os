@@ -35,7 +35,8 @@ GAR-SPRINT-0012 Mission Golf complete — GAR-REVIEW-S12-007 approved (`d6dd58f`
 GAR-SPRINT-0012 Mission Hotel complete — GAR-REVIEW-S12-008 approved (`436ad44`).
 GAR-SPRINT-0012 Mission India complete — GAR-REVIEW-S12-009 approved (`bd29741`).
 Repository status: **Institutional HOLD** — no sprint authorized.
-Architecture 5 closed — Founder Decision adopted (2026-07-08).
+Architecture 5 closed — Founder Decision adopted (`4a9a2b1`).
+Governance Cycle 6 — Founder Decision: constitutional evolution required. Next artifact: GAR-0020.
 
 ## Completed Sprint 11 missions
 

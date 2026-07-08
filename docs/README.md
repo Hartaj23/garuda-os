@@ -22,6 +22,7 @@ Descriptive only — authorizes nothing.
 - [GAR-ROADMAP](governance/GAR-ROADMAP.md) — institutional direction at governance baselines
 - [Institutional Strategic Lifecycle v1.0](governance/INSTITUTIONAL-STRATEGIC-LIFECYCLE-v1.0.md)
 - [Architecture 5 Founder Decision](governance/ARCHITECTURE-5-FOUNDER-DECISION.md)
+- [Governance Cycle 6 Founder Decision](governance/GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md)
 - [Architecture 5 Review](architecture/ARCHITECTURE-5-repository-strategic-review.md)
 
 ### GAR Constitutions

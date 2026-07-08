@@ -65,8 +65,30 @@ Founder Decision
 
 **Outputs:** Institutional decisions only.
 
-**Current position (post–Architecture 5):** Institutional HOLD — next constitutional cycle not
-opened until Founder authorizes GAR-0020 analysis or equivalent governance work.
+**Current position (Governance Cycle 6):** Institutional HOLD — Founder Decision recorded:
+constitutional evolution required. Next artifact: GAR-0020 (constitutional drafting by architectural
+authority).
+
+---
+
+## Governance Cycle Naming
+
+Institutional reviews use **Governance Cycle N** as the Layer 0 process name.
+
+| Term | Role |
+| --- | --- |
+| **Governance Cycle N** | Layer 0 institutional process between engineering releases |
+| **Architecture N** | Specific repository strategic review within a cycle (when produced) |
+
+A Governance Cycle may conclude that no constitutional amendment, ADR, or sprint is required. That is
+a valid and complete outcome.
+
+**Cycle history:**
+
+| Cycle | Review artifact | Outcome |
+| --- | --- | --- |
+| Governance Cycle 5 | Architecture 5 | Governance model adopted — `4a9a2b1` |
+| Governance Cycle 6 | Pending | Constitutional evolution required — GAR-0020 next |
 
 ---
 
@@ -166,6 +188,7 @@ constitutional authority order:
 
 ## Related Documents
 
+- [GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md](GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md)
 - [ARCHITECTURE-5-FOUNDER-DECISION.md](ARCHITECTURE-5-FOUNDER-DECISION.md)
 - [GAR-ROADMAP.md](GAR-ROADMAP.md)
 - [Architecture 5 Review](../architecture/ARCHITECTURE-5-repository-strategic-review.md)

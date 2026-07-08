@@ -260,9 +260,9 @@ The institution is in **Institutional HOLD**. No sprint is authorized automatica
 
 The repository records the current baseline (`v0.12.0-alpha`). Governance pauses between cycles.
 
-Architecture 5 is closed. Founder Decision adopted the Institutional Strategic Lifecycle v1.0,
-Certification as a permanent engineering phase, `docs/governance/GAR-ROADMAP.md`, and Institutional
-HOLD terminology. See [`docs/governance/`](docs/governance/README.md).
+Architecture 5 is closed. Governance Cycle 6 is active — Founder Decision recorded: constitutional
+evolution required. Next artifact: GAR-0020 (constitutional drafting). See
+[`docs/governance/GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md`](docs/governance/GOVERNANCE-CYCLE-6-FOUNDER-DECISION.md).
 
 Future sprint work requires separate constitutional review and Founder authorization.
 

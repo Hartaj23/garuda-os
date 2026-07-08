@@ -9,7 +9,7 @@
 | Authority | **None** — this document authorizes nothing |
 | Version | 1.0 |
 | Governance baseline | Architecture 5 Founder Decision — `v0.12.0-alpha` |
-| Last updated | 2026-07-08 |
+| Last updated | 2026-07-08 (Governance Cycle 6 Founder Decision) |
 
 ---
 
@@ -44,10 +44,11 @@ Decision cycles). Do not update mid-sprint or mid-mission.
 | **Repository release** | `v0.12.0-alpha` |
 | **Git tag** | `v0.12.0-alpha` on `bd29741` |
 | **Institution state** | **Institutional HOLD** |
-| **Layer 0** | Architecture 5 closed — Founder Decision adopted |
-| **Layer 1** | No active governance chain |
+| **Governance cycle** | **Governance Cycle 6** — active |
+| **Layer 0** | Founder Decision recorded — constitutional evolution required |
+| **Layer 1** | GAR-0020 drafting — next artifact (not yet in repository) |
 | **Layer 2** | No active sprint |
-| **Next gate** | Separate Founder authorization for next constitutional cycle |
+| **Next gate** | GAR-0020 draft → Founder ratification |
 | **Test baseline** | 1042 passing tests |
 | **Regression floor** | 1042 (`unittest discover tests`) |
 
@@ -246,25 +247,26 @@ Implementation → Mission Review → Certification → SDK → Release → Tag 
 
 ---
 
-## Next Governance Cycle (Conditional — Not Authorized)
+## Governance Cycle 6 (Active)
 
-This sequence is recorded for planning clarity only:
+Founder Decision recorded: **constitutional evolution required**.
 
 ```
-Institutional HOLD
+Governance Cycle 6
         ↓
-Architecture 5 outcomes adopted
+Founder Decision — constitutional evolution required     ← recorded
         ↓
-GAR-ROADMAP established
+GAR-0020 (Third External Capability Expansion Constitutional Extension)
         ↓
-GAR-0020 (if constitution requires evolution)
+Founder ratification of GAR-0020
         ↓
-ADR-0014
+ADR-0014 (if GAR-0020 authorizes a foundation)
         ↓
-GAR-SPRINT-0013
+GAR-SPRINT-0013 (if ADR approved)
 ```
 
-Each gate requires separate Founder authorization. Sprint 0013 is not assumed.
+GAR-0020 drafting is the next governance artifact. ADR-0014, GAR-SPRINT-0013, and implementation
+are not authorized. Sprint 0013 is not assumed.
 
 ---
 

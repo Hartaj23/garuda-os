@@ -6,7 +6,7 @@ Project State & Engineering Context
 
 Version: 1.0
 
-Last Updated: 2026-07-06
+Last Updated: 2026-07-08
 
 ---
 
@@ -290,8 +290,9 @@ See [`docs/governance/GAR-ROADMAP.md`](docs/governance/GAR-ROADMAP.md) for insti
 |---|---|
 | Current Sprint | GAR-SPRINT-0012 (Complete) |
 | Current Status | **Institutional HOLD** — no sprint authorized |
-| Architecture 5 | Closed — Founder Decision adopted (2026-07-08) |
-| Next Milestone | Next constitutional cycle requires separate Founder authorization (GAR-0020 not authorized) |
+| Governance Cycle | **Cycle 6** — constitutional evolution required |
+| Architecture 5 | Closed — Founder Decision adopted (`4a9a2b1`) |
+| Next artifact | **GAR-0020** — constitutional drafting (architectural authority) |
 
 ---
 
