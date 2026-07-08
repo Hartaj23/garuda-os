@@ -45,7 +45,7 @@ A thousand thoughtful readers who genuinely engage with the ideas are worth far 
 
 **Institutional Note:** [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md)
 
-**Phase B:** Not authorized — Institution on HOLD pending reflection and explicit Founder authorization.
+**Phase B:** Not authorized — [Founder Readiness Assessment](../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md) pending.
 
 **Website structure:** [website/README.md](../../website/README.md)
 

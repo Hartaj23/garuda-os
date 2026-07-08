@@ -33,6 +33,7 @@ and committed repository state.
 | [LAUNCH-PROGRAM.md](LAUNCH-PROGRAM.md) | Launch Program — from creation to communication (intent only; no authority) |
 | [../governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md](../governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md) | Mission 001 Phase A — Founder Decision |
 | [../governance/MISSION-001-PHASE-A-CLOSURE.md](../governance/MISSION-001-PHASE-A-CLOSURE.md) | Mission 001 Phase A — Closure Record |
+| [../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md](../governance/MISSION-001-PHASE-B-READINESS-ASSESSMENT.md) | Mission 001 Phase B — Founder Readiness Assessment (does not authorize) |
 | [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md) | Mission 001 Phase A — Institutional Note |
 | [FOUNDER-REFLECTION-MISSION-001-PHASE-A.md](FOUNDER-REFLECTION-MISSION-001-PHASE-A.md) | Founder Reflection — Mission 001 Phase A |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
