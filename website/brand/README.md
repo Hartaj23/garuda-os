@@ -21,20 +21,20 @@ Design Tokens v1.0                  ✓ Recorded
         ↓
 Canonical Page Specification v1.0   ✓ Recorded
         ↓
-Institutional Mark Exploration v1.0 — recommended next (pause; not authorized)
+Institutional Mark Exploration v1.0   ✓ Recorded
         ↓
-Implementation                      — not authorized
+Institutional Mark Selection          — not authorized
+        ↓
+Implementation                        — not authorized
 ```
 
 ---
 
-## Reflection Pause — Complete
+## Evidence
 
-The print exercise is complete.
+Print exercise: [PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md](../../docs/institutional/PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md)
 
-Evidence: [PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md](../../docs/institutional/PRINT-EXERCISE-INDEPENDENT-READER-OBSERVATION-MISSION-001-PHASE-B.md)
-
-Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md) — Institutional Mark Exploration v1.0 recommended for authorization.
+Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md](../../docs/institutional/FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.md)
 
 ---
 
@@ -42,6 +42,7 @@ Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.m
 
 | Document | Link |
 | --- | --- |
+| Institutional Mark Exploration | [MISSION-001-PHASE-B-INSTITUTIONAL-MARK-EXPLORATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-INSTITUTIONAL-MARK-EXPLORATION-AUTHORIZATION.md) |
 | Canonical Page Specification | [MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-CANONICAL-PAGE-SPECIFICATION-AUTHORIZATION.md) |
 | Design Tokens | [MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md](../../docs/governance/MISSION-001-PHASE-B-DESIGN-TOKENS-AUTHORIZATION.md) |
 
@@ -56,6 +57,7 @@ Founder recommendation: [FOUNDER-RECOMMENDATION-INSTITUTIONAL-MARK-EXPLORATION.m
 | [DESIGN-TOKENS-v1.0.md](DESIGN-TOKENS-v1.0.md) | 1.0 | Recorded |
 | [tokens/design-tokens.yaml](tokens/design-tokens.yaml) | 1.0 | Recorded |
 | [CANONICAL-PAGE-SPECIFICATION-v1.0.md](CANONICAL-PAGE-SPECIFICATION-v1.0.md) | 1.0 | Recorded |
+| [INSTITUTIONAL-MARK-EXPLORATION-v1.0.md](INSTITUTIONAL-MARK-EXPLORATION-v1.0.md) | 1.0 | Recorded |
 
 ---
 
@@ -65,9 +67,9 @@ The page is the institution.
 
 The page precedes the mark.
 
-A logo belongs to a brand. An institutional mark belongs to an institution.
+The mark acknowledges — it does not carry.
 
-Institutional Mark Exploration remains unauthorized until explicitly approved by Founder Decision.
+Institutional Mark Selection remains unauthorized until explicitly approved by Founder Decision.
 
 The website introduces.
 
