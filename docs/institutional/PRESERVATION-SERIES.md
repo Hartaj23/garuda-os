@@ -31,7 +31,7 @@ navigate it.
 | Volume | Title | Status |
 | --- | --- | --- |
 | I | [Book One — The First Constitutional Epoch](book-one/README.md) | Complete (Frozen) |
-| II | [Institutional Atlas](atlas/README.md) | In Progress (Plates 1–4) |
+| II | [Institutional Atlas](atlas/README.md) | In Progress (Plates 1–5) |
 | III | Glossary & Companion | Planned |
 | IV | Institutional Timeline | Planned |
 | V | Selected Constitutional Texts | Planned |
@@ -81,6 +81,7 @@ Suggested contents:
 | 2 | The Three Governance Layers | [atlas/plate-02-the-three-governance-layers.md](atlas/plate-02-the-three-governance-layers.md) |
 | 3 | Authority Before Action | [atlas/plate-03-authority-before-action.md](atlas/plate-03-authority-before-action.md) |
 | 4 | The Constitutional Timeline | [atlas/plate-04-the-constitutional-timeline.md](atlas/plate-04-the-constitutional-timeline.md) |
+| 5 | The First Constitutional Epoch | [atlas/plate-05-the-first-constitutional-epoch.md](atlas/plate-05-the-first-constitutional-epoch.md) |
 
 ---
 
