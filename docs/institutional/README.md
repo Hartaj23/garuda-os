@@ -34,6 +34,7 @@ and committed repository state.
 | [../governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md](../governance/MISSION-001-PHASE-A-FOUNDER-DECISION.md) | Mission 001 Phase A — Founder Decision |
 | [../governance/MISSION-001-PHASE-A-CLOSURE.md](../governance/MISSION-001-PHASE-A-CLOSURE.md) | Mission 001 Phase A — Closure Record |
 | [MISSION-001-PHASE-A-NOTE.md](MISSION-001-PHASE-A-NOTE.md) | Mission 001 Phase A — Institutional Note |
+| [FOUNDER-REFLECTION-MISSION-001-PHASE-A.md](FOUNDER-REFLECTION-MISSION-001-PHASE-A.md) | Founder Reflection — Mission 001 Phase A |
 | [PRESERVATION-SERIES.md](PRESERVATION-SERIES.md) | Preservation Series plan — institutional publications (no authority) |
 | [FIRST-EDITION-EDITORIAL-PASS.md](FIRST-EDITION-EDITORIAL-PASS.md) | First Edition Editorial Pass — editorial charter (no authority) |
 | [EDITORIAL-WORKFLOW.md](EDITORIAL-WORKFLOW.md) | First Edition Editorial Pass — editorial workflow (no authority) |
