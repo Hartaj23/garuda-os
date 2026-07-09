@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | GAR-SPRINT-0013 |
 | Name | Investment Intelligence Foundation |
-| Status | **Draft v0.3 — Under Founder Review** |
+| Status | **Draft v0.4 — Under Founder Review** |
 | Authority | Derived from [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) v1.0 |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Evidence foundation | Constitutional Evidence Base Edition 1.0 |
@@ -94,17 +94,12 @@ The sprint shall be executed through the following missions.
 | Mission | Name | Draft detail |
 | --- | --- | --- |
 | Alpha | Engineering Foundation | Specified (Draft v0.2) |
-| Bravo | Canonical Domain Contracts | **Specified below (Draft v0.3)** |
-| Charlie | Core Domain Models | Summary only — pending refinement |
+| Bravo | Canonical Domain Contracts | Specified (Draft v0.3) |
+| Charlie | Canonical Domain Models | **Specified below (Draft v0.4)** |
 | Delta | Engineering Validation | Summary only — pending refinement |
 | Echo | Testing Framework | Summary only — pending refinement |
 | Foxtrot | Documentation | Summary only — pending refinement |
 | Golf | Certification | Summary only — pending refinement |
-
-### Mission Charlie — Core Domain Models
-
-Establish canonical models representing evidence, knowledge, context, judgment, decisions,
-explanations, and refusals.
 
 ### Mission Delta — Engineering Validation
 
@@ -628,6 +623,346 @@ Investment Intelligence domain.
 
 ---
 
+## Mission Charlie — Canonical Domain Models
+
+### Mission Purpose
+
+Mission Charlie establishes the canonical domain models for the Investment Intelligence domain.
+
+These models represent the enduring concepts required by ADR-0014.
+
+They define meaning.
+
+They do not define implementation.
+
+Future implementations may realize these models using different technologies, provided their
+constitutional meaning remains preserved.
+
+---
+
+### Mission Objectives
+
+Mission Charlie shall:
+
+1. Define the canonical domain models
+2. Preserve constitutional distinctions
+3. Preserve evidence lineage
+4. Preserve architectural responsibilities
+5. Establish stable engineering semantics
+6. Enable future implementation without altering architectural meaning
+
+---
+
+### Architectural Alignment
+
+Mission Charlie derives from:
+
+- GAR-0021 v1.0
+- ADR-0014 Architectural Responsibilities
+- ADR-0014 Architectural Domains
+- ADR-0014 Canonical Lifecycle
+- Canonical Domain Contracts
+
+---
+
+### Canonical Domain Models
+
+The following domain models constitute the conceptual engineering foundation.
+
+---
+
+#### Model A — Observation
+
+##### Purpose
+
+Represents candidate information entering the Investment Intelligence domain.
+
+##### Characteristics
+
+- Source identified
+- Acquisition context preserved
+- Timestamp preserved
+- Provenance preserved
+- No validation implied
+
+---
+
+#### Model B — Evidence
+
+##### Purpose
+
+Represents constitutionally validated observations.
+
+##### Characteristics
+
+- Validation outcome
+- Integrity status
+- Reliability
+- Confidence
+- Supporting lineage
+- Contradictory evidence references
+
+---
+
+#### Model C — Knowledge
+
+##### Purpose
+
+Represents organized understanding derived from validated evidence.
+
+##### Characteristics
+
+- Derived from evidence
+- Historical continuity
+- Relationship mapping
+- Context awareness
+- Explicit uncertainty
+
+Knowledge shall never replace evidence.
+
+---
+
+#### Model D — Context
+
+##### Purpose
+
+Represents the decision environment.
+
+##### Characteristics
+
+- Objectives
+- Constraints
+- Capital state
+- Time horizon
+- Portfolio state
+- Locale
+- User preferences
+- Missing-context indicators
+
+---
+
+#### Model E — Judgment
+
+##### Purpose
+
+Represents provisional constitutional reasoning.
+
+##### Characteristics
+
+- Supporting evidence
+- Contrary evidence
+- Assumptions
+- Alternatives
+- Confidence
+- Remaining uncertainty
+
+Judgment remains reversible until constitutional evaluation.
+
+---
+
+#### Model F — Constitutional Assessment
+
+##### Purpose
+
+Represents evaluation against GAR-0021.
+
+##### Characteristics
+
+- Principle evaluation
+- Distinction preservation
+- Tension recognition
+- Compliance status
+- Refusal eligibility
+- Explainability readiness
+
+---
+
+#### Model G — Decision
+
+##### Purpose
+
+Represents the final constitutional decision state.
+
+##### Valid States
+
+- Recommendation
+- Conditional Recommendation
+- Deferred Decision
+- Information Request
+- Constitutional Refusal
+
+No implementation shall introduce additional decision states without architectural approval.
+
+---
+
+#### Model H — Explanation
+
+##### Purpose
+
+Represents the justification accompanying a decision.
+
+##### Characteristics
+
+- Evidence summary
+- Reasoning summary
+- Assumptions
+- Limitations
+- Confidence communication
+- Refusal rationale (where applicable)
+
+Explanation shall justify.
+
+It shall not persuade.
+
+---
+
+#### Model I — Traceability Record
+
+##### Purpose
+
+Represents complete constitutional lineage.
+
+##### Characteristics
+
+Links:
+
+- Constitutional authority
+- Architectural responsibility
+- Domain model evolution
+- Evidence lineage
+- Judgment lineage
+- Decision lineage
+- Explanation lineage
+
+---
+
+### Domain Model Relationships
+
+The conceptual relationship between models is:
+
+```text
+Observation
+      │
+      ▼
+Evidence
+      │
+      ▼
+Knowledge
+      │
+      ▼
+Context
+      │
+      ▼
+Judgment
+      │
+      ▼
+Constitutional Assessment
+      │
+      ▼
+Decision
+      │
+      ▼
+Explanation
+      │
+      ▼
+Traceability Record
+```
+
+These relationships define conceptual meaning.
+
+They do not prescribe object graphs, storage structures, or implementation dependencies.
+
+---
+
+### Domain Model Rules
+
+#### Rule 1
+
+Every model shall represent one enduring concept.
+
+---
+
+#### Rule 2
+
+Models shall preserve constitutional distinctions.
+
+---
+
+#### Rule 3
+
+No model shall silently discard uncertainty.
+
+---
+
+#### Rule 4
+
+Evidence lineage shall remain recoverable.
+
+---
+
+#### Rule 5
+
+Models shall remain implementation-independent.
+
+---
+
+#### Rule 6
+
+Domain semantics may evolve only through constitutional and architectural governance.
+
+---
+
+### Acceptance Criteria
+
+Mission Charlie shall be accepted only when:
+
+- all canonical models are defined
+- relationships are coherent
+- constitutional meaning is preserved
+- architectural alignment is demonstrated
+- implementation assumptions are absent
+
+---
+
+### Certification Criteria
+
+Mission Charlie passes certification when:
+
+- every canonical contract is represented by one or more domain models
+- constitutional distinctions remain intact
+- evidence lineage is preserved
+- traceability remains demonstrable
+- models provide a stable conceptual foundation for implementation
+
+---
+
+### Explicit Out of Scope
+
+Mission Charlie shall not define:
+
+- programming classes
+- database schemas
+- serialization formats
+- ORM mappings
+- framework annotations
+- persistence strategies
+- API payloads
+- implementation code
+
+These belong to subsequent engineering implementation following sprint approval.
+
+---
+
+### Mission Completion
+
+Mission Charlie is complete when the Investment Intelligence domain possesses a complete,
+implementation-independent conceptual model that faithfully expresses GAR-0021 and ADR-0014 while
+providing a stable engineering foundation for future implementation.
+
+**End of Mission Charlie — Canonical Domain Models**
+
+---
+
 ## Explicit Out of Scope
 
 This sprint shall not implement:
@@ -673,7 +1008,7 @@ This document establishes the engineering mission only.
 Detailed implementation tasks, acceptance criteria, package layouts, and coding work remain subject
 to subsequent sprint refinement and Founder approval.
 
-This Draft v0.3 does **not** authorize:
+This Draft v0.4 does **not** authorize:
 
 - sprint approval
 - engineering implementation
@@ -682,8 +1017,8 @@ This Draft v0.3 does **not** authorize:
 
 Each requires separate Founder decisions after sprint refinement and approval.
 
-Draft v0.3 specifies Missions Alpha and Bravo in full. Missions Charlie–Golf remain summary-level
-pending subsequent refinement.
+Draft v0.4 specifies Missions Alpha, Bravo, and Charlie in full. Missions Delta–Golf remain
+summary-level pending subsequent refinement.
 
 ---
 
@@ -716,4 +1051,4 @@ Implementation (not authorized)
 
 ---
 
-**End of GAR-SPRINT-0013 Draft v0.3**
+**End of GAR-SPRINT-0013 Draft v0.4**
