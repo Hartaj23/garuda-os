@@ -1882,6 +1882,7 @@ Implementation (not authorized)
 ## Related Documents
 
 - [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
+- [GAR-SPRINT-0013-SPRINT-AUDIT.md](../governance/GAR-SPRINT-0013-SPRINT-AUDIT.md) — Founder Review Draft
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
 - [ADR-0014-PUBLICATION.md](../governance/ADR-0014-PUBLICATION.md)
 - [GAR-0021.md](../../GAR-0021.md)

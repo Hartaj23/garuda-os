@@ -234,6 +234,7 @@ No engineering implementation is authorized by this record.
 - [GAR-0021.md](../../GAR-0021.md)
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
 - [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Draft v0.8
+- [GAR-SPRINT-0013-SPRINT-AUDIT.md](GAR-SPRINT-0013-SPRINT-AUDIT.md) — Founder Review Draft
 
 ---
 

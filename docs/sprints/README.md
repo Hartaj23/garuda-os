@@ -41,6 +41,7 @@ Approved sprint documents.
 - [GAR-SPRINT-0012 Closure Report](GAR-SPRINT-0012-closure.md)
 - [GAR-SPRINT-0013 Investment Intelligence Foundation](GAR-SPRINT-0013-investment-intelligence-foundation.md) — **Draft v0.8** (Under Founder Review)
   — [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
+  — [GAR-SPRINT-0013-SPRINT-AUDIT.md](../governance/GAR-SPRINT-0013-SPRINT-AUDIT.md) — Founder Review Draft
 
 ## AI Implementation Notes
 
