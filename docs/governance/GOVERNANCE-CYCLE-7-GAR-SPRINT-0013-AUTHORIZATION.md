@@ -223,7 +223,8 @@ No engineering implementation is authorized by this record.
 | ADR-0014 v1.0 published | **Complete** (`611bb86`) |
 | Sprint drafting | **Complete** |
 | Sprint approval | **Complete** — Approved v1.0 |
-| Certification / freeze / publication | **Pending** |
+| Certification | **PASS** — [GAR-SPRINT-0013-CERTIFICATION.md](GAR-SPRINT-0013-CERTIFICATION.md) |
+| Freeze / publication | **Pending** |
 | Engineering | **Not authorized** |
 
 ---
@@ -238,6 +239,7 @@ No engineering implementation is authorized by this record.
 - [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Approved v1.0
 - [GAR-SPRINT-0013-SPRINT-AUDIT.md](GAR-SPRINT-0013-SPRINT-AUDIT.md) — **PASS**
 - [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md)
+- [GAR-SPRINT-0013-CERTIFICATION.md](GAR-SPRINT-0013-CERTIFICATION.md)
 
 ---
 

@@ -169,7 +169,9 @@ Sprint Drafting
         ✅ Complete
 Sprint Approval
         ✅ Complete
-Sprint Certification / Freeze / Publication
+Sprint Certification
+        ✅ PASS
+Sprint Freeze / Publication
         ⏸ Pending
 Engineering
         ⏸ Not Authorized

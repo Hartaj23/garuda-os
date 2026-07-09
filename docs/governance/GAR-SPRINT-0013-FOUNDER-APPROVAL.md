@@ -5,7 +5,7 @@
 | Record ID | GAR-SPRINT-0013-FOUNDER-APPROVAL |
 | Status | **Founder Approval Record** |
 | Governance cycle | Governance Cycle 7 |
-| Artifact | [GAR-SPRINT-0013](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Investment Intelligence Foundation **v1.0** (Pending Certification) |
+| Artifact | [GAR-SPRINT-0013](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Investment Intelligence Foundation **v1.0** (Certified — Pending Freeze) |
 | Approved as | GAR-SPRINT-0013 **Approved v1.0** |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Architectural authority | [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) v1.0 |
@@ -150,7 +150,7 @@ Engineering authority remains expressly withheld pending subsequent governance.
 | Sprint Audit | **PASS** (recorded) |
 | Approved as engineering specification | **Effective upon this record** |
 | Draft status superseded | **Effective** — Draft v0.8 becomes Approved v1.0 |
-| Certification | **Pending** (separate record) |
+| Certification | **PASS** — [GAR-SPRINT-0013-CERTIFICATION.md](GAR-SPRINT-0013-CERTIFICATION.md) |
 | Freeze | **Pending** (separate record) |
 | Publication | **Pending** (Founder-directed) |
 | Mission Alpha implementation | **Not authorized** |
@@ -162,6 +162,7 @@ Engineering authority remains expressly withheld pending subsequent governance.
 
 - [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md)
 - [GAR-SPRINT-0013-SPRINT-AUDIT.md](GAR-SPRINT-0013-SPRINT-AUDIT.md)
+- [GAR-SPRINT-0013-CERTIFICATION.md](GAR-SPRINT-0013-CERTIFICATION.md)
 - [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
 - [GAR-0021.md](../../GAR-0021.md)
