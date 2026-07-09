@@ -325,11 +325,13 @@ Mission Bravo remains unauthorized until a separate Founder decision.
 | Package root name | **Pending** |
 | Book One import policy | **Pending** |
 | Task A1 coding | **Not started** |
+| Implementation charter | [GAR-SPRINT-0013-mission-alpha-implementation-charter.md](GAR-SPRINT-0013-mission-alpha-implementation-charter.md) |
 
 ---
 
 ## Related Documents
 
+- [GAR-SPRINT-0013-mission-alpha-implementation-charter.md](GAR-SPRINT-0013-mission-alpha-implementation-charter.md)
 - [GAR-SPRINT-0013-mission-alpha-implementation-plan.md](GAR-SPRINT-0013-mission-alpha-implementation-plan.md)
 - [GAR-SPRINT-0013-investment-intelligence-foundation.md](GAR-SPRINT-0013-investment-intelligence-foundation.md)
 - [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md)

@@ -49,6 +49,7 @@ Approved sprint documents.
   — [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md) — **Mission Alpha only**
   — [GAR-SPRINT-0013-mission-alpha-implementation-plan.md](GAR-SPRINT-0013-mission-alpha-implementation-plan.md) — Implementation Plan v1.0 (awaiting execution approval)
   — [GAR-SPRINT-0013-mission-alpha-execution-plan.md](GAR-SPRINT-0013-mission-alpha-execution-plan.md) — Execution Plan v1.0 (tasks A1–A9; awaiting execution approval)
+  — [GAR-SPRINT-0013-mission-alpha-implementation-charter.md](GAR-SPRINT-0013-mission-alpha-implementation-charter.md) — Implementation Charter (kickoff; A1 blocked on naming/import)
 
 ## AI Implementation Notes
 

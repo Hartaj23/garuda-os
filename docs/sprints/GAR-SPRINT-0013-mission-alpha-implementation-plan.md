@@ -272,11 +272,13 @@ architectural fidelity rather than feature count.
 | Open ambiguities resolved | **Pending** (package root name; Book One import policy) |
 | Coding | **Not started** |
 | Execution plan | [GAR-SPRINT-0013-mission-alpha-execution-plan.md](GAR-SPRINT-0013-mission-alpha-execution-plan.md) v1.0 |
+| Implementation charter | [GAR-SPRINT-0013-mission-alpha-implementation-charter.md](GAR-SPRINT-0013-mission-alpha-implementation-charter.md) |
 
 ---
 
 ## Related Documents
 
+- [GAR-SPRINT-0013-mission-alpha-implementation-charter.md](GAR-SPRINT-0013-mission-alpha-implementation-charter.md)
 - [GAR-SPRINT-0013-mission-alpha-execution-plan.md](GAR-SPRINT-0013-mission-alpha-execution-plan.md)
 - [GAR-SPRINT-0013-investment-intelligence-foundation.md](GAR-SPRINT-0013-investment-intelligence-foundation.md)
 - [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md)
