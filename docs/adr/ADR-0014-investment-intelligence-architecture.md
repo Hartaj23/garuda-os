@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | ADR-0014 |
 | Title | Investment Intelligence Architecture |
-| Status | **Draft v0.6 — Under Architectural Review** |
+| Status | **Draft v0.7 — Under Architectural Review** |
 | Date | 2026-07-09 |
 | Authority | [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence |
 | Evidence foundation | CEB Edition 1.0 (frozen & published `4dc5ff7`) |
@@ -97,12 +97,13 @@ The architecture shall govern how Investment Intelligence responsibilities are s
 and related so that future implementations may operate within constitutional authority — without
 selecting technologies, defining packages as engineering deliverables, or authorizing sprints.
 
-Draft v0.6 establishes architectural principles, enduring responsibilities, a conceptual
+Draft v0.7 establishes architectural principles, enduring responsibilities, a conceptual
 responsibility flow, responsibility allocation principles, Architectural Domains (Article I), the
 Architectural Interaction Model (Article II), Constitutional Governance Architecture
-(Article III), and the Canonical Investment Intelligence Lifecycle (Article IV). Implementation
-components, interfaces, data schemas, runtime contracts, deployment structures, and technology
-selections are **not** established in this version.
+(Article III), the Canonical Investment Intelligence Lifecycle (Article IV), and the Architectural
+Boundary Model (Article V). Implementation components, interfaces, data schemas, runtime
+contracts, deployment structures, and technology selections are **not** established in this
+version.
 
 ---
 
@@ -1446,9 +1447,262 @@ Those remain outside the scope of ADR-0014.
 
 ---
 
+## Article V — Architectural Boundary Model
+
+### Architectural Position
+
+Investment Intelligence does not operate in isolation.
+
+It exists within an ecosystem of external information sources, human participants, execution
+systems, and future Garuda domains.
+
+This article defines the constitutional boundaries between Investment Intelligence and everything
+outside it.
+
+Architectural boundaries preserve:
+
+- constitutional authority
+- evidence integrity
+- traceability
+- explainability
+- replaceable implementation
+
+Boundaries define responsibilities.
+They do not prescribe implementation interfaces.
+
+---
+
+### Boundary Principles
+
+#### Principle 1 — Constitutional Isolation
+
+No external system may directly influence architectural judgment.
+
+All external inputs shall first become observations and pass through the canonical lifecycle.
+
+---
+
+#### Principle 2 — Controlled Entry
+
+Every external interaction shall enter through a constitutionally governed boundary.
+
+No architectural domain shall consume uncontrolled external state.
+
+---
+
+#### Principle 3 — Controlled Exit
+
+Every architectural output shall leave through constitutionally valid decision states.
+
+Outputs shall remain accompanied by their constitutional explanation and traceability.
+
+---
+
+#### Principle 4 — Replaceable Dependencies
+
+External providers may be replaced without altering constitutional responsibilities.
+
+Architecture depends upon responsibilities, not vendors.
+
+---
+
+### External Boundary Classes
+
+#### Boundary A — Evidence Sources
+
+Examples include:
+
+- market data
+- corporate disclosures
+- economic releases
+- portfolio information
+- user-provided information
+- future approved knowledge repositories
+
+These sources provide observations only.
+
+They do not provide constitutional authority.
+
+---
+
+#### Boundary B — Human Interaction
+
+Humans remain constitutionally superior decision-makers.
+
+The architecture shall:
+
+- request clarification
+- request objectives
+- expose uncertainty
+- explain recommendations
+- explain refusals
+
+Human intent enters through this boundary.
+
+Human authority never leaves it.
+
+---
+
+#### Boundary C — Execution Systems
+
+Execution systems remain outside Investment Intelligence.
+
+Examples include:
+
+- broker platforms
+- portfolio execution
+- order management
+- trade settlement
+
+Investment Intelligence may advise.
+
+Execution systems may execute.
+
+Architecture shall preserve this separation.
+
+---
+
+#### Boundary D — External Intelligence
+
+Future analytical services or AI systems remain external.
+
+External intelligence may contribute observations.
+
+It shall not replace constitutional judgment.
+
+---
+
+#### Boundary E — Garuda Domains
+
+Future Garuda domains may exchange constitutionally governed information.
+
+Examples include:
+
+- Memory
+- Knowledge
+- Context
+- Reasoning
+- Decision
+- Risk
+- Execution
+
+Inter-domain interaction shall preserve constitutional lineage.
+
+---
+
+### Boundary Contracts
+
+Every architectural boundary shall preserve:
+
+- source identity
+- acquisition context
+- uncertainty
+- provenance
+- evidence lineage
+- constitutional traceability
+
+No boundary shall silently transform meaning.
+
+---
+
+### Boundary Failure Conditions
+
+Examples include:
+
+- unknown provenance
+- unverifiable evidence
+- corrupted observations
+- missing objectives
+- contradictory boundary state
+- broken traceability
+- unauthorized authority injection
+
+Where these occur, the architecture shall preserve constitutional integrity ahead of functional
+completion.
+
+Refusal remains a valid architectural response.
+
+---
+
+### Architectural View
+
+```text
+                External World
+────────────────────────────────────────────
+ Market Sources
+ Enterprise Sources
+ Economic Sources
+ Human Inputs
+ Portfolio State
+ Future AI Systems
+────────────────────────────────────────────
+ Constitutional Boundary
+────────────────────────────────────────────
+ Observation
+        │
+ Canonical Lifecycle
+        │
+ Constitutional Evaluation
+        │
+ Decision State
+        │
+ Explainability
+        │
+ Traceability
+────────────────────────────────────────────
+ External Consumers
+────────────────────────────────────────────
+ Human Decision Maker
+ Broker / Execution
+ Portfolio Systems
+ Future Garuda Domains
+```
+
+This view is conceptual.
+
+It does not prescribe APIs, protocols, messaging systems, deployment topology, or software
+interfaces.
+
+---
+
+### Architectural Consequences
+
+Every future implementation shall preserve:
+
+- constitutional entry
+- constitutional exit
+- constitutional authority
+- constitutional traceability
+
+External systems may evolve independently.
+
+Architectural boundaries remain governed by GAR-0021 and ADR-0014.
+
+---
+
+### Scope Boundary
+
+This article establishes constitutional boundary responsibilities only.
+
+It does not define:
+
+- API specifications
+- authentication
+- networking
+- security mechanisms
+- transport protocols
+- integration technologies
+- deployment architecture
+
+These remain subject to future ADRs and approved implementation planning.
+
+**End of Article V — Architectural Boundary Model**
+
+---
+
 ## Non-Authorization
 
-ADR-0014 Draft v0.6 does **not** authorize:
+ADR-0014 Draft v0.7 does **not** authorize:
 
 - Engineering
 - Sprint drafting
@@ -1467,8 +1721,8 @@ These remain subject to future governance.
 ## Draft Status
 
 This document defines architectural principles, enduring responsibilities, Architectural Domains,
-the Architectural Interaction Model, Constitutional Governance Architecture, and the Canonical
-Investment Intelligence Lifecycle only.
+the Architectural Interaction Model, Constitutional Governance Architecture, the Canonical
+Investment Intelligence Lifecycle, and the Architectural Boundary Model only.
 
 No implementation components, interfaces, data schemas, runtime contracts, deployment structures,
 or technology selections are established in this version.
@@ -1502,4 +1756,4 @@ and certifications SHALL conform to:
 
 ---
 
-End of ADR-0014 Draft v0.6
+End of ADR-0014 Draft v0.7
