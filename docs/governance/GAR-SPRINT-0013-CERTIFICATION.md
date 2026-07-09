@@ -5,7 +5,7 @@
 | Record ID | GAR-SPRINT-0013-CERTIFICATION |
 | Status | **Certification Record** |
 | Governance cycle | Governance Cycle 7 |
-| Artifact | [GAR-SPRINT-0013](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Investment Intelligence Foundation **v1.0** (Frozen) |
+| Artifact | [GAR-SPRINT-0013](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Investment Intelligence Foundation **v1.0** (Frozen & Published) |
 | Authority level | Institutional Certification |
 | Overall result | **PASS** |
 | Founder approval | [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
@@ -144,7 +144,7 @@ GAR-SPRINT-0013 is certified as:
 | Overall certification | **PASS** |
 | Suitable for freeze | **Affirmed** |
 | Freeze | **Effective** — [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md) |
-| Publication | **Pending** (Founder-directed) |
+| Publication | **Effective** — [GAR-SPRINT-0013-PUBLICATION.md](GAR-SPRINT-0013-PUBLICATION.md) |
 | Mission Alpha implementation | **Not authorized** |
 | Engineering | **Not authorized** |
 
@@ -195,6 +195,7 @@ Engineering authority remains expressly withheld pending a separate Founder deci
 - [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md)
 - [GAR-SPRINT-0013-SPRINT-AUDIT.md](GAR-SPRINT-0013-SPRINT-AUDIT.md)
 - [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md)
+- [GAR-SPRINT-0013-PUBLICATION.md](GAR-SPRINT-0013-PUBLICATION.md)
 - [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
 - [GAR-0021.md](../../GAR-0021.md)

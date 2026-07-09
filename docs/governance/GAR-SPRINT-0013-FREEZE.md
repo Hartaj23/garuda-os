@@ -182,7 +182,7 @@ Engineering
 | Sprint Audit | **PASS** |
 | Certification | **PASS** |
 | Freeze | **Effective upon this record** |
-| Publication | **Pending** (Founder-directed) |
+| Publication | **Effective** — [GAR-SPRINT-0013-PUBLICATION.md](GAR-SPRINT-0013-PUBLICATION.md) |
 | Mission Alpha implementation | **Not authorized** |
 | Engineering | **Not authorized** |
 
@@ -203,6 +203,7 @@ Engineering authority remains expressly withheld pending a separate Founder auth
 - [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md)
 - [GAR-SPRINT-0013-CERTIFICATION.md](GAR-SPRINT-0013-CERTIFICATION.md)
 - [GAR-SPRINT-0013-SPRINT-AUDIT.md](GAR-SPRINT-0013-SPRINT-AUDIT.md)
+- [GAR-SPRINT-0013-PUBLICATION.md](GAR-SPRINT-0013-PUBLICATION.md)
 - [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
 - [GAR-0021.md](../../GAR-0021.md)
