@@ -50,6 +50,7 @@ Approved sprint documents.
   — [GAR-SPRINT-0013-mission-alpha-implementation-plan.md](GAR-SPRINT-0013-mission-alpha-implementation-plan.md) — Implementation Plan v1.0 (awaiting execution approval)
   — [GAR-SPRINT-0013-mission-alpha-execution-plan.md](GAR-SPRINT-0013-mission-alpha-execution-plan.md) — Execution Plan v1.0 (tasks A1–A9; awaiting execution approval)
   — [GAR-SPRINT-0013-mission-alpha-implementation-charter.md](GAR-SPRINT-0013-mission-alpha-implementation-charter.md) — Implementation Charter (kickoff; A1 blocked on naming/import)
+  — [GAR-SPRINT-0013-mission-alpha-task-a1-repository-foundation.md](GAR-SPRINT-0013-mission-alpha-task-a1-repository-foundation.md) — Task A1 Specification
 
 ## AI Implementation Notes
 

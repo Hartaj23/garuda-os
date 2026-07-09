@@ -236,6 +236,7 @@ No authority beyond Mission Alpha is granted by this record.
 - [GAR-SPRINT-0013-mission-alpha-implementation-plan.md](../sprints/GAR-SPRINT-0013-mission-alpha-implementation-plan.md) — Implementation Plan v1.0
 - [GAR-SPRINT-0013-mission-alpha-execution-plan.md](../sprints/GAR-SPRINT-0013-mission-alpha-execution-plan.md) — Execution Plan v1.0
 - [GAR-SPRINT-0013-mission-alpha-implementation-charter.md](../sprints/GAR-SPRINT-0013-mission-alpha-implementation-charter.md) — Implementation Charter
+- [GAR-SPRINT-0013-mission-alpha-task-a1-repository-foundation.md](../sprints/GAR-SPRINT-0013-mission-alpha-task-a1-repository-foundation.md) — Task A1 Specification
 - [GAR-SPRINT-0013-PUBLICATION.md](GAR-SPRINT-0013-PUBLICATION.md)
 - [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md)
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)

@@ -74,7 +74,7 @@ A9 Mission Certification
 
 | Task | Name | Status |
 | --- | --- | --- |
-| A1 | Repository Foundation | Pending |
+| A1 | Repository Foundation | Spec ready — [task A1](GAR-SPRINT-0013-mission-alpha-task-a1-repository-foundation.md); coding blocked on naming/import |
 | A2 | Package Structure | Pending |
 | A3 | Namespace Foundation | Pending |
 | A4 | Engineering Contracts | Pending |
