@@ -2,8 +2,9 @@
 
 | Field | Value |
 | --- | --- |
-| Document status | **Founder Review Draft** |
-| Applies to | [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) — Investment Intelligence Architecture (**Draft v0.8**) |
+| Document status | **Complete — PASS** |
+| Applies to | [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) — Investment Intelligence Architecture (Draft v0.8 → **Approved v1.0**) |
+| Approval record | [ADR-0014-FOUNDER-APPROVAL.md](ADR-0014-FOUNDER-APPROVAL.md) |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Evidence foundation | CEB Edition 1.0 |
 | Drafting authorization | [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md) (`04372fa`) |
@@ -47,7 +48,7 @@ derives from constitutional authority.
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -74,7 +75,7 @@ The ADR contains no architectural dependence upon:
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -102,7 +103,7 @@ They are not optional implementation features.
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -125,7 +126,7 @@ Responsibilities remain:
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -146,7 +147,7 @@ Architectural responsibilities remain stable.
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -165,7 +166,7 @@ Lineage remains demonstrable across the complete architectural lifecycle.
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -183,7 +184,7 @@ Future implementations cannot eliminate refusal without violating ADR-0014.
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -215,7 +216,7 @@ No architectural orphan responsibilities exist.
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -230,8 +231,9 @@ The Architectural Audit shall result in one of the following findings:
 
 | Field | Value |
 | --- | --- |
-| Overall audit status | **Pending Founder determination** |
-| Outcome | _Not yet recorded_ |
+| Overall audit status | **PASS** |
+| Outcome | Architecture is ready for approval |
+| Recorded by | Founder Approval — [ADR-0014-FOUNDER-APPROVAL.md](ADR-0014-FOUNDER-APPROVAL.md) |
 
 ---
 
@@ -256,11 +258,12 @@ These remain separate Founder decisions.
 
 ## Authority Constraint
 
-This document is a Founder Review Draft of the audit instrument and pending findings.
+This audit is complete with overall outcome **PASS**.
 
-It does **not** by itself:
+Approval is recorded separately in [ADR-0014-FOUNDER-APPROVAL.md](ADR-0014-FOUNDER-APPROVAL.md).
 
-- approve ADR-0014
+This audit does **not** by itself:
+
 - certify ADR-0014
 - freeze ADR-0014
 - authorize GAR-SPRINT-0013
@@ -271,6 +274,7 @@ It does **not** by itself:
 ## Related Documents
 
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
+- [ADR-0014-FOUNDER-APPROVAL.md](ADR-0014-FOUNDER-APPROVAL.md)
 - [GAR-0021.md](../../GAR-0021.md)
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
 - [GAR-0021-FOUNDER-RATIFICATION.md](GAR-0021-FOUNDER-RATIFICATION.md)

@@ -19,12 +19,13 @@ They never authorize engineering unless a separate Founder gate grants sprint au
 | [ADR-0011](ADR-0011-interface-foundation.md) | Interface Foundation | Approved v1.0 |
 | [ADR-0012](ADR-0012-integration-foundation.md) | Integration Foundation | Approved v1.0 |
 | [ADR-0013](ADR-0013-runtime-foundation.md) | Runtime Foundation | Approved v1.0 |
-| [ADR-0014](ADR-0014-investment-intelligence-architecture.md) | Investment Intelligence Architecture | **Draft v0.8** — Under Architectural Review |
+| [ADR-0014](ADR-0014-investment-intelligence-architecture.md) | Investment Intelligence Architecture | **Approved v1.0** |
 
 ## Related Documents
 
 - [GAR-0021](../../GAR-0021.md) — Constitutional Principles for Investment Intelligence
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
-- [ADR-0014-ARCHITECTURAL-AUDIT.md](../governance/ADR-0014-ARCHITECTURAL-AUDIT.md) — Founder Review Draft
+- [ADR-0014-ARCHITECTURAL-AUDIT.md](../governance/ADR-0014-ARCHITECTURAL-AUDIT.md) — **PASS**
+- [ADR-0014-FOUNDER-APPROVAL.md](../governance/ADR-0014-FOUNDER-APPROVAL.md)
 - [GAR-0017](../../GAR-0017.md) — Phase II Constitutional Extension
 - [PROJECT_GARUDA_MASTER.md](../../PROJECT_GARUDA_MASTER.md)

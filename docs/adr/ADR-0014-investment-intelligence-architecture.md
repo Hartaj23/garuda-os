@@ -4,15 +4,19 @@
 | --- | --- |
 | ID | ADR-0014 |
 | Title | Investment Intelligence Architecture |
-| Status | **Draft v0.8 — Under Architectural Review** |
+| Status | **Approved v1.0** |
 | Date | 2026-07-09 |
 | Authority | [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence |
 | Evidence foundation | CEB Edition 1.0 (frozen & published `4dc5ff7`) |
 | Drafting authorization | [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md) (`04372fa`) |
+| Founder approval | [ADR-0014-FOUNDER-APPROVAL.md](../governance/ADR-0014-FOUNDER-APPROVAL.md) |
+| Architectural audit | [ADR-0014-ARCHITECTURAL-AUDIT.md](../governance/ADR-0014-ARCHITECTURAL-AUDIT.md) — **PASS** |
 | Architecture class | Domain Architecture |
 | Depends on | GAR-0021 v1.0; CEB Edition 1.0; Garuda OS constitutional stack (Book One) |
 | Supersedes | None |
 | Implementation authority | **None** |
+| Certification | Pending |
+| Freeze | Pending |
 
 ---
 
@@ -97,13 +101,13 @@ The architecture shall govern how Investment Intelligence responsibilities are s
 and related so that future implementations may operate within constitutional authority — without
 selecting technologies, defining packages as engineering deliverables, or authorizing sprints.
 
-Draft v0.8 establishes architectural principles, enduring responsibilities, a conceptual
+Approved v1.0 establishes architectural principles, enduring responsibilities, a conceptual
 responsibility flow, responsibility allocation principles, Architectural Domains (Article I), the
 Architectural Interaction Model (Article II), Constitutional Governance Architecture
 (Article III), the Canonical Investment Intelligence Lifecycle (Article IV), the Architectural
 Boundary Model (Article V), and Architectural Conformance and Certification (Article VI).
 Implementation components, interfaces, data schemas, runtime contracts, deployment structures, and
-technology selections are **not** established in this version.
+technology selections are **not** established by this ADR.
 
 ---
 
@@ -1928,7 +1932,7 @@ Those belong to later implementation phases after appropriate constitutional aut
 
 ## Non-Authorization
 
-ADR-0014 Draft v0.8 does **not** authorize:
+ADR-0014 Approved v1.0 does **not** authorize:
 
 - Engineering
 - Sprint drafting
@@ -1942,22 +1946,28 @@ ADR-0014 Draft v0.8 does **not** authorize:
 
 These remain subject to future governance.
 
+Founder approval establishes architectural authority only. Certification, freeze, publication, and
+GAR-SPRINT-0013 each require separate Founder decisions.
+
 ---
 
-## Draft Status
+## Approval Status
 
-This document defines architectural principles, enduring responsibilities, Architectural Domains,
-the Architectural Interaction Model, Constitutional Governance Architecture, the Canonical
-Investment Intelligence Lifecycle, the Architectural Boundary Model, and Architectural Conformance
-and Certification only.
+This document is the **Approved v1.0** architectural baseline for Investment Intelligence.
+
+It defines architectural principles, enduring responsibilities, Architectural Domains, the
+Architectural Interaction Model, Constitutional Governance Architecture, the Canonical Investment
+Intelligence Lifecycle, the Architectural Boundary Model, and Architectural Conformance and
+Certification.
 
 No implementation components, interfaces, data schemas, runtime contracts, deployment structures,
-or technology selections are established in this version.
+or technology selections are established by this ADR.
 
-Those remain subject to subsequent architectural review and Founder approval.
+Approval does **not** by itself authorize GAR-SPRINT-0013 or engineering. Sprint and engineering
+require separate Founder gates.
 
-Approval of a later ADR-0014 version shall **not** by itself authorize GAR-SPRINT-0013 or
-engineering. Sprint and engineering require separate Founder gates (Gate D authority boundary).
+Recommended next sequence: Certification → Freeze → Publication → Founder decision on
+GAR-SPRINT-0013 authorization.
 
 ---
 
@@ -1968,7 +1978,7 @@ and certifications SHALL conform to:
 
 - [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence
 - CEB Edition 1.0 — evidentiary foundation
-- This ADR (upon Founder approval of a completed version)
+- This ADR (Approved v1.0)
 - Book One GAR Constitutions and Foundations as applicable to platform inheritance
 
 ---
@@ -1976,7 +1986,8 @@ and certifications SHALL conform to:
 ## Related Documents
 
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
-- [ADR-0014-ARCHITECTURAL-AUDIT.md](../governance/ADR-0014-ARCHITECTURAL-AUDIT.md) — Founder Review Draft
+- [ADR-0014-ARCHITECTURAL-AUDIT.md](../governance/ADR-0014-ARCHITECTURAL-AUDIT.md) — **PASS**
+- [ADR-0014-FOUNDER-APPROVAL.md](../governance/ADR-0014-FOUNDER-APPROVAL.md)
 - [GAR-0021-FOUNDER-RATIFICATION.md](../governance/GAR-0021-FOUNDER-RATIFICATION.md)
 - [GAR-0021-FREEZE.md](../governance/GAR-0021-FREEZE.md)
 - [../constitutional-evidence-base/CEB-FREEZE.md](../constitutional-evidence-base/CEB-FREEZE.md)
@@ -1984,4 +1995,4 @@ and certifications SHALL conform to:
 
 ---
 
-End of ADR-0014 Draft v0.8
+End of ADR-0014 Approved v1.0
