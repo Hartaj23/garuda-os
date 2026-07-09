@@ -2,8 +2,9 @@
 
 | Field | Value |
 | --- | --- |
-| Document status | **Founder Review Draft** |
-| Applies to | [GAR-SPRINT-0013](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Investment Intelligence Foundation (**Draft v0.8**) |
+| Document status | **Complete — PASS** |
+| Applies to | [GAR-SPRINT-0013](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Investment Intelligence Foundation (Draft v0.8 → **Approved v1.0**) |
+| Approval record | [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Architectural authority | [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) v1.0 |
 | Evidence foundation | CEB Edition 1.0 |
@@ -49,7 +50,7 @@ architecture.
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -69,7 +70,7 @@ Confirm that GAR-0021 remains the governing authority for every engineering acti
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -104,7 +105,7 @@ Each mission possesses:
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -130,7 +131,7 @@ The sprint introduces no mandatory:
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -153,7 +154,7 @@ Every engineering artifact can be traced to:
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -178,7 +179,7 @@ Testing strategy includes:
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -199,7 +200,7 @@ Confirm that implementation planning does not introduce architectural drift.
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -221,7 +222,7 @@ additional architectural invention.
 
 #### Finding
 
-_Awaiting Founder determination._
+**PASS**
 
 ---
 
@@ -238,8 +239,9 @@ The outcome shall be based upon the totality of the evidence rather than any ind
 
 | Field | Value |
 | --- | --- |
-| Overall audit status | **Pending Founder determination** |
-| Outcome | _Not yet recorded_ |
+| Overall audit status | **PASS** |
+| Outcome | Sprint is ready for approval |
+| Recorded by | Founder Approval — [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
 
 ---
 
@@ -285,11 +287,12 @@ reinterpretation.
 
 ## Authority Constraint
 
-This document is a Founder Review Draft of the audit instrument and pending findings.
+This audit is complete with overall outcome **PASS**.
 
-It does **not** by itself:
+Approval is recorded separately in [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md).
 
-- approve GAR-SPRINT-0013
+This audit does **not** by itself:
+
 - certify GAR-SPRINT-0013
 - freeze GAR-SPRINT-0013
 - authorize engineering implementation
@@ -299,6 +302,7 @@ It does **not** by itself:
 ## Related Documents
 
 - [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md)
+- [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md)
 - [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
 - [ADR-0014-ARCHITECTURAL-AUDIT.md](ADR-0014-ARCHITECTURAL-AUDIT.md)

@@ -4,14 +4,19 @@
 | --- | --- |
 | ID | GAR-SPRINT-0013 |
 | Name | Investment Intelligence Foundation |
-| Status | **Draft v0.8 — Under Founder Review** |
+| Status | **Approved v1.0** (Pending Certification) |
 | Authority | Derived from [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) v1.0 |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Evidence foundation | Constitutional Evidence Base Edition 1.0 |
 | Drafting authorization | [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md) (`b991056`) |
+| Founder approval | [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](../governance/GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
+| Sprint audit | [GAR-SPRINT-0013-SPRINT-AUDIT.md](../governance/GAR-SPRINT-0013-SPRINT-AUDIT.md) — **PASS** |
 | Depends on | GAR-0021 v1.0; ADR-0014 v1.0; CEB Edition 1.0; Book One foundations as inherited platform |
 | Implementation authority | **None** |
 | Drafted | 2026-07-09 |
+| Approved | 2026-07-09 |
+| Certification | Pending |
+| Freeze | Pending |
 
 ---
 
@@ -1838,24 +1843,27 @@ Architectural fidelity is the primary success criterion.
 
 ---
 
-## Draft Status
+## Approval Status
 
-This document establishes the engineering mission only.
+This document is the **Approved v1.0** engineering specification for the Investment Intelligence
+Foundation.
 
-Detailed implementation tasks, acceptance criteria, package layouts, and coding work remain subject
-to subsequent sprint refinement and Founder approval.
+Missions Alpha through Golf are fully specified. Detailed package layouts and coding work remain
+subject to certification, freeze, publication, and separate Mission Alpha implementation
+authorization.
 
-This Draft v0.8 does **not** authorize:
+This Approved v1.0 does **not** authorize:
 
-- sprint approval
+- Mission Alpha implementation
 - engineering implementation
 - production code
-- Mission Alpha–Golf execution
+- repository modification
+- package creation
 
-Each requires separate Founder decisions after sprint refinement and approval.
+Founder approval establishes the engineering specification only. Certification, freeze,
+publication, and Mission Alpha implementation each require separate Founder decisions.
 
-Draft v0.8 specifies Missions Alpha through Golf in full. The sprint specification is complete for
-Founder review and Mission Golf certification evaluation. Implementation remains unauthorized.
+Missions Alpha through Golf are fully specified. Implementation remains unauthorized.
 
 ---
 
@@ -1871,10 +1879,10 @@ GAR-0021 v1.0
 ADR-0014 v1.0
         │
         ▼
-GAR-SPRINT-0013 (this draft — planning only)
+GAR-SPRINT-0013 Approved v1.0
         │
         ▼
-Implementation (not authorized)
+Mission Alpha Implementation (not authorized)
 ```
 
 ---
@@ -1882,11 +1890,12 @@ Implementation (not authorized)
 ## Related Documents
 
 - [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
-- [GAR-SPRINT-0013-SPRINT-AUDIT.md](../governance/GAR-SPRINT-0013-SPRINT-AUDIT.md) — Founder Review Draft
+- [GAR-SPRINT-0013-SPRINT-AUDIT.md](../governance/GAR-SPRINT-0013-SPRINT-AUDIT.md) — **PASS**
+- [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](../governance/GAR-SPRINT-0013-FOUNDER-APPROVAL.md)
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
 - [ADR-0014-PUBLICATION.md](../governance/ADR-0014-PUBLICATION.md)
 - [GAR-0021.md](../../GAR-0021.md)
 
 ---
 
-**End of GAR-SPRINT-0013 Draft v0.8**
+**End of GAR-SPRINT-0013 Approved v1.0**

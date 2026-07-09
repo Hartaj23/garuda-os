@@ -130,8 +130,9 @@ Intelligence domain.
 | Certification | **PASS** |
 | Freeze | **Effective** |
 | Publication | **Effective upon this record and repository push** |
-| GAR-SPRINT-0013 drafting | **Authorized** — [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md) |
-| GAR-SPRINT-0013 approval / engineering | **Not authorized** |
+| GAR-SPRINT-0013 drafting | **Complete** |
+| GAR-SPRINT-0013 approval | **Complete** — [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
+| GAR-SPRINT-0013 engineering | **Not authorized** |
 
 ---
 

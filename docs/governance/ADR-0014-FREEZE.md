@@ -166,9 +166,11 @@ Evidence
 Architecture
         ✅
 Sprint Drafting
-        ✅ Authorized
+        ✅ Complete
 Sprint Approval
-        ⏸ Not Authorized
+        ✅ Complete
+Sprint Certification / Freeze / Publication
+        ⏸ Pending
 Engineering
         ⏸ Not Authorized
 ```
@@ -180,8 +182,9 @@ Engineering
 | Certification | **PASS** |
 | Freeze | **Effective upon this record** |
 | Publication | **Effective** — [ADR-0014-PUBLICATION.md](ADR-0014-PUBLICATION.md) |
-| GAR-SPRINT-0013 drafting | **Authorized** — [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md) |
-| GAR-SPRINT-0013 approval / engineering | **Not authorized** |
+| GAR-SPRINT-0013 drafting | **Complete** |
+| GAR-SPRINT-0013 approval | **Complete** — [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
+| GAR-SPRINT-0013 engineering | **Not authorized** |
 
 ---
 

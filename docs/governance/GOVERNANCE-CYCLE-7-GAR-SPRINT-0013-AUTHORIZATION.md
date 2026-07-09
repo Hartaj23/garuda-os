@@ -173,9 +173,9 @@ The draft sprint shall include:
 | Action | Status |
 | --- | --- |
 | GAR-SPRINT-0013 drafting (Chief Systems Architect) | **Authorized** (upon acceptance of this record) |
-| GAR-SPRINT-0013 Draft v0.8 | [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Under Founder Review |
-| Institutional HOLD | **Suspended only for GAR-SPRINT-0013 drafting** — all other engineering remains on HOLD |
-| GAR-SPRINT-0013 Founder approval | **Not authorized** — awaits completed draft and separate review |
+| GAR-SPRINT-0013 Draft v0.8 | Elevated to Approved v1.0 |
+| GAR-SPRINT-0013 Founder approval | **Complete** — [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
+| Institutional HOLD | **Suspended only for GAR-SPRINT-0013 governance completion** — engineering remains on HOLD |
 | Engineering / production code | **Not authorized** |
 | Amendment of GAR-0021 v1.0, ADR-0014 v1.0, or CEB Edition 1.0 | **Not authorized** |
 | Governance Cycle 7 closure | **Not authorized** by this record |
@@ -211,17 +211,19 @@ Each stage requires explicit approval before progressing.
 
 ## Founder Decision
 
-The Founder authorizes the drafting of **GAR-SPRINT-0013 — Investment Intelligence Foundation**.
+The Founder authorized the drafting of **GAR-SPRINT-0013 — Investment Intelligence Foundation**.
 
-This authorization permits sprint specification drafting only.
+Sprint approval is recorded separately in
+[GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md).
 
 No engineering implementation is authorized by this record.
 
 | Declaration | Status |
 | --- | --- |
 | ADR-0014 v1.0 published | **Complete** (`611bb86`) |
-| Sprint drafting | **Authorized** |
-| Sprint approval | **Pending** |
+| Sprint drafting | **Complete** |
+| Sprint approval | **Complete** — Approved v1.0 |
+| Certification / freeze / publication | **Pending** |
 | Engineering | **Not authorized** |
 
 ---
@@ -233,8 +235,9 @@ No engineering implementation is authorized by this record.
 - [ADR-0014-FREEZE.md](ADR-0014-FREEZE.md)
 - [GAR-0021.md](../../GAR-0021.md)
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
-- [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Draft v0.8
-- [GAR-SPRINT-0013-SPRINT-AUDIT.md](GAR-SPRINT-0013-SPRINT-AUDIT.md) — Founder Review Draft
+- [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Approved v1.0
+- [GAR-SPRINT-0013-SPRINT-AUDIT.md](GAR-SPRINT-0013-SPRINT-AUDIT.md) — **PASS**
+- [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md)
 
 ---
 

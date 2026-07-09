@@ -155,8 +155,9 @@ Implementation authority remains withheld.
 | Certification | **PASS** — [ADR-0014-CERTIFICATION.md](ADR-0014-CERTIFICATION.md) |
 | Freeze | **Effective** — [ADR-0014-FREEZE.md](ADR-0014-FREEZE.md) |
 | Publication | **Effective** — [ADR-0014-PUBLICATION.md](ADR-0014-PUBLICATION.md) |
-| GAR-SPRINT-0013 drafting | **Authorized** — [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md) |
-| GAR-SPRINT-0013 approval / engineering | **Not authorized** |
+| GAR-SPRINT-0013 drafting | **Complete** |
+| GAR-SPRINT-0013 approval | **Complete** — [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
+| GAR-SPRINT-0013 engineering | **Not authorized** |
 
 ---
 
