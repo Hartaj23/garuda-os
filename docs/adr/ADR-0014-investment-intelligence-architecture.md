@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | ADR-0014 |
 | Title | Investment Intelligence Architecture |
-| Status | **Draft v0.1 — Under Architectural Review** |
+| Status | **Draft v0.2 — Under Architectural Review** |
 | Date | 2026-07-09 |
 | Authority | [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence |
 | Evidence foundation | CEB Edition 1.0 (frozen & published `4dc5ff7`) |
@@ -59,7 +59,7 @@ Accordingly:
 - GAR Constitutions remain the supreme architectural authority
 - GAR-0021 governs Investment Intelligence
 - ADR-0014 translates GAR-0021 into architecture
-- Future implementation shall derive from ADR-0014 (once approved)
+- Future implementation shall derive from ADR-0014
 - Future engineering shall derive from approved sprint specifications
 
 Authority shall always flow downward.
@@ -76,7 +76,7 @@ The architecture assumes:
 1. Investment Intelligence operates under uncertainty
 2. Evidence precedes reasoning
 3. Reasoning precedes judgment
-4. Judgment precedes commitment or Refusal
+4. Judgment precedes commitment or refusal
 5. Human authority is constitutionally superior to system recommendation
 6. Every recommendation must remain constitutionally explainable
 7. Refusal is a valid architectural outcome
@@ -97,8 +97,10 @@ The architecture shall govern how Investment Intelligence responsibilities are s
 and related so that future implementations may operate within constitutional authority — without
 selecting technologies, defining packages as engineering deliverables, or authorizing sprints.
 
-This ADR records architectural principles only. Component inventories, interfaces, flows, and
-deployment structures are **not** established in Draft v0.1.
+Draft v0.2 establishes architectural principles, enduring responsibilities, a conceptual
+responsibility flow, and responsibility allocation principles. Implementation components,
+interfaces, data schemas, runtime contracts, deployment structures, and technology selections are
+**not** established in this version.
 
 ---
 
@@ -126,7 +128,7 @@ Architectural boundaries shall never permit evidence corruption without detectio
 
 ### Principle C — Separation of Responsibilities
 
-Acquisition, validation, reasoning, judgment, explanation, Refusal, and interaction shall remain
+Acquisition, validation, reasoning, judgment, explanation, refusal, and interaction shall remain
 architecturally separable responsibilities.
 
 Architectural coupling shall be minimized.
@@ -189,9 +191,281 @@ Architectural responsibilities shall remain stable unless amended through consti
 
 ---
 
+## Architectural Responsibilities
+
+Investment Intelligence architecture is defined first by enduring responsibilities, not by
+implementation components.
+
+A responsibility is a constitutionally necessary function that future implementations must satisfy.
+
+Components may change.
+Technologies may change.
+Deployment models may change.
+
+Architectural responsibilities remain stable unless amended through governance.
+
+---
+
+### Responsibility 1 — Evidence Acquisition
+
+The architecture shall provide a responsibility for acquiring observations from external or
+internal sources without prematurely converting them into conclusions.
+
+Evidence Acquisition does not decide.
+Evidence Acquisition does not judge.
+Evidence Acquisition does not recommend.
+
+Its purpose is to collect candidate information while preserving source identity, acquisition
+context, and lineage.
+
+---
+
+### Responsibility 2 — Evidence Validation
+
+The architecture shall provide a responsibility for evaluating acquired information before it is
+admitted as evidence.
+
+Evidence Validation shall assess reliability, relevance, completeness, freshness, provenance, and
+integrity.
+
+Information that fails validation shall not be silently promoted into evidence.
+
+Where validation is insufficient, the architecture shall preserve uncertainty or trigger
+constitutional refusal.
+
+---
+
+### Responsibility 3 — Knowledge Organization
+
+The architecture shall provide a responsibility for organizing validated evidence into structured
+knowledge without severing lineage.
+
+Knowledge Organization shall preserve the distinction between information, evidence, knowledge,
+judgment, decision, and refusal.
+
+Knowledge Organization does not eliminate uncertainty.
+It makes uncertainty usable for later judgment.
+
+---
+
+### Responsibility 4 — Context Integration
+
+The architecture shall provide a responsibility for integrating decision context.
+
+Context may include human objectives, constraints, time horizon, risk tolerance, liquidity needs,
+capital availability, locale, tax/regulatory context, portfolio exposure, and prior commitments.
+
+Where material context is missing, the architecture shall not fabricate it.
+
+It shall either proceed with explicit limitation or trigger constitutional refusal.
+
+---
+
+### Responsibility 5 — Judgment Formation
+
+The architecture shall provide a responsibility for forming justified judgments under uncertainty.
+
+Judgment Formation shall weigh supporting evidence, contradictory evidence, assumptions,
+limitations, asymmetries, costs, incentives, and relevant tensions.
+
+Judgment Formation shall not collapse uncertainty into false certainty.
+
+---
+
+### Responsibility 6 — Constitutional Compliance
+
+The architecture shall provide a responsibility for enforcing GAR-0021.
+
+Constitutional Compliance shall evaluate whether reasoning, judgment, recommendation, explanation,
+or refusal conforms to the constitutional Principles, Distinctions, and Tensions.
+
+No advice or commitment may bypass Constitutional Compliance.
+
+---
+
+### Responsibility 7 — Decision Formation
+
+The architecture shall provide a responsibility for forming an output decision state.
+
+A decision state may include:
+
+- recommendation
+- non-recommendation
+- conditional recommendation
+- request for additional context
+- refusal
+
+Decision Formation shall not treat recommendation as the only successful outcome.
+
+---
+
+### Responsibility 8 — Refusal Formation
+
+The architecture shall provide a responsibility for forming constitutional refusal.
+
+Refusal Formation shall activate when the architecture cannot satisfy constitutional obligations
+such as evidence integrity, objective clarity, sufficient context, justified confidence, or
+explainability.
+
+Refusal shall be treated as a valid architectural output, not as system failure.
+
+---
+
+### Responsibility 9 — Explainability
+
+The architecture shall provide a responsibility for generating justificatory explanations.
+
+Explainability shall expose the reasoning path appropriate to the output decision state.
+
+Explainability shall distinguish between:
+
+- evidence
+- assumptions
+- uncertainty
+- judgment
+- limitation
+- recommendation
+- refusal
+
+A soothing narrative shall not substitute for justification.
+
+---
+
+### Responsibility 10 — Traceability
+
+The architecture shall provide a responsibility for maintaining lineage from constitutional
+authority to architectural responsibility, evidence source, reasoning path, decision state, and
+explanation.
+
+Traceability shall make it possible to audit how an output was formed.
+
+Traceability is not optional documentation.
+It is an architectural obligation.
+
+---
+
+### Responsibility 11 — Learning Governance
+
+The architecture shall provide a responsibility for governing learning and adaptation.
+
+Learning may improve knowledge, models, heuristics, or system behavior.
+
+Learning shall not silently alter constitutional obligations, architectural boundaries, or
+authority chains.
+
+Learning outcomes remain subordinate to GAR-0021 and approved architecture.
+
+---
+
+## High-Level Responsibility Flow
+
+ADR-0014 establishes the following conceptual responsibility flow:
+
+```text
+External / Internal Inputs
+        |
+        v
+Evidence Acquisition
+        |
+        v
+Evidence Validation
+        |
+        v
+Knowledge Organization
+        |
+        v
+Context Integration
+        |
+        v
+Judgment Formation
+        |
+        v
+Constitutional Compliance
+        |
+        v
+Decision Formation
+        |
+        +-------------------+
+        |                   |
+        v                   v
+Recommendation        Constitutional Refusal
+        |                   |
+        +---------+---------+
+                  |
+                  v
+Explainability
+                  |
+                  v
+Traceability
+```
+
+This flow is conceptual.
+
+It does not prescribe implementation order, runtime topology, programming model, service
+boundaries, or deployment structure.
+
+---
+
+## Responsibility Allocation Principles
+
+### Allocation Principle 1 — Responsibilities Precede Components
+
+Future implementation components shall be justified by the responsibilities they satisfy.
+
+No component shall be introduced merely because it is conventional, fashionable, or technically
+convenient.
+
+---
+
+### Allocation Principle 2 — Constitutional Responsibilities May Be Distributed
+
+A single responsibility may be fulfilled by multiple components.
+
+A single component may contribute to multiple responsibilities.
+
+However, no responsibility may disappear because of implementation convenience.
+
+---
+
+### Allocation Principle 3 — Compliance Cannot Be Optional
+
+Constitutional Compliance shall not be implemented as a bypassable advisory layer.
+
+Every decision state must be subject to constitutional evaluation.
+
+---
+
+### Allocation Principle 4 — Refusal Must Be Reachable
+
+Architecture shall ensure that refusal is reachable wherever constitutional obligations cannot be
+satisfied.
+
+A system that can only recommend is constitutionally incomplete.
+
+---
+
+### Allocation Principle 5 — Explainability Must Be Preserved Across Boundaries
+
+Architectural boundaries shall not destroy the reasoning path required for justificatory
+explainability.
+
+If reasoning cannot be explained, the architecture must preserve that limitation rather than
+conceal it.
+
+---
+
+### Allocation Principle 6 — Traceability Must Survive Substitution
+
+Future replacement of models, data sources, tools, services, or interfaces shall not eliminate
+traceability.
+
+Replaceable implementation is permitted only where constitutional lineage remains intact.
+
+---
+
 ## Non-Authorization
 
-ADR-0014 Draft v0.1 does **not** authorize:
+ADR-0014 Draft v0.2 does **not** authorize:
 
 - Engineering
 - Sprint drafting
@@ -209,10 +483,10 @@ These remain subject to future governance.
 
 ## Draft Status
 
-This document defines the architectural foundation only.
+This document defines architectural principles and enduring responsibilities only.
 
-No architectural components, interfaces, flows, or deployment structures are established in this
-version.
+No implementation components, interfaces, data schemas, runtime contracts, deployment structures,
+or technology selections are established in this version.
 
 Those remain subject to subsequent architectural review and Founder approval.
 
@@ -243,4 +517,4 @@ and certifications SHALL conform to:
 
 ---
 
-End of ADR-0014 Draft v0.1
+End of ADR-0014 Draft v0.2
