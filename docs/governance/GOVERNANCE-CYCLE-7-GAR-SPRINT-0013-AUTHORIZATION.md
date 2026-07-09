@@ -173,7 +173,7 @@ The draft sprint shall include:
 | Action | Status |
 | --- | --- |
 | GAR-SPRINT-0013 drafting (Chief Systems Architect) | **Authorized** (upon acceptance of this record) |
-| GAR-SPRINT-0013 Draft v0.4 | [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Under Founder Review |
+| GAR-SPRINT-0013 Draft v0.5 | [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Under Founder Review |
 | Institutional HOLD | **Suspended only for GAR-SPRINT-0013 drafting** — all other engineering remains on HOLD |
 | GAR-SPRINT-0013 Founder approval | **Not authorized** — awaits completed draft and separate review |
 | Engineering / production code | **Not authorized** |
@@ -233,7 +233,7 @@ No engineering implementation is authorized by this record.
 - [ADR-0014-FREEZE.md](ADR-0014-FREEZE.md)
 - [GAR-0021.md](../../GAR-0021.md)
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
-- [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Draft v0.4
+- [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md) — Draft v0.5
 
 ---
 

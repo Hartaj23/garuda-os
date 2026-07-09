@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | GAR-SPRINT-0013 |
 | Name | Investment Intelligence Foundation |
-| Status | **Draft v0.4 — Under Founder Review** |
+| Status | **Draft v0.5 — Under Founder Review** |
 | Authority | Derived from [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) v1.0 |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Evidence foundation | Constitutional Evidence Base Edition 1.0 |
@@ -95,15 +95,11 @@ The sprint shall be executed through the following missions.
 | --- | --- | --- |
 | Alpha | Engineering Foundation | Specified (Draft v0.2) |
 | Bravo | Canonical Domain Contracts | Specified (Draft v0.3) |
-| Charlie | Canonical Domain Models | **Specified below (Draft v0.4)** |
-| Delta | Engineering Validation | Summary only — pending refinement |
+| Charlie | Canonical Domain Models | Specified (Draft v0.4) |
+| Delta | Engineering Validation | **Specified below (Draft v0.5)** |
 | Echo | Testing Framework | Summary only — pending refinement |
 | Foxtrot | Documentation | Summary only — pending refinement |
 | Golf | Certification | Summary only — pending refinement |
-
-### Mission Delta — Engineering Validation
-
-Implement validation rules ensuring architectural invariants are preserved.
 
 ### Mission Echo — Testing Framework
 
@@ -963,6 +959,229 @@ providing a stable engineering foundation for future implementation.
 
 ---
 
+## Mission Delta — Engineering Validation
+
+### Mission Purpose
+
+Mission Delta establishes the engineering validation framework for the Investment Intelligence
+domain.
+
+Its purpose is to define the engineering invariants that every implementation shall satisfy before
+it may be certified.
+
+Engineering Validation verifies architectural fidelity.
+
+It does not evaluate investment performance.
+
+---
+
+### Mission Objectives
+
+Mission Delta shall:
+
+1. Define engineering invariants
+2. Define engineering validation rules
+3. Define responsibility coverage
+4. Define dependency validation
+5. Define architectural integrity verification
+6. Define implementation readiness criteria
+
+---
+
+### Validation Philosophy
+
+Engineering Validation answers one question:
+
+> **Does this implementation faithfully realize ADR-0014?**
+
+Validation is therefore constitutional before it is technical.
+
+Correct software that violates constitutional authority shall fail validation.
+
+---
+
+### Engineering Invariants
+
+Every implementation shall preserve the following invariants.
+
+---
+
+#### Invariant A — Constitutional Authority
+
+Every implementation artifact shall be traceable to:
+
+- GAR Constitutional Authority
+- GAR-0021
+- ADR-0014
+- GAR-SPRINT-0013
+
+Implementation shall never redefine authority.
+
+---
+
+#### Invariant B — Evidence Integrity
+
+No implementation shall permit evidence corruption without explicit detection.
+
+Evidence lineage shall remain recoverable.
+
+---
+
+#### Invariant C — Responsibility Preservation
+
+Every architectural responsibility shall exist within the implementation.
+
+No responsibility may disappear because of implementation convenience.
+
+---
+
+#### Invariant D — Domain Integrity
+
+Canonical domain models shall remain semantically intact.
+
+Implementation representations may differ.
+
+Meaning shall not.
+
+---
+
+#### Invariant E — Constitutional Refusal
+
+Every implementation shall preserve constitutional refusal.
+
+Recommendation shall never become mandatory.
+
+---
+
+#### Invariant F — Explainability
+
+Every recommendation and refusal shall remain justifiable.
+
+Explainability shall remain recoverable.
+
+---
+
+#### Invariant G — Traceability
+
+Implementation shall preserve complete lineage from evidence through decision.
+
+---
+
+#### Invariant H — Replaceability
+
+Implementation details may evolve without weakening constitutional or architectural authority.
+
+---
+
+### Validation Categories
+
+Implementations shall be validated across the following categories.
+
+#### Category 1 — Constitutional Conformance
+
+#### Category 2 — Architectural Conformance
+
+#### Category 3 — Responsibility Coverage
+
+#### Category 4 — Domain Integrity
+
+#### Category 5 — Interaction Integrity
+
+#### Category 6 — Lifecycle Preservation
+
+#### Category 7 — Boundary Integrity
+
+#### Category 8 — Traceability
+
+#### Category 9 — Explainability
+
+#### Category 10 — Refusal Capability
+
+---
+
+### Engineering Validation Gates
+
+Every implementation shall pass:
+
+#### Gate A — Structure Validation
+
+#### Gate B — Responsibility Validation
+
+#### Gate C — Dependency Validation
+
+#### Gate D — Behaviour Validation
+
+#### Gate E — Architectural Conformance
+
+#### Gate F — Certification Readiness
+
+---
+
+### Failure Conditions
+
+Examples include:
+
+- architectural bypass
+- hidden dependencies
+- loss of traceability
+- evidence corruption
+- explainability loss
+- unconstitutional recommendation
+- eliminated refusal
+- broken authority chain
+- semantic drift of canonical models
+
+Any failure shall require engineering correction before certification.
+
+---
+
+### Acceptance Criteria
+
+Mission Delta is accepted when:
+
+- engineering invariants are documented
+- validation gates are defined
+- conformance categories are complete
+- failure conditions are identified
+- certification inputs are established
+
+---
+
+### Certification Criteria
+
+Mission Delta passes certification when the validation framework can objectively determine whether
+a future implementation conforms to:
+
+- GAR-0021
+- ADR-0014
+- GAR-SPRINT-0013
+
+---
+
+### Explicit Out of Scope
+
+Mission Delta shall not implement:
+
+- automated tests
+- CI pipelines
+- runtime validation
+- production monitoring
+- deployment validation
+
+These belong to later implementation missions.
+
+---
+
+### Mission Completion
+
+Mission Delta is complete when every future engineering implementation possesses a clear,
+objective, repeatable validation framework capable of demonstrating architectural fidelity before
+certification.
+
+**End of Mission Delta — Engineering Validation**
+
+---
+
 ## Explicit Out of Scope
 
 This sprint shall not implement:
@@ -1008,7 +1227,7 @@ This document establishes the engineering mission only.
 Detailed implementation tasks, acceptance criteria, package layouts, and coding work remain subject
 to subsequent sprint refinement and Founder approval.
 
-This Draft v0.4 does **not** authorize:
+This Draft v0.5 does **not** authorize:
 
 - sprint approval
 - engineering implementation
@@ -1017,8 +1236,8 @@ This Draft v0.4 does **not** authorize:
 
 Each requires separate Founder decisions after sprint refinement and approval.
 
-Draft v0.4 specifies Missions Alpha, Bravo, and Charlie in full. Missions Delta–Golf remain
-summary-level pending subsequent refinement.
+Draft v0.5 specifies Missions Alpha through Delta in full. Missions Echo–Golf remain summary-level
+pending subsequent refinement.
 
 ---
 
@@ -1051,4 +1270,4 @@ Implementation (not authorized)
 
 ---
 
-**End of GAR-SPRINT-0013 Draft v0.4**
+**End of GAR-SPRINT-0013 Draft v0.5**
