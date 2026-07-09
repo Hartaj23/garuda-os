@@ -172,7 +172,9 @@ Architecture
         ✅
 Sprint
         ✅
-Engineering
+Mission Alpha
+        ✅ Authorized
+Missions Bravo–Golf
         ⏸ Not Authorized
 ```
 
@@ -183,8 +185,8 @@ Engineering
 | Certification | **PASS** |
 | Freeze | **Effective upon this record** |
 | Publication | **Effective** — [GAR-SPRINT-0013-PUBLICATION.md](GAR-SPRINT-0013-PUBLICATION.md) |
-| Mission Alpha implementation | **Not authorized** |
-| Engineering | **Not authorized** |
+| Mission Alpha implementation | **Authorized** — [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md) |
+| Missions Bravo–Golf / other engineering | **Not authorized** |
 
 ---
 

@@ -134,8 +134,8 @@ No further planning artifacts are required before implementation authorization.
 | Certification | **PASS** |
 | Freeze | **Effective** |
 | Publication | **Effective upon this record and repository push** |
-| Mission Alpha implementation | **Not authorized** |
-| Engineering | **Not authorized** |
+| Mission Alpha implementation | **Authorized** — [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md) |
+| Missions Bravo–Golf / other engineering | **Not authorized** |
 
 ---
 
@@ -178,15 +178,11 @@ Each requires a separate Founder decision.
 
 ## Next Governance Question
 
-With publication complete, the remaining Founder question is singular:
-
-> **Should Governance Cycle 7 authorize the implementation of Mission Alpha — Engineering
-> Foundation?**
-
-Mission Alpha shall be the first implementation mission.
+Mission Alpha implementation is authorized by
+[GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md).
 
 No subsequent mission shall begin until Mission Alpha has been implemented, tested, certified, and
-accepted.
+accepted. Mission Bravo requires a separate Founder decision.
 
 ---
 
@@ -211,6 +207,7 @@ implementation.
 - [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md)
 - [GAR-SPRINT-0013-SPRINT-AUDIT.md](GAR-SPRINT-0013-SPRINT-AUDIT.md)
 - [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
+- [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md)
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
 - [GAR-0021.md](../../GAR-0021.md)
 

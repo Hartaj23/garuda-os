@@ -46,8 +46,10 @@ Approved sprint documents.
   — [GAR-SPRINT-0013-CERTIFICATION.md](../governance/GAR-SPRINT-0013-CERTIFICATION.md) — **PASS**
   — [GAR-SPRINT-0013-FREEZE.md](../governance/GAR-SPRINT-0013-FREEZE.md)
   — [GAR-SPRINT-0013-PUBLICATION.md](../governance/GAR-SPRINT-0013-PUBLICATION.md)
+  — [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md) — **Mission Alpha only**
 
 ## AI Implementation Notes
 
 Only the approved sprint may be implemented. Do not prepare future sprint features.
 Sprint drafting authorization is not sprint approval and is not engineering authorization.
+Mission Alpha implementation is authorized; Missions Bravo–Golf are not.

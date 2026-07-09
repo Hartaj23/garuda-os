@@ -226,7 +226,8 @@ No engineering implementation is authorized by this record.
 | Certification | **PASS** — [GAR-SPRINT-0013-CERTIFICATION.md](GAR-SPRINT-0013-CERTIFICATION.md) |
 | Freeze | **Effective** — [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md) |
 | Publication | **Effective** — [GAR-SPRINT-0013-PUBLICATION.md](GAR-SPRINT-0013-PUBLICATION.md) |
-| Engineering | **Not authorized** |
+| Mission Alpha implementation | **Authorized** — [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md) |
+| Missions Bravo–Golf | **Not authorized** |
 
 ---
 
@@ -243,6 +244,7 @@ No engineering implementation is authorized by this record.
 - [GAR-SPRINT-0013-CERTIFICATION.md](GAR-SPRINT-0013-CERTIFICATION.md)
 - [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md)
 - [GAR-SPRINT-0013-PUBLICATION.md](GAR-SPRINT-0013-PUBLICATION.md)
+- [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md)
 
 ---
 

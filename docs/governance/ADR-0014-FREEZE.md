@@ -175,7 +175,9 @@ Sprint Freeze
         ✅ Frozen
 Sprint Publication
         ✅ Published
-Engineering
+Mission Alpha
+        ✅ Authorized
+Missions Bravo–Golf
         ⏸ Not Authorized
 ```
 
@@ -190,7 +192,8 @@ Engineering
 | GAR-SPRINT-0013 approval | **Complete** — [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
 | GAR-SPRINT-0013 freeze | **Effective** — [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md) |
 | GAR-SPRINT-0013 publication | **Effective** — [GAR-SPRINT-0013-PUBLICATION.md](GAR-SPRINT-0013-PUBLICATION.md) |
-| GAR-SPRINT-0013 engineering | **Not authorized** |
+| Mission Alpha implementation | **Authorized** — [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md) |
+| Missions Bravo–Golf | **Not authorized** |
 
 ---
 

@@ -15,7 +15,7 @@
 | Freeze | [GAR-SPRINT-0013-FREEZE.md](../governance/GAR-SPRINT-0013-FREEZE.md) |
 | Publication | [GAR-SPRINT-0013-PUBLICATION.md](../governance/GAR-SPRINT-0013-PUBLICATION.md) |
 | Depends on | GAR-0021 v1.0; ADR-0014 v1.0; CEB Edition 1.0; Book One foundations as inherited platform |
-| Implementation authority | **None** |
+| Implementation authority | **Mission Alpha only** — [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md) |
 | Drafted | 2026-07-09 |
 | Approved | 2026-07-09 |
 
@@ -1849,22 +1849,20 @@ Architectural fidelity is the primary success criterion.
 This document is the **Approved v1.0** engineering specification for the Investment Intelligence
 Foundation.
 
-Missions Alpha through Golf are fully specified. Detailed package layouts and coding work remain
-subject to certification, freeze, publication, and separate Mission Alpha implementation
-authorization.
+Missions Alpha through Golf are fully specified. Certification, freeze, and publication are
+complete. Mission Alpha implementation is authorized; detailed package layouts and coding for
+Mission Alpha may proceed under that gate.
 
-This Approved v1.0 does **not** authorize:
+This Approved v1.0, by itself, does **not** authorize Missions Bravo–Golf or any work beyond
+Mission Alpha.
 
-- Mission Alpha implementation
-- engineering implementation
-- production code
-- repository modification
-- package creation
+Mission Alpha implementation is authorized by
+[GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md).
 
-Founder approval, certification, freeze, and publication establish planning readiness only. Mission
-Alpha implementation requires a separate Founder decision.
+Still not authorized without separate Founder decisions:
 
-Missions Alpha through Golf are fully specified. Implementation remains unauthorized.
+- Missions Bravo–Golf
+- market data, brokers, AI recommendations, UI, infrastructure, deployment
 
 ---
 
@@ -1883,7 +1881,10 @@ ADR-0014 v1.0
 GAR-SPRINT-0013 Approved v1.0
         │
         ▼
-Mission Alpha Implementation (not authorized)
+Mission Alpha Implementation (authorized)
+        │
+        ▼
+Missions Bravo–Golf (not authorized)
 ```
 
 ---
@@ -1891,6 +1892,7 @@ Mission Alpha Implementation (not authorized)
 ## Related Documents
 
 - [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
+- [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md)
 - [GAR-SPRINT-0013-SPRINT-AUDIT.md](../governance/GAR-SPRINT-0013-SPRINT-AUDIT.md) — **PASS**
 - [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](../governance/GAR-SPRINT-0013-FOUNDER-APPROVAL.md)
 - [GAR-SPRINT-0013-CERTIFICATION.md](../governance/GAR-SPRINT-0013-CERTIFICATION.md) — **PASS**
