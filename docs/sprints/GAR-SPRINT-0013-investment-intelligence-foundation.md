@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | GAR-SPRINT-0013 |
 | Name | Investment Intelligence Foundation |
-| Status | **Draft v0.6 — Under Founder Review** |
+| Status | **Draft v0.7 — Under Founder Review** |
 | Authority | Derived from [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) v1.0 |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Evidence foundation | Constitutional Evidence Base Edition 1.0 |
@@ -97,14 +97,9 @@ The sprint shall be executed through the following missions.
 | Bravo | Canonical Domain Contracts | Specified (Draft v0.3) |
 | Charlie | Canonical Domain Models | Specified (Draft v0.4) |
 | Delta | Engineering Validation | Specified (Draft v0.5) |
-| Echo | Testing Framework | **Specified below (Draft v0.6)** |
-| Foxtrot | Documentation | Summary only — pending refinement |
+| Echo | Testing Framework | Specified (Draft v0.6) |
+| Foxtrot | Documentation and Knowledge Transfer | **Specified below (Draft v0.7)** |
 | Golf | Certification | Summary only — pending refinement |
-
-### Mission Foxtrot — Documentation
-
-Produce developer documentation describing package responsibilities, contracts, engineering
-assumptions, and extension guidance.
 
 ### Mission Golf — Certification
 
@@ -1399,6 +1394,213 @@ conformance across future implementations.
 
 ---
 
+## Mission Foxtrot — Documentation and Knowledge Transfer
+
+### Mission Purpose
+
+Mission Foxtrot establishes the documentation standards for the Investment Intelligence domain.
+
+Its purpose is to ensure that constitutional authority, architectural intent, engineering
+decisions, and implementation guidance remain understandable, auditable, and transferable
+throughout the lifecycle of the project.
+
+Documentation is a permanent engineering artifact.
+
+It is not an afterthought.
+
+---
+
+### Mission Objectives
+
+Mission Foxtrot shall:
+
+1. Define documentation standards
+2. Define documentation ownership
+3. Preserve constitutional traceability
+4. Preserve architectural intent
+5. Support future engineering teams
+6. Enable institutional continuity
+
+---
+
+### Documentation Philosophy
+
+Documentation exists to preserve institutional knowledge.
+
+Every significant engineering artifact shall answer:
+
+- Why does it exist?
+- Which constitutional authority justifies it?
+- Which architectural responsibility does it satisfy?
+- Which sprint mission created it?
+- How should it evolve without violating governance?
+
+Documentation shall explain purpose before implementation.
+
+---
+
+### Documentation Layers
+
+#### Layer 1 — Constitutional References
+
+Every major engineering artifact shall identify the relevant:
+
+- GAR Constitution(s)
+- GAR-0021 Articles
+- Constitutional Principles
+- Constitutional Distinctions
+- Constitutional Tensions
+
+---
+
+#### Layer 2 — Architectural References
+
+Documentation shall identify:
+
+- Architectural Responsibilities
+- Architectural Domains
+- Canonical Lifecycle stages
+- Boundary responsibilities
+- Architectural interactions
+
+---
+
+#### Layer 3 — Engineering References
+
+Documentation shall explain:
+
+- Package responsibility
+- Engineering contracts
+- Domain models
+- Dependencies
+- Validation expectations
+- Testing expectations
+
+---
+
+#### Layer 4 — Extension Guidance
+
+Documentation shall explain:
+
+- expected extension points
+- prohibited modifications
+- governance boundaries
+- compatibility expectations
+
+Future contributors shall understand how to extend the system without weakening constitutional
+authority.
+
+---
+
+### Documentation Principles
+
+#### Principle A
+
+Purpose before implementation.
+
+---
+
+#### Principle B
+
+Authority before convenience.
+
+---
+
+#### Principle C
+
+Traceability before abstraction.
+
+---
+
+#### Principle D
+
+Examples shall illustrate.
+
+They shall not redefine authority.
+
+---
+
+#### Principle E
+
+Documentation shall evolve with approved engineering changes.
+
+Documentation drift shall be treated as an engineering defect.
+
+---
+
+### Required Documentation
+
+Future implementation shall include documentation for:
+
+- package purpose
+- responsibility
+- contracts
+- canonical models
+- dependencies
+- architectural mapping
+- testing approach
+- extension guidance
+- certification considerations
+
+---
+
+### Documentation Quality Criteria
+
+Documentation shall be:
+
+- accurate
+- complete
+- current
+- implementation-aware
+- architecture-aligned
+- constitutionally traceable
+
+---
+
+### Acceptance Criteria
+
+Mission Foxtrot shall be accepted only when:
+
+- documentation standards are established
+- ownership expectations are defined
+- required documentation categories are complete
+- traceability guidance is documented
+- extension guidance is established
+
+---
+
+### Certification Criteria
+
+Mission Foxtrot passes certification when future engineering teams can understand, maintain, and
+extend the Investment Intelligence domain without requiring reinterpretation of constitutional or
+architectural authority.
+
+---
+
+### Explicit Out of Scope
+
+Mission Foxtrot shall not define:
+
+- user documentation
+- product marketing
+- deployment manuals
+- operational runbooks
+- infrastructure documentation
+
+These belong to future implementation and operational phases.
+
+---
+
+### Mission Completion
+
+Mission Foxtrot is complete when the Investment Intelligence domain possesses a documentation
+standard that preserves institutional knowledge, constitutional lineage, architectural intent, and
+engineering continuity across future generations of the project.
+
+**End of Mission Foxtrot — Documentation and Knowledge Transfer**
+
+---
+
 ## Explicit Out of Scope
 
 This sprint shall not implement:
@@ -1444,7 +1646,7 @@ This document establishes the engineering mission only.
 Detailed implementation tasks, acceptance criteria, package layouts, and coding work remain subject
 to subsequent sprint refinement and Founder approval.
 
-This Draft v0.6 does **not** authorize:
+This Draft v0.7 does **not** authorize:
 
 - sprint approval
 - engineering implementation
@@ -1453,8 +1655,8 @@ This Draft v0.6 does **not** authorize:
 
 Each requires separate Founder decisions after sprint refinement and approval.
 
-Draft v0.6 specifies Missions Alpha through Echo in full. Missions Foxtrot–Golf remain
-summary-level pending subsequent refinement.
+Draft v0.7 specifies Missions Alpha through Foxtrot in full. Mission Golf remains summary-level
+pending subsequent refinement.
 
 ---
 
@@ -1487,4 +1689,4 @@ Implementation (not authorized)
 
 ---
 
-**End of GAR-SPRINT-0013 Draft v0.6**
+**End of GAR-SPRINT-0013 Draft v0.7**
