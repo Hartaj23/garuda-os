@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | GAR-SPRINT-0013 |
 | Name | Investment Intelligence Foundation |
-| Status | **Draft v0.7 — Under Founder Review** |
+| Status | **Draft v0.8 — Under Founder Review** |
 | Authority | Derived from [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) v1.0 |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Evidence foundation | Constitutional Evidence Base Edition 1.0 |
@@ -98,12 +98,8 @@ The sprint shall be executed through the following missions.
 | Charlie | Canonical Domain Models | Specified (Draft v0.4) |
 | Delta | Engineering Validation | Specified (Draft v0.5) |
 | Echo | Testing Framework | Specified (Draft v0.6) |
-| Foxtrot | Documentation and Knowledge Transfer | **Specified below (Draft v0.7)** |
-| Golf | Certification | Summary only — pending refinement |
-
-### Mission Golf — Certification
-
-Verify that GAR-SPRINT-0013 faithfully implements ADR-0014 without architectural deviation.
+| Foxtrot | Documentation and Knowledge Transfer | Specified (Draft v0.7) |
+| Golf | Sprint Certification | **Specified below (Draft v0.8)** |
 
 ---
 
@@ -1601,6 +1597,209 @@ engineering continuity across future generations of the project.
 
 ---
 
+## Mission Golf — Sprint Certification
+
+### Mission Purpose
+
+Mission Golf establishes the certification process for GAR-SPRINT-0013.
+
+Its purpose is to verify that the sprint specification faithfully translates constitutional
+authority and architectural authority into an implementable engineering plan.
+
+Certification verifies readiness.
+
+It does not authorize implementation.
+
+---
+
+### Mission Objectives
+
+Mission Golf shall:
+
+1. Verify constitutional alignment
+2. Verify architectural fidelity
+3. Verify engineering completeness
+4. Verify implementation readiness
+5. Verify certification evidence
+6. Recommend Founder disposition
+
+---
+
+### Certification Philosophy
+
+Sprint Certification answers one question:
+
+> **Is GAR-SPRINT-0013 sufficiently complete, coherent, and governed to become the authoritative
+> engineering specification for Investment Intelligence Foundation?**
+
+Certification evaluates planning.
+
+Implementation remains a separate governance decision.
+
+---
+
+### Certification Standards
+
+GAR-SPRINT-0013 shall be evaluated against the following standards.
+
+---
+
+#### Standard A — Constitutional Conformance
+
+The sprint shall faithfully inherit:
+
+- GAR Constitutional Authority
+- GAR-0021 v1.0
+- Constitutional Evidence Base Edition 1.0
+
+No sprint objective shall contradict constitutional authority.
+
+---
+
+#### Standard B — Architectural Conformance
+
+The sprint shall faithfully inherit ADR-0014.
+
+Engineering tasks shall realize architectural responsibilities without redefining them.
+
+---
+
+#### Standard C — Engineering Completeness
+
+The sprint shall include:
+
+- clearly defined missions
+- deliverables
+- acceptance criteria
+- certification criteria
+- explicit out-of-scope boundaries
+
+No critical engineering responsibility shall remain undefined.
+
+---
+
+#### Standard D — Test Readiness
+
+The sprint shall provide a sufficient foundation for deterministic testing and future
+implementation validation.
+
+---
+
+#### Standard E — Documentation Readiness
+
+Documentation expectations shall be complete enough to preserve constitutional, architectural, and
+engineering continuity.
+
+---
+
+#### Standard F — Traceability
+
+Every mission shall remain traceable to:
+
+- constitutional authority
+- architectural authority
+- sprint objectives
+
+---
+
+### Certification Review Matrix
+
+The certification review shall evaluate:
+
+| Area | Result |
+| --- | --- |
+| Constitutional Alignment | PASS / REVISE / FAIL |
+| Architectural Alignment | PASS / REVISE / FAIL |
+| Mission Completeness | PASS / REVISE / FAIL |
+| Engineering Readiness | PASS / REVISE / FAIL |
+| Testing Readiness | PASS / REVISE / FAIL |
+| Documentation Readiness | PASS / REVISE / FAIL |
+| Traceability | PASS / REVISE / FAIL |
+
+Overall certification shall be based upon the combined findings.
+
+---
+
+### Certification Outcomes
+
+#### PASS
+
+GAR-SPRINT-0013 is complete and suitable for Founder approval.
+
+---
+
+#### PASS WITH OBSERVATIONS
+
+Minor editorial refinements are recommended.
+
+The sprint remains fundamentally complete.
+
+---
+
+#### REVISE
+
+Material engineering clarification is required before approval.
+
+---
+
+#### FAIL
+
+The sprint does not yet provide a constitutionally sufficient engineering foundation.
+
+---
+
+### Consequence of PASS
+
+A successful certification authorizes the Founder to consider:
+
+- GAR-SPRINT-0013 Approval
+- GAR-SPRINT-0013 Freeze
+- GAR-SPRINT-0013 Publication
+
+Certification does **not** authorize engineering implementation.
+
+Engineering remains subject to an explicit Founder decision after publication.
+
+---
+
+### Explicit Non-Authorization
+
+Mission Golf does not authorize:
+
+- engineering implementation
+- production code
+- deployment
+- market integrations
+- broker connectivity
+- live trading
+- operational release
+
+These remain outside the authority of this sprint.
+
+---
+
+### Acceptance Criteria
+
+Mission Golf shall be accepted when:
+
+- certification standards are complete
+- review criteria are objective
+- certification outcomes are defined
+- governance boundaries remain explicit
+- implementation authority remains withheld
+
+---
+
+### Mission Completion
+
+Mission Golf is complete when GAR-SPRINT-0013 possesses a complete, repeatable, and auditable
+certification process capable of determining whether the sprint is ready for Founder approval
+without authorizing implementation.
+
+**End of Mission Golf — Sprint Certification**
+
+---
+
 ## Explicit Out of Scope
 
 This sprint shall not implement:
@@ -1646,7 +1845,7 @@ This document establishes the engineering mission only.
 Detailed implementation tasks, acceptance criteria, package layouts, and coding work remain subject
 to subsequent sprint refinement and Founder approval.
 
-This Draft v0.7 does **not** authorize:
+This Draft v0.8 does **not** authorize:
 
 - sprint approval
 - engineering implementation
@@ -1655,8 +1854,8 @@ This Draft v0.7 does **not** authorize:
 
 Each requires separate Founder decisions after sprint refinement and approval.
 
-Draft v0.7 specifies Missions Alpha through Foxtrot in full. Mission Golf remains summary-level
-pending subsequent refinement.
+Draft v0.8 specifies Missions Alpha through Golf in full. The sprint specification is complete for
+Founder review and Mission Golf certification evaluation. Implementation remains unauthorized.
 
 ---
 
@@ -1689,4 +1888,4 @@ Implementation (not authorized)
 
 ---
 
-**End of GAR-SPRINT-0013 Draft v0.7**
+**End of GAR-SPRINT-0013 Draft v0.8**
