@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | ADR-0014 |
 | Title | Investment Intelligence Architecture |
-| Status | **Draft v0.7 — Under Architectural Review** |
+| Status | **Draft v0.8 — Under Architectural Review** |
 | Date | 2026-07-09 |
 | Authority | [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence |
 | Evidence foundation | CEB Edition 1.0 (frozen & published `4dc5ff7`) |
@@ -97,13 +97,13 @@ The architecture shall govern how Investment Intelligence responsibilities are s
 and related so that future implementations may operate within constitutional authority — without
 selecting technologies, defining packages as engineering deliverables, or authorizing sprints.
 
-Draft v0.7 establishes architectural principles, enduring responsibilities, a conceptual
+Draft v0.8 establishes architectural principles, enduring responsibilities, a conceptual
 responsibility flow, responsibility allocation principles, Architectural Domains (Article I), the
 Architectural Interaction Model (Article II), Constitutional Governance Architecture
-(Article III), the Canonical Investment Intelligence Lifecycle (Article IV), and the Architectural
-Boundary Model (Article V). Implementation components, interfaces, data schemas, runtime
-contracts, deployment structures, and technology selections are **not** established in this
-version.
+(Article III), the Canonical Investment Intelligence Lifecycle (Article IV), the Architectural
+Boundary Model (Article V), and Architectural Conformance and Certification (Article VI).
+Implementation components, interfaces, data schemas, runtime contracts, deployment structures, and
+technology selections are **not** established in this version.
 
 ---
 
@@ -1700,9 +1700,235 @@ These remain subject to future ADRs and approved implementation planning.
 
 ---
 
+## Article VI — Architectural Conformance and Certification
+
+### Architectural Position
+
+Architecture establishes enduring responsibilities that future implementations shall faithfully
+realize.
+
+Architectural Conformance exists to verify that future architectural refinement, sprint planning,
+implementation, and certification remain faithful to:
+
+- GAR Constitutions
+- GAR-0021 v1.0
+- ADR-0014
+
+Conformance preserves architectural integrity throughout the lifecycle of the Investment
+Intelligence domain.
+
+---
+
+### Purpose
+
+Architectural Conformance ensures that:
+
+- constitutional authority remains intact
+- architectural responsibilities remain complete
+- implementation does not redefine architecture
+- future evolution remains governed rather than improvised
+
+Conformance evaluates fidelity.
+
+It does not evaluate implementation quality.
+
+---
+
+### Levels of Conformance
+
+#### Level 1 — Constitutional Conformance
+
+Every architectural proposal shall demonstrate alignment with:
+
+- GAR Constitutional authority
+- GAR-0021 Principles
+- GAR-0021 Distinctions
+- GAR-0021 Tensions
+
+No architectural refinement may contradict constitutional law.
+
+---
+
+#### Level 2 — Architectural Conformance
+
+Every sprint, package, or implementation proposal shall demonstrate alignment with:
+
+- Architectural Responsibilities
+- Architectural Domains
+- Interaction Model
+- Canonical Lifecycle
+- Architectural Boundaries
+
+No implementation shall redefine architectural responsibilities.
+
+---
+
+#### Level 3 — Implementation Conformance
+
+Future implementations shall demonstrate that the completed system preserves:
+
+- Evidence Integrity
+- Constitutional Compliance
+- Explainability
+- Traceability
+- Refusal capability
+- Human Authority
+
+Implementation quality shall never substitute for architectural conformance.
+
+---
+
+### Conformance Criteria
+
+Future work shall explicitly identify:
+
+- constitutional authority inherited
+- architectural responsibilities satisfied
+- architectural domains affected
+- lifecycle stages involved
+- boundary interactions introduced
+- traceability preserved
+- constitutional risks created (if any)
+
+Implicit inheritance is not sufficient.
+
+Conformance shall be demonstrated explicitly.
+
+---
+
+### Required Evidence
+
+Every future ADR, Sprint, or implementation proposal shall provide evidence appropriate to its
+level of authority.
+
+Examples include:
+
+- constitutional references
+- architectural mappings
+- responsibility coverage
+- interaction analysis
+- lifecycle coverage
+- traceability analysis
+- identified constitutional tensions
+
+Evidence shall support architectural claims.
+
+Assertions alone are insufficient.
+
+---
+
+### Architectural Review Gates
+
+Future work shall successfully pass the following review gates before receiving approval.
+
+#### Gate A — Constitutional Alignment
+
+Does the proposal remain consistent with GAR-0021?
+
+---
+
+#### Gate B — Architectural Integrity
+
+Does the proposal preserve ADR-0014 responsibilities and boundaries?
+
+---
+
+#### Gate C — Traceability
+
+Can every architectural decision be traced to constitutional authority?
+
+---
+
+#### Gate D — Explainability
+
+Will future outputs remain constitutionally explainable?
+
+---
+
+#### Gate E — Refusal
+
+Can the architecture still produce constitutional refusal wherever required?
+
+---
+
+#### Gate F — Replaceability
+
+Can implementation evolve without weakening constitutional authority?
+
+---
+
+### Classes of Non-Conformance
+
+Examples include:
+
+- bypassing constitutional evaluation
+- weakening evidence integrity
+- removing traceability
+- eliminating refusal
+- collapsing constitutional distinctions
+- concealing constitutional tensions
+- introducing implementation assumptions into architecture
+- redefining constitutional obligations through architecture
+
+Non-conformance shall require architectural review before implementation proceeds.
+
+---
+
+### Architectural Certification
+
+Before engineering begins, ADR-0014 shall be certified as:
+
+- constitutionally complete
+- architecturally coherent
+- implementation-independent
+- technology-neutral
+- internally consistent
+- traceable to GAR-0021
+
+Certification affirms architectural readiness.
+
+It does not authorize engineering.
+
+---
+
+### Consequence
+
+Successful architectural certification authorizes only the next governance question:
+
+> Should GAR-SPRINT-0013 be drafted?
+
+Certification does not authorize:
+
+- sprint approval
+- engineering
+- implementation
+- production deployment
+
+Each remains subject to explicit Founder authorization.
+
+---
+
+### Scope Boundary
+
+This article governs architectural conformance only.
+
+It does not define:
+
+- software testing
+- operational monitoring
+- production acceptance
+- release management
+- runtime governance
+
+Those belong to later implementation phases after appropriate constitutional authorization.
+
+**End of Article VI — Architectural Conformance and Certification**
+
+---
+
 ## Non-Authorization
 
-ADR-0014 Draft v0.7 does **not** authorize:
+ADR-0014 Draft v0.8 does **not** authorize:
 
 - Engineering
 - Sprint drafting
@@ -1722,7 +1948,8 @@ These remain subject to future governance.
 
 This document defines architectural principles, enduring responsibilities, Architectural Domains,
 the Architectural Interaction Model, Constitutional Governance Architecture, the Canonical
-Investment Intelligence Lifecycle, and the Architectural Boundary Model only.
+Investment Intelligence Lifecycle, the Architectural Boundary Model, and Architectural Conformance
+and Certification only.
 
 No implementation components, interfaces, data schemas, runtime contracts, deployment structures,
 or technology selections are established in this version.
@@ -1756,4 +1983,4 @@ and certifications SHALL conform to:
 
 ---
 
-End of ADR-0014 Draft v0.7
+End of ADR-0014 Draft v0.8
