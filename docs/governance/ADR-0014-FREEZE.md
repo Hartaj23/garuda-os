@@ -177,7 +177,7 @@ Engineering
 | Architectural Audit | **PASS** |
 | Certification | **PASS** |
 | Freeze | **Effective upon this record** |
-| Publication | **Pending** (Founder-directed) |
+| Publication | **Effective** — [ADR-0014-PUBLICATION.md](ADR-0014-PUBLICATION.md) |
 | GAR-SPRINT-0013 | **Not authorized** |
 | Engineering | **Not authorized** |
 
@@ -200,6 +200,7 @@ Engineering authority remains expressly withheld.
 - [ADR-0014-FOUNDER-APPROVAL.md](ADR-0014-FOUNDER-APPROVAL.md)
 - [ADR-0014-CERTIFICATION.md](ADR-0014-CERTIFICATION.md)
 - [ADR-0014-ARCHITECTURAL-AUDIT.md](ADR-0014-ARCHITECTURAL-AUDIT.md)
+- [ADR-0014-PUBLICATION.md](ADR-0014-PUBLICATION.md)
 - [GAR-0021.md](../../GAR-0021.md)
 - [GAR-0021-FREEZE.md](GAR-0021-FREEZE.md)
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)

@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | ADR-0014 |
 | Title | Investment Intelligence Architecture |
-| Status | **Approved v1.0 — Frozen** |
+| Status | **Approved v1.0 — Frozen & Published** |
 | Date | 2026-07-09 |
 | Authority | [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence |
 | Evidence foundation | CEB Edition 1.0 (frozen & published `4dc5ff7`) |
@@ -13,11 +13,11 @@
 | Architectural audit | [ADR-0014-ARCHITECTURAL-AUDIT.md](../governance/ADR-0014-ARCHITECTURAL-AUDIT.md) — **PASS** |
 | Certification | [ADR-0014-CERTIFICATION.md](../governance/ADR-0014-CERTIFICATION.md) — **PASS** |
 | Freeze | [ADR-0014-FREEZE.md](../governance/ADR-0014-FREEZE.md) |
+| Publication | [ADR-0014-PUBLICATION.md](../governance/ADR-0014-PUBLICATION.md) |
 | Architecture class | Domain Architecture |
 | Depends on | GAR-0021 v1.0; CEB Edition 1.0; Garuda OS constitutional stack (Book One) |
 | Supersedes | None |
 | Implementation authority | **None** |
-| Publication | Pending |
 
 ---
 
@@ -1967,7 +1967,7 @@ or technology selections are established by this ADR.
 Approval does **not** by itself authorize GAR-SPRINT-0013 or engineering. Sprint and engineering
 require separate Founder gates.
 
-Recommended next sequence: Publication → Founder decision on GAR-SPRINT-0013 authorization.
+Architecture is published. Next Founder question: authorize GAR-SPRINT-0013 drafting?
 
 ---
 
@@ -1990,6 +1990,7 @@ and certifications SHALL conform to:
 - [ADR-0014-FOUNDER-APPROVAL.md](../governance/ADR-0014-FOUNDER-APPROVAL.md)
 - [ADR-0014-CERTIFICATION.md](../governance/ADR-0014-CERTIFICATION.md) — **PASS**
 - [ADR-0014-FREEZE.md](../governance/ADR-0014-FREEZE.md)
+- [ADR-0014-PUBLICATION.md](../governance/ADR-0014-PUBLICATION.md)
 - [GAR-0021-FOUNDER-RATIFICATION.md](../governance/GAR-0021-FOUNDER-RATIFICATION.md)
 - [GAR-0021-FREEZE.md](../governance/GAR-0021-FREEZE.md)
 - [../constitutional-evidence-base/CEB-FREEZE.md](../constitutional-evidence-base/CEB-FREEZE.md)

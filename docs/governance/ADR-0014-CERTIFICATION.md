@@ -139,7 +139,7 @@ implementation-independent, and suitable for institutional freeze.
 | Overall certification | **PASS** |
 | Suitable for freeze | **Affirmed** |
 | Freeze | **Effective** — [ADR-0014-FREEZE.md](ADR-0014-FREEZE.md) |
-| Publication | **Pending** (Founder-directed) |
+| Publication | **Effective** — [ADR-0014-PUBLICATION.md](ADR-0014-PUBLICATION.md) |
 | GAR-SPRINT-0013 | **Not authorized** |
 | Engineering | **Not authorized** |
 
@@ -185,6 +185,7 @@ architectural baseline for Investment Intelligence within Project Garuda.
 - [ADR-0014-FOUNDER-APPROVAL.md](ADR-0014-FOUNDER-APPROVAL.md)
 - [ADR-0014-ARCHITECTURAL-AUDIT.md](ADR-0014-ARCHITECTURAL-AUDIT.md)
 - [ADR-0014-FREEZE.md](ADR-0014-FREEZE.md)
+- [ADR-0014-PUBLICATION.md](ADR-0014-PUBLICATION.md)
 - [GAR-0021.md](../../GAR-0021.md)
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
 
