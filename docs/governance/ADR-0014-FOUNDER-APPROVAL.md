@@ -153,7 +153,7 @@ Implementation authority remains withheld.
 | Approved as architectural baseline | **Effective upon this record** |
 | Draft status superseded | **Effective** — Draft v0.8 becomes Approved v1.0 |
 | Certification | **PASS** — [ADR-0014-CERTIFICATION.md](ADR-0014-CERTIFICATION.md) |
-| Freeze | **Pending** (separate record) |
+| Freeze | **Effective** — [ADR-0014-FREEZE.md](ADR-0014-FREEZE.md) |
 | Publication | **Pending** (Founder-directed) |
 | GAR-SPRINT-0013 | **Not authorized** |
 | Engineering | **Not authorized** |
@@ -165,6 +165,7 @@ Implementation authority remains withheld.
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
 - [ADR-0014-ARCHITECTURAL-AUDIT.md](ADR-0014-ARCHITECTURAL-AUDIT.md)
 - [ADR-0014-CERTIFICATION.md](ADR-0014-CERTIFICATION.md)
+- [ADR-0014-FREEZE.md](ADR-0014-FREEZE.md)
 - [GAR-0021.md](../../GAR-0021.md)
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
 

@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | ADR-0014 |
 | Title | Investment Intelligence Architecture |
-| Status | **Approved v1.0** (Certified — Pending Freeze) |
+| Status | **Approved v1.0 — Frozen** |
 | Date | 2026-07-09 |
 | Authority | [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence |
 | Evidence foundation | CEB Edition 1.0 (frozen & published `4dc5ff7`) |
@@ -12,11 +12,12 @@
 | Founder approval | [ADR-0014-FOUNDER-APPROVAL.md](../governance/ADR-0014-FOUNDER-APPROVAL.md) |
 | Architectural audit | [ADR-0014-ARCHITECTURAL-AUDIT.md](../governance/ADR-0014-ARCHITECTURAL-AUDIT.md) — **PASS** |
 | Certification | [ADR-0014-CERTIFICATION.md](../governance/ADR-0014-CERTIFICATION.md) — **PASS** |
+| Freeze | [ADR-0014-FREEZE.md](../governance/ADR-0014-FREEZE.md) |
 | Architecture class | Domain Architecture |
 | Depends on | GAR-0021 v1.0; CEB Edition 1.0; Garuda OS constitutional stack (Book One) |
 | Supersedes | None |
 | Implementation authority | **None** |
-| Freeze | Pending |
+| Publication | Pending |
 
 ---
 
@@ -1966,8 +1967,7 @@ or technology selections are established by this ADR.
 Approval does **not** by itself authorize GAR-SPRINT-0013 or engineering. Sprint and engineering
 require separate Founder gates.
 
-Recommended next sequence: Freeze → Publication → Founder decision on GAR-SPRINT-0013
-authorization.
+Recommended next sequence: Publication → Founder decision on GAR-SPRINT-0013 authorization.
 
 ---
 
@@ -1989,6 +1989,7 @@ and certifications SHALL conform to:
 - [ADR-0014-ARCHITECTURAL-AUDIT.md](../governance/ADR-0014-ARCHITECTURAL-AUDIT.md) — **PASS**
 - [ADR-0014-FOUNDER-APPROVAL.md](../governance/ADR-0014-FOUNDER-APPROVAL.md)
 - [ADR-0014-CERTIFICATION.md](../governance/ADR-0014-CERTIFICATION.md) — **PASS**
+- [ADR-0014-FREEZE.md](../governance/ADR-0014-FREEZE.md)
 - [GAR-0021-FOUNDER-RATIFICATION.md](../governance/GAR-0021-FOUNDER-RATIFICATION.md)
 - [GAR-0021-FREEZE.md](../governance/GAR-0021-FREEZE.md)
 - [../constitutional-evidence-base/CEB-FREEZE.md](../constitutional-evidence-base/CEB-FREEZE.md)

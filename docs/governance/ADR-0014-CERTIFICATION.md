@@ -5,7 +5,7 @@
 | Record ID | ADR-0014-CERTIFICATION |
 | Status | **Certification Record** |
 | Governance cycle | Governance Cycle 7 |
-| Artifact | [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) — Investment Intelligence Architecture **v1.0** (Pending Freeze) |
+| Artifact | [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) — Investment Intelligence Architecture **v1.0** (Frozen) |
 | Authority level | Institutional Certification |
 | Overall result | **PASS** |
 | Founder approval | [ADR-0014-FOUNDER-APPROVAL.md](ADR-0014-FOUNDER-APPROVAL.md) |
@@ -138,7 +138,7 @@ implementation-independent, and suitable for institutional freeze.
 | Findings 1–6 | **PASS** |
 | Overall certification | **PASS** |
 | Suitable for freeze | **Affirmed** |
-| Freeze | **Pending** (separate record) |
+| Freeze | **Effective** — [ADR-0014-FREEZE.md](ADR-0014-FREEZE.md) |
 | Publication | **Pending** (Founder-directed) |
 | GAR-SPRINT-0013 | **Not authorized** |
 | Engineering | **Not authorized** |
@@ -184,6 +184,7 @@ architectural baseline for Investment Intelligence within Project Garuda.
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
 - [ADR-0014-FOUNDER-APPROVAL.md](ADR-0014-FOUNDER-APPROVAL.md)
 - [ADR-0014-ARCHITECTURAL-AUDIT.md](ADR-0014-ARCHITECTURAL-AUDIT.md)
+- [ADR-0014-FREEZE.md](ADR-0014-FREEZE.md)
 - [GAR-0021.md](../../GAR-0021.md)
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
 

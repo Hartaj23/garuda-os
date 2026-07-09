@@ -19,7 +19,7 @@ They never authorize engineering unless a separate Founder gate grants sprint au
 | [ADR-0011](ADR-0011-interface-foundation.md) | Interface Foundation | Approved v1.0 |
 | [ADR-0012](ADR-0012-integration-foundation.md) | Integration Foundation | Approved v1.0 |
 | [ADR-0013](ADR-0013-runtime-foundation.md) | Runtime Foundation | Approved v1.0 |
-| [ADR-0014](ADR-0014-investment-intelligence-architecture.md) | Investment Intelligence Architecture | **Approved v1.0** (Certified — Pending Freeze) |
+| [ADR-0014](ADR-0014-investment-intelligence-architecture.md) | Investment Intelligence Architecture | **Approved v1.0 — Frozen** |
 
 ## Related Documents
 
@@ -28,5 +28,6 @@ They never authorize engineering unless a separate Founder gate grants sprint au
 - [ADR-0014-ARCHITECTURAL-AUDIT.md](../governance/ADR-0014-ARCHITECTURAL-AUDIT.md) — **PASS**
 - [ADR-0014-FOUNDER-APPROVAL.md](../governance/ADR-0014-FOUNDER-APPROVAL.md)
 - [ADR-0014-CERTIFICATION.md](../governance/ADR-0014-CERTIFICATION.md) — **PASS**
+- [ADR-0014-FREEZE.md](../governance/ADR-0014-FREEZE.md)
 - [GAR-0017](../../GAR-0017.md) — Phase II Constitutional Extension
 - [PROJECT_GARUDA_MASTER.md](../../PROJECT_GARUDA_MASTER.md)
