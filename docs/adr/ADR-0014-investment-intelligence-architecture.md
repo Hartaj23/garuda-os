@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | ADR-0014 |
 | Title | Investment Intelligence Architecture |
-| Status | **Draft v0.4 — Under Architectural Review** |
+| Status | **Draft v0.5 — Under Architectural Review** |
 | Date | 2026-07-09 |
 | Authority | [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence |
 | Evidence foundation | CEB Edition 1.0 (frozen & published `4dc5ff7`) |
@@ -97,11 +97,11 @@ The architecture shall govern how Investment Intelligence responsibilities are s
 and related so that future implementations may operate within constitutional authority — without
 selecting technologies, defining packages as engineering deliverables, or authorizing sprints.
 
-Draft v0.4 establishes architectural principles, enduring responsibilities, a conceptual
-responsibility flow, responsibility allocation principles, Architectural Domains (Article I), and
-the Architectural Interaction Model (Article II). Implementation components, interfaces, data
-schemas, runtime contracts, deployment structures, and technology selections are **not**
-established in this version.
+Draft v0.5 establishes architectural principles, enduring responsibilities, a conceptual
+responsibility flow, responsibility allocation principles, Architectural Domains (Article I), the
+Architectural Interaction Model (Article II), and Constitutional Governance Architecture
+(Article III). Implementation components, interfaces, data schemas, runtime contracts, deployment
+structures, and technology selections are **not** established in this version.
 
 ---
 
@@ -969,9 +969,214 @@ Those belong to future architecture refinement and implementation.
 
 ---
 
+## Article III — Constitutional Governance Architecture
+
+### Architectural Position
+
+Constitutional Governance is an architectural capability.
+
+It is not an external review process.
+
+Every architectural outcome shall remain subject to constitutional governance throughout its
+lifecycle.
+
+Constitutional Governance exists to preserve the authority of GAR-0021 within every future
+implementation.
+
+---
+
+### Governance Objectives
+
+The Constitutional Governance Architecture shall ensure that:
+
+- constitutional authority remains supreme
+- architectural behavior remains traceable
+- constitutional obligations remain enforceable
+- constitutional distinctions remain preserved
+- constitutional tensions remain visible
+- future implementations cannot silently drift away from constitutional authority
+
+---
+
+### Governance Responsibilities
+
+#### Responsibility 1 — Constitutional Verification
+
+Every recommendation, refusal, or architectural outcome shall be evaluated against GAR-0021 before
+it is considered complete.
+
+---
+
+#### Responsibility 2 — Constitutional Traceability
+
+Every architectural outcome shall remain traceable to:
+
+- constitutional authority
+- architectural responsibility
+- supporting evidence
+- reasoning path
+- decision state
+- explanation
+
+Loss of traceability shall be treated as constitutional degradation.
+
+---
+
+#### Responsibility 3 — Distinction Protection
+
+The architecture shall preserve every Constitutional Distinction established by GAR-0021.
+
+Future implementations shall not collapse constitutionally distinct concepts into a single
+representation merely for implementation convenience.
+
+---
+
+#### Responsibility 4 — Tension Recognition
+
+Architectural decisions shall explicitly recognize applicable Constitutional Tensions.
+
+The architecture shall expose tensions where necessary rather than concealing them behind
+deterministic outputs.
+
+---
+
+#### Responsibility 5 — Constitutional Refusal
+
+Where constitutional obligations cannot be satisfied, the architecture shall preserve the ability
+to refuse.
+
+No architectural optimization shall eliminate constitutional refusal.
+
+---
+
+#### Responsibility 6 — Explainability Preservation
+
+Architectural evolution shall never reduce the ability to justify recommendations or refusals.
+
+Explainability shall remain an architectural invariant.
+
+---
+
+### Architectural Invariants
+
+The following architectural properties shall remain invariant unless constitutional governance
+explicitly amends GAR-0021.
+
+#### Invariant A
+
+Evidence Integrity.
+
+---
+
+#### Invariant B
+
+Human Authority.
+
+---
+
+#### Invariant C
+
+Justificatory Explainability.
+
+---
+
+#### Invariant D
+
+Constitutional Traceability.
+
+---
+
+#### Invariant E
+
+Constitutional Refusal.
+
+---
+
+#### Invariant F
+
+Technology Neutrality.
+
+---
+
+#### Invariant G
+
+Replaceable Implementation.
+
+---
+
+### Architectural Compliance Checkpoints
+
+Architectural refinement shall demonstrate compliance at the following checkpoints:
+
+1. Constitutional Authority
+2. Evidence Integrity
+3. Responsibility Coverage
+4. Domain Integrity
+5. Interaction Integrity
+6. Explainability
+7. Traceability
+8. Refusal Capability
+
+Failure at any checkpoint shall require architectural review before implementation may proceed.
+
+---
+
+### Evolution Rules
+
+Future architectural revisions may:
+
+- improve clarity
+- improve modularity
+- improve maintainability
+- improve replaceability
+
+Future revisions shall not:
+
+- weaken constitutional obligations
+- bypass constitutional evaluation
+- eliminate refusal
+- obscure evidence lineage
+- reduce explainability
+- weaken traceability
+
+Such changes require constitutional governance rather than architectural discretion.
+
+---
+
+### Architectural Consequence
+
+Architecture remains subordinate to constitutional authority.
+
+Implementation remains subordinate to architecture.
+
+Optimization remains subordinate to constitutional integrity.
+
+Architectural excellence shall therefore be measured not only by capability, but by constitutional
+fidelity.
+
+---
+
+### Scope Boundary
+
+This article governs architectural integrity only.
+
+It does not define:
+
+- implementation validation
+- runtime monitoring
+- operational governance
+- deployment governance
+- infrastructure controls
+
+Those belong to future ADRs and implementation phases following explicit Founder authorization.
+
+**End of Article III — Constitutional Governance Architecture**
+
+---
+
 ## Non-Authorization
 
-ADR-0014 Draft v0.4 does **not** authorize:
+ADR-0014 Draft v0.5 does **not** authorize:
 
 - Engineering
 - Sprint drafting
@@ -990,7 +1195,7 @@ These remain subject to future governance.
 ## Draft Status
 
 This document defines architectural principles, enduring responsibilities, Architectural Domains,
-and the Architectural Interaction Model only.
+the Architectural Interaction Model, and Constitutional Governance Architecture only.
 
 No implementation components, interfaces, data schemas, runtime contracts, deployment structures,
 or technology selections are established in this version.
@@ -1024,4 +1229,4 @@ and certifications SHALL conform to:
 
 ---
 
-End of ADR-0014 Draft v0.4
+End of ADR-0014 Draft v0.5
