@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | ADR-0014 |
 | Title | Investment Intelligence Architecture |
-| Status | **Draft v0.5 — Under Architectural Review** |
+| Status | **Draft v0.6 — Under Architectural Review** |
 | Date | 2026-07-09 |
 | Authority | [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence |
 | Evidence foundation | CEB Edition 1.0 (frozen & published `4dc5ff7`) |
@@ -97,11 +97,12 @@ The architecture shall govern how Investment Intelligence responsibilities are s
 and related so that future implementations may operate within constitutional authority — without
 selecting technologies, defining packages as engineering deliverables, or authorizing sprints.
 
-Draft v0.5 establishes architectural principles, enduring responsibilities, a conceptual
+Draft v0.6 establishes architectural principles, enduring responsibilities, a conceptual
 responsibility flow, responsibility allocation principles, Architectural Domains (Article I), the
-Architectural Interaction Model (Article II), and Constitutional Governance Architecture
-(Article III). Implementation components, interfaces, data schemas, runtime contracts, deployment
-structures, and technology selections are **not** established in this version.
+Architectural Interaction Model (Article II), Constitutional Governance Architecture
+(Article III), and the Canonical Investment Intelligence Lifecycle (Article IV). Implementation
+components, interfaces, data schemas, runtime contracts, deployment structures, and technology
+selections are **not** established in this version.
 
 ---
 
@@ -1174,9 +1175,280 @@ Those belong to future ADRs and implementation phases following explicit Founder
 
 ---
 
+## Article IV — Canonical Investment Intelligence Lifecycle
+
+### Architectural Position
+
+The Investment Intelligence Architecture recognizes a canonical lifecycle through which every
+recommendation, non-recommendation, conditional recommendation, information request, and
+constitutional refusal shall pass.
+
+This lifecycle defines constitutional stages of reasoning.
+
+It does not define runtime execution.
+
+Future implementations may realize this lifecycle using different technologies, execution models,
+or deployment strategies, provided the constitutional stages remain preserved.
+
+---
+
+### Lifecycle Objectives
+
+The lifecycle exists to ensure that every architectural outcome:
+
+- originates from evidence
+- remains constitutionally governed
+- preserves uncertainty
+- remains explainable
+- remains traceable
+- respects human authority
+
+---
+
+### Stage 1 — Observation
+
+**Purpose:** Acquire candidate observations from external or internal sources.
+
+Typical observations include:
+
+- market activity
+- enterprise information
+- macroeconomic information
+- portfolio state
+- user context
+- historical knowledge
+
+Observations are not yet evidence.
+
+---
+
+### Stage 2 — Evidence Validation
+
+**Purpose:** Determine whether observations satisfy constitutional Evidence Integrity.
+
+Validation considers:
+
+- provenance
+- reliability
+- relevance
+- completeness
+- consistency
+- freshness
+
+Insufficient validation prevents promotion into evidence.
+
+---
+
+### Stage 3 — Knowledge Formation
+
+**Purpose:** Organize validated evidence into coherent knowledge while preserving lineage.
+
+Knowledge Formation shall preserve:
+
+- supporting evidence
+- contradictory evidence
+- uncertainty
+- historical context
+- relationships
+
+Knowledge is not yet judgment.
+
+---
+
+### Stage 4 — Context Integration
+
+**Purpose:** Integrate knowledge with the current decision context.
+
+Context includes:
+
+- objectives
+- constraints
+- capital
+- time horizon
+- locale
+- existing commitments
+- constitutional limitations
+
+Missing material context shall remain explicit.
+
+---
+
+### Stage 5 — Judgment Formation
+
+**Purpose:** Produce justified judgments under uncertainty.
+
+Judgment Formation shall evaluate:
+
+- evidence
+- assumptions
+- alternatives
+- asymmetries
+- incentives
+- costs
+- Constitutional Distinctions
+- Constitutional Tensions
+
+Judgment shall preserve uncertainty.
+
+---
+
+### Stage 6 — Constitutional Evaluation
+
+**Purpose:** Determine whether judgment satisfies GAR-0021.
+
+Evaluation includes:
+
+- Principles
+- Distinctions
+- Tensions
+- Explainability
+- Traceability
+- Human Authority
+
+No architectural outcome may bypass this stage.
+
+---
+
+### Stage 7 — Decision Formation
+
+**Purpose:** Produce one of the constitutionally valid decision states.
+
+Permitted outcomes include:
+
+- Recommendation
+- Conditional Recommendation
+- Information Request
+- Deferred Decision
+- Constitutional Refusal
+
+Recommendation is not the default.
+
+---
+
+### Stage 8 — Explainability
+
+**Purpose:** Generate the justification appropriate to the decision state.
+
+Explainability shall communicate:
+
+- evidence
+- assumptions
+- uncertainty
+- confidence
+- limitations
+- constitutional reasoning
+- refusal rationale (where applicable)
+
+Narrative shall never replace justification.
+
+---
+
+### Stage 9 — Traceability
+
+**Purpose:** Record constitutional lineage.
+
+Every decision state shall remain traceable to:
+
+- constitutional authority
+- architectural responsibility
+- evidence
+- reasoning
+- explanation
+
+Traceability completes the lifecycle.
+
+---
+
+### Canonical Lifecycle
+
+```text
+Observation
+      │
+      ▼
+Evidence Validation
+      │
+      ▼
+Knowledge Formation
+      │
+      ▼
+Context Integration
+      │
+      ▼
+Judgment Formation
+      │
+      ▼
+Constitutional Evaluation
+      │
+      ▼
+Decision Formation
+      │
+      ├───────────────┐
+      ▼               ▼
+Recommendation   Constitutional Refusal
+      │               │
+      └──────┬────────┘
+             ▼
+Explainability
+             ▼
+Traceability
+```
+
+---
+
+### Lifecycle Guarantees
+
+Every implementation derived from ADR-0014 shall preserve:
+
+- Evidence before Judgment
+- Judgment before Commitment
+- Constitutional Evaluation before Decision
+- Explainability before Delivery
+- Traceability before Completion
+
+These guarantees shall remain invariant across all future implementations.
+
+---
+
+### Architectural Consequences
+
+The architecture is intentionally designed so that:
+
+- recommendations are earned
+- refusals are valid
+- uncertainty is preserved
+- evidence is never bypassed
+- constitutional authority remains supreme
+
+The lifecycle therefore governs **how intelligent investment decisions are constitutionally
+formed**, independent of implementation technology.
+
+---
+
+### Scope Boundary
+
+This article defines the canonical architectural lifecycle only.
+
+It does not prescribe:
+
+- runtime orchestration
+- concurrency
+- distributed execution
+- scheduling
+- infrastructure
+- APIs
+- storage
+- transport
+- implementation sequencing
+
+Those remain outside the scope of ADR-0014.
+
+**End of Article IV — Canonical Investment Intelligence Lifecycle**
+
+---
+
 ## Non-Authorization
 
-ADR-0014 Draft v0.5 does **not** authorize:
+ADR-0014 Draft v0.6 does **not** authorize:
 
 - Engineering
 - Sprint drafting
@@ -1195,7 +1467,8 @@ These remain subject to future governance.
 ## Draft Status
 
 This document defines architectural principles, enduring responsibilities, Architectural Domains,
-the Architectural Interaction Model, and Constitutional Governance Architecture only.
+the Architectural Interaction Model, Constitutional Governance Architecture, and the Canonical
+Investment Intelligence Lifecycle only.
 
 No implementation components, interfaces, data schemas, runtime contracts, deployment structures,
 or technology selections are established in this version.
@@ -1229,4 +1502,4 @@ and certifications SHALL conform to:
 
 ---
 
-End of ADR-0014 Draft v0.5
+End of ADR-0014 Draft v0.6
