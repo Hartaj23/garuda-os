@@ -1976,6 +1976,7 @@ and certifications SHALL conform to:
 ## Related Documents
 
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
+- [ADR-0014-ARCHITECTURAL-AUDIT.md](../governance/ADR-0014-ARCHITECTURAL-AUDIT.md) — Founder Review Draft
 - [GAR-0021-FOUNDER-RATIFICATION.md](../governance/GAR-0021-FOUNDER-RATIFICATION.md)
 - [GAR-0021-FREEZE.md](../governance/GAR-0021-FREEZE.md)
 - [../constitutional-evidence-base/CEB-FREEZE.md](../constitutional-evidence-base/CEB-FREEZE.md)
