@@ -47,6 +47,7 @@ Approved sprint documents.
   — [GAR-SPRINT-0013-FREEZE.md](../governance/GAR-SPRINT-0013-FREEZE.md)
   — [GAR-SPRINT-0013-PUBLICATION.md](../governance/GAR-SPRINT-0013-PUBLICATION.md)
   — [GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-MISSION-ALPHA-IMPLEMENTATION-AUTHORIZATION.md) — **Mission Alpha only**
+  — [GAR-SPRINT-0013-mission-alpha-implementation-plan.md](GAR-SPRINT-0013-mission-alpha-implementation-plan.md) — Implementation Plan v1.0 (awaiting execution approval)
 
 ## AI Implementation Notes
 

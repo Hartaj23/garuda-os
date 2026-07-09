@@ -233,6 +233,7 @@ No authority beyond Mission Alpha is granted by this record.
 ## Related Documents
 
 - [GAR-SPRINT-0013-investment-intelligence-foundation.md](../sprints/GAR-SPRINT-0013-investment-intelligence-foundation.md)
+- [GAR-SPRINT-0013-mission-alpha-implementation-plan.md](../sprints/GAR-SPRINT-0013-mission-alpha-implementation-plan.md) — Implementation Plan v1.0
 - [GAR-SPRINT-0013-PUBLICATION.md](GAR-SPRINT-0013-PUBLICATION.md)
 - [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md)
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
