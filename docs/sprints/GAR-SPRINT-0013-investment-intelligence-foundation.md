@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | GAR-SPRINT-0013 |
 | Name | Investment Intelligence Foundation |
-| Status | **Approved v1.0** (Certified — Pending Freeze) |
+| Status | **Approved v1.0 — Frozen** |
 | Authority | Derived from [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) v1.0 |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Evidence foundation | Constitutional Evidence Base Edition 1.0 |
@@ -12,11 +12,12 @@
 | Founder approval | [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](../governance/GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
 | Sprint audit | [GAR-SPRINT-0013-SPRINT-AUDIT.md](../governance/GAR-SPRINT-0013-SPRINT-AUDIT.md) — **PASS** |
 | Certification | [GAR-SPRINT-0013-CERTIFICATION.md](../governance/GAR-SPRINT-0013-CERTIFICATION.md) — **PASS** |
+| Freeze | [GAR-SPRINT-0013-FREEZE.md](../governance/GAR-SPRINT-0013-FREEZE.md) |
 | Depends on | GAR-0021 v1.0; ADR-0014 v1.0; CEB Edition 1.0; Book One foundations as inherited platform |
 | Implementation authority | **None** |
 | Drafted | 2026-07-09 |
 | Approved | 2026-07-09 |
-| Freeze | Pending |
+| Publication | Pending |
 
 ---
 
@@ -1860,7 +1861,7 @@ This Approved v1.0 does **not** authorize:
 - repository modification
 - package creation
 
-Founder approval and certification establish planning readiness only. Freeze, publication, and
+Founder approval, certification, and freeze establish planning readiness only. Publication and
 Mission Alpha implementation each require separate Founder decisions.
 
 Missions Alpha through Golf are fully specified. Implementation remains unauthorized.
@@ -1893,6 +1894,7 @@ Mission Alpha Implementation (not authorized)
 - [GAR-SPRINT-0013-SPRINT-AUDIT.md](../governance/GAR-SPRINT-0013-SPRINT-AUDIT.md) — **PASS**
 - [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](../governance/GAR-SPRINT-0013-FOUNDER-APPROVAL.md)
 - [GAR-SPRINT-0013-CERTIFICATION.md](../governance/GAR-SPRINT-0013-CERTIFICATION.md) — **PASS**
+- [GAR-SPRINT-0013-FREEZE.md](../governance/GAR-SPRINT-0013-FREEZE.md)
 - [ADR-0014-investment-intelligence-architecture.md](../adr/ADR-0014-investment-intelligence-architecture.md)
 - [ADR-0014-PUBLICATION.md](../governance/ADR-0014-PUBLICATION.md)
 - [GAR-0021.md](../../GAR-0021.md)

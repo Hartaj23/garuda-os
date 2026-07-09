@@ -224,7 +224,8 @@ No engineering implementation is authorized by this record.
 | Sprint drafting | **Complete** |
 | Sprint approval | **Complete** — Approved v1.0 |
 | Certification | **PASS** — [GAR-SPRINT-0013-CERTIFICATION.md](GAR-SPRINT-0013-CERTIFICATION.md) |
-| Freeze / publication | **Pending** |
+| Freeze | **Effective** — [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md) |
+| Publication | **Pending** |
 | Engineering | **Not authorized** |
 
 ---
@@ -240,6 +241,7 @@ No engineering implementation is authorized by this record.
 - [GAR-SPRINT-0013-SPRINT-AUDIT.md](GAR-SPRINT-0013-SPRINT-AUDIT.md) — **PASS**
 - [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md)
 - [GAR-SPRINT-0013-CERTIFICATION.md](GAR-SPRINT-0013-CERTIFICATION.md)
+- [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md)
 
 ---
 

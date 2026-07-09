@@ -142,6 +142,7 @@ implementation-independent, and suitable for institutional freeze.
 | Publication | **Effective** — [ADR-0014-PUBLICATION.md](ADR-0014-PUBLICATION.md) |
 | GAR-SPRINT-0013 drafting | **Complete** |
 | GAR-SPRINT-0013 approval | **Complete** — [GAR-SPRINT-0013-FOUNDER-APPROVAL.md](GAR-SPRINT-0013-FOUNDER-APPROVAL.md) |
+| GAR-SPRINT-0013 freeze | **Effective** — [GAR-SPRINT-0013-FREEZE.md](GAR-SPRINT-0013-FREEZE.md) |
 | GAR-SPRINT-0013 engineering | **Not authorized** |
 
 ---
