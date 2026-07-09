@@ -30,5 +30,6 @@ They never authorize engineering unless a separate Founder gate grants sprint au
 - [ADR-0014-CERTIFICATION.md](../governance/ADR-0014-CERTIFICATION.md) — **PASS**
 - [ADR-0014-FREEZE.md](../governance/ADR-0014-FREEZE.md)
 - [ADR-0014-PUBLICATION.md](../governance/ADR-0014-PUBLICATION.md)
+- [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md) — sprint drafting only
 - [GAR-0017](../../GAR-0017.md) — Phase II Constitutional Extension
 - [PROJECT_GARUDA_MASTER.md](../../PROJECT_GARUDA_MASTER.md)

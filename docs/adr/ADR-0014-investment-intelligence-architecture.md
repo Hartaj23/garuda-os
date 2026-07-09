@@ -1967,7 +1967,9 @@ or technology selections are established by this ADR.
 Approval does **not** by itself authorize GAR-SPRINT-0013 or engineering. Sprint and engineering
 require separate Founder gates.
 
-Architecture is published. Next Founder question: authorize GAR-SPRINT-0013 drafting?
+Architecture is published. GAR-SPRINT-0013 drafting is authorized
+([GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)).
+Sprint approval and engineering remain unauthorized.
 
 ---
 

@@ -130,8 +130,8 @@ Intelligence domain.
 | Certification | **PASS** |
 | Freeze | **Effective** |
 | Publication | **Effective upon this record and repository push** |
-| GAR-SPRINT-0013 | **Not authorized** |
-| Engineering | **Not authorized** |
+| GAR-SPRINT-0013 drafting | **Authorized** — [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md) |
+| GAR-SPRINT-0013 approval / engineering | **Not authorized** |
 
 ---
 
@@ -159,11 +159,10 @@ Governance Cycle 7 remains active.
 
 Architecture is complete.
 
-The next constitutional question is independent of this publication:
+Sprint drafting for GAR-SPRINT-0013 is authorized by
+[GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md).
 
-> Should Governance Cycle 7 authorize GAR-SPRINT-0013 — Investment Intelligence Foundation?
-
-Until that decision is made, the repository remains in architectural rest.
+Sprint approval and engineering remain unauthorized until separate Founder decisions.
 
 ---
 
@@ -187,6 +186,7 @@ Engineering authority remains withheld.
 - [ADR-0014-ARCHITECTURAL-AUDIT.md](ADR-0014-ARCHITECTURAL-AUDIT.md)
 - [GAR-0021.md](../../GAR-0021.md)
 - [GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-ADR-0014-AUTHORIZATION.md)
+- [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
 
 ---
 

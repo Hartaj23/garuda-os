@@ -39,7 +39,10 @@ Approved sprint documents.
 - [GAR-SPRINT-0012 Runtime Foundation](GAR-SPRINT-0012-runtime-foundation.md)
 - [GAR-SPRINT-0012 Runtime Foundation Certification](GAR-SPRINT-0012-runtime-certification.md)
 - [GAR-SPRINT-0012 Closure Report](GAR-SPRINT-0012-closure.md)
+- GAR-SPRINT-0013 — Investment Intelligence Foundation (**drafting authorized**; not yet approved)
+  — [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
 
 ## AI Implementation Notes
 
 Only the approved sprint may be implemented. Do not prepare future sprint features.
+Sprint drafting authorization is not sprint approval and is not engineering authorization.
