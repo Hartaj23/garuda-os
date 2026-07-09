@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | GAR-SPRINT-0013 |
 | Name | Investment Intelligence Foundation |
-| Status | **Draft v0.2 — Under Founder Review** |
+| Status | **Draft v0.3 — Under Founder Review** |
 | Authority | Derived from [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) v1.0 |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Evidence foundation | Constitutional Evidence Base Edition 1.0 |
@@ -93,17 +93,13 @@ The sprint shall be executed through the following missions.
 
 | Mission | Name | Draft detail |
 | --- | --- | --- |
-| Alpha | Engineering Foundation | **Specified below (Draft v0.2)** |
-| Bravo | Canonical Domain Contracts | Summary only — pending refinement |
+| Alpha | Engineering Foundation | Specified (Draft v0.2) |
+| Bravo | Canonical Domain Contracts | **Specified below (Draft v0.3)** |
 | Charlie | Core Domain Models | Summary only — pending refinement |
 | Delta | Engineering Validation | Summary only — pending refinement |
 | Echo | Testing Framework | Summary only — pending refinement |
 | Foxtrot | Documentation | Summary only — pending refinement |
 | Golf | Certification | Summary only — pending refinement |
-
-### Mission Bravo — Canonical Domain Contracts
-
-Define implementation-independent contracts corresponding to architectural responsibilities.
 
 ### Mission Charlie — Core Domain Models
 
@@ -348,6 +344,290 @@ implementation work can proceed without altering constitutional or architectural
 
 ---
 
+## Mission Bravo — Canonical Domain Contracts
+
+### Mission Purpose
+
+Mission Bravo establishes the canonical engineering contracts for the Investment Intelligence
+domain.
+
+The purpose of these contracts is to provide stable engineering agreements between architectural
+responsibilities while preserving constitutional authority.
+
+Contracts define obligations.
+
+They do not define implementation.
+
+---
+
+### Mission Objectives
+
+Mission Bravo shall:
+
+1. Define canonical domain contracts
+2. Establish responsibility ownership
+3. Preserve architectural boundaries
+4. Preserve constitutional traceability
+5. Enable independent implementation of future packages
+6. Eliminate ambiguity between engineering responsibilities
+
+---
+
+### Architectural Alignment
+
+Mission Bravo derives directly from:
+
+- ADR-0014 Architectural Responsibilities
+- ADR-0014 Architectural Domains
+- ADR-0014 Canonical Lifecycle
+- ADR-0014 Boundary Model
+
+No contract may weaken these architectural responsibilities.
+
+---
+
+### Canonical Contracts
+
+The following contracts constitute the canonical engineering surface of the Investment Intelligence
+domain.
+
+---
+
+#### Contract A — Observation Contract
+
+##### Purpose
+
+Represent candidate observations entering the system.
+
+##### Guarantees
+
+- Observations remain unvalidated
+- Provenance is preserved
+- Acquisition context is preserved
+- No interpretation is implied
+
+---
+
+#### Contract B — Evidence Contract
+
+##### Purpose
+
+Represent constitutionally validated evidence.
+
+##### Guarantees
+
+- Evidence Integrity preserved
+- Validation outcome preserved
+- Lineage preserved
+- Contradictory evidence permitted
+
+---
+
+#### Contract C — Knowledge Contract
+
+##### Purpose
+
+Represent structured knowledge derived from validated evidence.
+
+##### Guarantees
+
+- Knowledge remains linked to evidence
+- Historical context preserved
+- Uncertainty retained
+- Knowledge never replaces evidence
+
+---
+
+#### Contract D — Context Contract
+
+##### Purpose
+
+Represent the decision context.
+
+##### Guarantees
+
+- Objectives explicit
+- Constraints explicit
+- Missing context explicit
+- Locale preserved
+- Human authority preserved
+
+---
+
+#### Contract E — Judgment Contract
+
+##### Purpose
+
+Represent provisional judgment.
+
+##### Guarantees
+
+- Assumptions explicit
+- Supporting evidence identified
+- Contradictory evidence identified
+- Confidence distinct from certainty
+- Judgment remains reversible
+
+---
+
+#### Contract F — Constitutional Evaluation Contract
+
+##### Purpose
+
+Represent constitutional review.
+
+##### Guarantees
+
+- Principles evaluated
+- Distinctions preserved
+- Tensions recognized
+- Compliance recorded
+- Refusal eligibility determined
+
+---
+
+#### Contract G — Decision Contract
+
+##### Purpose
+
+Represent the canonical decision state.
+
+##### Permitted Outcomes
+
+- Recommendation
+- Conditional Recommendation
+- Information Request
+- Deferred Decision
+- Constitutional Refusal
+
+No other decision state shall exist without architectural amendment.
+
+---
+
+#### Contract H — Explanation Contract
+
+##### Purpose
+
+Represent justificatory explanation.
+
+##### Guarantees
+
+- Evidence identified
+- Reasoning identified
+- Assumptions disclosed
+- Uncertainty disclosed
+- Limitations disclosed
+- Refusal rationale supported
+
+---
+
+#### Contract I — Traceability Contract
+
+##### Purpose
+
+Represent end-to-end lineage.
+
+##### Guarantees
+
+Every architectural outcome remains traceable to:
+
+- GAR-0021
+- ADR-0014
+- Engineering responsibility
+- Evidence
+- Judgment
+- Decision
+
+---
+
+### Contract Rules
+
+#### Rule 1
+
+Contracts define meaning, not implementation.
+
+---
+
+#### Rule 2
+
+Contracts remain technology-neutral.
+
+---
+
+#### Rule 3
+
+Contracts remain deterministic.
+
+---
+
+#### Rule 4
+
+Contracts preserve constitutional distinctions.
+
+---
+
+#### Rule 5
+
+Contracts shall never conceal uncertainty.
+
+---
+
+#### Rule 6
+
+Contracts may evolve only through architectural governance.
+
+---
+
+### Acceptance Criteria
+
+Mission Bravo shall be accepted only when:
+
+- all canonical contracts are defined
+- responsibility ownership is unambiguous
+- constitutional traceability is preserved
+- architectural boundaries remain intact
+- contracts remain implementation-independent
+
+---
+
+### Certification Criteria
+
+Mission Bravo passes certification when:
+
+- every architectural responsibility is represented by one or more canonical contracts
+- no contract violates GAR-0021
+- no contract introduces implementation assumptions
+- contracts provide a stable engineering foundation for future missions
+
+---
+
+### Explicit Out of Scope
+
+Mission Bravo shall not define:
+
+- API specifications
+- message formats
+- network protocols
+- storage schemas
+- serialization
+- programming interfaces
+- framework bindings
+- implementation code
+
+These belong to future engineering implementation after sprint approval.
+
+---
+
+### Mission Completion
+
+Mission Bravo is complete when the canonical engineering contracts establish a stable,
+implementation-independent agreement between every architectural responsibility within the
+Investment Intelligence domain.
+
+**End of Mission Bravo — Canonical Domain Contracts**
+
+---
+
 ## Explicit Out of Scope
 
 This sprint shall not implement:
@@ -393,7 +673,7 @@ This document establishes the engineering mission only.
 Detailed implementation tasks, acceptance criteria, package layouts, and coding work remain subject
 to subsequent sprint refinement and Founder approval.
 
-This Draft v0.2 does **not** authorize:
+This Draft v0.3 does **not** authorize:
 
 - sprint approval
 - engineering implementation
@@ -402,8 +682,8 @@ This Draft v0.2 does **not** authorize:
 
 Each requires separate Founder decisions after sprint refinement and approval.
 
-Draft v0.2 specifies Mission Alpha in full. Missions Bravo–Golf remain summary-level pending
-subsequent refinement.
+Draft v0.3 specifies Missions Alpha and Bravo in full. Missions Charlie–Golf remain summary-level
+pending subsequent refinement.
 
 ---
 
@@ -436,4 +716,4 @@ Implementation (not authorized)
 
 ---
 
-**End of GAR-SPRINT-0013 Draft v0.2**
+**End of GAR-SPRINT-0013 Draft v0.3**
