@@ -19,7 +19,7 @@ They never authorize engineering unless a separate Founder gate grants sprint au
 | [ADR-0011](ADR-0011-interface-foundation.md) | Interface Foundation | Approved v1.0 |
 | [ADR-0012](ADR-0012-integration-foundation.md) | Integration Foundation | Approved v1.0 |
 | [ADR-0013](ADR-0013-runtime-foundation.md) | Runtime Foundation | Approved v1.0 |
-| [ADR-0014](ADR-0014-investment-intelligence-architecture.md) | Investment Intelligence Architecture | **Draft v0.2** — Under Architectural Review |
+| [ADR-0014](ADR-0014-investment-intelligence-architecture.md) | Investment Intelligence Architecture | **Draft v0.3** — Under Architectural Review |
 
 ## Related Documents
 

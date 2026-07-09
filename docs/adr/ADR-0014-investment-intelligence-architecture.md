@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | ADR-0014 |
 | Title | Investment Intelligence Architecture |
-| Status | **Draft v0.2 — Under Architectural Review** |
+| Status | **Draft v0.3 — Under Architectural Review** |
 | Date | 2026-07-09 |
 | Authority | [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence |
 | Evidence foundation | CEB Edition 1.0 (frozen & published `4dc5ff7`) |
@@ -97,10 +97,10 @@ The architecture shall govern how Investment Intelligence responsibilities are s
 and related so that future implementations may operate within constitutional authority — without
 selecting technologies, defining packages as engineering deliverables, or authorizing sprints.
 
-Draft v0.2 establishes architectural principles, enduring responsibilities, a conceptual
-responsibility flow, and responsibility allocation principles. Implementation components,
-interfaces, data schemas, runtime contracts, deployment structures, and technology selections are
-**not** established in this version.
+Draft v0.3 establishes architectural principles, enduring responsibilities, a conceptual
+responsibility flow, responsibility allocation principles, and Architectural Domains (Article I).
+Implementation components, interfaces, data schemas, runtime contracts, deployment structures, and
+technology selections are **not** established in this version.
 
 ---
 
@@ -463,9 +463,290 @@ Replaceable implementation is permitted only where constitutional lineage remain
 
 ---
 
+## Article I — Architectural Domains
+
+### Architectural Position
+
+Architectural Domains represent enduring constitutional responsibilities grouped into coherent
+areas of responsibility.
+
+Architectural Domains are not software components.
+Architectural Domains are not deployment units.
+Architectural Domains are not programming modules.
+
+Future implementations may realize these domains using one or more components, provided
+constitutional responsibilities remain intact.
+
+Every domain derives its authority from GAR-0021 and the Architectural Responsibilities
+established by this ADR.
+
+---
+
+### Domain A — Evidence Domain
+
+#### Constitutional Purpose
+
+Acquire, validate and preserve evidence while maintaining Evidence Integrity.
+
+#### Responsibilities
+
+- Evidence Acquisition
+- Evidence Validation
+- Source Provenance
+- Evidence Lineage
+- Freshness Assessment
+- Evidence Confidence
+- Contradictory Evidence Preservation
+
+#### Constitutional Constraints
+
+The Evidence Domain shall never:
+
+- fabricate evidence
+- silently discard contradictory evidence
+- remove uncertainty
+- promote information into evidence without validation
+
+---
+
+### Domain B — Knowledge Domain
+
+#### Constitutional Purpose
+
+Transform validated evidence into organized knowledge while preserving lineage.
+
+#### Responsibilities
+
+- Knowledge Organization
+- Entity Relationships
+- Context Preservation
+- Historical Memory
+- Cross-Evidence Association
+- Knowledge Retrieval
+
+#### Constitutional Constraints
+
+Knowledge shall remain distinguishable from:
+
+- Information
+- Evidence
+- Judgment
+- Decision
+
+Knowledge shall never replace constitutional reasoning.
+
+---
+
+### Domain C — Context Domain
+
+#### Constitutional Purpose
+
+Maintain all decision context required for justified reasoning.
+
+#### Responsibilities
+
+- Human Objectives
+- Risk Profile
+- Time Horizon
+- Portfolio Context
+- Capital Constraints
+- Locale
+- Regulatory Context
+- User Preferences
+- Active Commitments
+
+#### Constitutional Constraints
+
+Missing context shall never be silently assumed.
+
+Insufficient context may constitutionally result in refusal.
+
+---
+
+### Domain D — Judgment Domain
+
+#### Constitutional Purpose
+
+Produce justified judgments under uncertainty.
+
+#### Responsibilities
+
+- Evidence Weighing
+- Contradiction Resolution
+- Assumption Management
+- Scenario Evaluation
+- Confidence Assessment
+- Opportunity Cost Evaluation
+- Risk Assessment
+- Constitutional Tension Recognition
+
+#### Constitutional Constraints
+
+Judgment shall never:
+
+- manufacture certainty
+- ignore contradictory evidence
+- optimize without survivability
+- confuse probability with certainty
+
+---
+
+### Domain E — Constitutional Domain
+
+#### Constitutional Purpose
+
+Ensure all architectural activity conforms to GAR-0021.
+
+#### Responsibilities
+
+- Principle Evaluation
+- Distinction Enforcement
+- Tension Recognition
+- Constitutional Refusal
+- Compliance Verification
+- Constitutional Traceability
+
+#### Constitutional Constraints
+
+No architectural output may bypass constitutional evaluation.
+
+Constitutional authority remains superior to all architectural decisions.
+
+---
+
+### Domain F — Decision Domain
+
+#### Constitutional Purpose
+
+Transform justified judgment into constitutionally valid outcomes.
+
+#### Responsibilities
+
+- Recommendation Formation
+- Conditional Recommendation
+- Information Request
+- Refusal Formation
+- Decision State Management
+
+#### Constitutional Constraints
+
+Recommendation is not the default outcome.
+
+Refusal is a constitutionally valid decision state.
+
+---
+
+### Domain G — Explainability Domain
+
+#### Constitutional Purpose
+
+Expose the reasoning necessary to justify every architectural outcome.
+
+#### Responsibilities
+
+- Evidence Narrative
+- Judgment Narrative
+- Assumption Disclosure
+- Limitation Disclosure
+- Confidence Communication
+- Refusal Explanation
+
+#### Constitutional Constraints
+
+Explanation shall justify.
+It shall not persuade.
+It shall not conceal uncertainty.
+
+---
+
+### Domain H — Traceability Domain
+
+#### Constitutional Purpose
+
+Maintain complete constitutional lineage across the architecture.
+
+#### Responsibilities
+
+- Evidence Lineage
+- Knowledge Lineage
+- Judgment Lineage
+- Decision Lineage
+- Constitutional Lineage
+- Audit Support
+
+#### Constitutional Constraints
+
+Every recommendation or refusal shall remain traceable to:
+
+- constitutional authority
+- architectural responsibility
+- evidence
+- reasoning
+- explanation
+
+---
+
+### Domain Relationships
+
+The architecture recognizes the following conceptual flow:
+
+```text
+Evidence Domain
+        │
+        ▼
+Knowledge Domain
+        │
+        ▼
+Context Domain
+        │
+        ▼
+Judgment Domain
+        │
+        ▼
+Constitutional Domain
+        │
+        ▼
+Decision Domain
+       ┌┴┐
+       │ │
+       ▼ ▼
+Advice Refusal
+       │
+       ▼
+Explainability Domain
+       │
+       ▼
+Traceability Domain
+```
+
+This flow represents constitutional responsibility.
+
+It does not prescribe runtime execution, deployment topology, software architecture, messaging
+patterns, or implementation technologies.
+
+---
+
+### Architectural Integrity
+
+The Architectural Domains collectively satisfy every Architectural Responsibility defined in
+ADR-0014.
+
+Future architectural refinement may introduce implementation structures, provided:
+
+- constitutional authority is preserved
+- responsibilities remain intact
+- traceability is maintained
+- constitutional obligations are never bypassed
+
+No implementation decisions are established by this article.
+
+**End of Article I — Architectural Domains**
+
+---
+
 ## Non-Authorization
 
-ADR-0014 Draft v0.2 does **not** authorize:
+ADR-0014 Draft v0.3 does **not** authorize:
 
 - Engineering
 - Sprint drafting
@@ -483,7 +764,8 @@ These remain subject to future governance.
 
 ## Draft Status
 
-This document defines architectural principles and enduring responsibilities only.
+This document defines architectural principles, enduring responsibilities, and Architectural
+Domains only.
 
 No implementation components, interfaces, data schemas, runtime contracts, deployment structures,
 or technology selections are established in this version.
@@ -517,4 +799,4 @@ and certifications SHALL conform to:
 
 ---
 
-End of ADR-0014 Draft v0.2
+End of ADR-0014 Draft v0.3
