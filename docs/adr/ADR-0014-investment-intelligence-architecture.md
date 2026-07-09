@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | ADR-0014 |
 | Title | Investment Intelligence Architecture |
-| Status | **Draft v0.3 — Under Architectural Review** |
+| Status | **Draft v0.4 — Under Architectural Review** |
 | Date | 2026-07-09 |
 | Authority | [GAR-0021](../../GAR-0021.md) v1.0 — Constitutional Principles for Investment Intelligence |
 | Evidence foundation | CEB Edition 1.0 (frozen & published `4dc5ff7`) |
@@ -97,10 +97,11 @@ The architecture shall govern how Investment Intelligence responsibilities are s
 and related so that future implementations may operate within constitutional authority — without
 selecting technologies, defining packages as engineering deliverables, or authorizing sprints.
 
-Draft v0.3 establishes architectural principles, enduring responsibilities, a conceptual
-responsibility flow, responsibility allocation principles, and Architectural Domains (Article I).
-Implementation components, interfaces, data schemas, runtime contracts, deployment structures, and
-technology selections are **not** established in this version.
+Draft v0.4 establishes architectural principles, enduring responsibilities, a conceptual
+responsibility flow, responsibility allocation principles, Architectural Domains (Article I), and
+the Architectural Interaction Model (Article II). Implementation components, interfaces, data
+schemas, runtime contracts, deployment structures, and technology selections are **not**
+established in this version.
 
 ---
 
@@ -744,9 +745,233 @@ No implementation decisions are established by this article.
 
 ---
 
+## Article II — Architectural Interaction Model
+
+### Architectural Position
+
+Architectural Domains do not operate independently.
+
+They cooperate through constitutional interactions.
+
+Every interaction shall preserve:
+
+- constitutional authority
+- evidence integrity
+- explainability
+- traceability
+- constitutional refusal
+
+Interactions define responsibilities.
+They do not prescribe implementation mechanisms.
+
+---
+
+### Constitutional Interaction Principles
+
+#### Principle 1 — Evidence Shall Flow Forward
+
+Evidence may progress through the architecture.
+
+It shall never silently disappear.
+
+Every transformation shall preserve lineage.
+
+---
+
+#### Principle 2 — Context Shall Accumulate
+
+Context may be enriched as reasoning progresses.
+
+Context shall never be silently fabricated.
+
+Unknown context shall remain explicitly unknown.
+
+---
+
+#### Principle 3 — Judgment Shall Remain Reversible
+
+Before commitment or refusal, judgment remains provisional.
+
+Architecture shall permit reconsideration when new evidence becomes available.
+
+---
+
+#### Principle 4 — Constitutional Evaluation Precedes Commitment
+
+No recommendation shall become an architectural outcome until constitutional compliance has been
+evaluated.
+
+---
+
+#### Principle 5 — Refusal May Arise Anywhere
+
+Every architectural domain may identify conditions requiring constitutional refusal.
+
+Refusal is not owned exclusively by the Decision Domain.
+
+The Decision Domain formalizes refusal.
+
+The architecture recognizes it throughout.
+
+---
+
+#### Principle 6 — Explainability Emerges from the Entire Interaction
+
+Explainability shall not be generated after the decision.
+
+It shall emerge continuously from every architectural interaction.
+
+---
+
+### Canonical Constitutional Flow
+
+The architecture recognizes the following conceptual interaction:
+
+```text
+Evidence
+      │
+      ▼
+Validation
+      │
+      ▼
+Knowledge
+      │
+      ▼
+Context
+      │
+      ▼
+Judgment
+      │
+      ▼
+Constitutional Evaluation
+      │
+      ├──────────────┐
+      ▼              ▼
+Recommendation   Refusal
+      │              │
+      └──────┬───────┘
+             ▼
+Explainability
+             │
+             ▼
+Traceability
+```
+
+This represents constitutional reasoning.
+
+It is not a runtime pipeline.
+
+---
+
+### Architectural Interaction Rules
+
+#### Rule 1
+
+No domain shall bypass Constitutional Evaluation.
+
+---
+
+#### Rule 2
+
+No recommendation shall exist without supporting evidence.
+
+---
+
+#### Rule 3
+
+Every judgment shall preserve uncertainty where appropriate.
+
+---
+
+#### Rule 4
+
+Every recommendation shall remain explainable.
+
+---
+
+#### Rule 5
+
+Every refusal shall remain explainable.
+
+---
+
+#### Rule 6
+
+Every architectural interaction shall remain traceable.
+
+---
+
+#### Rule 7
+
+Future architectural refinements may optimize interactions but shall not violate constitutional
+obligations.
+
+---
+
+### Constitutional Failure States
+
+The architecture recognizes several classes of constitutional failure.
+
+Examples include:
+
+- insufficient evidence
+- corrupted evidence
+- contradictory evidence that cannot be responsibly resolved
+- absent objectives
+- missing material context
+- broken traceability
+- inability to justify reasoning
+- violation of constitutional distinctions
+- unresolved constitutional tensions requiring human judgment
+
+When such conditions arise, the architecture shall preserve constitutional integrity ahead of
+functional completion.
+
+Refusal may therefore represent successful constitutional behavior.
+
+---
+
+### Architectural Consequence
+
+Architecture is not optimized for producing recommendations.
+
+Architecture is optimized for producing constitutionally justified outcomes.
+
+A recommendation and a refusal are both valid architectural conclusions when they faithfully
+satisfy GAR-0021.
+
+---
+
+### Scope Boundary
+
+This article defines architectural interactions only.
+
+It establishes:
+
+- constitutional cooperation
+- interaction discipline
+- reasoning flow
+- constitutional checkpoints
+
+It does not establish:
+
+- APIs
+- message buses
+- service calls
+- synchronous or asynchronous execution
+- orchestration
+- deployment
+- runtime sequencing
+
+Those belong to future architecture refinement and implementation.
+
+**End of Article II — Architectural Interaction Model**
+
+---
+
 ## Non-Authorization
 
-ADR-0014 Draft v0.3 does **not** authorize:
+ADR-0014 Draft v0.4 does **not** authorize:
 
 - Engineering
 - Sprint drafting
@@ -764,8 +989,8 @@ These remain subject to future governance.
 
 ## Draft Status
 
-This document defines architectural principles, enduring responsibilities, and Architectural
-Domains only.
+This document defines architectural principles, enduring responsibilities, Architectural Domains,
+and the Architectural Interaction Model only.
 
 No implementation components, interfaces, data schemas, runtime contracts, deployment structures,
 or technology selections are established in this version.
@@ -799,4 +1024,4 @@ and certifications SHALL conform to:
 
 ---
 
-End of ADR-0014 Draft v0.3
+End of ADR-0014 Draft v0.4
