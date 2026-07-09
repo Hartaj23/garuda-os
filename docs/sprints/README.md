@@ -39,7 +39,7 @@ Approved sprint documents.
 - [GAR-SPRINT-0012 Runtime Foundation](GAR-SPRINT-0012-runtime-foundation.md)
 - [GAR-SPRINT-0012 Runtime Foundation Certification](GAR-SPRINT-0012-runtime-certification.md)
 - [GAR-SPRINT-0012 Closure Report](GAR-SPRINT-0012-closure.md)
-- [GAR-SPRINT-0013 Investment Intelligence Foundation](GAR-SPRINT-0013-investment-intelligence-foundation.md) — **Draft v0.5** (Under Founder Review)
+- [GAR-SPRINT-0013 Investment Intelligence Foundation](GAR-SPRINT-0013-investment-intelligence-foundation.md) — **Draft v0.6** (Under Founder Review)
   — [GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md](../governance/GOVERNANCE-CYCLE-7-GAR-SPRINT-0013-AUTHORIZATION.md)
 
 ## AI Implementation Notes

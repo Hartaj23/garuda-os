@@ -4,7 +4,7 @@
 | --- | --- |
 | ID | GAR-SPRINT-0013 |
 | Name | Investment Intelligence Foundation |
-| Status | **Draft v0.5 — Under Founder Review** |
+| Status | **Draft v0.6 — Under Founder Review** |
 | Authority | Derived from [ADR-0014](../adr/ADR-0014-investment-intelligence-architecture.md) v1.0 |
 | Constitutional authority | [GAR-0021](../../GAR-0021.md) v1.0 |
 | Evidence foundation | Constitutional Evidence Base Edition 1.0 |
@@ -96,14 +96,10 @@ The sprint shall be executed through the following missions.
 | Alpha | Engineering Foundation | Specified (Draft v0.2) |
 | Bravo | Canonical Domain Contracts | Specified (Draft v0.3) |
 | Charlie | Canonical Domain Models | Specified (Draft v0.4) |
-| Delta | Engineering Validation | **Specified below (Draft v0.5)** |
-| Echo | Testing Framework | Summary only — pending refinement |
+| Delta | Engineering Validation | Specified (Draft v0.5) |
+| Echo | Testing Framework | **Specified below (Draft v0.6)** |
 | Foxtrot | Documentation | Summary only — pending refinement |
 | Golf | Certification | Summary only — pending refinement |
-
-### Mission Echo — Testing Framework
-
-Create deterministic unit and integration test foundations for the Investment Intelligence domain.
 
 ### Mission Foxtrot — Documentation
 
@@ -1182,6 +1178,227 @@ certification.
 
 ---
 
+## Mission Echo — Testing Framework
+
+### Mission Purpose
+
+Mission Echo establishes the canonical testing framework for the Investment Intelligence domain.
+
+The purpose of this mission is to define a repeatable, deterministic testing strategy that verifies
+faithful implementation of constitutional and architectural authority.
+
+Testing verifies behaviour.
+
+Certification verifies authority.
+
+Both are required.
+
+---
+
+### Mission Objectives
+
+Mission Echo shall:
+
+1. Define the canonical testing hierarchy
+2. Define testing responsibilities
+3. Define deterministic testing principles
+4. Define traceability between requirements and tests
+5. Define coverage expectations
+6. Establish testing readiness for future implementation
+
+---
+
+### Testing Philosophy
+
+The Investment Intelligence domain shall prioritize correctness before capability.
+
+Testing shall verify:
+
+- constitutional fidelity
+- architectural conformance
+- engineering correctness
+- behavioural consistency
+- deterministic outcomes where applicable
+
+Performance alone shall never constitute success.
+
+---
+
+### Canonical Test Levels
+
+#### Level 1 — Constitutional Tests
+
+Verify implementation preserves:
+
+- GAR-0021 Principles
+- Constitutional Distinctions
+- Constitutional Tensions
+- Evidence Integrity
+- Human Authority
+- Constitutional Refusal
+
+---
+
+#### Level 2 — Architectural Tests
+
+Verify implementation conforms to:
+
+- Architectural Responsibilities
+- Architectural Domains
+- Interaction Model
+- Canonical Lifecycle
+- Boundary Model
+
+---
+
+#### Level 3 — Domain Tests
+
+Verify canonical domain models preserve:
+
+- meaning
+- invariants
+- relationships
+- traceability
+- semantic integrity
+
+---
+
+#### Level 4 — Contract Tests
+
+Verify canonical engineering contracts are honoured without implementation leakage.
+
+---
+
+#### Level 5 — Integration Tests
+
+Verify cooperation between architectural responsibilities while preserving constitutional
+authority.
+
+---
+
+#### Level 6 — Explainability Tests
+
+Verify recommendations and refusals remain justifiable.
+
+Explanation shall remain consistent with supporting evidence.
+
+---
+
+#### Level 7 — Traceability Tests
+
+Verify end-to-end lineage from:
+
+- constitutional authority
+- architectural responsibility
+- implementation
+- evidence
+- judgment
+- decision
+- explanation
+
+---
+
+### Testing Principles
+
+#### Principle A
+
+Every requirement shall possess one or more corresponding tests.
+
+---
+
+#### Principle B
+
+Every architectural responsibility shall be testable.
+
+---
+
+#### Principle C
+
+Tests shall preserve determinism wherever constitutionally appropriate.
+
+---
+
+#### Principle D
+
+Testing shall verify constitutional refusal as rigorously as recommendation.
+
+---
+
+#### Principle E
+
+Testing shall preserve uncertainty rather than eliminate it through artificial assumptions.
+
+---
+
+#### Principle F
+
+Testing shall remain independent of implementation technology whenever practical.
+
+---
+
+### Coverage Expectations
+
+Future implementation shall demonstrate coverage across:
+
+- constitutional requirements
+- architectural responsibilities
+- engineering contracts
+- domain models
+- interaction flows
+- boundary conditions
+- failure conditions
+- refusal scenarios
+- explainability
+- traceability
+
+Coverage shall be justified, not merely measured.
+
+---
+
+### Acceptance Criteria
+
+Mission Echo shall be accepted only when:
+
+- the testing hierarchy is complete
+- testing philosophy is documented
+- testing principles are established
+- coverage expectations are defined
+- traceability between requirements and testing is demonstrated
+
+---
+
+### Certification Criteria
+
+Mission Echo passes certification when the testing framework provides a complete and repeatable
+basis for validating future implementations of the Investment Intelligence domain.
+
+---
+
+### Explicit Out of Scope
+
+Mission Echo shall not define:
+
+- specific testing frameworks
+- programming libraries
+- CI/CD pipelines
+- infrastructure automation
+- performance benchmarks
+- production monitoring
+
+These remain implementation decisions for future approved engineering work.
+
+---
+
+### Mission Completion
+
+Mission Echo is complete when the Investment Intelligence domain possesses a canonical testing
+framework capable of objectively validating constitutional, architectural, and engineering
+conformance across future implementations.
+
+**End of Mission Echo — Testing Framework**
+
+---
+
 ## Explicit Out of Scope
 
 This sprint shall not implement:
@@ -1227,7 +1444,7 @@ This document establishes the engineering mission only.
 Detailed implementation tasks, acceptance criteria, package layouts, and coding work remain subject
 to subsequent sprint refinement and Founder approval.
 
-This Draft v0.5 does **not** authorize:
+This Draft v0.6 does **not** authorize:
 
 - sprint approval
 - engineering implementation
@@ -1236,8 +1453,8 @@ This Draft v0.5 does **not** authorize:
 
 Each requires separate Founder decisions after sprint refinement and approval.
 
-Draft v0.5 specifies Missions Alpha through Delta in full. Missions Echo–Golf remain summary-level
-pending subsequent refinement.
+Draft v0.6 specifies Missions Alpha through Echo in full. Missions Foxtrot–Golf remain
+summary-level pending subsequent refinement.
 
 ---
 
@@ -1270,4 +1487,4 @@ Implementation (not authorized)
 
 ---
 
-**End of GAR-SPRINT-0013 Draft v0.5**
+**End of GAR-SPRINT-0013 Draft v0.6**
